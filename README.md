@@ -24,7 +24,7 @@ SWEN326-AEBS/
 
 ## Language
 
-This project is implemented in [Java/C/Rust — decide and fill in].
+This project is implemented in Java
 
 ## Group Members
 
