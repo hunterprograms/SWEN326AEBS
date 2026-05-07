@@ -12,10 +12,10 @@ SWEN326-AEBS/
 ├── simulator/      # Sensor and environment simulator (not ISO 26262)
 ├── tests/          # Unit and system tests
 └── docs/
-├── ProjectPlan/          # Automotive Safety Plan, HARA, ASIL
-├── RequirementsTrace/    # Requirements traceability matrix
-├── FTA/                  # Fault Tree Analysis documents
-└── GroupAgreement/       # Team working agreement
+    ├── ProjectPlan/          # Automotive Safety Plan, HARA, ASIL
+    ├── RequirementsTrace/    # Requirements traceability matrix
+    ├── FTA/                  # Fault Tree Analysis documents
+    └── GroupAgreement/       # Team working agreement
 ```
 ## Getting Started
 
