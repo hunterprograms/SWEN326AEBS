@@ -48,7 +48,7 @@
 - Given the circumstances, the focus is on producing enough to critique in the Week 11 in-person assessment, not on completeness
 
 | Date | | Time Commited | Expected Focus |
-|---------------|---------------|---------------|
+| :--- | :---: | :---: |
 | 9th Sat | (Frank Quigley, Hunter Fromont, Perry Cooling) : 6hrs, (Tom Marsters) : 3hrs | Group agreement finalised, Planning: Traceability, Requirements Management Plan, Verification Plan, Configuration Management Plan |
 | 10th Sat | (Frank Quigley, Hunter Fromont, Perry Cooling) : 6hrs, (Tom Marsters) : 3hrs | Analysis and Design: Fault Tree Analysis (FTA), System and software architecture diagrams |
 | 12th Tues | (Frank Quigley, Hunter Fromont, Perry Cooling) : 3hrs, (Tom Marsters) : 6hrs | Begin Development of AEBS (testable) |
