@@ -27,3 +27,5 @@ Made HARA structure and added first HARA assessments
 15:34 Hunter is so fed
 
 16:04 Basic HARAs described for each component 
+
+16:17 Meeting adjourned
