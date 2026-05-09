@@ -86,7 +86,7 @@ By committing to or approving this document, each group member agrees to the abo
 | Frank Quigley | 09/05/26 |
 | Tom Marsters ||
 | Hunter Fromont | 09/05/26 |
-| Perry Cooling ||
+| Perry Cooling | 09/05/25|
 
 ---
 
