@@ -4,7 +4,7 @@
 
 | Name | Student ID |
 |------|------------|
-| Frank Quigley | [ID] |
+| Frank Quigley | [300660873] |
 | Tom Marsters | [ID] |
 | Hunter Fromont | [ID] |
 | Perry Cooling | [300659755] |
@@ -22,17 +22,20 @@
 
 ## 2. Meetings
 
-- The group will meet **once per week** at a time agreed by all members
-- Meetings will be held online via Discord voice/video
+- The group will meet **thrice per week** at a time agreed by all members
+- Twp of these meetings will be held online via Discord voice/video
 - A brief summary of each meeting (decisions made, tasks assigned) will be posted in Discord and committed to the repo under `docs/GroupAgreement/MeetingNotes/`
 - If a member cannot attend, they must notify the group **at least 2 hours in advance** and catch up async via the meeting notes
+
+- The third and final meeting will be held in person
+- This meeting will be dedicated to group development 
 
 ---
 
 ## 3. Task Allocation
 
 - Tasks will be tracked via **GitLab issues**
-- At each weekly meeting, tasks for the coming week will be assigned and logged as GitLab issues
+- At each meeting, tasks will be assigned and logged as GitLab issues
 - Each issue should reference the relevant requirement ID (e.g. REQ-001) where applicable
 - Members should self-assign issues they pick up and close them with a commit reference when done
 
@@ -44,12 +47,14 @@
 - Each member commits to contributing as much time as possible in the remaining window, targeting the **36 hours total** expected by the course
 - Given the circumstances, the focus is on producing enough to critique in the Week 11 in-person assessment, not on completeness
 
-| Days Remaining | Expected Focus |
+| Date | | Time Commited | Expected Focus |
 |---------------|---------------|
-| Days 1–2 | Documentation: requirements list, traceability matrix skeleton, FTA |
-| Days 3–4 | Core system skeleton in Java, group agreement finalised |
-| Days 5–6 | Simulator, basic tests, traceability matrix filled in |
-| Day 7 | Individual reports, final review, submission |
+| 9th Sat | (Frank Quigley, Hunter Fromont, Perry Cooling) : 6hrs, (Tom Marsters) : 3hrs | Group agreement finalised, Planning: Traceability, Requirements Management Plan, Verification Plan, Configuration Management Plan |
+| 10th Sat | (Frank Quigley, Hunter Fromont, Perry Cooling) : 6hrs, (Tom Marsters) : 3hrs | Analysis and Design: Fault Tree Analysis (FTA), System and software architecture diagrams |
+| 12th Tues | (Frank Quigley, Hunter Fromont, Perry Cooling) : 3hrs, (Tom Marsters) : 6hrs | Begin Development of AEBS (testable) |
+| 13th Wed | (Frank Quigley, Hunter Fromont, Perry Cooling, Tom Marsters) : 6hrs | Simulator, basic tests |
+| 15th Fri | (Frank Quigley, Hunter Fromont, Perry Cooling, Tom Marsters) : 6hrs | AEBS development, testing  |
+| 16th Sat | (Frank Quigley, Hunter Fromont, Perry Cooling, Tom Marsters) : 3hrs | final review, submission, Individual reports |
 
 ---
 
@@ -78,11 +83,11 @@ By committing to or approving this document, each group member agrees to the abo
 
 | Name | Date |
 |------|------|
-| Frank Quigley ||
+| Frank Quigley | 09/05/26 |
 | Tom Marsters ||
 | Hunter Fromont ||
 | Perry Cooling ||
 
 ---
 
-*Last updated: [Date]*
+*Last updated: [09/05/26 : 12:07]*
