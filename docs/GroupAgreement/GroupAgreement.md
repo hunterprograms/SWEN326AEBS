@@ -5,7 +5,7 @@
 | Name | Student ID |
 |------|------------|
 | Frank Quigley | [300660873] |
-| Tom Marsters | [ID] |
+| Tom Marsters | [300665781] |
 | Hunter Fromont | [300652783] |
 | Perry Cooling | [300659755] |
 
@@ -84,10 +84,10 @@ By committing to or approving this document, each group member agrees to the abo
 | Name | Date |
 |------|------|
 | Frank Quigley | 09/05/26 |
-| Tom Marsters ||
+| Tom Marsters | 09/05/26 |
 | Hunter Fromont | 09/05/26 |
-| Perry Cooling | 09/05/25|
+| Perry Cooling | 09/05/26|
 
 ---
 
-*Last updated: [09/05/26 : 12:07]*
+*Last updated: [09/05/26 : 15:02]*
