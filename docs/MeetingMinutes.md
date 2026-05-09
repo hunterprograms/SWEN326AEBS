@@ -18,3 +18,10 @@ Split planning phase amongst group members allocating components for HARA, Safet
 Made traceability matrix
 
 13:45 Lunch Break 
+
+14:45 Return from lunch
+
+Traceability Matrix constructed
+Made HARA structure and added first HARA assessments
+
+15:34 Hunter is so fed
