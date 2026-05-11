@@ -29,3 +29,28 @@ Made HARA structure and added first HARA assessments
 16:04 Basic HARAs described for each component 
 
 16:17 Meeting adjourned
+
+
+## Meeting Sunday 10/05/26 - Commenced 13:03
+### Scribe - Frank Quigley : 300660873
+
+
+13:03 - Hunter Fromont, Frank Quigley, Perry Cooling commence meeting
+
+Discussed and modified exisiting HARAs to better reflect project description 
+
+13:47 Decided on minimum of one HARA per assigned section to be completed today
+
+Also coincides with minimum of one requirement per HARA alongside verification strategy 
+
+14:02 Meeting adjourned
+
+## Meeting Monday 11/05/26 - Commenced 12:55
+### Scribe - Frank Quigley : 300660873
+
+
+13:03 - Hunter Fromont, Frank Quigley, Perry Cooling commence meeting
+
+Entirety of Planning Phase to be completed today
+
+Ideally, one FTA per group member completed also to allow for developement to begin tomorrow
