@@ -1,6 +1,5 @@
-package src.test.java.Simulator;
+package Simulator;
 
-public 
- {
+public class Scenario{
     
 }

@@ -1,4 +1,4 @@
-package src.test.java.Simulator;
+package Simulator;
 
 public class Fault {
     

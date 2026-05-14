@@ -1,10 +1,5 @@
-package src.main.java.swen326.group4.Sensors;
+package swen326.group4.Sensors;
 
-public 
-
-
-
-
-{
+public class WheelSensor{
     
 }
