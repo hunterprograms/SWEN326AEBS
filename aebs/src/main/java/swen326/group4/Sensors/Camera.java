@@ -105,9 +105,9 @@ public class Camera {
      * Constructs a Camera sensor unit.
      * @param sensorId 1, 2, or 3 — must match the architecture diagram
      */
-    public Camera(final int sensorId, CameraState state) {
+    public Camera(final int sensorId) {
         this.sensorId = sensorId;
-        this.state = state;
+        this.state = CameraState.OPERATIONAL;
         this.lightCondition = LightCondition.NORMAL;
         this.weatherCondition = WeatherCondition.CLEAR;
         this.detectedObjects = new ObjectType[MAX_OBJECTS];
