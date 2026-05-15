@@ -1,8 +1,7 @@
 package swen326.group4.Sensors.Radar_Lidar;
 
-record RadarLidarReading(
+public record DetectedObject(
     float distanceMetres,
     float relativeSpeedKmh,
     float bearingDegrees
 ) {}
-
