@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "scenarioId": "SC-001",
+    "description": "Highway driving",
+    "weatherFactor": 0.9
+  },
+  "ticks": [
+    {
+      "timestampMs": 0,
+      "detectedObjects": [
+        { "objectType": "VEHICLE" }
+      ]
+    },
+    {
+      "timestampMs": 50,
+      "detectedObjects": [
+        { "objectType": "VEHICLE" }
+      ]
+    },
+    {
+      "timestampMs": 100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE" },
+        { "objectType": "PEDESTRIAN" }
+      ]
+    },
+    {
+      "timestampMs": 150,
+      "detectedObjects": [
+        { "objectType": "PEDESTRIAN" }
+      ]
+    },
+    {
+      "timestampMs": 200,
+      "detectedObjects": [
+        { "objectType": "PEDESTRIAN" }
+      ]
+    },
+    {
+      "timestampMs": 250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE" }
+      ]
+    },
+    {
+      "timestampMs": 300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE" }
+      ]
+    },
+    {
+      "timestampMs": 350,
+      "detectedObjects": [
+        { "objectType": "STATIONARY_OBJECT" }
+      ]
+    },
+    {
+      "timestampMs": 400,
+      "detectedObjects": [
+        { "objectType": "STATIONARY_OBJECT" }
+      ]
+    },
+    {
+      "timestampMs": 450,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 500,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 550,
+      "detectedObjects": [
+        { "objectType": "CYCLIST" }
+      ]
+    },
+    {
+      "timestampMs": 600,
+      "detectedObjects": [
+        { "objectType": "CYCLIST" }
+      ]
+    },
+    {
+      "timestampMs": 650,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 700,
+      "detectedObjects": []
+    }
+  ]
+}
