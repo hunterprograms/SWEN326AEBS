@@ -124,7 +124,6 @@ public class Camera {
      */
     public Camera(final int sensorId) {
         assert sensorId >= 1 && sensorId <= 3 : "sensorId must be 1, 2, or 3";
-        assert MAX_OBJECTS > 0 : "MAX_OBJECTS must be positive";
         this.sensorId = sensorId;
         this.state = CameraState.OPERATIONAL;
         this.lightCondition = LightCondition.NORMAL;

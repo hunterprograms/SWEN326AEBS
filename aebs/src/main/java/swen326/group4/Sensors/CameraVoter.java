@@ -252,7 +252,6 @@ public class CameraVoter {
     private double getHighestPriorityConfidence(final Camera camera) {
         assert camera != null : "camera must not be null";
         assert camera.getDetectedCount() >= 0 : "detectedCount must not be negative";
-        Camera.ObjectType highest = Camera.ObjectType.NONE;
         int highestRank = 0;
         double highestConf = 0.0;
  
@@ -261,7 +260,6 @@ public class CameraVoter {
             final int rank = getPriorityRank(obj);
             if (rank > highestRank) {
                 highestRank = rank;
-                highest = obj;
                 highestConf = camera.getConfidenceScore(i);
             }
         }
