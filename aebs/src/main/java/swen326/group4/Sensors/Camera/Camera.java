@@ -202,24 +202,28 @@ public class Camera {
 
             final ObjectType[] detectedObjects = new ObjectType[MAX_OBJECTS];
             final float[] confidenceScores = new float[MAX_OBJECTS];
+            final float[] bearingDegrees = new float[MAX_OBJECTS];
             int count = 0;
 
             // Initialise arrays to safe defaults - Power of Ten rule 2
             for (int i = 0; i < MAX_OBJECTS; i++) {
                 detectedObjects[i] = ObjectType.NONE;
                 confidenceScores[i] = 0.0f;
+                bearingDegrees[i]   = 0.0f;
             }
 
             for (int i = 0; i < objects.length() && i < MAX_OBJECTS; i++) {
                 final JSONObject obj = objects.getJSONObject(i);
                 detectedObjects[i] = parseObjectType(obj.optString("objectType", "UNKNOWN"));
                 confidenceScores[i] = confidenceScore;
+                bearingDegrees[i]   = (float) obj.optDouble("bearingDegrees", 0.0);
                 count++;
             }
 
             latestReading = new CameraReading(
                 detectedObjects,
                 confidenceScores,
+                bearingDegrees,
                 count,
                 timestamp
             );
@@ -228,7 +232,7 @@ public class Camera {
                 "CameraSensor [" + sensorId + "]"
                 + " t=" + timestamp
                 + " count=" + count
-                + " objects=" + buildObjectSummary(detectedObjects, count)
+                + " objects=" + buildObjectSummary(detectedObjects, bearingDegrees, count)
                 + " conf=" + confidenceScore
                 + " status=" + status
             );
@@ -263,8 +267,18 @@ public class Camera {
                 return;
             }
 
-            final JSONObject metadata = new JSONObject(metadataRaw);
+            // metadataRaw is the outer object - extract the nested metadata block
+            final JSONObject outer = new JSONObject(metadataRaw);
+            final JSONObject metadata = outer.optJSONObject("metadata");
+
+            if (metadata == null) {
+                System.err.println("CameraSensor [" + sensorId + "]: missing metadata key.");
+                status = SensorStatus.FAILED;
+                return;
+            }
+
             final float weatherFactor = (float) metadata.optDouble("weatherFactor", 1.0);
+            System.out.println("CameraSensor [" + sensorId + "] weatherFactor=" + weatherFactor);
             this.confidenceScore = weatherFactor;
             updateStatus(confidenceScore);
             advancePastTicksOpening();
@@ -276,16 +290,17 @@ public class Camera {
         }
     }
 
-    /**
-     * Streams lines from the open reader until a complete JSON object is
-     * accumulated. Mirrors Lidar.streamNextObject() exactly.
-     */
-    private String streamNextObject() throws IOException {
+        /**
+         * Streams lines from the open reader until a complete JSON object is
+         * accumulated. Mirrors Lidar.streamNextObject() exactly.
+         */
+        private String streamNextObject() throws IOException {
         assert reader != null : "reader must not be null when streaming";
 
         final StringBuilder builder = new StringBuilder();
         String line;
         int braceDepth = 0;
+        int squareDepth = 0;
         boolean started = false;
         boolean metadata = false;
 
@@ -310,8 +325,11 @@ public class Camera {
                 for (char c : trimmed.toCharArray()) {
                     if (c == '{') { braceDepth++; }
                     if (c == '}') { braceDepth--; }
+                    if (c == '[') { squareDepth++; }
+                    if (c == ']') { squareDepth--; }
                 }
-                if (braceDepth == 0) {
+                // Only close when both braces and square brackets are balanced
+                if (braceDepth == 0 && squareDepth == 0) {
                     String result = builder.toString();
                     if (result.endsWith(",")) {
                         result = result.substring(0, result.length() - 1);
@@ -396,6 +414,23 @@ public class Camera {
         return ObjectType.UNKNOWN;
     }
 
+    private String buildObjectSummary(final Camera.ObjectType[] objects,
+                                      final float[] bearings,
+                                      final int count) {
+        assert objects != null : "objects must not be null";
+        assert bearings != null : "bearings must not be null";
+        assert count >= 0 : "count must not be negative";
+        final StringBuilder sb = new StringBuilder("[");
+        for (int i = 0; i < count; i++) {
+            sb.append(objects[i]);
+            sb.append("@");
+            sb.append(bearings[i]);
+            if (i < count - 1) { sb.append(", "); }
+        }
+        sb.append("]");
+        return sb.toString();
+    }
+
     private void startClock() {
         assert status != SensorStatus.FAILED : "must not start clock when FAILED";
         clock = new Timer("CameraSensor-" + sensorId, false);
@@ -418,16 +453,4 @@ public class Camera {
             }
         }
     }
-
-    private String buildObjectSummary(final Camera.ObjectType[] objects, final int count) {
-    assert objects != null : "objects must not be null";
-    assert count >= 0 : "count must not be negative";
-    final StringBuilder sb = new StringBuilder("[");
-    for (int i = 0; i < count; i++) {
-        sb.append(objects[i]);
-        if (i < count - 1) { sb.append(", "); }
-    }
-    sb.append("]");
-    return sb.toString();
-}
 }

@@ -20,7 +20,10 @@ public final class CameraReading {
     /** Per-object confidence scores derived from weatherFactor */
     private final float[] confidenceScores;
 
-    /** Number of valid entries in detectedObjects and confidenceScores */
+    /** Per-object bearing in degrees - matches Lidar/Radar bearing format */
+    private final float[] bearingDegrees;
+
+    /** Number of valid entries in detectedObjects, confidenceScores, bearingDegrees */
     private final int count;
 
     /** Timestamp of this tick in milliseconds */
@@ -30,25 +33,30 @@ public final class CameraReading {
      * Constructs a CameraReading.
      * @param detectedObjects bounded array of ObjectType, size MAX_OBJECTS
      * @param confidenceScores per-object confidence scores
+     * @param bearingDegrees  per-object bearing in degrees
      * @param count           number of valid entries
      * @param timestampMs     tick timestamp
      */
     public CameraReading(final Camera.ObjectType[] detectedObjects,
                          final float[] confidenceScores,
+                         final float[] bearingDegrees,
                          final int count,
                          final long timestampMs) {
         assert detectedObjects != null : "detectedObjects must not be null";
         assert confidenceScores != null : "confidenceScores must not be null";
+        assert bearingDegrees != null : "bearingDegrees must not be null";
         assert count >= 0 && count <= Camera.MAX_OBJECTS : "count out of valid range";
         assert timestampMs >= 0 : "timestampMs must not be negative";
         this.detectedObjects = detectedObjects;
         this.confidenceScores = confidenceScores;
+        this.bearingDegrees = bearingDegrees;
         this.count = count;
         this.timestampMs = timestampMs;
     }
 
     public Camera.ObjectType[] detectedObjects() { return detectedObjects; }
     public float[] confidenceScores()            { return confidenceScores; }
+    public float[] bearingDegrees()              { return bearingDegrees; }
     public int count()                           { return count; }
     public long timestampMs()                    { return timestampMs; }
 }
