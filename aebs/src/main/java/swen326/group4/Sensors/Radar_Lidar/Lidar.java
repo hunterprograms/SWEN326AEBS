@@ -54,7 +54,7 @@ public class Lidar implements RadarLidarSensor {
 
     public Lidar(String sensorId, String dataDirectory) {
         this.sensorId        = sensorId;
-        this.dataFilePath    = dataDirectory + "/" + DATA_FILE;
+        this.dataFilePath    = dataDirectory + "/" + sensorId + DATA_FILE;
         this.status          = SensorStatus.OK;
         this.latestReading   = null;
         this.ticksExhausted  = false;
@@ -99,7 +99,9 @@ public class Lidar implements RadarLidarSensor {
      * or the tick entry cannot be parsed (FR2104).
      */
     private void castRays() {
+        
         if (ticksExhausted) {
+            
             status = SensorStatus.FAILED;
             latestReading = null;
             return;
@@ -133,6 +135,15 @@ public class Lidar implements RadarLidarSensor {
                 confidenceScore,
                 timestamp
             );
+
+            System.out.println(
+                latestReading.detectedObjects()
+                + " \n " +
+                latestReading.confidenceScore()
+                + " \n " +
+                latestReading.timestampMs()
+                + " \n "
+            );
         } catch (Exception e) {
             System.err.println("LidarSensor [" + sensorId + "]: malformed tick — "
                 + e.getMessage());
@@ -154,8 +165,18 @@ public class Lidar implements RadarLidarSensor {
     private void openAndReadMetadata() {
         try {
             reader = new BufferedReader(new FileReader(dataFilePath));
+            
+            // String line = reader.readLine();
+            // if (!line.equals("{")) {
+            //     System.out.println("Missing starting brace");
+            // }
+
+            //System.out.println("Retrieveing metadata for LiDAR " + sensorId);
 
             String metadataRaw = streamNextObject();
+
+           
+
             if (metadataRaw == null) {
                 System.err.println("LidarSensor [" + sensorId + "]: missing metadata block.");
                 status = SensorStatus.FAILED;
@@ -188,16 +209,27 @@ public class Lidar implements RadarLidarSensor {
         String line;
         int braceDepth = 0;
         boolean started = false;
-
+        boolean metadata = false;
         while ((line = reader.readLine()) != null) {
             String trimmed = line.trim();
-            if (trimmed.equals("]") || trimmed.equals("]}")) {
+            //System.out.println(trimmed);
+
+            if (trimmed.contains("metadata")){
+                braceDepth--;
+                metadata = true;
+            }
+
+
+            if (trimmed.equals("]}")) {
+                
                 return null;
             }
             if (trimmed.startsWith("{")) {
                 started = true;
             }
+
             if (started) {
+                //System.out.println(trimmed);
                 builder.append(trimmed);
                 for (char c : trimmed.toCharArray()) {
                     if (c == '{') braceDepth++;
@@ -208,6 +240,10 @@ public class Lidar implements RadarLidarSensor {
                     if (result.endsWith(",")) {
                         result = result.substring(0, result.length() - 1);
                     }
+                    if (metadata){
+                        result += '}';
+                    }
+                    //System.out.println(result);
                     return result;
                 }
             }
@@ -260,13 +296,15 @@ public class Lidar implements RadarLidarSensor {
     }
 
     private void startClock() {
-        clock = new Timer("LidarSensor-" + sensorId, true);
+        clock = new Timer("LidarSensor-" + sensorId, false);
         clock.scheduleAtFixedRate(new TimerTask() {
             @Override
             public void run() {
+                
                 castRays();
             }
         }, 0, CLOCK_INTERVAL_MS);
+        System.out.println("Timer started!");
     }
 
     private void closeReader() {

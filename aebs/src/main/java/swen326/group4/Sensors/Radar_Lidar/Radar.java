@@ -68,7 +68,7 @@ public class Radar implements RadarLidarSensor {
 
     public Radar(String sensorId, String dataDirectory) {
         this.sensorId        = sensorId;
-        this.dataFilePath    = dataDirectory + "/" + DATA_FILE;
+        this.dataFilePath    = dataDirectory + "/" + sensorId + DATA_FILE;
         this.status          = SensorStatus.OK;
         this.latestReading   = null;
         this.ticksExhausted  = false;
