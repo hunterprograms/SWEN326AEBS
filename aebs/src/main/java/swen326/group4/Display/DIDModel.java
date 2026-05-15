@@ -4,149 +4,80 @@ package swen326.group4.Display;
  * Represent the internal state of the AEBS system.
  */
 public class DIDModel {
-    // System Settings (Mutable Via Controller)
-    private double sensitivityThreshold;
-    private boolean aebsEnabled;
+    
+    public enum SystemState { ACTIVE, MAINTENANCE, DISABLED }
 
-    // System Status (Updated from Sensor Data)
-    private double currentSpeed;
-    private double distanceToHazard;
-    private double timeToCollision;
-    private boolean BrakingActive;
+    // 4.1: Controls for setting AEBS sensitivity
+    private double sensitivityThreshold = 1.5; // Default intervention threshold
+    private static final double MIN_THRESHOLD = 0.5;
+    private static final double MAX_THRESHOLD = 5.0;
 
-    // Health Status
-    private boolean aebsmaintenanceRequired;
+    // 4.4 Sensor Data Ranges
+    private SystemState systemState = SystemState.ACTIVE;
+    private double currentSpeed = 0.0;          // 0 t0 250 km/h
+    private double distanceToHazard = 200.0;    // 0.5 to 200 meters
+    private double timeToCollision = 99.9;
+    private boolean brakingActive = false;
 
-    // Constant Safety Limits (Power of Ten)
-    private static final double MIN_THRESHOLD = 0.5; // seconds
-    private static final double MAX_THRESHOLD = 5.0; // seconds
-
-    // Model Listeners
     private final AEBSListener[] listeners = new AEBSListener[2];
     private int listenerCount = 0;
 
-    /**
-     * Get Sensitivity Threshold.
-     * @return the sensitivity threshold.
-     */
-    public double getSensitivityThreshold(){
-        return this.sensitivityThreshold;
-    }
-
-    /**
-     * Is the AEBS enabled.
-     * @return the aebs state.
-     */
-    public boolean isAEBSEnabled(){
-        return this.aebsEnabled;
-    }
-
-    /**
-     * Get Current Speed.
-     * @return the current speed.
-     */
-    public double getCurrentSpeed(){
-        return this.currentSpeed;
-    }
-
-    /**
-     * Get Distance to Hazard.
-     * @return the distance to hazard.
-     */
-    public double getDistanceToHazard(){
-        return this.distanceToHazard;
-    }
-
-    /**
-     * Get Time To Collision.
-     * @return the time to collision.
-     */
-    public double getTimeToCollision(){
-        return this.timeToCollision;
-    }
-
-    /**
-     * Is Braking Active.
-     * @return the braking state.
-     */
-    public boolean isBrakingActive(){
-        return this.BrakingActive;
-    }
-
-    /**
-     * Is AEBS Maintainence Required.
-     * @return the AEBS maintainence state.
-     */
-    public boolean isAEBSMaintanenceRequired(){
-        return this.aebsmaintenanceRequired;
-    }
-
-    /**
-     * Set the sensitivity Threshold.
-     */
-    public void setSensitivityThreshold(double value){
-        assert value >= MIN_THRESHOLD && value <= MAX_THRESHOLD : "Sensitivity out of bounds: " + value;
-
-        if (value < MIN_THRESHOLD) value = MIN_THRESHOLD;
-        if (value > MAX_THRESHOLD) value = MAX_THRESHOLD;
-
+    // --- 4.1: Sensitivity Controls ---
+    public void setSensitivityThreshold(double value) {
+        // Design by Contract: Ensure sensitivity is within specified operational limits
+        assert value >= MIN_THRESHOLD && value <= MAX_THRESHOLD : "Invalid Sensitivity: " + value;
         this.sensitivityThreshold = value;
         notifyListeners();
-    }
+    }  
 
-    /**
-     * Set the AEBS state.
-     */
-    public void setAEBSEnabled(boolean value){
-        if(value == false) {
-            assert currentSpeed == 0 : "HAZARD: Attempted to disable AEBS while in motion!";
-        }
-
-        this.aebsEnabled = value;
-        notifyListeners();
-    }
-
-    /**
-     * Set the current speed.
-     */
-    public void setCurrentSpeed(double value){
-        assert value >= 0.0 && value <= 150.0 : "Unrealisitc speed detected: " + value;
-
+    // --- 4.4: Setters with Specification Assertions ---
+    public void setCurrentSpeed(double value) {
+        // Spec 4.4: Wheel Speed Data 0 to 250 km/h
+        assert value >= 0.0 && value <= 250.0 : "Speed Out of Range: " + value;
         this.currentSpeed = value;
         notifyListeners();
     }
 
-    /**
-     * Set the distance to hazard.
-     */
     public void setDistanceToHazard(double value) {
-        this.distanceToHazard = (value < 0) ? 0 : value;
+        // Spec 4.4: Radar/Lidar detection from 0.5 to 200 meters
+        assert value >= 0.0 && value <= 200.0 : "Distance Out of Range: " + value;
+        this.distanceToHazard = value;
         notifyListeners();
     }
 
-    /**
-     * Set the braking state.
-     */
+    public void setSystemState(SystemState newState) {
+        if (newState == SystemState.DISABLED) {
+            // Safety Check: Manual deactivation (4.1) only safe when stationary
+            assert currentSpeed == 0 : "HAZARD: Manual deactivation attempted while in motion!";
+        }
+        this.systemState = newState;
+        notifyListeners();
+    }
+
+    public void setTimeToCollision(double value) {
+        assert value >= 0.0 : "Logic Error: Negative TTC";
+        this.timeToCollision = value;
+        notifyListeners();
+    }
+
     public void setBrakingActive(boolean value) {
-        if (value == true) {
-            assert !aebsmaintenanceRequired : "Logic Error: Braking active on failed hardware";
+        if (value) {
+            // 4.1: Feedback for maintenance needs
+            assert systemState != SystemState.MAINTENANCE : "Hardware Failure: Braking prohibited";
         }
-
-        this.BrakingActive = value;
-
-    }
-
-    /**
-     * Set the AEBS maintainence state.
-     */
-    public void setAEBSMaintanenceRequired(boolean value) {
-        if (value == true) {
-            assert !this.aebsEnabled : "Warning: Maintanence required while AEBS still enabled";
-        }
-
-        this.aebsmaintenanceRequired = value;
+        this.brakingActive = value;
         notifyListeners();
     }
+
+    /*
+     * --- Getters ---
+     */
+    public SystemState getSystemState() { return systemState; }
+    public double getCurrentSpeed() { return currentSpeed; }
+    public double getDistanceToHazard() { return distanceToHazard; }
+    public double getTimeToCollision() { return timeToCollision; }
+    public double getSensitivityThreshold() { return sensitivityThreshold; }
+    public boolean isBrakingActive() { return brakingActive; }
 
     /**
      * Add Listener to the DID view.
@@ -154,7 +85,6 @@ public class DIDModel {
      */
     public void addListener(AEBSListener l) {
         assert l != null : "Attemped to add a null AEBSListener";
-
         if (l != null && listenerCount < listeners.length) {
             listeners[listenerCount++] = l;
         }
@@ -165,11 +95,9 @@ public class DIDModel {
      */
     private void notifyListeners(){
         assert listenerCount >= 0 && listenerCount <= listeners.length : "Invalid lister count: " + listenerCount;
-
         for (int i = 0; i < listenerCount; i++) {
-
             assert listeners[i] != null : "Null listener found at index " + i;
-            listeners[i].stateChanged();
+            listeners[i].stateChanged(this);
         }
     }
 
