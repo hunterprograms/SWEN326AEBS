@@ -148,6 +148,16 @@ public class Radar implements RadarLidarSensor {
                 confidenceScore,
                 timestamp
             );
+
+            System.out.println(
+                latestReading.detectedObjects()
+                + " \n " +
+                latestReading.confidenceScore()
+                + " \n " +
+                latestReading.timestampMs()
+                + " \n "
+            );
+
         } catch (Exception e) {
             System.err.println("RadarSensor [" + sensorId + "]: malformed tick — "
                 + e.getMessage());
@@ -219,12 +229,20 @@ public class Radar implements RadarLidarSensor {
         String line;
         int braceDepth = 0;
         boolean started = false;
-
+        boolean metadata = false;
+        
         while ((line = reader.readLine()) != null) {
             String trimmed = line.trim();
-            if (trimmed.equals("]") || trimmed.equals("]}")) {
+
+            if (trimmed.contains("metadata")){
+                braceDepth--;
+                metadata = true;
+            }
+
+            if (trimmed.equals("]}")) {
                 return null;
             }
+
             if (trimmed.startsWith("{")) {
                 started = true;
             }
@@ -238,6 +256,9 @@ public class Radar implements RadarLidarSensor {
                     String result = builder.toString();
                     if (result.endsWith(",")) {
                         result = result.substring(0, result.length() - 1);
+                    }
+                    if (metadata){
+                        result += '}';
                     }
                     return result;
                 }
@@ -291,7 +312,7 @@ public class Radar implements RadarLidarSensor {
     }
 
     private void startClock() {
-        clock = new Timer("RadarSensor-" + sensorId, true);
+        clock = new Timer("RadarSensor-" + sensorId, false);
         clock.scheduleAtFixedRate(new TimerTask() {
             @Override
             public void run() {

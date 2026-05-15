@@ -210,6 +210,7 @@ public class Lidar implements RadarLidarSensor {
         int braceDepth = 0;
         boolean started = false;
         boolean metadata = false;
+        
         while ((line = reader.readLine()) != null) {
             String trimmed = line.trim();
             //System.out.println(trimmed);
