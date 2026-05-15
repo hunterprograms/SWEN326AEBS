@@ -17,9 +17,13 @@ public class DIDModel {
     private double currentSpeed = 0.0;          // 0 t0 250 km/h
     private double distanceToHazard = 200.0;    // 0.5 to 200 meters
     private double timeToCollision = 99.9;
-    private boolean brakingActive = false;
 
-    private final AEBSListener[] listeners = new AEBSListener[2];
+    // 4.1 & 4.3 Intervention Data
+    private boolean brakingActive = false;
+    private boolean alarmActive = false;
+    private double brakingErrorMargin = 0.0;
+
+    private final AEBSListener[] listeners = new AEBSListener[5];
     private int listenerCount = 0;
 
     // --- 4.1: Sensitivity Controls ---
@@ -29,6 +33,19 @@ public class DIDModel {
         this.sensitivityThreshold = value;
         notifyListeners();
     }  
+
+    public void setAlarmActive(boolean active) {
+        // assertions ?
+        this.alarmActive = active;
+        notifyListeners();
+    }
+
+    // --- 4.3: Braking Performance ---
+    public void setBrakingErrorMargin(double error) {
+        // assertions ?
+        this.brakingErrorMargin = error;
+        notifyListeners();
+    }
 
     // --- 4.4: Setters with Specification Assertions ---
     public void setCurrentSpeed(double value) {
@@ -69,15 +86,15 @@ public class DIDModel {
         notifyListeners();
     }
 
-    /*
-     * --- Getters ---
-     */
+    // --- Getters ---
     public SystemState getSystemState() { return systemState; }
     public double getCurrentSpeed() { return currentSpeed; }
     public double getDistanceToHazard() { return distanceToHazard; }
     public double getTimeToCollision() { return timeToCollision; }
     public double getSensitivityThreshold() { return sensitivityThreshold; }
     public boolean isBrakingActive() { return brakingActive; }
+    public boolean isAlarmActive() {return alarmActive; }
+    public double getBrakingErrorMargin() { return brakingErrorMargin; }
 
     /**
      * Add Listener to the DID view.
