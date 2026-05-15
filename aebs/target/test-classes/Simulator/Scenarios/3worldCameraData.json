@@ -8,56 +8,57 @@
     {
       "timestampMs": 0,
       "detectedObjects": [
-        { "objectType": "VEHICLE" }
+        { "objectType": "VEHICLE", "bearingDegrees": 1.5 }
       ]
     },
     {
       "timestampMs": 50,
       "detectedObjects": [
-        { "objectType": "VEHICLE" }
+        { "objectType": "VEHICLE", "bearingDegrees": 1.5 }
       ]
     },
     {
       "timestampMs": 100,
       "detectedObjects": [
-        { "objectType": "VEHICLE" },
-        { "objectType": "PEDESTRIAN" }
+        { "objectType": "VEHICLE", "bearingDegrees": 1.5 },
+        { "objectType": "PEDESTRIAN", "bearingDegrees": 5.0 },
+        { "objectType": "CYCLIST", "bearingDegrees": -3.2 }
       ]
     },
     {
       "timestampMs": 150,
       "detectedObjects": [
-        { "objectType": "PEDESTRIAN" }
+        { "objectType": "PEDESTRIAN", "bearingDegrees": 5.0 }
       ]
     },
     {
       "timestampMs": 200,
       "detectedObjects": [
-        { "objectType": "PEDESTRIAN" }
+        { "objectType": "PEDESTRIAN", "bearingDegrees": 5.5 }
       ]
     },
     {
       "timestampMs": 250,
       "detectedObjects": [
-        { "objectType": "VEHICLE" }
+        { "objectType": "VEHICLE", "bearingDegrees": 1.5 }
       ]
     },
     {
       "timestampMs": 300,
       "detectedObjects": [
-        { "objectType": "VEHICLE" }
+        { "objectType": "VEHICLE", "bearingDegrees": 1.5 }
       ]
     },
     {
       "timestampMs": 350,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT" }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.0 }
       ]
     },
     {
       "timestampMs": 400,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT" }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.0 }
       ]
     },
     {
@@ -71,13 +72,13 @@
     {
       "timestampMs": 550,
       "detectedObjects": [
-        { "objectType": "CYCLIST" }
+        { "objectType": "CYCLIST", "bearingDegrees": -3.2 }
       ]
     },
     {
       "timestampMs": 600,
       "detectedObjects": [
-        { "objectType": "CYCLIST" }
+        { "objectType": "CYCLIST", "bearingDegrees": -3.2 }
       ]
     },
     {
