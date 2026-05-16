@@ -34,7 +34,7 @@ public class AEBS {
         // Redirect System.out to a text file
         // ---------------------------------------------------------------------
         try {
-            PrintStream fileOut = new PrintStream(new File(OUTPUT_FILE_PATH));
+            PrintStream fileOut = new PrintStream(new File(scenarioId+OUTPUT_FILE_PATH));
             // Redirect standard output to the file stream
             System.setOut(fileOut);
             

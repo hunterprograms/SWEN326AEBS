@@ -1,0 +1,1821 @@
+=== AEBS Main1: Live Scenario Run ===
+Data directory : C:\Users\devma\Documents\Uni Work\SWEN326AEBS\scenarios\SC-008
+Output File    : scenario_output.txt
+Run duration   : 8000ms
+======================================
+
+--- Starting sensors ---
+CameraSensor [1] weatherFactor=0.95
+CameraSensor [1] timer started.
+CameraSensor [2] weatherFactor=0.95
+CameraSensor [2] timer started.
+CameraSensor [3] weatherFactor=0.95
+CameraSensor [3] timer started.
+Timer started!
+Timer started!
+Timer started!
+Driver scenario: Radar jammed — RF interference
+Driver timer started.
+CameraSensor [2] t=0 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [1] t=0 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [3] t=0 count=1 objects=[VEHICLE@0.22] conf=0.95 status=OK
+Driver t=0 action=NONE state=ACTIVE
+[DetectedObject[distanceMetres=69.76, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 0 
+ 
+[DetectedObject[distanceMetres=69.74, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 0 
+ 
+[DetectedObject[distanceMetres=69.76, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 0 
+ 
+CameraSensor [1] t=50 count=1 objects=[VEHICLE@0.02] conf=0.95 status=OK
+CameraSensor [2] t=50 count=1 objects=[VEHICLE@0.12] conf=0.95 status=OK
+CameraSensor [3] t=50 count=1 objects=[VEHICLE@0.21] conf=0.95 status=OK
+CameraSensor [1] t=100 count=1 objects=[VEHICLE@-0.0] conf=0.95 status=OK
+CameraSensor [2] t=100 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=100 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=67.26, relativeSpeedKmh=-90.0, bearingDegrees=-0.0]] 
+ 1.0 
+ 100 
+ 
+[DetectedObject[distanceMetres=67.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.0]] 
+ 1.0 
+ 100 
+ 
+[DetectedObject[distanceMetres=67.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 100 
+ 
+CameraSensor [1] t=150 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=150 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=150 count=1 objects=[VEHICLE@0.21] conf=0.95 status=OK
+CameraSensor [1] t=200 count=1 objects=[VEHICLE@-0.01] conf=0.95 status=OK
+CameraSensor [2] t=200 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=200 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=64.75, relativeSpeedKmh=-90.0, bearingDegrees=-0.0]] 
+ 1.0 
+ 200 
+ 
+[DetectedObject[distanceMetres=64.75, relativeSpeedKmh=-90.0, bearingDegrees=0.0]] 
+ 1.0 
+ 200 
+ 
+[DetectedObject[distanceMetres=64.75, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 200 
+ 
+
+--- Starting controller ---
+BrakingController started — decision cycle: 50ms
+RadarVoter: TRUSTED — dist=64.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=64.75m speed=-89.993324km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.590096s
+[BrakingController] DRIVER ALERT — TTC=2.590096s
+CameraSensor [1] t=250 count=1 objects=[VEHICLE@0.02] conf=0.95 status=OK
+CameraSensor [2] t=250 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=250 count=1 objects=[VEHICLE@0.19] conf=0.95 status=OK
+Driver t=250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — dist=64.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=64.75m speed=-89.993324km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.590096s
+[BrakingController] DRIVER ALERT — TTC=2.590096s
+CameraSensor [1] t=300 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=300 count=1 objects=[VEHICLE@0.1] conf=0.95 status=OK
+CameraSensor [3] t=300 count=1 objects=[VEHICLE@0.18] conf=0.95 status=OK
+[DetectedObject[distanceMetres=62.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 300 
+ 
+[DetectedObject[distanceMetres=62.24, relativeSpeedKmh=-90.0, bearingDegrees=0.0]] 
+ 1.0 
+ 300 
+ 
+[DetectedObject[distanceMetres=62.25, relativeSpeedKmh=-90.0, bearingDegrees=0.01]] 
+ 1.0 
+ 300 
+ 
+RadarVoter: TRUSTED — dist=62.24667m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=62.24667m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.4898667s
+[BrakingController] DRIVER ALERT — TTC=2.4898667s
+CameraSensor [1] t=350 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=350 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=350 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=62.24667m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=62.24667m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.4898667s
+[BrakingController] DRIVER ALERT — TTC=2.4898667s
+CameraSensor [1] t=400 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=400 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=400 count=1 objects=[VEHICLE@0.22] conf=0.95 status=OK
+[DetectedObject[distanceMetres=59.75, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 400 
+ 
+[DetectedObject[distanceMetres=59.75, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 400 
+ 
+[DetectedObject[distanceMetres=59.75, relativeSpeedKmh=-90.0, bearingDegrees=0.0]] 
+ 1.0 
+ 400 
+ 
+RadarVoter: TRUSTED — dist=59.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=59.75333m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.3900666s
+[BrakingController] DRIVER ALERT — TTC=2.3900666s
+CameraSensor [1] t=450 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=450 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=450 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=59.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=59.75333m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.3900666s
+[BrakingController] DRIVER ALERT — TTC=2.3900666s
+CameraSensor [1] t=500 count=1 objects=[VEHICLE@-0.0] conf=0.95 status=OK
+CameraSensor [2] t=500 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=500 count=1 objects=[VEHICLE@0.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=57.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 500 
+ 
+[DetectedObject[distanceMetres=57.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 500 
+ 
+[DetectedObject[distanceMetres=57.25, relativeSpeedKmh=-90.0, bearingDegrees=0.0]] 
+ 1.0 
+ 500 
+ 
+Driver t=500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — dist=57.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=57.25m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.29s
+[BrakingController] DRIVER ALERT — TTC=2.29s
+CameraSensor [1] t=550 count=1 objects=[VEHICLE@0.02] conf=0.95 status=OK
+CameraSensor [2] t=550 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=550 count=1 objects=[VEHICLE@0.21] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=57.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=57.25m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.29s
+[BrakingController] DRIVER ALERT — TTC=2.29s
+CameraSensor [1] t=600 count=1 objects=[VEHICLE@0.0] conf=0.95 status=OK
+CameraSensor [2] t=600 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=600 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=54.75, relativeSpeedKmh=-90.0, bearingDegrees=-0.0]] 
+ 1.0 
+ 600 
+ 
+[DetectedObject[distanceMetres=54.75, relativeSpeedKmh=-90.0, bearingDegrees=0.0]] 
+ 1.0 
+ 600 
+ 
+[DetectedObject[distanceMetres=54.75, relativeSpeedKmh=-90.0, bearingDegrees=0.0]] 
+ 1.0 
+ 600 
+ 
+RadarVoter: TRUSTED — dist=54.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=54.74667m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.1899335s
+[BrakingController] DRIVER ALERT — TTC=2.1899335s
+CameraSensor [1] t=650 count=1 objects=[VEHICLE@-0.02] conf=0.95 status=OK
+CameraSensor [2] t=650 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=650 count=1 objects=[VEHICLE@0.19] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=54.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=54.74667m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.1899335s
+[BrakingController] DRIVER ALERT — TTC=2.1899335s
+CameraSensor [1] t=700 count=1 objects=[VEHICLE@-0.02] conf=0.95 status=OK
+CameraSensor [2] t=700 count=1 objects=[VEHICLE@0.1] conf=0.95 status=OK
+CameraSensor [3] t=700 count=1 objects=[VEHICLE@0.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=52.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.0]] 
+ 1.0 
+ 700 
+ 
+[DetectedObject[distanceMetres=52.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.0]] 
+ 1.0 
+ 700 
+ 
+[DetectedObject[distanceMetres=52.25, relativeSpeedKmh=-90.0, bearingDegrees=0.01]] 
+ 1.0 
+ 700 
+ 
+RadarVoter: TRUSTED — dist=52.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=52.24667m speed=-89.996666km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.089972s
+[BrakingController] DRIVER ALERT — TTC=2.089972s
+
+[t=503ms] Last decision: DRIVER_ALERT
+CameraSensor [1] t=750 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=750 count=1 objects=[VEHICLE@0.12] conf=0.95 status=OK
+CameraSensor [3] t=750 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+Driver t=750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — dist=52.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=52.24667m speed=-89.996666km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.089972s
+[BrakingController] DRIVER ALERT — TTC=2.089972s
+CameraSensor [1] t=800 count=1 objects=[VEHICLE@-0.01] conf=0.95 status=OK
+CameraSensor [2] t=800 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=800 count=1 objects=[VEHICLE@0.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=49.75, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 800 
+ 
+[DetectedObject[distanceMetres=49.75, relativeSpeedKmh=-90.0, bearingDegrees=0.01]] 
+ 1.0 
+ 800 
+ 
+[DetectedObject[distanceMetres=49.75, relativeSpeedKmh=-90.0, bearingDegrees=0.0]] 
+ 1.0 
+ 800 
+ 
+RadarVoter: TRUSTED — dist=49.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=50.583332m speed=-89.993324km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.006741s
+[BrakingController] DRIVER ALERT — TTC=2.006741s
+CameraSensor [1] t=850 count=1 objects=[VEHICLE@-0.0] conf=0.95 status=OK
+CameraSensor [2] t=850 count=1 objects=[VEHICLE@0.1] conf=0.95 status=OK
+CameraSensor [3] t=850 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=49.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=49.756664m speed=-89.996666km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.9901701s
+[BrakingController] DRIVER ALERT — TTC=1.9901701s
+CameraSensor [1] t=900 count=1 objects=[VEHICLE@0.0] conf=0.95 status=OK
+CameraSensor [2] t=900 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=900 count=1 objects=[VEHICLE@0.18] conf=0.95 status=OK
+[DetectedObject[distanceMetres=47.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 900 
+ 
+[DetectedObject[distanceMetres=47.25, relativeSpeedKmh=-90.0, bearingDegrees=0.01]] 
+ 1.0 
+ 900 
+ 
+[DetectedObject[distanceMetres=47.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 900 
+ 
+RadarVoter: TRUSTED — dist=47.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=47.25m speed=-89.993324km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.8900701s
+[BrakingController] DRIVER ALERT — TTC=1.8900701s
+CameraSensor [1] t=950 count=1 objects=[VEHICLE@-0.02] conf=0.95 status=OK
+CameraSensor [2] t=950 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=950 count=1 objects=[VEHICLE@0.18] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=47.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=47.25m speed=-89.993324km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.8900701s
+[BrakingController] DRIVER ALERT — TTC=1.8900701s
+CameraSensor [1] t=1000 count=1 objects=[VEHICLE@-0.0] conf=0.95 status=OK
+CameraSensor [2] t=1000 count=1 objects=[VEHICLE@0.12] conf=0.95 status=OK
+CameraSensor [3] t=1000 count=1 objects=[VEHICLE@0.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=44.75, relativeSpeedKmh=-90.0, bearingDegrees=0.0]] 
+ 1.0 
+ 1000 
+ 
+[DetectedObject[distanceMetres=44.75, relativeSpeedKmh=-90.0, bearingDegrees=0.01]] 
+ 1.0 
+ 1000 
+ 
+[DetectedObject[distanceMetres=44.75, relativeSpeedKmh=-90.0, bearingDegrees=-0.0]] 
+ 1.0 
+ 1000 
+ 
+Driver t=1000 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — dist=44.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.75m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.79s
+[BrakingController] DRIVER ALERT — TTC=1.79s
+CameraSensor [1] t=1050 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=1050 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=1050 count=1 objects=[VEHICLE@0.21] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=44.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.75m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.79s
+[BrakingController] DRIVER ALERT — TTC=1.79s
+CameraSensor [1] t=1100 count=1 objects=[VEHICLE@-0.02] conf=0.95 status=OK
+CameraSensor [2] t=1100 count=1 objects=[VEHICLE@0.12] conf=0.95 status=OK
+CameraSensor [3] t=1100 count=1 objects=[VEHICLE@0.18] conf=0.95 status=OK
+[DetectedObject[distanceMetres=42.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 1100 
+ 
+[DetectedObject[distanceMetres=42.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.0]] 
+ 1.0 
+ 1100 
+ 
+[DetectedObject[distanceMetres=42.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 1100 
+ 
+RadarVoter: TRUSTED — dist=42.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=42.25333m speed=-90.003334km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.6900352s
+[BrakingController] DRIVER ALERT — TTC=1.6900352s
+CameraSensor [1] t=1150 count=1 objects=[VEHICLE@0.0] conf=0.95 status=OK
+CameraSensor [2] t=1150 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=1150 count=1 objects=[VEHICLE@0.19] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=42.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=42.25333m speed=-90.003334km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.6900352s
+[BrakingController] DRIVER ALERT — TTC=1.6900352s
+CameraSensor [1] t=1200 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=1200 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=1200 count=1 objects=[VEHICLE@0.22] conf=0.95 status=OK
+[DetectedObject[distanceMetres=39.75, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 1200 
+ 
+[DetectedObject[distanceMetres=39.75, relativeSpeedKmh=-90.0, bearingDegrees=0.01]] 
+ 1.0 
+ 1200 
+ 
+[DetectedObject[distanceMetres=39.75, relativeSpeedKmh=-90.0, bearingDegrees=0.01]] 
+ 1.0 
+ 1200 
+ 
+RadarVoter: TRUSTED — dist=39.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=39.75m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.59s
+[BrakingController] DRIVER ALERT — TTC=1.59s
+
+[t=1006ms] Last decision: DRIVER_ALERT
+CameraSensor [1] t=1250 count=1 objects=[VEHICLE@-0.0] conf=0.95 status=OK
+CameraSensor [2] t=1250 count=1 objects=[VEHICLE@0.08] conf=0.95 status=OK
+CameraSensor [3] t=1250 count=1 objects=[VEHICLE@0.21] conf=0.95 status=OK
+Driver t=1250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — dist=39.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=39.75m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.59s
+[BrakingController] DRIVER ALERT — TTC=1.59s
+CameraSensor [1] t=1300 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=1300 count=1 objects=[VEHICLE@0.1] conf=0.95 status=OK
+CameraSensor [3] t=1300 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=37.25, relativeSpeedKmh=-90.0, bearingDegrees=0.01]] 
+ 1.0 
+ 1300 
+ 
+[DetectedObject[distanceMetres=37.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.0]] 
+ 1.0 
+ 1300 
+ 
+[DetectedObject[distanceMetres=37.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.0]] 
+ 1.0 
+ 1300 
+ 
+RadarVoter: TRUSTED — dist=37.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=37.25m speed=-89.996666km/h conf=1.0
+[BrakingController] Hazard event started — preRpm=756.315 preDist=37.25m
+[BrakingController] Brake attempt 1/3
+[BrakingController] BRAKE COMMAND issued — intensity=1.0
+[BrakingController] Brake confirm: RPM reduction=0.0% (need 5.0%)
+[BrakingController] Brake confirm: dist change=0.0m (need 1.0m)
+[BrakingController] Brake attempt 1 NOT confirmed — will retry.
+CameraSensor [1] t=1350 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=1350 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=1350 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=37.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=37.25m speed=-89.996666km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.5352534s
+[BrakingController] DRIVER ALERT — TTC=1.5352534s
+CameraSensor [1] t=1400 count=1 objects=[VEHICLE@-0.02] conf=0.95 status=OK
+CameraSensor [2] t=1400 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=1400 count=1 objects=[VEHICLE@0.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=34.75, relativeSpeedKmh=-90.0, bearingDegrees=0.0]] 
+ 1.0 
+ 1400 
+ 
+[DetectedObject[distanceMetres=34.75, relativeSpeedKmh=-90.0, bearingDegrees=0.0]] 
+ 1.0 
+ 1400 
+ 
+[DetectedObject[distanceMetres=34.75, relativeSpeedKmh=-90.0, bearingDegrees=0.01]] 
+ 1.0 
+ 1400 
+ 
+RadarVoter: TRUSTED — dist=34.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=34.75333m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.5251437s
+[BrakingController] DRIVER ALERT — TTC=1.5251437s
+CameraSensor [1] t=1450 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=1450 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=1450 count=1 objects=[VEHICLE@0.19] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=34.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=34.75333m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.630878s
+[BrakingController] DRIVER ALERT — TTC=1.630878s
+CameraSensor [1] t=1500 count=1 objects=[VEHICLE@-0.02] conf=0.95 status=OK
+CameraSensor [2] t=1500 count=1 objects=[VEHICLE@0.08] conf=0.95 status=OK
+CameraSensor [3] t=1500 count=1 objects=[VEHICLE@0.22] conf=0.95 status=OK
+[DetectedObject[distanceMetres=32.25, relativeSpeedKmh=-90.0, bearingDegrees=0.0]] 
+ 1.0 
+ 1500 
+ 
+[DetectedObject[distanceMetres=32.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 1500 
+ 
+[DetectedObject[distanceMetres=32.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 1500 
+ 
+Driver t=1500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — dist=32.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=32.25m speed=-90.003334km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.6262178s
+[BrakingController] DRIVER ALERT — TTC=1.6262178s
+CameraSensor [1] t=1550 count=1 objects=[VEHICLE@-0.02] conf=0.95 status=OK
+CameraSensor [2] t=1550 count=1 objects=[VEHICLE@0.12] conf=0.95 status=OK
+CameraSensor [3] t=1550 count=1 objects=[VEHICLE@0.19] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=32.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=32.25m speed=-90.003334km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.7477298s
+[BrakingController] DRIVER ALERT — TTC=1.7477298s
+CameraSensor [1] t=1600 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=1600 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+[DetectedObject[distanceMetres=29.75, relativeSpeedKmh=-90.0, bearingDegrees=0.0]] 
+ 1.0 
+ 1600 
+ 
+[DetectedObject[distanceMetres=29.75, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 1600 
+ 
+[DetectedObject[distanceMetres=29.75, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 1600 
+ 
+CameraSensor [3] t=1600 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=29.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=29.753334m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.7836963s
+[BrakingController] DRIVER ALERT — TTC=1.7836963s
+CameraSensor [3] t=1650 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+CameraSensor [1] t=1650 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=1650 count=1 objects=[VEHICLE@0.12] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=29.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=29.753334m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.9319917s
+[BrakingController] DRIVER ALERT — TTC=1.9319917s
+CameraSensor [1] t=1700 count=1 objects=[VEHICLE@0.0] conf=0.95 status=OK
+CameraSensor [2] t=1700 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=1700 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=27.25, relativeSpeedKmh=-90.0, bearingDegrees=0.01]] 
+ 1.0 
+ 1700 
+ 
+[DetectedObject[distanceMetres=27.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 1700 
+ 
+[DetectedObject[distanceMetres=27.25, relativeSpeedKmh=-90.0, bearingDegrees=0.01]] 
+ 1.0 
+ 1700 
+ 
+RadarVoter: TRUSTED — dist=27.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=27.253334m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.9574243s
+[BrakingController] DRIVER ALERT — TTC=1.9574243s
+
+[t=1506ms] Last decision: DRIVER_ALERT
+CameraSensor [1] t=1750 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=1750 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=1750 count=1 objects=[VEHICLE@0.19] conf=0.95 status=OK
+Driver t=1750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — dist=27.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=27.253334m speed=-90.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.18978s
+[BrakingController] DRIVER ALERT — TTC=2.18978s
+CameraSensor [1] t=1800 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=1800 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=1800 count=1 objects=[VEHICLE@0.22] conf=0.95 status=OK
+[DetectedObject[distanceMetres=24.75, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 1800 
+ 
+[DetectedObject[distanceMetres=24.75, relativeSpeedKmh=-90.0, bearingDegrees=0.01]] 
+ 1.0 
+ 1800 
+ 
+[DetectedObject[distanceMetres=24.75, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 1800 
+ 
+RadarVoter: TRUSTED — dist=24.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=24.75m speed=-89.996666km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.2566345s
+[BrakingController] DRIVER ALERT — TTC=2.2566345s
+CameraSensor [1] t=1850 count=1 objects=[VEHICLE@-0.01] conf=0.95 status=OK
+CameraSensor [2] t=1850 count=1 objects=[VEHICLE@0.1] conf=0.95 status=OK
+CameraSensor [3] t=1850 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=24.75m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=24.75m speed=-89.996666km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.6079023s
+[BrakingController] DRIVER ALERT — TTC=2.6079023s
+CameraSensor [1] t=1900 count=1 objects=[VEHICLE@-0.0] conf=0.95 status=OK
+CameraSensor [2] t=1900 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=1900 count=1 objects=[VEHICLE@0.18] conf=0.95 status=OK
+[DetectedObject[distanceMetres=22.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.0]] 
+ 1.0 
+ 1900 
+ 
+[DetectedObject[distanceMetres=22.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 1900 
+ 
+[DetectedObject[distanceMetres=22.25, relativeSpeedKmh=-90.0, bearingDegrees=-0.01]] 
+ 1.0 
+ 1900 
+ 
+RadarVoter: TRUSTED — dist=22.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=22.25m speed=-89.996666km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.7766986s
+[BrakingController] DRIVER ALERT — TTC=2.7766986s
+CameraSensor [1] t=1950 count=1 objects=[VEHICLE@0.02] conf=0.95 status=OK
+CameraSensor [2] t=1950 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=1950 count=1 objects=[VEHICLE@0.19] conf=0.95 status=OK
+RadarVoter: TRUSTED — dist=22.25m speed=-90.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=22.25m speed=-89.996666km/h conf=1.0
+CameraSensor [1] t=2000 count=1 objects=[VEHICLE@-0.01] conf=0.95 status=OK
+CameraSensor [2] t=2000 count=1 objects=[VEHICLE@0.1] conf=0.95 status=OK
+CameraSensor [3] t=2000 count=1 objects=[VEHICLE@0.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=19.75, relativeSpeedKmh=-89.71, bearingDegrees=-0.0]] 
+ 1.0 
+ 2000 
+ 
+[DetectedObject[distanceMetres=19.75, relativeSpeedKmh=-89.71, bearingDegrees=-0.01]] 
+ 1.0 
+ 2000 
+ 
+[DetectedObject[distanceMetres=19.75, relativeSpeedKmh=-89.72, bearingDegrees=-0.01]] 
+ 1.0 
+ 2000 
+ 
+Driver t=2000 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2050 count=1 objects=[VEHICLE@-0.02] conf=0.95 status=OK
+CameraSensor [2] t=2050 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=2050 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2100 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=2100 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=2100 count=1 objects=[VEHICLE@0.22] conf=0.95 status=OK
+[DetectedObject[distanceMetres=17.3, relativeSpeedKmh=-86.83, bearingDegrees=-0.01]] 
+ 1.0 
+ 2100 
+ 
+[DetectedObject[distanceMetres=17.3, relativeSpeedKmh=-86.83, bearingDegrees=0.01]] 
+ 1.0 
+ 2100 
+ 
+[DetectedObject[distanceMetres=17.3, relativeSpeedKmh=-86.83, bearingDegrees=-0.01]] 
+ 1.0 
+ 2100 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2150 count=1 objects=[VEHICLE@-0.0] conf=0.95 status=OK
+CameraSensor [2] t=2150 count=1 objects=[VEHICLE@0.12] conf=0.95 status=OK
+CameraSensor [3] t=2150 count=1 objects=[VEHICLE@0.18] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2200 count=1 objects=[VEHICLE@0.0] conf=0.95 status=OK
+CameraSensor [2] t=2200 count=1 objects=[VEHICLE@0.08] conf=0.95 status=OK
+CameraSensor [3] t=2200 count=1 objects=[VEHICLE@0.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=14.93, relativeSpeedKmh=-83.95, bearingDegrees=0.01]] 
+ 1.0 
+ 2200 
+ 
+[DetectedObject[distanceMetres=14.94, relativeSpeedKmh=-83.95, bearingDegrees=0.01]] 
+ 1.0 
+ 2200 
+ 
+[DetectedObject[distanceMetres=14.93, relativeSpeedKmh=-83.96, bearingDegrees=-0.01]] 
+ 1.0 
+ 2200 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=2007ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=2250 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=2250 count=1 objects=[VEHICLE@0.1] conf=0.95 status=OK
+CameraSensor [3] t=2250 count=1 objects=[VEHICLE@0.21] conf=0.95 status=OK
+Driver t=2250 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2300 count=1 objects=[VEHICLE@-0.0] conf=0.95 status=OK
+CameraSensor [2] t=2300 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=2300 count=1 objects=[VEHICLE@0.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=12.65, relativeSpeedKmh=-81.08, bearingDegrees=-0.01]] 
+ 1.0 
+ 2300 
+ 
+[DetectedObject[distanceMetres=12.65, relativeSpeedKmh=-81.07, bearingDegrees=-0.01]] 
+ 1.0 
+ 2300 
+ 
+[DetectedObject[distanceMetres=12.65, relativeSpeedKmh=-81.07, bearingDegrees=0.0]] 
+ 1.0 
+ 2300 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2350 count=1 objects=[VEHICLE@-0.0] conf=0.95 status=OK
+CameraSensor [2] t=2350 count=1 objects=[VEHICLE@0.12] conf=0.95 status=OK
+CameraSensor [3] t=2350 count=1 objects=[VEHICLE@0.19] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2400 count=1 objects=[VEHICLE@-0.01] conf=0.95 status=OK
+CameraSensor [2] t=2400 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=2400 count=1 objects=[VEHICLE@0.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=10.44, relativeSpeedKmh=-78.19, bearingDegrees=0.01]] 
+ 1.0 
+ 2400 
+ 
+[DetectedObject[distanceMetres=10.44, relativeSpeedKmh=-78.19, bearingDegrees=-0.01]] 
+ 1.0 
+ 2400 
+ 
+[DetectedObject[distanceMetres=10.44, relativeSpeedKmh=-78.19, bearingDegrees=-0.01]] 
+ 1.0 
+ 2400 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2450 count=1 objects=[VEHICLE@-0.01] conf=0.95 status=OK
+CameraSensor [2] t=2450 count=1 objects=[VEHICLE@0.09] conf=0.95 status=OK
+CameraSensor [3] t=2450 count=1 objects=[VEHICLE@0.18] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2500 count=1 objects=[VEHICLE@-0.01] conf=0.95 status=OK
+CameraSensor [2] t=2500 count=1 objects=[VEHICLE@0.12] conf=0.95 status=OK
+CameraSensor [3] t=2500 count=1 objects=[VEHICLE@0.22] conf=0.95 status=OK
+[DetectedObject[distanceMetres=8.31, relativeSpeedKmh=-75.32, bearingDegrees=-0.01]] 
+ 1.0 
+ 2500 
+ 
+[DetectedObject[distanceMetres=8.31, relativeSpeedKmh=-75.32, bearingDegrees=0.0]] 
+ 1.0 
+ 2500 
+ 
+[DetectedObject[distanceMetres=8.31, relativeSpeedKmh=-75.32, bearingDegrees=0.01]] 
+ 1.0 
+ 2500 
+ 
+Driver t=2500 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2550 count=1 objects=[VEHICLE@-0.0] conf=0.95 status=OK
+CameraSensor [2] t=2550 count=1 objects=[VEHICLE@0.08] conf=0.95 status=OK
+CameraSensor [3] t=2550 count=1 objects=[VEHICLE@0.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [2] t=2600 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=2600 count=1 objects=[VEHICLE@0.22] conf=0.95 status=OK
+[DetectedObject[distanceMetres=6.26, relativeSpeedKmh=-72.43, bearingDegrees=-0.0]] 
+ 1.0 
+ 2600 
+ 
+[DetectedObject[distanceMetres=6.26, relativeSpeedKmh=-72.43, bearingDegrees=0.01]] 
+ 1.0 
+ 2600 
+ 
+[DetectedObject[distanceMetres=6.26, relativeSpeedKmh=-72.44, bearingDegrees=0.01]] 
+ 1.0 
+ 2600 
+ 
+CameraSensor [1] t=2600 count=1 objects=[VEHICLE@-0.02] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2650 count=1 objects=[VEHICLE@-0.01] conf=0.95 status=OK
+CameraSensor [2] t=2650 count=1 objects=[VEHICLE@0.08] conf=0.95 status=OK
+CameraSensor [3] t=2650 count=1 objects=[VEHICLE@0.19] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2700 count=1 objects=[VEHICLE@0.0] conf=0.95 status=OK
+CameraSensor [2] t=2700 count=1 objects=[VEHICLE@0.12] conf=0.95 status=OK
+CameraSensor [3] t=2700 count=1 objects=[VEHICLE@0.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=4.3, relativeSpeedKmh=-69.55, bearingDegrees=0.01]] 
+ 1.0 
+ 2700 
+ 
+[DetectedObject[distanceMetres=4.29, relativeSpeedKmh=-69.55, bearingDegrees=-0.01]] 
+ 1.0 
+ 2700 
+ 
+[DetectedObject[distanceMetres=4.29, relativeSpeedKmh=-69.55, bearingDegrees=-0.01]] 
+ 1.0 
+ 2700 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=2508ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=2750 count=1 objects=[VEHICLE@0.0] conf=0.95 status=OK
+CameraSensor [2] t=2750 count=1 objects=[VEHICLE@0.1] conf=0.95 status=OK
+CameraSensor [3] t=2750 count=1 objects=[VEHICLE@0.19] conf=0.95 status=OK
+Driver t=2750 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2800 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=2800 count=1 objects=[VEHICLE@0.08] conf=0.95 status=OK
+CameraSensor [3] t=2800 count=1 objects=[VEHICLE@0.18] conf=0.95 status=OK
+[DetectedObject[distanceMetres=2.41, relativeSpeedKmh=-66.68, bearingDegrees=0.0]] 
+ 1.0 
+ 2800 
+ 
+[DetectedObject[distanceMetres=2.41, relativeSpeedKmh=-66.67, bearingDegrees=0.01]] 
+ 1.0 
+ 2800 
+ 
+[DetectedObject[distanceMetres=2.41, relativeSpeedKmh=-66.67, bearingDegrees=-0.01]] 
+ 1.0 
+ 2800 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2850 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=2850 count=1 objects=[VEHICLE@0.1] conf=0.95 status=OK
+CameraSensor [3] t=2850 count=1 objects=[VEHICLE@0.2] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2900 count=1 objects=[VEHICLE@0.01] conf=0.95 status=OK
+CameraSensor [2] t=2900 count=1 objects=[VEHICLE@0.11] conf=0.95 status=OK
+CameraSensor [3] t=2900 count=1 objects=[VEHICLE@0.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=0.6, relativeSpeedKmh=-63.79, bearingDegrees=-0.0]] 
+ 1.0 
+ 2900 
+ 
+[DetectedObject[distanceMetres=0.6, relativeSpeedKmh=-63.79, bearingDegrees=-0.01]] 
+ 1.0 
+ 2900 
+ 
+[DetectedObject[distanceMetres=0.6, relativeSpeedKmh=-63.79, bearingDegrees=0.01]] 
+ 1.0 
+ 2900 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=2950 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=2950 count=1 objects=[VEHICLE@180.12] conf=0.95 status=OK
+CameraSensor [3] t=2950 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3000 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=3000 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=3000 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=1.13, relativeSpeedKmh=-60.91, bearingDegrees=180.01]] 
+ 1.0 
+ 3000 
+ 
+[DetectedObject[distanceMetres=1.13, relativeSpeedKmh=-60.91, bearingDegrees=180.01]] 
+ 1.0 
+ 3000 
+ 
+[DetectedObject[distanceMetres=1.13, relativeSpeedKmh=-60.92, bearingDegrees=180.01]] 
+ 1.0 
+ 3000 
+ 
+Driver t=3000 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3050 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=3050 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=3050 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3100 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=3100 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=3100 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=2.78, relativeSpeedKmh=-58.03, bearingDegrees=180.01]] 
+ 1.0 
+ 3100 
+ 
+[DetectedObject[distanceMetres=2.78, relativeSpeedKmh=-58.03, bearingDegrees=180.01]] 
+ 1.0 
+ 3100 
+ 
+[DetectedObject[distanceMetres=2.78, relativeSpeedKmh=-58.03, bearingDegrees=180.01]] 
+ 1.0 
+ 3100 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3150 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=3150 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=3150 count=1 objects=[VEHICLE@180.18] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3200 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=3200 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=3200 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=4.34, relativeSpeedKmh=-55.15, bearingDegrees=180.01]] 
+ 1.0 
+ 3200 
+ 
+[DetectedObject[distanceMetres=4.34, relativeSpeedKmh=-55.16, bearingDegrees=179.99]] 
+ 1.0 
+ 3200 
+ 
+[DetectedObject[distanceMetres=4.34, relativeSpeedKmh=-55.15, bearingDegrees=179.99]] 
+ 1.0 
+ 3200 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=3016ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=3250 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=3250 count=1 objects=[VEHICLE@180.08] conf=0.95 status=OK
+CameraSensor [3] t=3250 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+Driver t=3250 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3300 count=1 objects=[VEHICLE@179.98] conf=0.95 status=OK
+CameraSensor [2] t=3300 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=3300 count=1 objects=[VEHICLE@180.18] conf=0.95 status=OK
+[DetectedObject[distanceMetres=5.83, relativeSpeedKmh=-52.27, bearingDegrees=179.99]] 
+ 1.0 
+ 3300 
+ 
+[DetectedObject[distanceMetres=5.83, relativeSpeedKmh=-52.27, bearingDegrees=180.0]] 
+ 1.0 
+ 3300 
+ 
+[DetectedObject[distanceMetres=5.83, relativeSpeedKmh=-52.27, bearingDegrees=179.99]] 
+ 1.0 
+ 3300 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3350 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=3350 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=3350 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3400 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=3400 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=3400 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=7.24, relativeSpeedKmh=-49.39, bearingDegrees=180.0]] 
+ 1.0 
+ 3400 
+ 
+[DetectedObject[distanceMetres=7.24, relativeSpeedKmh=-49.39, bearingDegrees=180.01]] 
+ 1.0 
+ 3400 
+ 
+[DetectedObject[distanceMetres=7.24, relativeSpeedKmh=-49.39, bearingDegrees=179.99]] 
+ 1.0 
+ 3400 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3450 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=3450 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=3450 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3500 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=3500 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=3500 count=1 objects=[VEHICLE@180.18] conf=0.95 status=OK
+[DetectedObject[distanceMetres=8.57, relativeSpeedKmh=-46.51, bearingDegrees=179.99]] 
+ 1.0 
+ 3500 
+ 
+[DetectedObject[distanceMetres=8.57, relativeSpeedKmh=-46.51, bearingDegrees=180.01]] 
+ 1.0 
+ 3500 
+ 
+[DetectedObject[distanceMetres=8.57, relativeSpeedKmh=-46.51, bearingDegrees=179.99]] 
+ 1.0 
+ 3500 
+ 
+Driver t=3500 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3550 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=3550 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=3550 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3600 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=3600 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=3600 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=9.82, relativeSpeedKmh=-43.63, bearingDegrees=179.99]] 
+ 1.0 
+ 3600 
+ 
+[DetectedObject[distanceMetres=9.82, relativeSpeedKmh=-43.63, bearingDegrees=180.0]] 
+ 1.0 
+ 3600 
+ 
+[DetectedObject[distanceMetres=9.82, relativeSpeedKmh=-43.63, bearingDegrees=180.01]] 
+ 1.0 
+ 3600 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3650 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=3650 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=3650 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3700 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=3700 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=3700 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=10.99, relativeSpeedKmh=-40.75, bearingDegrees=180.0]] 
+ 1.0 
+ 3700 
+ 
+[DetectedObject[distanceMetres=10.99, relativeSpeedKmh=-40.75, bearingDegrees=180.01]] 
+ 1.0 
+ 3700 
+ 
+[DetectedObject[distanceMetres=10.99, relativeSpeedKmh=-40.75, bearingDegrees=179.99]] 
+ 1.0 
+ 3700 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=3517ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=3750 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=3750 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=3750 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+Driver t=3750 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3800 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=3800 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+[DetectedObject[distanceMetres=12.07, relativeSpeedKmh=-37.87, bearingDegrees=179.99]] 
+ 1.0 
+ 3800 
+ 
+[DetectedObject[distanceMetres=12.07, relativeSpeedKmh=-37.87, bearingDegrees=180.01]] 
+ 1.0 
+ 3800 
+ 
+[DetectedObject[distanceMetres=12.07, relativeSpeedKmh=-37.88, bearingDegrees=180.0]] 
+ 1.0 
+ 3800 
+ 
+CameraSensor [3] t=3800 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3850 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=3850 count=1 objects=[VEHICLE@180.08] conf=0.95 status=OK
+CameraSensor [3] t=3850 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3900 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=3900 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=3900 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=13.08, relativeSpeedKmh=-34.99, bearingDegrees=180.0]] 
+ 1.0 
+ 3900 
+ 
+[DetectedObject[distanceMetres=13.08, relativeSpeedKmh=-34.99, bearingDegrees=179.99]] 
+ 1.0 
+ 3900 
+ 
+[DetectedObject[distanceMetres=13.08, relativeSpeedKmh=-34.99, bearingDegrees=180.0]] 
+ 1.0 
+ 3900 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3950 count=1 objects=[VEHICLE@180.02] conf=0.95 status=OK
+CameraSensor [2] t=3950 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=3950 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4000 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=4000 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=4000 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=14.01, relativeSpeedKmh=-32.11, bearingDegrees=179.99]] 
+ 1.0 
+ 4000 
+ 
+[DetectedObject[distanceMetres=14.01, relativeSpeedKmh=-32.11, bearingDegrees=179.99]] 
+ 1.0 
+ 4000 
+ 
+[DetectedObject[distanceMetres=14.01, relativeSpeedKmh=-32.12, bearingDegrees=180.01]] 
+ 1.0 
+ 4000 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+Driver t=4000 action=BRAKE state=ACTIVE
+CameraSensor [1] t=4050 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=4050 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=4050 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4100 count=1 objects=[VEHICLE@179.98] conf=0.95 status=OK
+CameraSensor [2] t=4100 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=4100 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=14.86, relativeSpeedKmh=-29.23, bearingDegrees=180.01]] 
+ 1.0 
+ 4100 
+ 
+[DetectedObject[distanceMetres=14.86, relativeSpeedKmh=-29.23, bearingDegrees=180.01]] 
+ 1.0 
+ 4100 
+ 
+[DetectedObject[distanceMetres=14.86, relativeSpeedKmh=-29.23, bearingDegrees=180.01]] 
+ 1.0 
+ 4100 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4150 count=1 objects=[VEHICLE@180.02] conf=0.95 status=OK
+CameraSensor [2] t=4150 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=4150 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4200 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=4200 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=4200 count=1 objects=[VEHICLE@180.22] conf=0.95 status=OK
+[DetectedObject[distanceMetres=15.63, relativeSpeedKmh=-26.35, bearingDegrees=179.99]] 
+ 1.0 
+ 4200 
+ 
+[DetectedObject[distanceMetres=15.63, relativeSpeedKmh=-26.36, bearingDegrees=179.99]] 
+ 1.0 
+ 4200 
+ 
+[DetectedObject[distanceMetres=15.62, relativeSpeedKmh=-26.35, bearingDegrees=180.01]] 
+ 1.0 
+ 4200 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=4030ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=4250 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=4250 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=4250 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+Driver t=4250 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4300 count=1 objects=[VEHICLE@179.98] conf=0.95 status=OK
+CameraSensor [2] t=4300 count=1 objects=[VEHICLE@180.08] conf=0.95 status=OK
+CameraSensor [3] t=4300 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=16.31, relativeSpeedKmh=-23.48, bearingDegrees=180.0]] 
+ 1.0 
+ 4300 
+ 
+[DetectedObject[distanceMetres=16.31, relativeSpeedKmh=-23.47, bearingDegrees=179.99]] 
+ 1.0 
+ 4300 
+ 
+[DetectedObject[distanceMetres=16.31, relativeSpeedKmh=-23.48, bearingDegrees=180.01]] 
+ 1.0 
+ 4300 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4350 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=4350 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=4350 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4400 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=4400 count=1 objects=[VEHICLE@180.08] conf=0.95 status=OK
+CameraSensor [3] t=4400 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=16.92, relativeSpeedKmh=-20.59, bearingDegrees=180.01]] 
+ 1.0 
+ 4400 
+ 
+[DetectedObject[distanceMetres=16.92, relativeSpeedKmh=-20.59, bearingDegrees=180.01]] 
+ 1.0 
+ 4400 
+ 
+[DetectedObject[distanceMetres=16.92, relativeSpeedKmh=-20.59, bearingDegrees=180.0]] 
+ 1.0 
+ 4400 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4450 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=4450 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=4450 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [3] t=4500 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+CameraSensor [1] t=4500 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=4500 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+[DetectedObject[distanceMetres=17.45, relativeSpeedKmh=-17.71, bearingDegrees=179.99]] 
+ 1.0 
+ 4500 
+ 
+[DetectedObject[distanceMetres=17.45, relativeSpeedKmh=-17.72, bearingDegrees=180.0]] 
+ 1.0 
+ 4500 
+ 
+[DetectedObject[distanceMetres=17.45, relativeSpeedKmh=-17.71, bearingDegrees=180.01]] 
+ 1.0 
+ 4500 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+Driver t=4500 action=BRAKE state=ACTIVE
+CameraSensor [1] t=4550 count=1 objects=[VEHICLE@179.98] conf=0.95 status=OK
+CameraSensor [2] t=4550 count=1 objects=[VEHICLE@180.08] conf=0.95 status=OK
+CameraSensor [3] t=4550 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4600 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=4600 count=1 objects=[VEHICLE@180.08] conf=0.95 status=OK
+CameraSensor [3] t=4600 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=17.9, relativeSpeedKmh=-14.83, bearingDegrees=180.01]] 
+ 1.0 
+ 4600 
+ 
+[DetectedObject[distanceMetres=17.9, relativeSpeedKmh=-14.83, bearingDegrees=179.99]] 
+ 1.0 
+ 4600 
+ 
+[DetectedObject[distanceMetres=17.9, relativeSpeedKmh=-14.83, bearingDegrees=179.99]] 
+ 1.0 
+ 4600 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4650 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=4650 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=4650 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4700 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=4700 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=4700 count=1 objects=[VEHICLE@180.18] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.26, relativeSpeedKmh=-11.95, bearingDegrees=180.01]] 
+ 1.0 
+ 4700 
+ 
+[DetectedObject[distanceMetres=18.26, relativeSpeedKmh=-11.95, bearingDegrees=180.0]] 
+ 1.0 
+ 4700 
+ 
+[DetectedObject[distanceMetres=18.27, relativeSpeedKmh=-11.95, bearingDegrees=180.01]] 
+ 1.0 
+ 4700 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=4531ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=4750 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=4750 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=4750 count=1 objects=[VEHICLE@180.22] conf=0.95 status=OK
+Driver t=4750 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4800 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=4800 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=4800 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.55, relativeSpeedKmh=-9.08, bearingDegrees=180.0]] 
+ 1.0 
+ 4800 
+ 
+[DetectedObject[distanceMetres=18.55, relativeSpeedKmh=-9.07, bearingDegrees=179.99]] 
+ 1.0 
+ 4800 
+ 
+[DetectedObject[distanceMetres=18.55, relativeSpeedKmh=-9.07, bearingDegrees=180.01]] 
+ 1.0 
+ 4800 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4850 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=4850 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=4850 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4900 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=4900 count=1 objects=[VEHICLE@180.08] conf=0.95 status=OK
+CameraSensor [3] t=4900 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.76, relativeSpeedKmh=-6.19, bearingDegrees=180.01]] 
+ 1.0 
+ 4900 
+ 
+[DetectedObject[distanceMetres=18.76, relativeSpeedKmh=-6.19, bearingDegrees=180.0]] 
+ 1.0 
+ 4900 
+ 
+[DetectedObject[distanceMetres=18.76, relativeSpeedKmh=-6.19, bearingDegrees=180.01]] 
+ 1.0 
+ 4900 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4950 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=4950 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=4950 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5000 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=5000 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=5000 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.89, relativeSpeedKmh=-3.32, bearingDegrees=180.01]] 
+ 1.0 
+ 5000 
+ 
+[DetectedObject[distanceMetres=18.89, relativeSpeedKmh=-3.31, bearingDegrees=180.01]] 
+ 1.0 
+ 5000 
+ 
+[DetectedObject[distanceMetres=18.89, relativeSpeedKmh=-3.31, bearingDegrees=180.01]] 
+ 1.0 
+ 5000 
+ 
+Driver t=5000 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [2] t=5050 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=5050 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+CameraSensor [1] t=5050 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5100 count=1 objects=[VEHICLE@180.02] conf=0.95 status=OK
+CameraSensor [2] t=5100 count=1 objects=[VEHICLE@180.08] conf=0.95 status=OK
+CameraSensor [3] t=5100 count=1 objects=[VEHICLE@180.22] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.43, bearingDegrees=180.01]] 
+ 1.0 
+ 5100 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.43, bearingDegrees=180.0]] 
+ 1.0 
+ 5100 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.43, bearingDegrees=180.01]] 
+ 1.0 
+ 5100 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5150 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=5150 count=1 objects=[VEHICLE@180.12] conf=0.95 status=OK
+CameraSensor [3] t=5150 count=1 objects=[VEHICLE@180.18] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5200 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=5200 count=1 objects=[VEHICLE@180.08] conf=0.95 status=OK
+CameraSensor [3] t=5200 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 5200 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 5200 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 5200 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=5031ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=5250 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=5250 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=5250 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+Driver t=5250 action=BRAKE state=ACTIVE
+CameraSensor [1] t=5300 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=5300 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=5300 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 5300 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 5300 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 5300 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5350 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=5350 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=5350 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5400 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=5400 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=5400 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 5400 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 5400 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 5400 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5450 count=1 objects=[VEHICLE@180.02] conf=0.95 status=OK
+CameraSensor [2] t=5450 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=5450 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5500 count=1 objects=[VEHICLE@180.02] conf=0.95 status=OK
+CameraSensor [2] t=5500 count=1 objects=[VEHICLE@180.12] conf=0.95 status=OK
+CameraSensor [3] t=5500 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 5500 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 5500 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 5500 
+ 
+Driver t=5500 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5550 count=1 objects=[VEHICLE@180.02] conf=0.95 status=OK
+CameraSensor [2] t=5550 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=5550 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5600 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=5600 count=1 objects=[VEHICLE@180.08] conf=0.95 status=OK
+CameraSensor [3] t=5600 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 5600 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 5600 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 5600 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5650 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=5650 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=5650 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5700 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=5700 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=5700 count=1 objects=[VEHICLE@180.18] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 5700 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 5700 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 5700 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=5532ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=5750 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=5750 count=1 objects=[VEHICLE@180.12] conf=0.95 status=OK
+CameraSensor [3] t=5750 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+Driver t=5750 action=BRAKE state=ACTIVE
+CameraSensor [1] t=5800 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=5800 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=5800 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 5800 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 5800 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 5800 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5850 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=5850 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=5850 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5900 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=5900 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=5900 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 5900 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 5900 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 5900 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5950 count=1 objects=[VEHICLE@179.98] conf=0.95 status=OK
+CameraSensor [2] t=5950 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=5950 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6000 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=6000 count=1 objects=[VEHICLE@180.12] conf=0.95 status=OK
+CameraSensor [3] t=6000 count=1 objects=[VEHICLE@180.22] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 6000 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 6000 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 6000 
+ 
+Driver t=6000 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6050 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=6050 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=6050 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6100 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=6100 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=6100 count=1 objects=[VEHICLE@180.22] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 6100 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 6100 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 6100 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6150 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=6150 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=6150 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6200 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=6200 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=6200 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 6200 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 6200 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 6200 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6250 count=1 objects=[VEHICLE@180.02] conf=0.95 status=OK
+
+[t=6032ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [2] t=6250 count=1 objects=[VEHICLE@180.12] conf=0.95 status=OK
+CameraSensor [3] t=6250 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+Driver t=6250 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6300 count=1 objects=[VEHICLE@180.02] conf=0.95 status=OK
+CameraSensor [2] t=6300 count=1 objects=[VEHICLE@180.12] conf=0.95 status=OK
+CameraSensor [3] t=6300 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 6300 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 6300 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 6300 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6350 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=6350 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=6350 count=1 objects=[VEHICLE@180.18] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6400 count=1 objects=[VEHICLE@180.02] conf=0.95 status=OK
+CameraSensor [2] t=6400 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=6400 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 6400 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 6400 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 6400 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6450 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=6450 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=6450 count=1 objects=[VEHICLE@180.18] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6500 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=6500 count=1 objects=[VEHICLE@180.08] conf=0.95 status=OK
+CameraSensor [3] t=6500 count=1 objects=[VEHICLE@180.18] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 6500 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 6500 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 6500 
+ 
+Driver t=6500 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6550 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=6550 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=6550 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6600 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=6600 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=6600 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 6600 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 6600 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 6600 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6650 count=1 objects=[VEHICLE@180.02] conf=0.95 status=OK
+CameraSensor [2] t=6650 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=6650 count=1 objects=[VEHICLE@180.18] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 6700 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 6700 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 6700 
+ 
+CameraSensor [3] t=6700 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+CameraSensor [1] t=6700 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=6700 count=1 objects=[VEHICLE@180.08] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6750 count=1 objects=[VEHICLE@180.02] conf=0.95 status=OK
+
+[t=6532ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [2] t=6750 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=6750 count=1 objects=[VEHICLE@180.18] conf=0.95 status=OK
+Driver t=6750 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6800 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=6800 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=6800 count=1 objects=[VEHICLE@180.22] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 6800 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 6800 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 6800 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6850 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=6850 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=6850 count=1 objects=[VEHICLE@180.22] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6900 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=6900 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 6900 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 6900 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 6900 
+ 
+CameraSensor [3] t=6900 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6950 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=6950 count=1 objects=[VEHICLE@180.08] conf=0.95 status=OK
+CameraSensor [3] t=6950 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7000 count=1 objects=[VEHICLE@179.98] conf=0.95 status=OK
+CameraSensor [2] t=7000 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=7000 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 7000 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 7000 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 7000 
+ 
+Driver t=7000 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7050 count=1 objects=[VEHICLE@179.98] conf=0.95 status=OK
+CameraSensor [2] t=7050 count=1 objects=[VEHICLE@180.08] conf=0.95 status=OK
+CameraSensor [3] t=7050 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [2] t=7100 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=7100 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 7100 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 7100 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 7100 
+ 
+CameraSensor [1] t=7100 count=1 objects=[VEHICLE@179.98] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7150 count=1 objects=[VEHICLE@179.98] conf=0.95 status=OK
+CameraSensor [2] t=7150 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=7150 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7200 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=7200 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=7200 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 7200 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 7200 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 7200 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7250 count=1 objects=[VEHICLE@180.02] conf=0.95 status=OK
+
+[t=7032ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [2] t=7250 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=7250 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+Driver t=7250 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7300 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=7300 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=7300 count=1 objects=[VEHICLE@180.22] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 7300 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 7300 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 7300 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7350 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=7350 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=7350 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7400 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=7400 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=7400 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 7400 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 7400 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 7400 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7450 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=7450 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=7450 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7500 count=1 objects=[VEHICLE@180.02] conf=0.95 status=OK
+CameraSensor [2] t=7500 count=1 objects=[VEHICLE@180.09] conf=0.95 status=OK
+CameraSensor [3] t=7500 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 7500 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 7500 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 7500 
+ 
+Driver t=7500 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7550 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=7550 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=7550 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7600 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=7600 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=7600 count=1 objects=[VEHICLE@180.2] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 7600 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 7600 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 7600 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7650 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=7650 count=1 objects=[VEHICLE@180.12] conf=0.95 status=OK
+CameraSensor [3] t=7650 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7700 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [3] t=7700 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+CameraSensor [2] t=7700 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 7700 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 7700 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 7700 
+ 
+CameraSensor [1] t=7750 count=1 objects=[VEHICLE@179.98] conf=0.95 status=OK
+
+[t=7533ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [2] t=7750 count=1 objects=[VEHICLE@180.12] conf=0.95 status=OK
+CameraSensor [3] t=7750 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+Driver t=7750 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7800 count=1 objects=[VEHICLE@179.99] conf=0.95 status=OK
+CameraSensor [2] t=7800 count=1 objects=[VEHICLE@180.12] conf=0.95 status=OK
+CameraSensor [3] t=7800 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 7800 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 7800 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 7800 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7850 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [3] t=7850 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+CameraSensor [2] t=7850 count=1 objects=[VEHICLE@180.12] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7900 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=7900 count=1 objects=[VEHICLE@180.11] conf=0.95 status=OK
+CameraSensor [3] t=7900 count=1 objects=[VEHICLE@180.21] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 7900 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.0]] 
+ 1.0 
+ 7900 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 7900 
+ 
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7950 count=1 objects=[VEHICLE@180.01] conf=0.95 status=OK
+CameraSensor [2] t=7950 count=1 objects=[VEHICLE@180.12] conf=0.95 status=OK
+CameraSensor [3] t=7950 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=8000 count=1 objects=[VEHICLE@180.0] conf=0.95 status=OK
+CameraSensor [2] t=8000 count=1 objects=[VEHICLE@180.1] conf=0.95 status=OK
+CameraSensor [3] t=8000 count=1 objects=[VEHICLE@180.19] conf=0.95 status=OK
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 8000 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=-0.0, bearingDegrees=180.01]] 
+ 1.0 
+ 8000 
+ 
+[DetectedObject[distanceMetres=18.94, relativeSpeedKmh=0.0, bearingDegrees=179.99]] 
+ 1.0 
+ 8000 
+ 
+Driver t=8000 action=BRAKE state=ACTIVE
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+8010
+8010
+8010
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=8034ms] Last decision: DRIVER_OVERRIDE
+
+--- Stopping controller ---
+BrakingController stopped.
+--- Stopping sensors ---
+
+=== Main1 complete ===

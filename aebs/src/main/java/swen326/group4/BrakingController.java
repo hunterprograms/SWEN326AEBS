@@ -1305,7 +1305,6 @@ public class BrakingController {
 
         /* TTC = distance / closing speed */
         final float ttc = distanceM / closingSpeedMs;
-
         assert ttc >= 0.0f : "TTC must not be negative";
         return ttc;
     }
