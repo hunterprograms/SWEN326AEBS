@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "scenarioId": "SC-001",
+    "description": "Attentive driver - brakes for detected obstacle"
+  },
+  "ticks": [
+    { "timestampMs": 0,    "action": "NONE" },
+    { "timestampMs": 250,  "action": "NONE" },
+    { "timestampMs": 500,  "action": "NONE" },
+    { "timestampMs": 750,  "action": "NONE" },
+    { "timestampMs": 1000, "action": "BRAKE" },
+    { "timestampMs": 1250, "action": "BRAKE" },
+    { "timestampMs": 1500, "action": "BRAKE" },
+    { "timestampMs": 1750, "action": "NONE" },
+    { "timestampMs": 2000, "action": "NONE" },
+    { "timestampMs": 2250, "action": "NONE" },
+    { "timestampMs": 2500, "action": "NONE" },
+    { "timestampMs": 2750, "action": "NONE" },
+    { "timestampMs": 3000, "action": "NONE" }
+  ]
+}
