@@ -242,23 +242,22 @@ public class BrakingController {
 
                 final RadarLidarReading reading = sensors[i].getLatestReading();
 
-                /* A null reading (no data yet) is treated like FAILED. */
-                if (reading == null || reading.detectedObjects().isEmpty()) {
-                    continue;
+                if (reading == null) {
+                    continue;  // genuinely no data yet — skip
                 }
 
-                /* Extract the nearest detected object from this sensor. */
-                final DetectedObject nearest = getNearestObject(reading);
-                if (nearest == null) {
-                    continue;
-                }
-
-                distances[i] = nearest.distanceMetres();
-                speeds[i]    = nearest.relativeSpeedKmh();
-                bearings[i]  = nearest.bearingDegrees();
-                confs[i]     = reading.confidenceScore();
-                eligible[i]  = true;
+                // Sensor is healthy; mark it eligible regardless of detections
+                confs[i]    = reading.confidenceScore();
+                eligible[i] = true;
                 eligibleCount++;
+
+                // Only overwrite distance/speed/bearing if something was actually detected
+                final DetectedObject nearest = getNearestObject(reading);
+                if (nearest != null) {
+                    distances[i] = nearest.distanceMetres();   // else stays Float.MAX_VALUE = "clear"
+                    speeds[i]    = nearest.relativeSpeedKmh();
+                    bearings[i]  = nearest.bearingDegrees();
+                }
             }
 
             /* Step 2: insufficient coverage — cannot trust. */
@@ -306,9 +305,9 @@ public class BrakingController {
                 fusedRelativeSpeedKmh = sumSpeed   / agreeCount;
                 fusedBearingDeg       = sumBearing / agreeCount;
                 fusedConfidence       = sumConf    / agreeCount;
-                System.out.println(label + "Voter: TRUSTED — dist=" + fusedDistanceM
+                System.out.println(label + "Voter: TRUSTED — "+ (Float.isInfinite(sumDist) ? "No objects in view" : ("dist=" + fusedDistanceM
                         + "m speed=" + fusedRelativeSpeedKmh
-                        + "km/h conf=" + fusedConfidence);
+                        + "km/h conf=" + fusedConfidence)));
             } else {
                 /* Step 5: sensors disagree — do not trust this reading. */
                 trusted = false;
