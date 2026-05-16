@@ -1,10 +1,10 @@
 package swen326.group4;
 
 import swen326.group4.Sensors.Camera.Camera;
+import swen326.group4.Sensors.Driver.Driver;
 import swen326.group4.Sensors.Radar_Lidar.Lidar;
 import swen326.group4.Sensors.Radar_Lidar.Radar;
 import swen326.group4.Sensors.Wheel_Sensor.WheelSensor;
-import swen326.group4.Sensors.Driver.Driver;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
