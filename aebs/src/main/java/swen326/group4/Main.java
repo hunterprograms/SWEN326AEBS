@@ -3,7 +3,7 @@ package swen326.group4;
 import swen326.group4.Sensors.Camera.Camera;
 import swen326.group4.Sensors.Radar_Lidar.Lidar;
 import swen326.group4.Sensors.Radar_Lidar.Radar;
-
+import swen326.group4.Sensors.Wheel_Sensor.WheelSensor;
 import swen326.group4.Sensors.Driver.Driver;
 
 public class Main {
@@ -21,5 +21,7 @@ public class Main {
         new Radar("3", "aebs/src/test/java/Simulator/Scenarios").start();
 
         new Driver("aebs/src/test/java/Simulator/Scenarios").start();
+
+        new WheelSensor("2", "aebs/src/test/java/Simulator/Scenarios").start();
     }
 }
