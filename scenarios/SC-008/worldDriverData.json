@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "scenarioId": "SC-008",
+    "description": "Radar jammed — RF interference",
+    "driverBrakes": true,
+    "driverReactionTimeSec": 2.00
+  },
+  "ticks": [
+    { "timestampMs": 0, "action": "NONE" },
+    { "timestampMs": 250, "action": "NONE" },
+    { "timestampMs": 500, "action": "NONE" },
+    { "timestampMs": 750, "action": "NONE" },
+    { "timestampMs": 1000, "action": "NONE" },
+    { "timestampMs": 1250, "action": "NONE" },
+    { "timestampMs": 1500, "action": "NONE" },
+    { "timestampMs": 1750, "action": "NONE" },
+    { "timestampMs": 2000, "action": "BRAKE" },
+    { "timestampMs": 2250, "action": "BRAKE" },
+    { "timestampMs": 2500, "action": "BRAKE" },
+    { "timestampMs": 2750, "action": "BRAKE" },
+    { "timestampMs": 3000, "action": "BRAKE" },
+    { "timestampMs": 3250, "action": "BRAKE" },
+    { "timestampMs": 3500, "action": "BRAKE" },
+    { "timestampMs": 3750, "action": "BRAKE" },
+    { "timestampMs": 4000, "action": "BRAKE" },
+    { "timestampMs": 4250, "action": "BRAKE" },
+    { "timestampMs": 4500, "action": "BRAKE" },
+    { "timestampMs": 4750, "action": "BRAKE" },
+    { "timestampMs": 5000, "action": "BRAKE" },
+    { "timestampMs": 5250, "action": "BRAKE" },
+    { "timestampMs": 5500, "action": "BRAKE" },
+    { "timestampMs": 5750, "action": "BRAKE" },
+    { "timestampMs": 6000, "action": "BRAKE" },
+    { "timestampMs": 6250, "action": "BRAKE" },
+    { "timestampMs": 6500, "action": "BRAKE" },
+    { "timestampMs": 6750, "action": "BRAKE" },
+    { "timestampMs": 7000, "action": "BRAKE" },
+    { "timestampMs": 7250, "action": "BRAKE" },
+    { "timestampMs": 7500, "action": "BRAKE" },
+    { "timestampMs": 7750, "action": "BRAKE" },
+    { "timestampMs": 8000, "action": "BRAKE" }
+  ]
+}

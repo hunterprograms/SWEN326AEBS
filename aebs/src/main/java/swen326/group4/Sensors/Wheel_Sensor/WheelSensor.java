@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -11,6 +12,8 @@ import java.util.stream.Collectors;
  
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import swen326.group4.BrakeActuator;
  
 /**
  * WheelSensor
@@ -23,12 +26,12 @@ import org.json.JSONObject;
  * on each interval. Calling stop() cancels the timer and closes the reader.
  *
  * Implements:
- *   FR2209  : Signal continuity monitoring — flags wheels silent for 2+
- *             consecutive intervals as unavailable
- *   FR2210  : Post-dropout plausibility check — holds restored wheels in a
- *             stabilisation period before re-integrating
- *   FR4203  : Frozen value detection via rate-of-change monitoring
- *   NFR2203 : Persistent dropout log (timestamp, duration, deviation)
+ * FR2209  : Signal continuity monitoring — flags wheels silent for 2+
+ * consecutive intervals as unavailable
+ * FR2210  : Post-dropout plausibility check — holds restored wheels in a
+ * stabilisation period before re-integrating
+ * FR4203  : Frozen value detection via rate-of-change monitoring
+ * NFR2203 : Persistent dropout log (timestamp, duration, deviation)
  *
  * Data format: one JSON frame object per line inside a "frames" array.
  * Wheel index order: 0=front_left, 1=front_right, 2=rear_left, 3=rear_right
@@ -130,6 +133,12 @@ public class WheelSensor {
  
     /** Current simulated timestamp, incremented each readRPM() call. */
     private int currentTimestampMs = 0;
+
+    /* --- Closed-Loop Physics Integration --- */
+    
+    private BrakeActuator brakeActuator = null;
+    private final float[] simulatedRpm = new float[WHEEL_COUNT];
+    private boolean activelySimulating = false;
  
     /* ------------------------------------------------------------------ */
     /* Constructor                                                          */
@@ -142,6 +151,14 @@ public class WheelSensor {
     public WheelSensor(final String sensorId, final String dataFile) {
         this.sensorId = Integer.parseInt(sensorId);
         this.dataFile = dataFile + "/worldWheelSpeedId"+sensorId+".json";
+    }
+
+    /**
+     * Links the central BrakeActuator to this sensor instance to allow 
+     * physical deceleration calculations to actively modify RPM readings.
+     */
+    public void linkBrakeActuator(BrakeActuator actuator) {
+        this.brakeActuator = actuator;
     }
  
     /* ------------------------------------------------------------------ */
@@ -200,11 +217,40 @@ public class WheelSensor {
             return;
         }
  
-        final float[] raw = readNextFrame();
+        float[] raw = readNextFrame(); // Made non-final to allow physics interception
         if (raw == null) {
             exhausted = true;
             return;
         }
+
+        // =====================================================================
+        // CLOSED-LOOP PHYSICS INTERCEPT 
+        // Intercept historical JSON values and overwrite them with active 
+        // deceleration physics if the AEBS system is applying the brakes.
+        // =====================================================================
+        if (brakeActuator != null && brakeActuator.getCurrentIntensity() > 0.0f) {
+            // First tick of braking: capture current raw values to start diverging
+            if (!activelySimulating) {
+                System.arraycopy(raw, 0, simulatedRpm, 0, WHEEL_COUNT);
+                activelySimulating = true;
+            }
+            
+            // Apply physical RPM decay for the 10ms delta
+            double dt = UPDATE_INTERVAL_MS / 1000.0;
+            for (int i = 0; i < WHEEL_COUNT; i++) {
+                simulatedRpm[i] = (float) brakeActuator.calculateDeceleratedRpm(simulatedRpm[i], dt);
+                raw[i] = simulatedRpm[i]; // Overwrite historical JSON data
+            }
+        } else if (activelySimulating) {
+            // Brakes released, but we've already diverged from the JSON's timeline.
+            // Prevent the wheel RPM from rubber-banding back up to pre-recorded JSON values.
+            for (int i = 0; i < WHEEL_COUNT; i++) {
+                simulatedRpm[i] = Math.min(simulatedRpm[i], raw[i]);
+                raw[i] = simulatedRpm[i];
+            }
+        }
+        // =====================================================================
+
         final float[] validated = new float[WHEEL_COUNT];
         boolean anyWheelUsable = false;
  
