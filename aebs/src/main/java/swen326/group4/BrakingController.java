@@ -237,7 +237,6 @@ public class BrakingController {
             for (int i = 0; i < SENSOR_COUNT; i++) {
                 /* FAILED sensors are excluded per FR2104. */
                 if (sensors[i].getStatus() == SensorStatus.FAILED) {
-                    System.out.println("Help");
                     continue;
                 }
 

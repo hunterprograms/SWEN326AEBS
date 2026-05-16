@@ -11,19 +11,25 @@ import swen326.group4.Sensors.Radar_Lidar.Radar;
 import swen326.group4.Sensors.Wheel_Sensor.WheelSensor;
 
 /**
- * Main1 — Live Scenario Run (File Output Version).
+ * AEBS — Live Scenario Run (File Output Version).
  * * Starts all sensors from real scenario JSON files, executes the controller,
  * and writes the entire log output to a scenario_output.txt file.
  */
-public class Main1 {
-
-    private static final String DATA_DIRECTORY = "/Users/marstetom/2026 Work/SWEN326/SWEN326AEBS/scenarios/SC-002";
-    private static final int RUN_DURATION_MS = 8_000;
+public class AEBS {
     /* Define the target output text file */
     private static final String OUTPUT_FILE_PATH = "scenario_output.txt";
+    private static final String INPUT_ROOT = "scenarios/";
 
-    public static void main(final String[] args) throws InterruptedException {
+    public static void start(String scenarioId, final int RUN_DURATION_MS) throws InterruptedException {
+        File scFolder = new File(System.getProperty("user.dir"), INPUT_ROOT + scenarioId);
 
+        if (scFolder.exists()) {
+            System.out.println("Target data directory safely resolved to: " + scFolder.getAbsolutePath());
+        } else {
+            System.err.println("Could not locate directory at: " + scFolder.getAbsolutePath());
+            return;
+        }
+        String dir = scFolder.getAbsolutePath();
         // ---------------------------------------------------------------------
         // Redirect System.out to a text file
         // ---------------------------------------------------------------------
@@ -43,29 +49,29 @@ public class Main1 {
 
         /* All subsequent System.out.println calls will go into the .txt file */
         System.out.println("=== AEBS Main1: Live Scenario Run ===");
-        System.out.println("Data directory : " + DATA_DIRECTORY);
+        System.out.println("Data directory : " + dir);
         System.out.println("Output File    : " + OUTPUT_FILE_PATH);
         System.out.println("Run duration   : " + RUN_DURATION_MS + "ms");
         System.out.println("======================================");
 
         // 1. Construct all sensor instances
-        final Camera cam1 = new Camera("1", DATA_DIRECTORY);
-        final Camera cam2 = new Camera("2", DATA_DIRECTORY);
-        final Camera cam3 = new Camera("3", DATA_DIRECTORY);
+        final Camera cam1 = new Camera("1", dir);
+        final Camera cam2 = new Camera("2", dir);
+        final Camera cam3 = new Camera("3", dir);
 
-        final Radar radar1 = new Radar("1", DATA_DIRECTORY);
-        final Radar radar2 = new Radar("2", DATA_DIRECTORY);
-        final Radar radar3 = new Radar("3", DATA_DIRECTORY);
+        final Radar radar1 = new Radar("1", dir);
+        final Radar radar2 = new Radar("2", dir);
+        final Radar radar3 = new Radar("3", dir);
 
-        final Lidar lidar1 = new Lidar("1", DATA_DIRECTORY);
-        final Lidar lidar2 = new Lidar("2", DATA_DIRECTORY);
-        final Lidar lidar3 = new Lidar("3", DATA_DIRECTORY);
+        final Lidar lidar1 = new Lidar("1", dir);
+        final Lidar lidar2 = new Lidar("2", dir);
+        final Lidar lidar3 = new Lidar("3", dir);
 
-        final WheelSensor ws1 = new WheelSensor("1", DATA_DIRECTORY);
-        final WheelSensor ws2 = new WheelSensor("2", DATA_DIRECTORY);
-        final WheelSensor ws3 = new WheelSensor("3", DATA_DIRECTORY);
+        final WheelSensor ws1 = new WheelSensor("1", dir);
+        final WheelSensor ws2 = new WheelSensor("2", dir);
+        final WheelSensor ws3 = new WheelSensor("3", dir);
 
-        final Driver driver = new Driver(DATA_DIRECTORY);
+        final Driver driver = new Driver(dir);
 
         // 2. Construct stub escalation channels
         final BrakingController.EscalationChannel channelA = new BrakingController.EscalationChannel() {

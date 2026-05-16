@@ -136,14 +136,14 @@ public class Lidar implements RadarLidarSensor {
                 timestamp
             );
 
-            System.out.println(
+            /* System.out.println(
                 latestReading.detectedObjects()
                 + " \n " +
                 latestReading.confidenceScore()
                 + " \n " +
                 latestReading.timestampMs()
                 + " \n "
-            );
+            ); */
         } catch (Exception e) {
             System.err.println("LidarSensor [" + sensorId + "]: malformed tick — "
                 + e.getMessage());

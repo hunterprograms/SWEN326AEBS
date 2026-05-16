@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -339,13 +338,13 @@ public class WheelSensor {
             latestReading = new WheelSensorData(currentTimestampMs, validated, sensorId);
             log.add(latestReading);
         }
-        System.out.printf("Sensor %d | Time: %4dms | FL: %6.1f | FR: %6.1f | RL: %6.1f | RR: %6.1f%n",
+        /*System.out.printf("Sensor %d | Time: %4dms | FL: %6.1f | FR: %6.1f | RL: %6.1f | RR: %6.1f%n",
         sensorId, 
         currentTimestampMs, 
         validated[0], 
         validated[1], 
         validated[2], 
-        validated[3]);
+        validated[3]);*/
         currentTimestampMs += UPDATE_INTERVAL_MS;
     }
  
