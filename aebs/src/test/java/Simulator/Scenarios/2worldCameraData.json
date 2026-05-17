@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "scenarioId": "SC-001",
+    "description": "Highway driving",
+    "weatherFactor": 0.9
+  },
+  "ticks": [
+    {
+      "timestampMs": 0,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 1.5 }
+      ]
+    },
+    {
+      "timestampMs": 50,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 1.5 }
+      ]
+    },
+    {
+      "timestampMs": 100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 1.5 },
+        { "objectType": "PEDESTRIAN", "bearingDegrees": 5.0 },
+        { "objectType": "CYCLIST", "bearingDegrees": -3.2 }
+      ]
+    },
+    {
+      "timestampMs": 150,
+      "detectedObjects": [
+        { "objectType": "PEDESTRIAN", "bearingDegrees": 5.0 }
+      ]
+    },
+    {
+      "timestampMs": 200,
+      "detectedObjects": [
+        { "objectType": "PEDESTRIAN", "bearingDegrees": 5.5 }
+      ]
+    },
+    {
+      "timestampMs": 250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 1.5 }
+      ]
+    },
+    {
+      "timestampMs": 300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 1.5 }
+      ]
+    },
+    {
+      "timestampMs": 350,
+      "detectedObjects": [
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.0 }
+      ]
+    },
+    {
+      "timestampMs": 400,
+      "detectedObjects": [
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.0 }
+      ]
+    },
+    {
+      "timestampMs": 450,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 500,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 550,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": -3.2 }
+      ]
+    },
+    {
+      "timestampMs": 600,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": -3.2 }
+      ]
+    },
+    {
+      "timestampMs": 650,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 700,
+      "detectedObjects": []
+    }
+  ]
+}
