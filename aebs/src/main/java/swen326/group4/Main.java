@@ -28,9 +28,19 @@ public class Main {
             /* * NORMAL STATE:
              * Braking: false
              * Alarm:   false
-             * Distance: 80.0 meters (Safe)
+             * Error:   0.0
+             * 
+             * WARNING STATE:
+             * Braking: false
+             * Alarm: true
+             * Error: 1.2
+             * 
+             * BRAKING STATE:
+             * Braking: true
+             * Alarm: true
+             * Error: 0.0
              */
-            controller.updateInterventionMetrics(false, false, 0.0);
+            controller.updateInterventionMetrics(true, true, 0.0);
             
             System.out.println("AEBS initialized: System is in NORMAL monitoring mode.");
         });

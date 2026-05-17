@@ -5,61 +5,83 @@ import swen326.group4.Display.DIDModel;
 import javax.sound.sampled.*;
 import java.io.File;
 
+/**
+ * Handles the auditory alerts for the AEBS.
+ * Implementation focuses on thread-safety and cross-platform compatibility.
+ */
 public class AuditoryController implements AEBSListener {
     private final File audioFile = new File("resources/warning.wav");
-    private volatile boolean isPlaying = false; // volatile ensures thread visibility
+    private volatile boolean isPlaying = false;
+    private Thread audioThread;
 
     @Override
     public void stateChanged(DIDModel model) {
-        if (model.isAlarmActive()) {
-            if (!isPlaying) {
-                isPlaying = true;
-                // Start a new thread to handle the pulsing loop
-                Thread audioThread = new Thread(this::runAudioLoop);
-                audioThread.setDaemon(true);
-                audioThread.start();
-            }
-        } else {
-            isPlaying = false; // Stops the loop in runAudioLoop
+        // Only start if the alarm is active and not already running
+        if (model.isAlarmActive() && !isPlaying) {
+            startAlarm();
+        } 
+        // Stop if the alarm is no longer active
+        else if (!model.isAlarmActive() && isPlaying) {
+            stopAlarm();
+        }
+    }
+
+    private synchronized void startAlarm() {
+        if (isPlaying) return;
+        isPlaying = true;
+        audioThread = new Thread(this::runAudioLoop, "AEBS-Audio-Thread");
+        audioThread.setDaemon(true); // Ensures the thread dies when the GUI closes
+        audioThread.start();
+    }
+
+    private synchronized void stopAlarm() {
+        isPlaying = false;
+        if (audioThread != null) {
+            audioThread.interrupt();
+            audioThread = null;
         }
     }
 
     private void runAudioLoop() {
-        try {
-            while (isPlaying) {
-                playSingleChirp();
-                // This is the key: The gap between beeps. 
-                // Adjust 100 to change the "speed" of the alarm.
-                Thread.sleep(100); 
+        while (isPlaying && !Thread.currentThread().isInterrupted()) {
+            playSingleChirp();
+            try {
+                // The rhythmic gap between chirps (150ms)
+                Thread.sleep(150);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt(); // Restore interrupted status
+                break; 
             }
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
         }
     }
 
     private void playSingleChirp() {
-        try (AudioInputStream stream = AudioSystem.getAudioInputStream(audioFile)) {
-            AudioFormat baseFormat = stream.getFormat();
-            
-            // Standardize format to avoid "No line matching" errors
-            AudioFormat targetFormat = new AudioFormat(
-                AudioFormat.Encoding.PCM_SIGNED,
-                baseFormat.getSampleRate(), 16, baseFormat.getChannels(),
-                baseFormat.getChannels() * 2, baseFormat.getSampleRate(), false
-            );
+        if (!audioFile.exists()) {
+            System.err.println("Warning: Audio file missing at " + audioFile.getAbsolutePath());
+            return;
+        }
 
-            try (AudioInputStream convertedStream = AudioSystem.getAudioInputStream(targetFormat, stream)) {
-                Clip clip = AudioSystem.getClip();
-                clip.open(convertedStream);
-                
-                clip.start();
-                // Wait for exactly the length of your 142ms clip
-                Thread.sleep(clip.getMicrosecondLength() / 1000);
-                
-                clip.close();
+        try (AudioInputStream ais = AudioSystem.getAudioInputStream(audioFile)) {
+            AudioFormat format = ais.getFormat();
+            DataLine.Info info = new DataLine.Info(SourceDataLine.class, format);
+
+            // Using the default line for maximum OS compatibility
+            try (SourceDataLine line = (SourceDataLine) AudioSystem.getLine(info)) {
+                line.open(format);
+                line.start();
+
+                byte[] buffer = new byte[1024];
+                int bytesRead;
+                while ((bytesRead = ais.read(buffer)) != -1) {
+                    line.write(buffer, 0, bytesRead);
+                }
+
+                line.drain(); // Blocks until the hardware finishes playing
+                line.stop();
             }
         } catch (Exception e) {
-            // Fallback to system beep if hardware is busy
+            // WSL/Linux Fallback: Print the action and trigger a system beep
+            System.out.println(">>> [AUDITORY ALERT ACTIVE]"); 
             java.awt.Toolkit.getDefaultToolkit().beep();
         }
     }
