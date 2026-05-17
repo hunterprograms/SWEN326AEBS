@@ -132,6 +132,20 @@ public class Camera {
     // Public interface - mirrors Lidar
     // -------------------------------------------------------------------------
 
+    /**
+     * Externally injects a fault into this camera unit.
+     * Forces status to OBSTRUCTED, excluding from 2oo3 vote.
+     * Called by FaultInjector during scenario fault injection testing.
+     * Requirement: NF2201, NF2202
+     */
+    public void injectFault() {
+        assert status != SensorStatus.FAILED : "injectFault() called on already-failed camera";
+        assert status != null : "status must not be null";
+        this.status = SensorStatus.OBSTRUCTED;
+        this.latestReading = null;
+        assert status == SensorStatus.OBSTRUCTED : "status must be OBSTRUCTED after injectFault()";
+    }
+
     /** Opens the scenario file, reads metadata, and starts the 50ms clock. */
     public void start() {
         openAndReadMetadata();
