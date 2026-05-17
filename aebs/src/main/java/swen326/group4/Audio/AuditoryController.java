@@ -81,7 +81,7 @@ public class AuditoryController implements AEBSListener {
             }
         } catch (Exception e) {
             // WSL/Linux Fallback: Print the action and trigger a system beep
-            System.out.println(">>> [AUDITORY ALERT ACTIVE]"); 
+            //System.out.println(">>> [AUDITORY ALERT ACTIVE]"); 
             java.awt.Toolkit.getDefaultToolkit().beep();
         }
     }

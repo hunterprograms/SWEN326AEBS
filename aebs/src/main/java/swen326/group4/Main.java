@@ -40,7 +40,7 @@ public class Main {
              * Alarm: true
              * Error: 0.0
              */
-            controller.updateInterventionMetrics(true, true, 0.0);
+            controller.updateInterventionMetrics( false, false, 0.0);
             
             System.out.println("AEBS initialized: System is in NORMAL monitoring mode.");
         });
