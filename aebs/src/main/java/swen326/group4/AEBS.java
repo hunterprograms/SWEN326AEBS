@@ -4,6 +4,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 
+import javax.swing.SwingUtilities;
+
+import swen326.group4.Car.DIDInterface;
 import swen326.group4.Sensors.Camera.Camera;
 import swen326.group4.Sensors.Driver.Driver;
 import swen326.group4.Sensors.Radar_Lidar.Lidar;
@@ -72,8 +75,14 @@ public class AEBS {
         final WheelSensor ws3 = new WheelSensor("3", dir);
 
         final Driver driver = new Driver(dir);
+        
+        // 2. Construct dashboard interface
+            SwingUtilities.invokeLater(() -> {
+            DIDInterface systemInterface = new DIDInterface();
+            systemInterface.initialize();
+        });
 
-        // 2. Construct stub escalation channels
+        // 3. Construct stub escalation channels
         final BrakingController.EscalationChannel channelA = new BrakingController.EscalationChannel() {
             private boolean confirmed = false;
 
@@ -106,7 +115,7 @@ public class AEBS {
             public String channelName() { return "ChannelB-HapticDashboard"; }
         };
 
-        // 3. Construct the controller
+        // 4. Construct the controller
         final BrakingController controller = new BrakingController(
             cam1, cam2, cam3,
             radar1, radar2, radar3,
@@ -116,7 +125,7 @@ public class AEBS {
             channelA, channelB
         );
 
-        // 4. Start all sensors
+        // 5. Start all sensors
         System.out.println("\n--- Starting sensors ---");
         cam1.start(); cam2.start(); cam3.start();
         radar1.start(); radar2.start(); radar3.start();
@@ -126,11 +135,11 @@ public class AEBS {
 
         Thread.sleep(200);
 
-        // 5. Start the controller
+        // 6. Start the controller
         System.out.println("\n--- Starting controller ---");
         controller.start();
 
-        // 6. Run execution loop
+        // 7. Run execution loop
         final long startTime = System.currentTimeMillis();
         final long endTime = startTime + RUN_DURATION_MS;
 
@@ -140,7 +149,7 @@ public class AEBS {
             System.out.println("\n[t=" + elapsed + "ms] Last decision: " + controller.getLastDecision());
         }
 
-        // 7. Stop all components
+        // 8. Stop all components
         System.out.println("\n--- Stopping controller ---");
         controller.stop();
 
