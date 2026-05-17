@@ -30,6 +30,22 @@
     { "timestampMs": 5250, "action": "BRAKE" },
     { "timestampMs": 5500, "action": "BRAKE" },
     { "timestampMs": 5750, "action": "BRAKE" },
-    { "timestampMs": 6000, "action": "BRAKE" }
+    { "timestampMs": 6000, "action": "BRAKE" },
+    { "timestampMs": 6250, "action": "BRAKE" },
+    { "timestampMs": 6500, "action": "BRAKE" },
+    { "timestampMs": 6750, "action": "BRAKE" },
+    { "timestampMs": 7000, "action": "BRAKE" },
+    { "timestampMs": 7250, "action": "BRAKE" },
+    { "timestampMs": 7500, "action": "BRAKE" },
+    { "timestampMs": 7750, "action": "BRAKE" },
+    { "timestampMs": 8000, "action": "BRAKE" },
+    { "timestampMs": 8250, "action": "BRAKE" },
+    { "timestampMs": 8500, "action": "BRAKE" },
+    { "timestampMs": 8750, "action": "BRAKE" },
+    { "timestampMs": 9000, "action": "BRAKE" },
+    { "timestampMs": 9250, "action": "BRAKE" },
+    { "timestampMs": 9500, "action": "BRAKE" },
+    { "timestampMs": 9750, "action": "BRAKE" },
+    { "timestampMs": 10000, "action": "BRAKE" }
   ]
 }

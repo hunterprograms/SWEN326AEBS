@@ -52,7 +52,7 @@ public final class ScenarioLibrary {
      *   Driver brakes at 2.0s — less than 1 second to act.
      */
     public static ScenarioConfig highwayRearEnd() {
-        return new ScenarioConfig.Builder("SC-002", "Highway rear-end — stationary truck", 50.0)
+        return new ScenarioConfig.Builder("SC-002", "Highway rear-end — stationary truck", 10.0)
             .vehicleSpeedKmh(100.0)
             .weatherFactor(0.95f)
             .driverBrakes(false)
@@ -215,7 +215,7 @@ public final class ScenarioLibrary {
     /**
      * Hazard ahead but driver does not react.
      * AEBS must act autonomously.
-     * Stationaryobject (road cone / breakdown) 40m ahead at 70 km/h.
+     * Stationaryobject (road cone / breakdown) 80m ahead at 70 km/h.
      */
     public static ScenarioConfig inattentiveDriver() {
         return new ScenarioConfig.Builder("SC-007", "Inattentive driver — no brake response", 8.0)
@@ -225,7 +225,7 @@ public final class ScenarioLibrary {
             .addWorldObject(new WorldObject(
                 "road_cone",
                 WorldObject.ObjectClass.STATIONARY_OBJECT,
-                40.0,   // 40m ahead
+                80.0,   // 80m ahead
                 0.0,
                 0.0
             ))
@@ -298,12 +298,12 @@ public final class ScenarioLibrary {
 
     /**
      * High-speed dual carriageway. Cyclist crosses the road head-on
-     * (heading = 90°) from 80m ahead at t=0. Very short TTC.
+     * (heading = 90°) from 120m ahead at t=0. Very short TTC.
      * Driver brakes very late (3s). AEBS must intervene earlier.
      */
     public static ScenarioConfig emergencyStopCyclist() {
         return new ScenarioConfig.Builder("SC-010",
-                "Emergency stop — cyclist crosses dual carriageway", 6.0)
+                "Emergency stop — cyclist crosses dual carriageway", 10.0)
             .vehicleSpeedKmh(100.0)
             .weatherFactor(0.9f)
             .driverBrakes(true)
@@ -311,7 +311,7 @@ public final class ScenarioLibrary {
             .addWorldObject(new WorldObject(
                 "cyclist",
                 WorldObject.ObjectClass.CYCLIST,
-                80.0,   // 80m ahead
+                120.0,   // 80m ahead
                 -5.0,   // starts on left hard shoulder
                 25.0,   // fast cyclist 25 km/h
                 90.0,   // crossing left to right

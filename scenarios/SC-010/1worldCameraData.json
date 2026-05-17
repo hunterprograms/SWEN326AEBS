@@ -8,727 +8,1207 @@
     {
       "timestampMs": 0,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -3.53 }
+        { "objectType": "CYCLIST", "bearingDegrees": -2.38 }
       ]
     },
     {
       "timestampMs": 50,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -3.36 }
+        { "objectType": "CYCLIST", "bearingDegrees": -2.24 }
       ]
     },
     {
       "timestampMs": 100,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -3.16 }
+        { "objectType": "CYCLIST", "bearingDegrees": -2.08 }
       ]
     },
     {
       "timestampMs": 150,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -2.95 }
+        { "objectType": "CYCLIST", "bearingDegrees": -1.94 }
       ]
     },
     {
       "timestampMs": 200,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -2.74 }
+        { "objectType": "CYCLIST", "bearingDegrees": -1.77 }
       ]
     },
     {
       "timestampMs": 250,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -2.53 }
+        { "objectType": "CYCLIST", "bearingDegrees": -1.61 }
       ]
     },
     {
       "timestampMs": 300,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -2.30 }
+        { "objectType": "CYCLIST", "bearingDegrees": -1.48 }
       ]
     },
     {
       "timestampMs": 350,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -2.04 }
+        { "objectType": "CYCLIST", "bearingDegrees": -1.29 }
       ]
     },
     {
       "timestampMs": 400,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -1.78 }
+        { "objectType": "CYCLIST", "bearingDegrees": -1.14 }
       ]
     },
     {
       "timestampMs": 450,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -1.55 }
+        { "objectType": "CYCLIST", "bearingDegrees": -0.96 }
       ]
     },
     {
       "timestampMs": 500,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -1.26 }
+        { "objectType": "CYCLIST", "bearingDegrees": -0.78 }
       ]
     },
     {
       "timestampMs": 550,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -0.98 }
+        { "objectType": "CYCLIST", "bearingDegrees": -0.62 }
       ]
     },
     {
       "timestampMs": 600,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -0.70 }
+        { "objectType": "CYCLIST", "bearingDegrees": -0.43 }
       ]
     },
     {
       "timestampMs": 650,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -0.37 }
+        { "objectType": "CYCLIST", "bearingDegrees": -0.22 }
       ]
     },
     {
       "timestampMs": 700,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": -0.07 }
+        { "objectType": "CYCLIST", "bearingDegrees": -0.06 }
       ]
     },
     {
       "timestampMs": 750,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 0.27 }
+        { "objectType": "CYCLIST", "bearingDegrees": 0.17 }
       ]
     },
     {
       "timestampMs": 800,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 0.60 }
+        { "objectType": "CYCLIST", "bearingDegrees": 0.37 }
       ]
     },
     {
       "timestampMs": 850,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 1.00 }
+        { "objectType": "CYCLIST", "bearingDegrees": 0.59 }
       ]
     },
     {
       "timestampMs": 900,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 1.38 }
+        { "objectType": "CYCLIST", "bearingDegrees": 0.79 }
       ]
     },
     {
       "timestampMs": 950,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 1.78 }
+        { "objectType": "CYCLIST", "bearingDegrees": 1.04 }
       ]
     },
     {
       "timestampMs": 1000,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 2.24 }
+        { "objectType": "CYCLIST", "bearingDegrees": 1.24 }
       ]
     },
     {
       "timestampMs": 1050,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 2.68 }
+        { "objectType": "CYCLIST", "bearingDegrees": 1.50 }
       ]
     },
     {
       "timestampMs": 1100,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 3.17 }
+        { "objectType": "CYCLIST", "bearingDegrees": 1.73 }
       ]
     },
     {
       "timestampMs": 1150,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 3.67 }
+        { "objectType": "CYCLIST", "bearingDegrees": 1.97 }
       ]
     },
     {
       "timestampMs": 1200,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 4.18 }
+        { "objectType": "CYCLIST", "bearingDegrees": 2.27 }
       ]
     },
     {
       "timestampMs": 1250,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 4.75 }
+        { "objectType": "CYCLIST", "bearingDegrees": 2.51 }
       ]
     },
     {
       "timestampMs": 1300,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 5.37 }
+        { "objectType": "CYCLIST", "bearingDegrees": 2.81 }
       ]
     },
     {
       "timestampMs": 1350,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 6.02 }
+        { "objectType": "CYCLIST", "bearingDegrees": 3.10 }
       ]
     },
     {
       "timestampMs": 1400,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 6.68 }
+        { "objectType": "CYCLIST", "bearingDegrees": 3.39 }
       ]
     },
     {
       "timestampMs": 1450,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 7.43 }
+        { "objectType": "CYCLIST", "bearingDegrees": 3.68 }
       ]
     },
     {
       "timestampMs": 1500,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 8.20 }
+        { "objectType": "CYCLIST", "bearingDegrees": 4.03 }
       ]
     },
     {
       "timestampMs": 1550,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 9.04 }
+        { "objectType": "CYCLIST", "bearingDegrees": 4.36 }
       ]
     },
     {
       "timestampMs": 1600,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 9.95 }
+        { "objectType": "CYCLIST", "bearingDegrees": 4.70 }
       ]
     },
     {
       "timestampMs": 1650,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 10.92 }
+        { "objectType": "CYCLIST", "bearingDegrees": 5.06 }
       ]
     },
     {
       "timestampMs": 1700,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 11.95 }
+        { "objectType": "CYCLIST", "bearingDegrees": 5.40 }
       ]
     },
     {
       "timestampMs": 1750,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 13.07 }
+        { "objectType": "CYCLIST", "bearingDegrees": 5.79 }
       ]
     },
     {
       "timestampMs": 1800,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 14.27 }
+        { "objectType": "CYCLIST", "bearingDegrees": 6.21 }
       ]
     },
     {
       "timestampMs": 1850,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 15.60 }
+        { "objectType": "CYCLIST", "bearingDegrees": 6.62 }
       ]
     },
     {
       "timestampMs": 1900,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 17.04 }
+        { "objectType": "CYCLIST", "bearingDegrees": 7.02 }
       ]
     },
     {
       "timestampMs": 1950,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 18.62 }
+        { "objectType": "CYCLIST", "bearingDegrees": 7.49 }
       ]
     },
     {
       "timestampMs": 2000,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 20.33 }
+        { "objectType": "CYCLIST", "bearingDegrees": 7.93 }
       ]
     },
     {
       "timestampMs": 2050,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 22.22 }
+        { "objectType": "CYCLIST", "bearingDegrees": 8.43 }
       ]
     },
     {
       "timestampMs": 2100,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 24.31 }
+        { "objectType": "CYCLIST", "bearingDegrees": 8.93 }
       ]
     },
     {
       "timestampMs": 2150,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 26.56 }
+        { "objectType": "CYCLIST", "bearingDegrees": 9.45 }
       ]
     },
     {
       "timestampMs": 2200,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 29.08 }
+        { "objectType": "CYCLIST", "bearingDegrees": 10.01 }
       ]
     },
     {
       "timestampMs": 2250,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 31.85 }
+        { "objectType": "CYCLIST", "bearingDegrees": 10.60 }
       ]
     },
     {
       "timestampMs": 2300,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 34.91 }
+        { "objectType": "CYCLIST", "bearingDegrees": 11.19 }
       ]
     },
     {
       "timestampMs": 2350,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 38.24 }
+        { "objectType": "CYCLIST", "bearingDegrees": 11.83 }
       ]
     },
     {
       "timestampMs": 2400,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 41.96 }
+        { "objectType": "CYCLIST", "bearingDegrees": 12.48 }
       ]
     },
     {
       "timestampMs": 2450,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 46.02 }
+        { "objectType": "CYCLIST", "bearingDegrees": 13.16 }
       ]
     },
     {
       "timestampMs": 2500,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 50.40 }
+        { "objectType": "CYCLIST", "bearingDegrees": 13.87 }
       ]
     },
     {
       "timestampMs": 2550,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 55.17 }
+        { "objectType": "CYCLIST", "bearingDegrees": 14.65 }
       ]
     },
     {
       "timestampMs": 2600,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 60.25 }
+        { "objectType": "CYCLIST", "bearingDegrees": 15.46 }
       ]
     },
     {
       "timestampMs": 2650,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 65.60 }
+        { "objectType": "CYCLIST", "bearingDegrees": 16.27 }
       ]
     },
     {
       "timestampMs": 2700,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 71.14 }
+        { "objectType": "CYCLIST", "bearingDegrees": 17.18 }
       ]
     },
     {
       "timestampMs": 2750,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 76.77 }
+        { "objectType": "CYCLIST", "bearingDegrees": 18.12 }
       ]
     },
     {
       "timestampMs": 2800,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 82.37 }
+        { "objectType": "CYCLIST", "bearingDegrees": 19.09 }
       ]
     },
     {
       "timestampMs": 2850,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 87.84 }
+        { "objectType": "CYCLIST", "bearingDegrees": 20.11 }
       ]
     },
     {
       "timestampMs": 2900,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 93.12 }
+        { "objectType": "CYCLIST", "bearingDegrees": 21.23 }
       ]
     },
     {
       "timestampMs": 2950,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 98.12 }
+        { "objectType": "CYCLIST", "bearingDegrees": 22.37 }
       ]
     },
     {
       "timestampMs": 3000,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 102.81 }
+        { "objectType": "CYCLIST", "bearingDegrees": 23.61 }
       ]
     },
     {
       "timestampMs": 3050,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 107.03 }
+        { "objectType": "CYCLIST", "bearingDegrees": 24.89 }
       ]
     },
     {
       "timestampMs": 3100,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 110.87 }
+        { "objectType": "CYCLIST", "bearingDegrees": 26.22 }
       ]
     },
     {
       "timestampMs": 3150,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 114.29 }
+        { "objectType": "CYCLIST", "bearingDegrees": 27.65 }
       ]
     },
     {
       "timestampMs": 3200,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 117.31 }
+        { "objectType": "CYCLIST", "bearingDegrees": 29.09 }
       ]
     },
     {
       "timestampMs": 3250,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 120.06 }
+        { "objectType": "CYCLIST", "bearingDegrees": 30.62 }
       ]
     },
     {
       "timestampMs": 3300,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 122.46 }
+        { "objectType": "CYCLIST", "bearingDegrees": 32.21 }
       ]
     },
     {
       "timestampMs": 3350,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 124.63 }
+        { "objectType": "CYCLIST", "bearingDegrees": 33.85 }
       ]
     },
     {
       "timestampMs": 3400,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 126.56 }
+        { "objectType": "CYCLIST", "bearingDegrees": 35.55 }
       ]
     },
     {
       "timestampMs": 3450,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 128.30 }
+        { "objectType": "CYCLIST", "bearingDegrees": 37.32 }
       ]
     },
     {
       "timestampMs": 3500,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 129.86 }
+        { "objectType": "CYCLIST", "bearingDegrees": 39.12 }
       ]
     },
     {
       "timestampMs": 3550,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 131.24 }
+        { "objectType": "CYCLIST", "bearingDegrees": 40.97 }
       ]
     },
     {
       "timestampMs": 3600,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 132.48 }
+        { "objectType": "CYCLIST", "bearingDegrees": 42.88 }
       ]
     },
     {
       "timestampMs": 3650,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 133.62 }
+        { "objectType": "CYCLIST", "bearingDegrees": 44.82 }
       ]
     },
     {
       "timestampMs": 3700,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 134.62 }
+        { "objectType": "CYCLIST", "bearingDegrees": 46.79 }
       ]
     },
     {
       "timestampMs": 3750,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 135.54 }
+        { "objectType": "CYCLIST", "bearingDegrees": 48.81 }
       ]
     },
     {
       "timestampMs": 3800,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 136.39 }
+        { "objectType": "CYCLIST", "bearingDegrees": 50.82 }
       ]
     },
     {
       "timestampMs": 3850,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 137.10 }
+        { "objectType": "CYCLIST", "bearingDegrees": 52.86 }
       ]
     },
     {
       "timestampMs": 3900,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 137.78 }
+        { "objectType": "CYCLIST", "bearingDegrees": 54.88 }
       ]
     },
     {
       "timestampMs": 3950,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 138.42 }
+        { "objectType": "CYCLIST", "bearingDegrees": 56.92 }
       ]
     },
     {
       "timestampMs": 4000,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 138.96 }
+        { "objectType": "CYCLIST", "bearingDegrees": 58.94 }
       ]
     },
     {
       "timestampMs": 4050,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 139.45 }
+        { "objectType": "CYCLIST", "bearingDegrees": 60.92 }
       ]
     },
     {
       "timestampMs": 4100,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 139.88 }
+        { "objectType": "CYCLIST", "bearingDegrees": 62.92 }
       ]
     },
     {
       "timestampMs": 4150,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 140.31 }
+        { "objectType": "CYCLIST", "bearingDegrees": 64.84 }
       ]
     },
     {
       "timestampMs": 4200,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 140.65 }
+        { "objectType": "CYCLIST", "bearingDegrees": 66.72 }
       ]
     },
     {
       "timestampMs": 4250,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 140.98 }
+        { "objectType": "CYCLIST", "bearingDegrees": 68.52 }
       ]
     },
     {
       "timestampMs": 4300,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 141.26 }
+        { "objectType": "CYCLIST", "bearingDegrees": 70.31 }
       ]
     },
     {
       "timestampMs": 4350,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 141.52 }
+        { "objectType": "CYCLIST", "bearingDegrees": 72.02 }
       ]
     },
     {
       "timestampMs": 4400,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 141.73 }
+        { "objectType": "CYCLIST", "bearingDegrees": 73.67 }
       ]
     },
     {
       "timestampMs": 4450,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 141.92 }
+        { "objectType": "CYCLIST", "bearingDegrees": 75.23 }
       ]
     },
     {
       "timestampMs": 4500,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.08 }
+        { "objectType": "CYCLIST", "bearingDegrees": 76.75 }
       ]
     },
     {
       "timestampMs": 4550,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.24 }
+        { "objectType": "CYCLIST", "bearingDegrees": 78.18 }
       ]
     },
     {
       "timestampMs": 4600,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.34 }
+        { "objectType": "CYCLIST", "bearingDegrees": 79.56 }
       ]
     },
     {
       "timestampMs": 4650,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.43 }
+        { "objectType": "CYCLIST", "bearingDegrees": 80.84 }
       ]
     },
     {
       "timestampMs": 4700,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.51 }
+        { "objectType": "CYCLIST", "bearingDegrees": 82.06 }
       ]
     },
     {
       "timestampMs": 4750,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.57 }
+        { "objectType": "CYCLIST", "bearingDegrees": 83.17 }
       ]
     },
     {
       "timestampMs": 4800,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.59 }
+        { "objectType": "CYCLIST", "bearingDegrees": 84.24 }
       ]
     },
     {
       "timestampMs": 4850,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.60 }
+        { "objectType": "CYCLIST", "bearingDegrees": 85.24 }
       ]
     },
     {
       "timestampMs": 4900,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.60 }
+        { "objectType": "CYCLIST", "bearingDegrees": 86.19 }
       ]
     },
     {
       "timestampMs": 4950,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.59 }
+        { "objectType": "CYCLIST", "bearingDegrees": 87.02 }
       ]
     },
     {
       "timestampMs": 5000,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.55 }
+        { "objectType": "CYCLIST", "bearingDegrees": 87.80 }
       ]
     },
     {
       "timestampMs": 5050,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.46 }
+        { "objectType": "CYCLIST", "bearingDegrees": 88.53 }
       ]
     },
     {
       "timestampMs": 5100,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.38 }
+        { "objectType": "CYCLIST", "bearingDegrees": 89.21 }
       ]
     },
     {
       "timestampMs": 5150,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.29 }
+        { "objectType": "CYCLIST", "bearingDegrees": 89.83 }
       ]
     },
     {
       "timestampMs": 5200,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.21 }
+        { "objectType": "CYCLIST", "bearingDegrees": 90.37 }
       ]
     },
     {
       "timestampMs": 5250,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 142.09 }
+        { "objectType": "CYCLIST", "bearingDegrees": 90.84 }
       ]
     },
     {
       "timestampMs": 5300,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 141.94 }
+        { "objectType": "CYCLIST", "bearingDegrees": 91.25 }
       ]
     },
     {
       "timestampMs": 5350,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 141.79 }
+        { "objectType": "CYCLIST", "bearingDegrees": 91.65 }
       ]
     },
     {
       "timestampMs": 5400,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 141.60 }
+        { "objectType": "CYCLIST", "bearingDegrees": 91.96 }
       ]
     },
     {
       "timestampMs": 5450,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 141.43 }
+        { "objectType": "CYCLIST", "bearingDegrees": 92.24 }
       ]
     },
     {
       "timestampMs": 5500,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 141.26 }
+        { "objectType": "CYCLIST", "bearingDegrees": 92.46 }
       ]
     },
     {
       "timestampMs": 5550,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 141.04 }
+        { "objectType": "CYCLIST", "bearingDegrees": 92.64 }
       ]
     },
     {
       "timestampMs": 5600,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 140.80 }
+        { "objectType": "CYCLIST", "bearingDegrees": 92.76 }
       ]
     },
     {
       "timestampMs": 5650,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 140.55 }
+        { "objectType": "CYCLIST", "bearingDegrees": 92.84 }
       ]
     },
     {
       "timestampMs": 5700,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 140.32 }
+        { "objectType": "CYCLIST", "bearingDegrees": 92.91 }
       ]
     },
     {
       "timestampMs": 5750,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 140.05 }
+        { "objectType": "CYCLIST", "bearingDegrees": 92.90 }
       ]
     },
     {
       "timestampMs": 5800,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 139.75 }
+        { "objectType": "CYCLIST", "bearingDegrees": 92.89 }
       ]
     },
     {
       "timestampMs": 5850,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 139.49 }
+        { "objectType": "CYCLIST", "bearingDegrees": 92.86 }
       ]
     },
     {
       "timestampMs": 5900,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 139.22 }
+        { "objectType": "CYCLIST", "bearingDegrees": 92.80 }
       ]
     },
     {
       "timestampMs": 5950,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 138.96 }
+        { "objectType": "CYCLIST", "bearingDegrees": 92.81 }
       ]
     },
     {
       "timestampMs": 6000,
       "detectedObjects": [
-        { "objectType": "CYCLIST", "bearingDegrees": 138.68 }
+        { "objectType": "CYCLIST", "bearingDegrees": 92.75 }
+      ]
+    },
+    {
+      "timestampMs": 6050,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.73 }
+      ]
+    },
+    {
+      "timestampMs": 6100,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.72 }
+      ]
+    },
+    {
+      "timestampMs": 6150,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.68 }
+      ]
+    },
+    {
+      "timestampMs": 6200,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.66 }
+      ]
+    },
+    {
+      "timestampMs": 6250,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.64 }
+      ]
+    },
+    {
+      "timestampMs": 6300,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.60 }
+      ]
+    },
+    {
+      "timestampMs": 6350,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.58 }
+      ]
+    },
+    {
+      "timestampMs": 6400,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.57 }
+      ]
+    },
+    {
+      "timestampMs": 6450,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.56 }
+      ]
+    },
+    {
+      "timestampMs": 6500,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.51 }
+      ]
+    },
+    {
+      "timestampMs": 6550,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.50 }
+      ]
+    },
+    {
+      "timestampMs": 6600,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.50 }
+      ]
+    },
+    {
+      "timestampMs": 6650,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.48 }
+      ]
+    },
+    {
+      "timestampMs": 6700,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.44 }
+      ]
+    },
+    {
+      "timestampMs": 6750,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.44 }
+      ]
+    },
+    {
+      "timestampMs": 6800,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.39 }
+      ]
+    },
+    {
+      "timestampMs": 6850,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.37 }
+      ]
+    },
+    {
+      "timestampMs": 6900,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.37 }
+      ]
+    },
+    {
+      "timestampMs": 6950,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.33 }
+      ]
+    },
+    {
+      "timestampMs": 7000,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.34 }
+      ]
+    },
+    {
+      "timestampMs": 7050,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.33 }
+      ]
+    },
+    {
+      "timestampMs": 7100,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.28 }
+      ]
+    },
+    {
+      "timestampMs": 7150,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.27 }
+      ]
+    },
+    {
+      "timestampMs": 7200,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.25 }
+      ]
+    },
+    {
+      "timestampMs": 7250,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.23 }
+      ]
+    },
+    {
+      "timestampMs": 7300,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.22 }
+      ]
+    },
+    {
+      "timestampMs": 7350,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.19 }
+      ]
+    },
+    {
+      "timestampMs": 7400,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.20 }
+      ]
+    },
+    {
+      "timestampMs": 7450,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.18 }
+      ]
+    },
+    {
+      "timestampMs": 7500,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.17 }
+      ]
+    },
+    {
+      "timestampMs": 7550,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.15 }
+      ]
+    },
+    {
+      "timestampMs": 7600,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.14 }
+      ]
+    },
+    {
+      "timestampMs": 7650,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.12 }
+      ]
+    },
+    {
+      "timestampMs": 7700,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.10 }
+      ]
+    },
+    {
+      "timestampMs": 7750,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.09 }
+      ]
+    },
+    {
+      "timestampMs": 7800,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.06 }
+      ]
+    },
+    {
+      "timestampMs": 7850,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.06 }
+      ]
+    },
+    {
+      "timestampMs": 7900,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.05 }
+      ]
+    },
+    {
+      "timestampMs": 7950,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.00 }
+      ]
+    },
+    {
+      "timestampMs": 8000,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.02 }
+      ]
+    },
+    {
+      "timestampMs": 8050,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 92.00 }
+      ]
+    },
+    {
+      "timestampMs": 8100,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.96 }
+      ]
+    },
+    {
+      "timestampMs": 8150,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.98 }
+      ]
+    },
+    {
+      "timestampMs": 8200,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.95 }
+      ]
+    },
+    {
+      "timestampMs": 8250,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.92 }
+      ]
+    },
+    {
+      "timestampMs": 8300,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.95 }
+      ]
+    },
+    {
+      "timestampMs": 8350,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.93 }
+      ]
+    },
+    {
+      "timestampMs": 8400,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.89 }
+      ]
+    },
+    {
+      "timestampMs": 8450,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.88 }
+      ]
+    },
+    {
+      "timestampMs": 8500,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.88 }
+      ]
+    },
+    {
+      "timestampMs": 8550,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.85 }
+      ]
+    },
+    {
+      "timestampMs": 8600,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.86 }
+      ]
+    },
+    {
+      "timestampMs": 8650,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.83 }
+      ]
+    },
+    {
+      "timestampMs": 8700,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.84 }
+      ]
+    },
+    {
+      "timestampMs": 8750,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.82 }
+      ]
+    },
+    {
+      "timestampMs": 8800,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.82 }
+      ]
+    },
+    {
+      "timestampMs": 8850,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.79 }
+      ]
+    },
+    {
+      "timestampMs": 8900,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.79 }
+      ]
+    },
+    {
+      "timestampMs": 8950,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.79 }
+      ]
+    },
+    {
+      "timestampMs": 9000,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.76 }
+      ]
+    },
+    {
+      "timestampMs": 9050,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.76 }
+      ]
+    },
+    {
+      "timestampMs": 9100,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.73 }
+      ]
+    },
+    {
+      "timestampMs": 9150,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.74 }
+      ]
+    },
+    {
+      "timestampMs": 9200,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.72 }
+      ]
+    },
+    {
+      "timestampMs": 9250,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.70 }
+      ]
+    },
+    {
+      "timestampMs": 9300,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.69 }
+      ]
+    },
+    {
+      "timestampMs": 9350,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.68 }
+      ]
+    },
+    {
+      "timestampMs": 9400,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.68 }
+      ]
+    },
+    {
+      "timestampMs": 9450,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.68 }
+      ]
+    },
+    {
+      "timestampMs": 9500,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.65 }
+      ]
+    },
+    {
+      "timestampMs": 9550,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.65 }
+      ]
+    },
+    {
+      "timestampMs": 9600,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.66 }
+      ]
+    },
+    {
+      "timestampMs": 9650,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.65 }
+      ]
+    },
+    {
+      "timestampMs": 9700,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.61 }
+      ]
+    },
+    {
+      "timestampMs": 9750,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.63 }
+      ]
+    },
+    {
+      "timestampMs": 9800,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.62 }
+      ]
+    },
+    {
+      "timestampMs": 9850,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.62 }
+      ]
+    },
+    {
+      "timestampMs": 9900,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.61 }
+      ]
+    },
+    {
+      "timestampMs": 9950,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.59 }
+      ]
+    },
+    {
+      "timestampMs": 10000,
+      "detectedObjects": [
+        { "objectType": "CYCLIST", "bearingDegrees": 91.58 }
       ]
     }
   ]

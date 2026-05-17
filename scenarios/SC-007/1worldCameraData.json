@@ -254,253 +254,253 @@
     {
       "timestampMs": 2050,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 179.98 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.02 }
       ]
     },
     {
       "timestampMs": 2100,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.01 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 2150,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 2200,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 2250,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.01 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 2300,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 2350,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 2400,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 179.99 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 2450,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 179.99 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 2500,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 179.99 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 2550,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 2600,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 179.98 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.02 }
       ]
     },
     {
       "timestampMs": 2650,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 179.99 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 2700,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 2750,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 2800,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.01 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 2850,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.01 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 2900,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.01 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 2950,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 3000,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 179.99 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 3050,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 3100,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 179.99 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 3150,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 3200,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 3250,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.01 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 3300,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 179.98 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.02 }
       ]
     },
     {
       "timestampMs": 3350,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 179.99 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 3400,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 3450,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 179.99 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 3500,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 3550,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 3600,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.01 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 3650,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 3700,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.01 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 3750,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 3800,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 3850,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 179.99 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 3900,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.01 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 3950,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.02 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.02 }
       ]
     },
     {
       "timestampMs": 4000,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 180.00 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 4050,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 179.99 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 4100,
       "detectedObjects": [
-        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": 179.98 }
+        { "objectType": "STATIONARY_OBJECT", "bearingDegrees": -0.02 }
       ]
     },
     {

@@ -11,12 +11,12 @@ public class Tests{
     
     public static void main(String[] args) {
         try {
-            new ScenarioGenerator(ScenarioLibrary.highwayRearEnd(), "/home/hunter/projects/SWEN326AEBS/scenarios/SC-002").generate();
+            new ScenarioGenerator(ScenarioLibrary.emergencyStopCyclist(), "/home/hunter/projects/SWEN326AEBS/scenarios/SC-010").generate();
         } catch(IOException ioe){}
 
         try {
             // AEBS.start("SC-001", 10_000);
-            AEBS.start("SC-002", 10_000);
+            // AEBS.start("SC-002", 10_000);
             // AEBS.start("SC-003", 8_000);
             // AEBS.start("SC-004", 10_000);
             // AEBS.start("SC-005", 12_000);
@@ -24,7 +24,7 @@ public class Tests{
             // AEBS.start("SC-007", 8_000);
             // AEBS.start("SC-008", 8_000);
             // AEBS.start("SC-009", 10_000);
-            // AEBS.start("SC-010", 6_000);
+            AEBS.start("SC-010", 10_000);
         } catch(InterruptedException ie) {
             ie.printStackTrace();
         }
