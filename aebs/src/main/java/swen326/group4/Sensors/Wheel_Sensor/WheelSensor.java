@@ -141,7 +141,7 @@ public class WheelSensor {
      */
     public WheelSensor(final String sensorId, final String dataFile) {
         this.sensorId = Integer.parseInt(sensorId);
-        this.dataFile = dataFile + "/worldWheelSpeedId2.json";
+        this.dataFile = dataFile + "/worldWheelSpeedId"+sensorId+".json";
     }
  
     /* ------------------------------------------------------------------ */
