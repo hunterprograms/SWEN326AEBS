@@ -1,0 +1,102 @@
+╔══════════════════════════════════════════════════════════╗
+║             AEBS Test Suite — Results Report             ║
+╚══════════════════════════════════════════════════════════╝
+  Total tests : 26
+  Passed      : 0
+  Failed      : 26
+  Wall clock  : 22 ms
+
+──────────────────────────────────────────────────────────
+  Decision Coverage (total observations across all tests)
+──────────────────────────────────────────────────────────
+  CLEAR                  : 0
+  DRIVER_ALERT           : 0
+  AUTONOMOUS_BRAKE       : 0
+  DRIVER_OVERRIDE        : 0
+  ESCALATION             : 0
+  SENSOR_FAULT           : 0
+
+──────────────────────────────────────────────────────────
+  Individual Test Results
+──────────────────────────────────────────────────────────
+FAIL | TC-001 | Nominal: all sensors healthy, approaching vehicle, expect brake | maxBrake=0.00 | 2ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-002 | Nominal: no hazard present, controller stays CLEAR | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='safe_world'
+
+FAIL | TC-101 | FR2104: Lidar1 HARD_FAIL — 2oo3 must still engage brake | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-102 | FR2104: Lidar2 HARD_FAIL — 2oo3 must still engage brake | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-103 | FR2107: Radar1 HARD_FAIL — 2oo3 must still engage brake | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-104 | FR2107: Radar3 HARD_FAIL — 2oo3 must still engage brake | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-105 | NF2202: Camera1 HARD_FAIL — ranging sensors still brake | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-106 | FR2208: WheelSensor1 HARD_FAIL — 2oo3 wheel vote still works | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-107 | FR2103: Lidar1 DEGRADED — controller uses Radar, brake still engages | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-108 | FR2103: Radar1 DEGRADED — controller uses Lidar, brake still engages | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-109 | FR4203: Lidar1 FROZEN — divergent reading excluded, 2oo3 brakes | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-201 | FR2104/FR2106: Lidar1+2 HARD_FAIL — quorum lost, SENSOR_FAULT expected | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-202 | FR2107: Radar1+2 HARD_FAIL — quorum lost, SENSOR_FAULT expected | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-203 | NF2202: Camera1+2 HARD_FAIL — insufficient cameras, SENSOR_FAULT raised | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-204 | FR2208: WheelSensor1+2 HARD_FAIL — speed unconfirmed, escalation expected | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-205 | FR2106: All Lidars HARD_FAIL — radar alone insufficient, SENSOR_FAULT | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-301 | FR3104: Driver always braking — AEBS must yield (DRIVER_OVERRIDE) | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-302 | HF-002: Inattentive driver — AEBS must intervene autonomously | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-303 | HF-001: Driver sensor FAILED — AEBS acts autonomously on hazard | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-401 | FR2104: Lidar1 delayed-fail at tick 5 — brake still engages | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-402 | FR2107: Radar1 delayed-fail at tick 3 — brake still engages | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-403 | FR2104: Lidar1 intermittent — 2oo3 tolerates flicker, brakes | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-404 | FR-3105: Brake retries exhausted — ESCALATION must fire | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='no_decel_world'
+
+FAIL | TC-405 | NF2202: Camera1 delayed-fail mid-run — SENSOR_FAULT raised, brake still fires | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-406 | FR2104/FR2107: Lidar1+Radar2 HARD_FAIL — cross-modality, brake still fires | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+FAIL | TC-407 | FR4203: WheelSensor1 FROZEN — sentinel excluded, 2oo3 wheel vote holds | maxBrake=0.00 | 0ms
+       ✗ Scenario directory not found for scenarioId='world1'
+
+══════════════════════════════════════════════════════════
+  ✘  26 TEST(S) FAILED — see details above
+══════════════════════════════════════════════════════════
