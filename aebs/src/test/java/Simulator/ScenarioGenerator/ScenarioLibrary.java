@@ -52,19 +52,19 @@ public final class ScenarioLibrary {
      *   Driver brakes at 2.0s — less than 1 second to act.
      */
     public static ScenarioConfig highwayRearEnd() {
-        return new ScenarioConfig.Builder("SC-002", "Highway rear-end — stationary truck", 6.0)
+        return new ScenarioConfig.Builder("SC-002", "Highway rear-end — stationary truck", 50.0)
             .vehicleSpeedKmh(100.0)
             .weatherFactor(0.95f)
-            .driverBrakes(true)
+            .driverBrakes(false)
             .driverReactionTimeSec(2.0)
             .addWorldObject(new WorldObject(
                 "truck1",
                 WorldObject.ObjectClass.VEHICLE,
-                80.0,   // 80m ahead
+                120.0,   // 120m ahead
                 0.0,    // directly ahead (0 lateral offset)
                 0.0     // stationary
             ))
-            .addEvent(new ScenarioEvent(2.0, ScenarioEvent.Type.EMERGENCY_BRAKE, 8.0))
+            //.addEvent(new ScenarioEvent(2.0, ScenarioEvent.Type.NORMAL_BRAKE, 8.0))
             .build();
     }
 

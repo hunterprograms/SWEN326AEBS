@@ -1,0 +1,412 @@
+{
+  "metadata": {
+    "weatherFactor": 1.00,
+    "rfInterferenceFactor": 1.00
+  },
+  "ticks": [
+    {
+      "timestampMs": 0,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 100,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 200,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 300,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 400,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 500,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 600,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 700,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 800,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 900,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 1000,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 1100,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 1200,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 1300,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 1400,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 1500,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 1600,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 1700,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 1800,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 1900,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 2000,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 2100,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 2200,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 2300,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 2400,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 2500,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 2600,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 2700,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 2800,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 2900,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 3000,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 3100,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 3200,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 3300,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 3400,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 3500,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 3600,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 3700,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 3800,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 3900,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 4000,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 4100,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 4200,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 4300,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 4400,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 4500,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 4600,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 4700,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 4800,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 4900,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 5000,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 5100,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 5200,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 5300,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 5400,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 5500,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 5600,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 5700,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 5800,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 5900,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 6000,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 6100,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 6200,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 6300,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 6400,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 6500,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 6600,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 6700,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 6800,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 6900,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 7000,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 7100,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 7200,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 7300,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 7400,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 7500,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 7600,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 7700,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 7800,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 7900,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 8000,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 8100,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 8200,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 8300,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 8400,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 8500,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 8600,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 8700,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 8800,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 8900,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 9000,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 9100,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 9200,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 9300,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 9400,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 9500,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 9600,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 9700,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 9800,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 9900,
+      "detectedObjects": []
+    },
+    {
+      "timestampMs": 10000,
+      "detectedObjects": []
+    }
+  ]
+}

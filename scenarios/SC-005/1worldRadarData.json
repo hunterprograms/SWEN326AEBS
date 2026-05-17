@@ -1,0 +1,1097 @@
+{
+  "metadata": {
+    "weatherFactor": 1.00,
+    "rfInterferenceFactor": 1.00
+  },
+  "ticks": [
+    {
+      "timestampMs": 0,
+      "detectedObjects": [
+        { "distanceMetres": 5.36, "relativeSpeedKmh": -10.00, "bearingDegrees": -21.92 }, 
+        { "distanceMetres": 5.36, "relativeSpeedKmh": -10.00, "bearingDegrees": 21.92 }, 
+        { "distanceMetres": 7.97, "relativeSpeedKmh": -10.00, "bearingDegrees": 0.01 }, 
+        { "distanceMetres": 12.33, "relativeSpeedKmh": -14.00, "bearingDegrees": 14.09 }
+      ]
+    },
+    {
+      "timestampMs": 100,
+      "detectedObjects": [
+        { "distanceMetres": 5.10, "relativeSpeedKmh": -10.00, "bearingDegrees": -23.08 }, 
+        { "distanceMetres": 5.10, "relativeSpeedKmh": -10.00, "bearingDegrees": 23.08 }, 
+        { "distanceMetres": 7.69, "relativeSpeedKmh": -10.00, "bearingDegrees": -0.01 }, 
+        { "distanceMetres": 11.95, "relativeSpeedKmh": -14.00, "bearingDegrees": 14.55 }
+      ]
+    },
+    {
+      "timestampMs": 200,
+      "detectedObjects": [
+        { "distanceMetres": 4.85, "relativeSpeedKmh": -10.00, "bearingDegrees": -24.37 }, 
+        { "distanceMetres": 4.85, "relativeSpeedKmh": -10.00, "bearingDegrees": 24.37 }, 
+        { "distanceMetres": 7.42, "relativeSpeedKmh": -10.00, "bearingDegrees": -0.01 }, 
+        { "distanceMetres": 11.58, "relativeSpeedKmh": -14.00, "bearingDegrees": 15.00 }
+      ]
+    },
+    {
+      "timestampMs": 300,
+      "detectedObjects": [
+        { "distanceMetres": 4.60, "relativeSpeedKmh": -10.00, "bearingDegrees": -25.80 }, 
+        { "distanceMetres": 4.60, "relativeSpeedKmh": -10.00, "bearingDegrees": 25.79 }, 
+        { "distanceMetres": 7.14, "relativeSpeedKmh": -10.00, "bearingDegrees": 0.01 }, 
+        { "distanceMetres": 11.20, "relativeSpeedKmh": -14.00, "bearingDegrees": 15.53 }
+      ]
+    },
+    {
+      "timestampMs": 400,
+      "detectedObjects": [
+        { "distanceMetres": 4.35, "relativeSpeedKmh": -10.00, "bearingDegrees": -27.37 }, 
+        { "distanceMetres": 4.35, "relativeSpeedKmh": -10.00, "bearingDegrees": 27.38 }, 
+        { "distanceMetres": 6.86, "relativeSpeedKmh": -10.00, "bearingDegrees": -0.00 }, 
+        { "distanceMetres": 10.83, "relativeSpeedKmh": -14.00, "bearingDegrees": 16.08 }
+      ]
+    },
+    {
+      "timestampMs": 500,
+      "detectedObjects": [
+        { "distanceMetres": 4.10, "relativeSpeedKmh": -10.00, "bearingDegrees": -29.17 }, 
+        { "distanceMetres": 4.10, "relativeSpeedKmh": -10.00, "bearingDegrees": 29.17 }, 
+        { "distanceMetres": 6.58, "relativeSpeedKmh": -10.00, "bearingDegrees": 0.00 }, 
+        { "distanceMetres": 10.46, "relativeSpeedKmh": -14.00, "bearingDegrees": 16.68 }
+      ]
+    },
+    {
+      "timestampMs": 600,
+      "detectedObjects": [
+        { "distanceMetres": 3.86, "relativeSpeedKmh": -10.00, "bearingDegrees": -31.16 }, 
+        { "distanceMetres": 3.86, "relativeSpeedKmh": -10.00, "bearingDegrees": 31.17 }, 
+        { "distanceMetres": 6.31, "relativeSpeedKmh": -10.00, "bearingDegrees": 0.00 }, 
+        { "distanceMetres": 10.08, "relativeSpeedKmh": -14.00, "bearingDegrees": 17.31 }
+      ]
+    },
+    {
+      "timestampMs": 700,
+      "detectedObjects": [
+        { "distanceMetres": 3.63, "relativeSpeedKmh": -10.00, "bearingDegrees": -33.45 }, 
+        { "distanceMetres": 3.63, "relativeSpeedKmh": -10.00, "bearingDegrees": 33.44 }, 
+        { "distanceMetres": 6.03, "relativeSpeedKmh": -10.00, "bearingDegrees": 0.00 }, 
+        { "distanceMetres": 9.71, "relativeSpeedKmh": -14.00, "bearingDegrees": 18.00 }
+      ]
+    },
+    {
+      "timestampMs": 800,
+      "detectedObjects": [
+        { "distanceMetres": 3.40, "relativeSpeedKmh": -10.00, "bearingDegrees": -36.04 }, 
+        { "distanceMetres": 3.40, "relativeSpeedKmh": -10.00, "bearingDegrees": 36.04 }, 
+        { "distanceMetres": 5.75, "relativeSpeedKmh": -10.00, "bearingDegrees": -0.01 }, 
+        { "distanceMetres": 9.34, "relativeSpeedKmh": -14.00, "bearingDegrees": 18.73 }
+      ]
+    },
+    {
+      "timestampMs": 900,
+      "detectedObjects": [
+        { "distanceMetres": 3.18, "relativeSpeedKmh": -10.00, "bearingDegrees": -38.97 }, 
+        { "distanceMetres": 3.18, "relativeSpeedKmh": -10.00, "bearingDegrees": 38.98 }, 
+        { "distanceMetres": 5.47, "relativeSpeedKmh": -10.00, "bearingDegrees": 0.01 }, 
+        { "distanceMetres": 8.98, "relativeSpeedKmh": -14.00, "bearingDegrees": 19.51 }
+      ]
+    },
+    {
+      "timestampMs": 1000,
+      "detectedObjects": [
+        { "distanceMetres": 2.97, "relativeSpeedKmh": -10.00, "bearingDegrees": -42.35 }, 
+        { "distanceMetres": 2.97, "relativeSpeedKmh": -10.00, "bearingDegrees": 42.34 }, 
+        { "distanceMetres": 5.19, "relativeSpeedKmh": -10.00, "bearingDegrees": -0.01 }, 
+        { "distanceMetres": 8.61, "relativeSpeedKmh": -14.00, "bearingDegrees": 20.40 }
+      ]
+    },
+    {
+      "timestampMs": 1100,
+      "detectedObjects": [
+        { "distanceMetres": 2.77, "relativeSpeedKmh": -10.00, "bearingDegrees": -46.22 }, 
+        { "distanceMetres": 2.77, "relativeSpeedKmh": -10.00, "bearingDegrees": 46.21 }, 
+        { "distanceMetres": 4.92, "relativeSpeedKmh": -10.00, "bearingDegrees": -0.01 }, 
+        { "distanceMetres": 8.25, "relativeSpeedKmh": -14.00, "bearingDegrees": 21.34 }
+      ]
+    },
+    {
+      "timestampMs": 1200,
+      "detectedObjects": [
+        { "distanceMetres": 2.59, "relativeSpeedKmh": -10.00, "bearingDegrees": -50.66 }, 
+        { "distanceMetres": 2.59, "relativeSpeedKmh": -10.00, "bearingDegrees": 50.66 }, 
+        { "distanceMetres": 4.64, "relativeSpeedKmh": -10.00, "bearingDegrees": -0.01 }, 
+        { "distanceMetres": 7.89, "relativeSpeedKmh": -14.00, "bearingDegrees": 22.36 }
+      ]
+    },
+    {
+      "timestampMs": 1300,
+      "detectedObjects": [
+        { "distanceMetres": 2.42, "relativeSpeedKmh": -10.00, "bearingDegrees": -55.77 }, 
+        { "distanceMetres": 2.42, "relativeSpeedKmh": -10.00, "bearingDegrees": 55.77 }, 
+        { "distanceMetres": 4.36, "relativeSpeedKmh": -10.00, "bearingDegrees": 0.01 }, 
+        { "distanceMetres": 7.53, "relativeSpeedKmh": -14.00, "bearingDegrees": 23.50 }
+      ]
+    },
+    {
+      "timestampMs": 1400,
+      "detectedObjects": [
+        { "distanceMetres": 2.27, "relativeSpeedKmh": -10.00, "bearingDegrees": -61.55 }, 
+        { "distanceMetres": 2.27, "relativeSpeedKmh": -10.00, "bearingDegrees": 61.56 }, 
+        { "distanceMetres": 4.08, "relativeSpeedKmh": -10.00, "bearingDegrees": -0.01 }, 
+        { "distanceMetres": 7.17, "relativeSpeedKmh": -14.00, "bearingDegrees": 24.72 }
+      ]
+    },
+    {
+      "timestampMs": 1500,
+      "detectedObjects": [
+        { "distanceMetres": 2.16, "relativeSpeedKmh": -10.00, "bearingDegrees": -68.07 }, 
+        { "distanceMetres": 2.16, "relativeSpeedKmh": -10.00, "bearingDegrees": 68.05 }, 
+        { "distanceMetres": 3.81, "relativeSpeedKmh": -10.00, "bearingDegrees": -0.01 }, 
+        { "distanceMetres": 6.82, "relativeSpeedKmh": -14.00, "bearingDegrees": 26.08 }
+      ]
+    },
+    {
+      "timestampMs": 1600,
+      "detectedObjects": [
+        { "distanceMetres": 2.07, "relativeSpeedKmh": -10.00, "bearingDegrees": -75.22 }, 
+        { "distanceMetres": 2.07, "relativeSpeedKmh": -10.00, "bearingDegrees": 75.21 }, 
+        { "distanceMetres": 3.53, "relativeSpeedKmh": -10.00, "bearingDegrees": 0.01 }, 
+        { "distanceMetres": 6.48, "relativeSpeedKmh": -14.00, "bearingDegrees": 27.61 }
+      ]
+    },
+    {
+      "timestampMs": 1700,
+      "detectedObjects": [
+        { "distanceMetres": 2.02, "relativeSpeedKmh": -10.00, "bearingDegrees": -82.87 }, 
+        { "distanceMetres": 2.02, "relativeSpeedKmh": -10.00, "bearingDegrees": 82.87 }, 
+        { "distanceMetres": 3.25, "relativeSpeedKmh": -10.00, "bearingDegrees": 0.01 }, 
+        { "distanceMetres": 6.13, "relativeSpeedKmh": -14.00, "bearingDegrees": 29.30 }
+      ]
+    },
+    {
+      "timestampMs": 1800,
+      "detectedObjects": [
+        { "distanceMetres": 2.00, "relativeSpeedKmh": -10.00, "bearingDegrees": -90.79 }, 
+        { "distanceMetres": 2.00, "relativeSpeedKmh": -10.00, "bearingDegrees": 90.81 }, 
+        { "distanceMetres": 2.97, "relativeSpeedKmh": -10.00, "bearingDegrees": 0.01 }, 
+        { "distanceMetres": 5.80, "relativeSpeedKmh": -14.00, "bearingDegrees": 31.16 }
+      ]
+    },
+    {
+      "timestampMs": 1900,
+      "detectedObjects": [
+        { "distanceMetres": 2.02, "relativeSpeedKmh": -10.00, "bearingDegrees": -98.70 }, 
+        { "distanceMetres": 2.02, "relativeSpeedKmh": -10.00, "bearingDegrees": 98.68 }, 
+        { "distanceMetres": 2.69, "relativeSpeedKmh": -10.00, "bearingDegrees": -0.01 }, 
+        { "distanceMetres": 5.47, "relativeSpeedKmh": -14.00, "bearingDegrees": 33.27 }
+      ]
+    },
+    {
+      "timestampMs": 2000,
+      "detectedObjects": [
+        { "distanceMetres": 106.40, "relativeSpeedKmh": -10.00, "bearingDegrees": -90.48 }, 
+        { "distanceMetres": 106.10, "relativeSpeedKmh": -10.00, "bearingDegrees": 90.15 }, 
+        { "distanceMetres": 2.42, "relativeSpeedKmh": -10.00, "bearingDegrees": -3.71 }, 
+        { "distanceMetres": 35.74, "relativeSpeedKmh": -14.00, "bearingDegrees": 83.11 }
+      ]
+    },
+    {
+      "timestampMs": 2100,
+      "detectedObjects": [
+        { "distanceMetres": 92.26, "relativeSpeedKmh": -10.00, "bearingDegrees": -92.20 }, 
+        { "distanceMetres": 88.89, "relativeSpeedKmh": -10.00, "bearingDegrees": 88.86 }, 
+        { "distanceMetres": 89.93, "relativeSpeedKmh": -10.00, "bearingDegrees": -89.94 }, 
+        { "distanceMetres": 86.11, "relativeSpeedKmh": -14.00, "bearingDegrees": 85.91 }
+      ]
+    },
+    {
+      "timestampMs": 2200,
+      "detectedObjects": [
+        { "distanceMetres": 94.00, "relativeSpeedKmh": -10.00, "bearingDegrees": -93.82 }, 
+        { "distanceMetres": 87.60, "relativeSpeedKmh": -10.00, "bearingDegrees": 87.53 }, 
+        { "distanceMetres": 91.62, "relativeSpeedKmh": -10.00, "bearingDegrees": -91.60 }, 
+        { "distanceMetres": 84.97, "relativeSpeedKmh": -14.00, "bearingDegrees": 84.61 }
+      ]
+    },
+    {
+      "timestampMs": 2300,
+      "detectedObjects": [
+        { "distanceMetres": 95.79, "relativeSpeedKmh": -10.00, "bearingDegrees": -95.39 }, 
+        { "distanceMetres": 86.35, "relativeSpeedKmh": -10.00, "bearingDegrees": 86.15 }, 
+        { "distanceMetres": 93.37, "relativeSpeedKmh": -10.00, "bearingDegrees": -93.21 }, 
+        { "distanceMetres": 83.85, "relativeSpeedKmh": -14.00, "bearingDegrees": 83.29 }
+      ]
+    },
+    {
+      "timestampMs": 2400,
+      "detectedObjects": [
+        { "distanceMetres": 97.63, "relativeSpeedKmh": -10.00, "bearingDegrees": -96.95 }, 
+        { "distanceMetres": 85.12, "relativeSpeedKmh": -10.00, "bearingDegrees": 84.80 }, 
+        { "distanceMetres": 95.14, "relativeSpeedKmh": -10.00, "bearingDegrees": -94.82 }, 
+        { "distanceMetres": 82.76, "relativeSpeedKmh": -14.00, "bearingDegrees": 81.98 }
+      ]
+    },
+    {
+      "timestampMs": 2500,
+      "detectedObjects": [
+        { "distanceMetres": 99.52, "relativeSpeedKmh": -10.00, "bearingDegrees": -98.47 }, 
+        { "distanceMetres": 83.93, "relativeSpeedKmh": -10.00, "bearingDegrees": 83.39 }, 
+        { "distanceMetres": 96.96, "relativeSpeedKmh": -10.00, "bearingDegrees": -96.37 }, 
+        { "distanceMetres": 81.70, "relativeSpeedKmh": -14.00, "bearingDegrees": 80.64 }
+      ]
+    },
+    {
+      "timestampMs": 2600,
+      "detectedObjects": [
+        { "distanceMetres": 101.44, "relativeSpeedKmh": -10.00, "bearingDegrees": -99.95 }, 
+        { "distanceMetres": 82.77, "relativeSpeedKmh": -10.00, "bearingDegrees": 81.98 }, 
+        { "distanceMetres": 98.83, "relativeSpeedKmh": -10.00, "bearingDegrees": -97.92 }, 
+        { "distanceMetres": 80.67, "relativeSpeedKmh": -14.00, "bearingDegrees": 79.29 }
+      ]
+    },
+    {
+      "timestampMs": 2700,
+      "detectedObjects": [
+        { "distanceMetres": 103.40, "relativeSpeedKmh": -10.00, "bearingDegrees": -101.41 }, 
+        { "distanceMetres": 81.64, "relativeSpeedKmh": -10.00, "bearingDegrees": 80.56 }, 
+        { "distanceMetres": 100.72, "relativeSpeedKmh": -10.00, "bearingDegrees": -99.40 }, 
+        { "distanceMetres": 79.65, "relativeSpeedKmh": -14.00, "bearingDegrees": 77.92 }
+      ]
+    },
+    {
+      "timestampMs": 2800,
+      "detectedObjects": [
+        { "distanceMetres": 105.41, "relativeSpeedKmh": -10.00, "bearingDegrees": -102.81 }, 
+        { "distanceMetres": 80.53, "relativeSpeedKmh": -10.00, "bearingDegrees": 79.11 }, 
+        { "distanceMetres": 102.67, "relativeSpeedKmh": -10.00, "bearingDegrees": -100.86 }, 
+        { "distanceMetres": 78.67, "relativeSpeedKmh": -14.00, "bearingDegrees": 76.54 }
+      ]
+    },
+    {
+      "timestampMs": 2900,
+      "detectedObjects": [
+        { "distanceMetres": 107.45, "relativeSpeedKmh": -10.00, "bearingDegrees": -104.20 }, 
+        { "distanceMetres": 79.48, "relativeSpeedKmh": -10.00, "bearingDegrees": 77.66 }, 
+        { "distanceMetres": 104.66, "relativeSpeedKmh": -10.00, "bearingDegrees": -102.29 }, 
+        { "distanceMetres": 77.72, "relativeSpeedKmh": -14.00, "bearingDegrees": 75.18 }
+      ]
+    },
+    {
+      "timestampMs": 3000,
+      "detectedObjects": [
+        { "distanceMetres": 109.54, "relativeSpeedKmh": -10.00, "bearingDegrees": -105.57 }, 
+        { "distanceMetres": 78.42, "relativeSpeedKmh": -10.00, "bearingDegrees": 76.20 }, 
+        { "distanceMetres": 106.70, "relativeSpeedKmh": -10.00, "bearingDegrees": -103.69 }, 
+        { "distanceMetres": 76.80, "relativeSpeedKmh": -14.00, "bearingDegrees": 73.77 }
+      ]
+    },
+    {
+      "timestampMs": 3100,
+      "detectedObjects": [
+        { "distanceMetres": 111.68, "relativeSpeedKmh": -10.00, "bearingDegrees": -106.90 }, 
+        { "distanceMetres": 77.42, "relativeSpeedKmh": -10.00, "bearingDegrees": 74.72 }, 
+        { "distanceMetres": 108.76, "relativeSpeedKmh": -10.00, "bearingDegrees": -105.06 }, 
+        { "distanceMetres": 75.90, "relativeSpeedKmh": -14.00, "bearingDegrees": 72.37 }
+      ]
+    },
+    {
+      "timestampMs": 3200,
+      "detectedObjects": [
+        { "distanceMetres": 113.84, "relativeSpeedKmh": -10.00, "bearingDegrees": -108.20 }, 
+        { "distanceMetres": 76.43, "relativeSpeedKmh": -10.00, "bearingDegrees": 73.22 }, 
+        { "distanceMetres": 110.88, "relativeSpeedKmh": -10.00, "bearingDegrees": -106.42 }, 
+        { "distanceMetres": 75.02, "relativeSpeedKmh": -14.00, "bearingDegrees": 70.97 }
+      ]
+    },
+    {
+      "timestampMs": 3300,
+      "detectedObjects": [
+        { "distanceMetres": 116.05, "relativeSpeedKmh": -10.00, "bearingDegrees": -109.47 }, 
+        { "distanceMetres": 75.48, "relativeSpeedKmh": -10.00, "bearingDegrees": 71.73 }, 
+        { "distanceMetres": 113.04, "relativeSpeedKmh": -10.00, "bearingDegrees": -107.73 }, 
+        { "distanceMetres": 74.18, "relativeSpeedKmh": -14.00, "bearingDegrees": 69.57 }
+      ]
+    },
+    {
+      "timestampMs": 3400,
+      "detectedObjects": [
+        { "distanceMetres": 118.30, "relativeSpeedKmh": -10.00, "bearingDegrees": -110.72 }, 
+        { "distanceMetres": 74.57, "relativeSpeedKmh": -10.00, "bearingDegrees": 70.20 }, 
+        { "distanceMetres": 115.22, "relativeSpeedKmh": -10.00, "bearingDegrees": -109.01 }, 
+        { "distanceMetres": 73.36, "relativeSpeedKmh": -14.00, "bearingDegrees": 68.14 }
+      ]
+    },
+    {
+      "timestampMs": 3500,
+      "detectedObjects": [
+        { "distanceMetres": 120.57, "relativeSpeedKmh": -10.00, "bearingDegrees": -111.93 }, 
+        { "distanceMetres": 73.67, "relativeSpeedKmh": -10.00, "bearingDegrees": 68.68 }, 
+        { "distanceMetres": 117.47, "relativeSpeedKmh": -10.00, "bearingDegrees": -110.27 }, 
+        { "distanceMetres": 72.57, "relativeSpeedKmh": -14.00, "bearingDegrees": 66.70 }
+      ]
+    },
+    {
+      "timestampMs": 3600,
+      "detectedObjects": [
+        { "distanceMetres": 122.91, "relativeSpeedKmh": -10.00, "bearingDegrees": -113.11 }, 
+        { "distanceMetres": 72.80, "relativeSpeedKmh": -10.00, "bearingDegrees": 67.13 }, 
+        { "distanceMetres": 119.73, "relativeSpeedKmh": -10.00, "bearingDegrees": -111.50 }, 
+        { "distanceMetres": 71.80, "relativeSpeedKmh": -14.00, "bearingDegrees": 65.29 }
+      ]
+    },
+    {
+      "timestampMs": 3700,
+      "detectedObjects": [
+        { "distanceMetres": 125.28, "relativeSpeedKmh": -10.00, "bearingDegrees": -114.28 }, 
+        { "distanceMetres": 71.96, "relativeSpeedKmh": -10.00, "bearingDegrees": 65.57 }, 
+        { "distanceMetres": 122.05, "relativeSpeedKmh": -10.00, "bearingDegrees": -112.69 }, 
+        { "distanceMetres": 71.06, "relativeSpeedKmh": -14.00, "bearingDegrees": 63.83 }
+      ]
+    },
+    {
+      "timestampMs": 3800,
+      "detectedObjects": [
+        { "distanceMetres": 127.69, "relativeSpeedKmh": -10.00, "bearingDegrees": -115.42 }, 
+        { "distanceMetres": 71.16, "relativeSpeedKmh": -10.00, "bearingDegrees": 64.02 }, 
+        { "distanceMetres": 124.40, "relativeSpeedKmh": -10.00, "bearingDegrees": -113.86 }, 
+        { "distanceMetres": 70.35, "relativeSpeedKmh": -14.00, "bearingDegrees": 62.39 }
+      ]
+    },
+    {
+      "timestampMs": 3900,
+      "detectedObjects": [
+        { "distanceMetres": 130.14, "relativeSpeedKmh": -10.00, "bearingDegrees": -116.53 }, 
+        { "distanceMetres": 70.37, "relativeSpeedKmh": -10.00, "bearingDegrees": 62.45 }, 
+        { "distanceMetres": 126.81, "relativeSpeedKmh": -10.00, "bearingDegrees": -115.00 }, 
+        { "distanceMetres": 69.65, "relativeSpeedKmh": -14.00, "bearingDegrees": 60.97 }
+      ]
+    },
+    {
+      "timestampMs": 4000,
+      "detectedObjects": [
+        { "distanceMetres": 132.61, "relativeSpeedKmh": -10.00, "bearingDegrees": -117.62 }, 
+        { "distanceMetres": 69.62, "relativeSpeedKmh": -10.00, "bearingDegrees": 60.87 }, 
+        { "distanceMetres": 129.23, "relativeSpeedKmh": -10.00, "bearingDegrees": -116.12 }, 
+        { "distanceMetres": 68.97, "relativeSpeedKmh": -14.00, "bearingDegrees": 59.52 }
+      ]
+    },
+    {
+      "timestampMs": 4100,
+      "detectedObjects": [
+        { "distanceMetres": 135.14, "relativeSpeedKmh": -10.00, "bearingDegrees": -118.67 }, 
+        { "distanceMetres": 68.89, "relativeSpeedKmh": -10.00, "bearingDegrees": 59.31 }, 
+        { "distanceMetres": 131.69, "relativeSpeedKmh": -10.00, "bearingDegrees": -117.22 }, 
+        { "distanceMetres": 68.34, "relativeSpeedKmh": -14.00, "bearingDegrees": 58.06 }
+      ]
+    },
+    {
+      "timestampMs": 4200,
+      "detectedObjects": [
+        { "distanceMetres": 137.67, "relativeSpeedKmh": -10.00, "bearingDegrees": -119.71 }, 
+        { "distanceMetres": 68.19, "relativeSpeedKmh": -10.00, "bearingDegrees": 57.71 }, 
+        { "distanceMetres": 134.21, "relativeSpeedKmh": -10.00, "bearingDegrees": -118.29 }, 
+        { "distanceMetres": 67.71, "relativeSpeedKmh": -14.00, "bearingDegrees": 56.62 }
+      ]
+    },
+    {
+      "timestampMs": 4300,
+      "detectedObjects": [
+        { "distanceMetres": 140.27, "relativeSpeedKmh": -10.00, "bearingDegrees": -120.72 }, 
+        { "distanceMetres": 67.52, "relativeSpeedKmh": -10.00, "bearingDegrees": 56.13 }, 
+        { "distanceMetres": 136.75, "relativeSpeedKmh": -10.00, "bearingDegrees": -119.33 }, 
+        { "distanceMetres": 67.11, "relativeSpeedKmh": -14.00, "bearingDegrees": 55.18 }
+      ]
+    },
+    {
+      "timestampMs": 4400,
+      "detectedObjects": [
+        { "distanceMetres": 142.90, "relativeSpeedKmh": -10.00, "bearingDegrees": -121.72 }, 
+        { "distanceMetres": 66.87, "relativeSpeedKmh": -10.00, "bearingDegrees": 54.53 }, 
+        { "distanceMetres": 139.33, "relativeSpeedKmh": -10.00, "bearingDegrees": -120.35 }, 
+        { "distanceMetres": 66.54, "relativeSpeedKmh": -14.00, "bearingDegrees": 53.74 }
+      ]
+    },
+    {
+      "timestampMs": 4500,
+      "detectedObjects": [
+        { "distanceMetres": 145.56, "relativeSpeedKmh": -10.00, "bearingDegrees": -122.66 }, 
+        { "distanceMetres": 66.24, "relativeSpeedKmh": -10.00, "bearingDegrees": 52.95 }, 
+        { "distanceMetres": 141.93, "relativeSpeedKmh": -10.00, "bearingDegrees": -121.34 }, 
+        { "distanceMetres": 65.99, "relativeSpeedKmh": -14.00, "bearingDegrees": 52.30 }
+      ]
+    },
+    {
+      "timestampMs": 4600,
+      "detectedObjects": [
+        { "distanceMetres": 148.26, "relativeSpeedKmh": -10.00, "bearingDegrees": -123.60 }, 
+        { "distanceMetres": 65.64, "relativeSpeedKmh": -10.00, "bearingDegrees": 51.35 }, 
+        { "distanceMetres": 144.59, "relativeSpeedKmh": -10.00, "bearingDegrees": -122.33 }, 
+        { "distanceMetres": 65.47, "relativeSpeedKmh": -14.00, "bearingDegrees": 50.86 }
+      ]
+    },
+    {
+      "timestampMs": 4700,
+      "detectedObjects": [
+        { "distanceMetres": 151.00, "relativeSpeedKmh": -10.00, "bearingDegrees": -124.53 }, 
+        { "distanceMetres": 65.07, "relativeSpeedKmh": -10.00, "bearingDegrees": 49.74 }, 
+        { "distanceMetres": 147.27, "relativeSpeedKmh": -10.00, "bearingDegrees": -123.28 }, 
+        { "distanceMetres": 64.95, "relativeSpeedKmh": -14.00, "bearingDegrees": 49.44 }
+      ]
+    },
+    {
+      "timestampMs": 4800,
+      "detectedObjects": [
+        { "distanceMetres": 153.76, "relativeSpeedKmh": -10.00, "bearingDegrees": -125.45 }, 
+        { "distanceMetres": 64.53, "relativeSpeedKmh": -10.00, "bearingDegrees": 48.14 }, 
+        { "distanceMetres": 149.99, "relativeSpeedKmh": -10.00, "bearingDegrees": -124.20 }, 
+        { "distanceMetres": 64.46, "relativeSpeedKmh": -14.00, "bearingDegrees": 48.00 }
+      ]
+    },
+    {
+      "timestampMs": 4900,
+      "detectedObjects": [
+        { "distanceMetres": 156.58, "relativeSpeedKmh": -10.00, "bearingDegrees": -126.32 }, 
+        { "distanceMetres": 64.00, "relativeSpeedKmh": -10.00, "bearingDegrees": 46.55 }, 
+        { "distanceMetres": 152.75, "relativeSpeedKmh": -10.00, "bearingDegrees": -125.13 }, 
+        { "distanceMetres": 64.00, "relativeSpeedKmh": -14.00, "bearingDegrees": 46.60 }
+      ]
+    },
+    {
+      "timestampMs": 5000,
+      "detectedObjects": [
+        { "distanceMetres": 159.41, "relativeSpeedKmh": -10.00, "bearingDegrees": -127.19 }, 
+        { "distanceMetres": 63.51, "relativeSpeedKmh": -10.00, "bearingDegrees": 44.95 }, 
+        { "distanceMetres": 155.54, "relativeSpeedKmh": -10.00, "bearingDegrees": -126.01 }, 
+        { "distanceMetres": 63.56, "relativeSpeedKmh": -14.00, "bearingDegrees": 45.19 }
+      ]
+    },
+    {
+      "timestampMs": 5100,
+      "detectedObjects": [
+        { "distanceMetres": 162.29, "relativeSpeedKmh": -10.00, "bearingDegrees": -128.01 }, 
+        { "distanceMetres": 63.02, "relativeSpeedKmh": -10.00, "bearingDegrees": 43.38 }, 
+        { "distanceMetres": 158.36, "relativeSpeedKmh": -10.00, "bearingDegrees": -126.86 }, 
+        { "distanceMetres": 63.14, "relativeSpeedKmh": -14.00, "bearingDegrees": 43.83 }
+      ]
+    },
+    {
+      "timestampMs": 5200,
+      "detectedObjects": [
+        { "distanceMetres": 165.18, "relativeSpeedKmh": -10.00, "bearingDegrees": -128.83 }, 
+        { "distanceMetres": 62.57, "relativeSpeedKmh": -10.00, "bearingDegrees": 41.82 }, 
+        { "distanceMetres": 161.21, "relativeSpeedKmh": -10.00, "bearingDegrees": -127.71 }, 
+        { "distanceMetres": 62.73, "relativeSpeedKmh": -14.00, "bearingDegrees": 42.46 }
+      ]
+    },
+    {
+      "timestampMs": 5300,
+      "detectedObjects": [
+        { "distanceMetres": 168.10, "relativeSpeedKmh": -10.00, "bearingDegrees": -129.65 }, 
+        { "distanceMetres": 62.14, "relativeSpeedKmh": -10.00, "bearingDegrees": 40.22 }, 
+        { "distanceMetres": 164.10, "relativeSpeedKmh": -10.00, "bearingDegrees": -128.54 }, 
+        { "distanceMetres": 62.34, "relativeSpeedKmh": -14.00, "bearingDegrees": 41.07 }
+      ]
+    },
+    {
+      "timestampMs": 5400,
+      "detectedObjects": [
+        { "distanceMetres": 171.06, "relativeSpeedKmh": -10.00, "bearingDegrees": -130.42 }, 
+        { "distanceMetres": 61.73, "relativeSpeedKmh": -10.00, "bearingDegrees": 38.68 }, 
+        { "distanceMetres": 167.02, "relativeSpeedKmh": -10.00, "bearingDegrees": -129.34 }, 
+        { "distanceMetres": 61.97, "relativeSpeedKmh": -14.00, "bearingDegrees": 39.74 }
+      ]
+    },
+    {
+      "timestampMs": 5500,
+      "detectedObjects": [
+        { "distanceMetres": 174.04, "relativeSpeedKmh": -10.00, "bearingDegrees": -131.21 }, 
+        { "distanceMetres": 61.33, "relativeSpeedKmh": -10.00, "bearingDegrees": 37.14 }, 
+        { "distanceMetres": 169.98, "relativeSpeedKmh": -10.00, "bearingDegrees": -130.14 }, 
+        { "distanceMetres": 61.63, "relativeSpeedKmh": -14.00, "bearingDegrees": 38.40 }
+      ]
+    },
+    {
+      "timestampMs": 5600,
+      "detectedObjects": [
+        { "distanceMetres": 177.08, "relativeSpeedKmh": -10.00, "bearingDegrees": -131.95 }, 
+        { "distanceMetres": 60.96, "relativeSpeedKmh": -10.00, "bearingDegrees": 35.61 }, 
+        { "distanceMetres": 172.95, "relativeSpeedKmh": -10.00, "bearingDegrees": -130.93 }, 
+        { "distanceMetres": 61.30, "relativeSpeedKmh": -14.00, "bearingDegrees": 37.10 }
+      ]
+    },
+    {
+      "timestampMs": 5700,
+      "detectedObjects": [
+        { "distanceMetres": 180.14, "relativeSpeedKmh": -10.00, "bearingDegrees": -132.66 }, 
+        { "distanceMetres": 60.62, "relativeSpeedKmh": -10.00, "bearingDegrees": 34.09 }, 
+        { "distanceMetres": 175.97, "relativeSpeedKmh": -10.00, "bearingDegrees": -131.68 }, 
+        { "distanceMetres": 60.98, "relativeSpeedKmh": -14.00, "bearingDegrees": 35.83 }
+      ]
+    },
+    {
+      "timestampMs": 5800,
+      "detectedObjects": [
+        { "distanceMetres": 183.23, "relativeSpeedKmh": -10.00, "bearingDegrees": -133.39 }, 
+        { "distanceMetres": 60.29, "relativeSpeedKmh": -10.00, "bearingDegrees": 32.60 }, 
+        { "distanceMetres": 179.01, "relativeSpeedKmh": -10.00, "bearingDegrees": -132.42 }, 
+        { "distanceMetres": 60.69, "relativeSpeedKmh": -14.00, "bearingDegrees": 34.58 }
+      ]
+    },
+    {
+      "timestampMs": 5900,
+      "detectedObjects": [
+        { "distanceMetres": 186.32, "relativeSpeedKmh": -10.00, "bearingDegrees": -134.09 }, 
+        { "distanceMetres": 59.97, "relativeSpeedKmh": -10.00, "bearingDegrees": 31.11 }, 
+        { "distanceMetres": 182.08, "relativeSpeedKmh": -10.00, "bearingDegrees": -133.14 }, 
+        { "distanceMetres": 60.41, "relativeSpeedKmh": -14.00, "bearingDegrees": 33.31 }
+      ]
+    },
+    {
+      "timestampMs": 6000,
+      "detectedObjects": [
+        { "distanceMetres": 189.48, "relativeSpeedKmh": -10.00, "bearingDegrees": -134.76 }, 
+        { "distanceMetres": 59.68, "relativeSpeedKmh": -10.00, "bearingDegrees": 29.66 }, 
+        { "distanceMetres": 185.19, "relativeSpeedKmh": -10.00, "bearingDegrees": -133.85 }, 
+        { "distanceMetres": 60.14, "relativeSpeedKmh": -14.00, "bearingDegrees": 32.13 }
+      ]
+    },
+    {
+      "timestampMs": 6100,
+      "detectedObjects": [
+        { "distanceMetres": 192.62, "relativeSpeedKmh": -10.00, "bearingDegrees": -135.43 }, 
+        { "distanceMetres": 59.40, "relativeSpeedKmh": -10.00, "bearingDegrees": 28.25 }, 
+        { "distanceMetres": 188.30, "relativeSpeedKmh": -10.00, "bearingDegrees": -134.51 }, 
+        { "distanceMetres": 59.89, "relativeSpeedKmh": -14.00, "bearingDegrees": 30.94 }
+      ]
+    },
+    {
+      "timestampMs": 6200,
+      "detectedObjects": [
+        { "distanceMetres": 195.83, "relativeSpeedKmh": -10.00, "bearingDegrees": -136.10 }, 
+        { "distanceMetres": 59.14, "relativeSpeedKmh": -10.00, "bearingDegrees": 26.84 }, 
+        { "distanceMetres": 191.46, "relativeSpeedKmh": -10.00, "bearingDegrees": -135.20 }, 
+        { "distanceMetres": 59.65, "relativeSpeedKmh": -14.00, "bearingDegrees": 29.78 }
+      ]
+    },
+    {
+      "timestampMs": 6300,
+      "detectedObjects": [
+        { "distanceMetres": 199.05, "relativeSpeedKmh": -10.00, "bearingDegrees": -136.74 }, 
+        { "distanceMetres": 58.90, "relativeSpeedKmh": -10.00, "bearingDegrees": 25.46 }, 
+        { "distanceMetres": 194.65, "relativeSpeedKmh": -10.00, "bearingDegrees": -135.84 }, 
+        { "distanceMetres": 59.43, "relativeSpeedKmh": -14.00, "bearingDegrees": 28.66 }
+      ]
+    },
+    {
+      "timestampMs": 6400,
+      "detectedObjects": [
+        { "distanceMetres": 202.29, "relativeSpeedKmh": -10.00, "bearingDegrees": -137.35 }, 
+        { "distanceMetres": 58.66, "relativeSpeedKmh": -10.00, "bearingDegrees": 24.12 }, 
+        { "distanceMetres": 197.88, "relativeSpeedKmh": -10.00, "bearingDegrees": -136.49 }, 
+        { "distanceMetres": 59.22, "relativeSpeedKmh": -14.00, "bearingDegrees": 27.57 }
+      ]
+    },
+    {
+      "timestampMs": 6500,
+      "detectedObjects": [
+        { "distanceMetres": 205.55, "relativeSpeedKmh": -10.00, "bearingDegrees": -137.96 }, 
+        { "distanceMetres": 58.45, "relativeSpeedKmh": -10.00, "bearingDegrees": 22.80 }, 
+        { "distanceMetres": 201.09, "relativeSpeedKmh": -10.00, "bearingDegrees": -137.13 }, 
+        { "distanceMetres": 59.02, "relativeSpeedKmh": -14.00, "bearingDegrees": 26.54 }
+      ]
+    },
+    {
+      "timestampMs": 6600,
+      "detectedObjects": [
+        { "distanceMetres": 208.84, "relativeSpeedKmh": -10.00, "bearingDegrees": -138.55 }, 
+        { "distanceMetres": 58.25, "relativeSpeedKmh": -10.00, "bearingDegrees": 21.55 }, 
+        { "distanceMetres": 204.36, "relativeSpeedKmh": -10.00, "bearingDegrees": -137.74 }, 
+        { "distanceMetres": 58.83, "relativeSpeedKmh": -14.00, "bearingDegrees": 25.53 }
+      ]
+    },
+    {
+      "timestampMs": 6700,
+      "detectedObjects": [
+        { "distanceMetres": 212.19, "relativeSpeedKmh": -10.00, "bearingDegrees": -139.13 }, 
+        { "distanceMetres": 58.05, "relativeSpeedKmh": -10.00, "bearingDegrees": 20.29 }, 
+        { "distanceMetres": 207.64, "relativeSpeedKmh": -10.00, "bearingDegrees": -138.34 }, 
+        { "distanceMetres": 58.66, "relativeSpeedKmh": -14.00, "bearingDegrees": 24.55 }
+      ]
+    },
+    {
+      "timestampMs": 6800,
+      "detectedObjects": [
+        { "distanceMetres": 215.53, "relativeSpeedKmh": -10.00, "bearingDegrees": -139.71 }, 
+        { "distanceMetres": 57.87, "relativeSpeedKmh": -10.00, "bearingDegrees": 19.11 }, 
+        { "distanceMetres": 210.98, "relativeSpeedKmh": -10.00, "bearingDegrees": -138.91 }, 
+        { "distanceMetres": 58.49, "relativeSpeedKmh": -14.00, "bearingDegrees": 23.64 }
+      ]
+    },
+    {
+      "timestampMs": 6900,
+      "detectedObjects": [
+        { "distanceMetres": 218.89, "relativeSpeedKmh": -10.00, "bearingDegrees": -140.26 }, 
+        { "distanceMetres": 57.69, "relativeSpeedKmh": -10.00, "bearingDegrees": 17.96 }, 
+        { "distanceMetres": 214.29, "relativeSpeedKmh": -10.00, "bearingDegrees": -139.51 }, 
+        { "distanceMetres": 58.34, "relativeSpeedKmh": -14.00, "bearingDegrees": 22.72 }
+      ]
+    },
+    {
+      "timestampMs": 7000,
+      "detectedObjects": [
+        { "distanceMetres": 222.30, "relativeSpeedKmh": -10.00, "bearingDegrees": -140.82 }, 
+        { "distanceMetres": 57.52, "relativeSpeedKmh": -10.00, "bearingDegrees": 16.83 }, 
+        { "distanceMetres": 217.65, "relativeSpeedKmh": -10.00, "bearingDegrees": -140.05 }, 
+        { "distanceMetres": 58.19, "relativeSpeedKmh": -14.00, "bearingDegrees": 21.90 }
+      ]
+    },
+    {
+      "timestampMs": 7100,
+      "detectedObjects": [
+        { "distanceMetres": 225.69, "relativeSpeedKmh": -10.00, "bearingDegrees": -141.34 }, 
+        { "distanceMetres": 57.36, "relativeSpeedKmh": -10.00, "bearingDegrees": 15.77 }, 
+        { "distanceMetres": 221.03, "relativeSpeedKmh": -10.00, "bearingDegrees": -140.62 }, 
+        { "distanceMetres": 58.06, "relativeSpeedKmh": -14.00, "bearingDegrees": 21.09 }
+      ]
+    },
+    {
+      "timestampMs": 7200,
+      "detectedObjects": [
+        { "distanceMetres": 229.14, "relativeSpeedKmh": -10.00, "bearingDegrees": -141.86 }, 
+        { "distanceMetres": 57.20, "relativeSpeedKmh": -10.00, "bearingDegrees": 14.74 }, 
+        { "distanceMetres": 224.44, "relativeSpeedKmh": -10.00, "bearingDegrees": -141.14 }, 
+        { "distanceMetres": 57.93, "relativeSpeedKmh": -14.00, "bearingDegrees": 20.34 }
+      ]
+    },
+    {
+      "timestampMs": 7300,
+      "detectedObjects": [
+        { "distanceMetres": 232.59, "relativeSpeedKmh": -10.00, "bearingDegrees": -142.37 }, 
+        { "distanceMetres": 57.04, "relativeSpeedKmh": -10.00, "bearingDegrees": 13.76 }, 
+        { "distanceMetres": 227.88, "relativeSpeedKmh": -10.00, "bearingDegrees": -141.67 }, 
+        { "distanceMetres": 57.81, "relativeSpeedKmh": -14.00, "bearingDegrees": 19.63 }
+      ]
+    },
+    {
+      "timestampMs": 7400,
+      "detectedObjects": [
+        { "distanceMetres": 236.10, "relativeSpeedKmh": -10.00, "bearingDegrees": -142.87 }, 
+        { "distanceMetres": 56.89, "relativeSpeedKmh": -10.00, "bearingDegrees": 12.81 }, 
+        { "distanceMetres": 231.32, "relativeSpeedKmh": -10.00, "bearingDegrees": -142.20 }, 
+        { "distanceMetres": 57.69, "relativeSpeedKmh": -14.00, "bearingDegrees": 18.98 }
+      ]
+    },
+    {
+      "timestampMs": 7500,
+      "detectedObjects": [
+        { "distanceMetres": 239.61, "relativeSpeedKmh": -10.00, "bearingDegrees": -143.36 }, 
+        { "distanceMetres": 56.74, "relativeSpeedKmh": -10.00, "bearingDegrees": 11.93 }, 
+        { "distanceMetres": 234.84, "relativeSpeedKmh": -10.00, "bearingDegrees": -142.70 }, 
+        { "distanceMetres": 57.58, "relativeSpeedKmh": -14.00, "bearingDegrees": 18.36 }
+      ]
+    },
+    {
+      "timestampMs": 7600,
+      "detectedObjects": [
+        { "distanceMetres": 243.10, "relativeSpeedKmh": -10.00, "bearingDegrees": -143.83 }, 
+        { "distanceMetres": 56.59, "relativeSpeedKmh": -10.00, "bearingDegrees": 11.07 }, 
+        { "distanceMetres": 238.30, "relativeSpeedKmh": -10.00, "bearingDegrees": -143.18 }, 
+        { "distanceMetres": 57.48, "relativeSpeedKmh": -14.00, "bearingDegrees": 17.79 }
+      ]
+    },
+    {
+      "timestampMs": 7700,
+      "detectedObjects": [
+        { "distanceMetres": 246.65, "relativeSpeedKmh": -10.00, "bearingDegrees": -144.31 }, 
+        { "distanceMetres": 56.43, "relativeSpeedKmh": -10.00, "bearingDegrees": 10.23 }, 
+        { "distanceMetres": 241.86, "relativeSpeedKmh": -10.00, "bearingDegrees": -143.66 }, 
+        { "distanceMetres": 57.39, "relativeSpeedKmh": -14.00, "bearingDegrees": 17.29 }
+      ]
+    },
+    {
+      "timestampMs": 7800,
+      "detectedObjects": [
+        { "distanceMetres": 250.22, "relativeSpeedKmh": -10.00, "bearingDegrees": -144.76 }, 
+        { "distanceMetres": 56.27, "relativeSpeedKmh": -10.00, "bearingDegrees": 9.45 }, 
+        { "distanceMetres": 245.36, "relativeSpeedKmh": -10.00, "bearingDegrees": -144.14 }, 
+        { "distanceMetres": 57.30, "relativeSpeedKmh": -14.00, "bearingDegrees": 16.83 }
+      ]
+    },
+    {
+      "timestampMs": 7900,
+      "detectedObjects": [
+        { "distanceMetres": 253.84, "relativeSpeedKmh": -10.00, "bearingDegrees": -145.21 }, 
+        { "distanceMetres": 56.10, "relativeSpeedKmh": -10.00, "bearingDegrees": 8.67 }, 
+        { "distanceMetres": 248.95, "relativeSpeedKmh": -10.00, "bearingDegrees": -144.61 }, 
+        { "distanceMetres": 57.23, "relativeSpeedKmh": -14.00, "bearingDegrees": 16.42 }
+      ]
+    },
+    {
+      "timestampMs": 8000,
+      "detectedObjects": [
+        { "distanceMetres": 257.10, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.63 }, 
+        { "distanceMetres": 55.92, "relativeSpeedKmh": -5.00, "bearingDegrees": 7.98 }, 
+        { "distanceMetres": 252.15, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.01 }, 
+        { "distanceMetres": 57.13, "relativeSpeedKmh": -9.00, "bearingDegrees": 16.12 }
+      ]
+    },
+    {
+      "timestampMs": 8100,
+      "detectedObjects": [
+        { "distanceMetres": 257.22, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.64 }, 
+        { "distanceMetres": 55.79, "relativeSpeedKmh": -5.00, "bearingDegrees": 7.99 }, 
+        { "distanceMetres": 252.28, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.04 }, 
+        { "distanceMetres": 56.90, "relativeSpeedKmh": -9.00, "bearingDegrees": 16.18 }
+      ]
+    },
+    {
+      "timestampMs": 8200,
+      "detectedObjects": [
+        { "distanceMetres": 257.32, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.65 }, 
+        { "distanceMetres": 55.65, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.01 }, 
+        { "distanceMetres": 252.37, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.06 }, 
+        { "distanceMetres": 56.65, "relativeSpeedKmh": -9.00, "bearingDegrees": 16.23 }
+      ]
+    },
+    {
+      "timestampMs": 8300,
+      "detectedObjects": [
+        { "distanceMetres": 257.44, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.66 }, 
+        { "distanceMetres": 55.51, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.04 }, 
+        { "distanceMetres": 252.51, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.06 }, 
+        { "distanceMetres": 56.42, "relativeSpeedKmh": -9.00, "bearingDegrees": 16.33 }
+      ]
+    },
+    {
+      "timestampMs": 8400,
+      "detectedObjects": [
+        { "distanceMetres": 257.54, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.69 }, 
+        { "distanceMetres": 55.37, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.04 }, 
+        { "distanceMetres": 252.60, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.09 }, 
+        { "distanceMetres": 56.18, "relativeSpeedKmh": -9.00, "bearingDegrees": 16.40 }
+      ]
+    },
+    {
+      "timestampMs": 8500,
+      "detectedObjects": [
+        { "distanceMetres": 257.67, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.70 }, 
+        { "distanceMetres": 55.24, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.05 }, 
+        { "distanceMetres": 252.71, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.09 }, 
+        { "distanceMetres": 55.93, "relativeSpeedKmh": -9.00, "bearingDegrees": 16.45 }
+      ]
+    },
+    {
+      "timestampMs": 8600,
+      "detectedObjects": [
+        { "distanceMetres": 257.78, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.74 }, 
+        { "distanceMetres": 55.10, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.08 }, 
+        { "distanceMetres": 252.83, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.13 }, 
+        { "distanceMetres": 55.70, "relativeSpeedKmh": -9.00, "bearingDegrees": 16.53 }
+      ]
+    },
+    {
+      "timestampMs": 8700,
+      "detectedObjects": [
+        { "distanceMetres": 257.89, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.74 }, 
+        { "distanceMetres": 54.96, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.11 }, 
+        { "distanceMetres": 252.94, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.13 }, 
+        { "distanceMetres": 55.46, "relativeSpeedKmh": -9.00, "bearingDegrees": 16.60 }
+      ]
+    },
+    {
+      "timestampMs": 8800,
+      "detectedObjects": [
+        { "distanceMetres": 258.00, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.76 }, 
+        { "distanceMetres": 54.82, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.14 }, 
+        { "distanceMetres": 253.07, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.15 }, 
+        { "distanceMetres": 55.22, "relativeSpeedKmh": -9.00, "bearingDegrees": 16.67 }
+      ]
+    },
+    {
+      "timestampMs": 8900,
+      "detectedObjects": [
+        { "distanceMetres": 258.10, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.78 }, 
+        { "distanceMetres": 54.68, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.16 }, 
+        { "distanceMetres": 253.17, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.19 }, 
+        { "distanceMetres": 54.98, "relativeSpeedKmh": -9.00, "bearingDegrees": 16.74 }
+      ]
+    },
+    {
+      "timestampMs": 9000,
+      "detectedObjects": [
+        { "distanceMetres": 258.24, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.80 }, 
+        { "distanceMetres": 54.55, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.18 }, 
+        { "distanceMetres": 253.31, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.21 }, 
+        { "distanceMetres": 54.74, "relativeSpeedKmh": -9.00, "bearingDegrees": 16.83 }
+      ]
+    },
+    {
+      "timestampMs": 9100,
+      "detectedObjects": [
+        { "distanceMetres": 258.34, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.81 }, 
+        { "distanceMetres": 54.41, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.20 }, 
+        { "distanceMetres": 253.41, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.22 }, 
+        { "distanceMetres": 54.50, "relativeSpeedKmh": -9.00, "bearingDegrees": 16.91 }
+      ]
+    },
+    {
+      "timestampMs": 9200,
+      "detectedObjects": [
+        { "distanceMetres": 258.47, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.82 }, 
+        { "distanceMetres": 54.27, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.22 }, 
+        { "distanceMetres": 253.51, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.24 }, 
+        { "distanceMetres": 54.27, "relativeSpeedKmh": -9.00, "bearingDegrees": 16.97 }
+      ]
+    },
+    {
+      "timestampMs": 9300,
+      "detectedObjects": [
+        { "distanceMetres": 258.58, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.85 }, 
+        { "distanceMetres": 54.14, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.24 }, 
+        { "distanceMetres": 253.66, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.26 }, 
+        { "distanceMetres": 54.02, "relativeSpeedKmh": -9.00, "bearingDegrees": 17.07 }
+      ]
+    },
+    {
+      "timestampMs": 9400,
+      "detectedObjects": [
+        { "distanceMetres": 258.67, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.86 }, 
+        { "distanceMetres": 54.00, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.26 }, 
+        { "distanceMetres": 253.76, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.27 }, 
+        { "distanceMetres": 53.78, "relativeSpeedKmh": -9.00, "bearingDegrees": 17.14 }
+      ]
+    },
+    {
+      "timestampMs": 9500,
+      "detectedObjects": [
+        { "distanceMetres": 258.80, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.89 }, 
+        { "distanceMetres": 53.86, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.27 }, 
+        { "distanceMetres": 253.87, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.30 }, 
+        { "distanceMetres": 53.54, "relativeSpeedKmh": -9.00, "bearingDegrees": 17.22 }
+      ]
+    },
+    {
+      "timestampMs": 9600,
+      "detectedObjects": [
+        { "distanceMetres": 258.91, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.88 }, 
+        { "distanceMetres": 53.72, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.30 }, 
+        { "distanceMetres": 253.97, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.29 }, 
+        { "distanceMetres": 53.31, "relativeSpeedKmh": -9.00, "bearingDegrees": 17.30 }
+      ]
+    },
+    {
+      "timestampMs": 9700,
+      "detectedObjects": [
+        { "distanceMetres": 259.05, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.93 }, 
+        { "distanceMetres": 53.59, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.30 }, 
+        { "distanceMetres": 254.12, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.33 }, 
+        { "distanceMetres": 53.06, "relativeSpeedKmh": -9.00, "bearingDegrees": 17.38 }
+      ]
+    },
+    {
+      "timestampMs": 9800,
+      "detectedObjects": [
+        { "distanceMetres": 259.12, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.94 }, 
+        { "distanceMetres": 53.45, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.33 }, 
+        { "distanceMetres": 254.22, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.33 }, 
+        { "distanceMetres": 52.82, "relativeSpeedKmh": -9.00, "bearingDegrees": 17.44 }
+      ]
+    },
+    {
+      "timestampMs": 9900,
+      "detectedObjects": [
+        { "distanceMetres": 259.26, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.95 }, 
+        { "distanceMetres": 53.31, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.37 }, 
+        { "distanceMetres": 254.31, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.36 }, 
+        { "distanceMetres": 52.59, "relativeSpeedKmh": -9.00, "bearingDegrees": 17.54 }
+      ]
+    },
+    {
+      "timestampMs": 10000,
+      "detectedObjects": [
+        { "distanceMetres": 259.38, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.97 }, 
+        { "distanceMetres": 53.18, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.38 }, 
+        { "distanceMetres": 254.46, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.37 }, 
+        { "distanceMetres": 52.36, "relativeSpeedKmh": -9.00, "bearingDegrees": 17.63 }
+      ]
+    },
+    {
+      "timestampMs": 10100,
+      "detectedObjects": [
+        { "distanceMetres": 259.49, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.00 }, 
+        { "distanceMetres": 53.04, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.41 }, 
+        { "distanceMetres": 254.55, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.40 }, 
+        { "distanceMetres": 52.11, "relativeSpeedKmh": -9.00, "bearingDegrees": 17.71 }
+      ]
+    },
+    {
+      "timestampMs": 10200,
+      "detectedObjects": [
+        { "distanceMetres": 259.61, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.01 }, 
+        { "distanceMetres": 52.90, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.43 }, 
+        { "distanceMetres": 254.65, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.42 }, 
+        { "distanceMetres": 51.88, "relativeSpeedKmh": -9.00, "bearingDegrees": 17.80 }
+      ]
+    },
+    {
+      "timestampMs": 10300,
+      "detectedObjects": [
+        { "distanceMetres": 259.72, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.01 }, 
+        { "distanceMetres": 52.76, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.45 }, 
+        { "distanceMetres": 254.81, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.42 }, 
+        { "distanceMetres": 51.63, "relativeSpeedKmh": -9.00, "bearingDegrees": 17.89 }
+      ]
+    },
+    {
+      "timestampMs": 10400,
+      "detectedObjects": [
+        { "distanceMetres": 259.83, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.04 }, 
+        { "distanceMetres": 52.62, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.48 }, 
+        { "distanceMetres": 254.91, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.45 }, 
+        { "distanceMetres": 51.39, "relativeSpeedKmh": -9.00, "bearingDegrees": 17.96 }
+      ]
+    },
+    {
+      "timestampMs": 10500,
+      "detectedObjects": [
+        { "distanceMetres": 259.96, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.04 }, 
+        { "distanceMetres": 52.48, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.48 }, 
+        { "distanceMetres": 255.03, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.45 }, 
+        { "distanceMetres": 51.16, "relativeSpeedKmh": -9.00, "bearingDegrees": 18.03 }
+      ]
+    },
+    {
+      "timestampMs": 10600,
+      "detectedObjects": [
+        { "distanceMetres": 260.05, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.06 }, 
+        { "distanceMetres": 52.35, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.51 }, 
+        { "distanceMetres": 255.13, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.47 }, 
+        { "distanceMetres": 50.92, "relativeSpeedKmh": -9.00, "bearingDegrees": 18.14 }
+      ]
+    },
+    {
+      "timestampMs": 10700,
+      "detectedObjects": [
+        { "distanceMetres": 260.20, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.08 }, 
+        { "distanceMetres": 52.22, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.52 }, 
+        { "distanceMetres": 255.24, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.50 }, 
+        { "distanceMetres": 50.68, "relativeSpeedKmh": -9.00, "bearingDegrees": 18.22 }
+      ]
+    },
+    {
+      "timestampMs": 10800,
+      "detectedObjects": [
+        { "distanceMetres": 260.31, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.10 }, 
+        { "distanceMetres": 52.07, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.56 }, 
+        { "distanceMetres": 255.34, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.52 }, 
+        { "distanceMetres": 50.45, "relativeSpeedKmh": -9.00, "bearingDegrees": 18.31 }
+      ]
+    },
+    {
+      "timestampMs": 10900,
+      "detectedObjects": [
+        { "distanceMetres": 260.40, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.11 }, 
+        { "distanceMetres": 51.94, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.58 }, 
+        { "distanceMetres": 255.50, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.52 }, 
+        { "distanceMetres": 50.21, "relativeSpeedKmh": -9.00, "bearingDegrees": 18.41 }
+      ]
+    },
+    {
+      "timestampMs": 11000,
+      "detectedObjects": [
+        { "distanceMetres": 260.55, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.14 }, 
+        { "distanceMetres": 51.80, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.61 }, 
+        { "distanceMetres": 255.57, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.56 }, 
+        { "distanceMetres": 49.97, "relativeSpeedKmh": -9.00, "bearingDegrees": 18.48 }
+      ]
+    },
+    {
+      "timestampMs": 11100,
+      "detectedObjects": [
+        { "distanceMetres": 260.62, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.14 }, 
+        { "distanceMetres": 51.67, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.63 }, 
+        { "distanceMetres": 255.70, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.58 }, 
+        { "distanceMetres": 49.73, "relativeSpeedKmh": -9.00, "bearingDegrees": 18.58 }
+      ]
+    },
+    {
+      "timestampMs": 11200,
+      "detectedObjects": [
+        { "distanceMetres": 260.75, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.16 }, 
+        { "distanceMetres": 51.53, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.65 }, 
+        { "distanceMetres": 255.80, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.58 }, 
+        { "distanceMetres": 49.50, "relativeSpeedKmh": -9.00, "bearingDegrees": 18.67 }
+      ]
+    },
+    {
+      "timestampMs": 11300,
+      "detectedObjects": [
+        { "distanceMetres": 260.87, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.20 }, 
+        { "distanceMetres": 51.39, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.66 }, 
+        { "distanceMetres": 255.92, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.61 }, 
+        { "distanceMetres": 49.26, "relativeSpeedKmh": -9.00, "bearingDegrees": 18.76 }
+      ]
+    },
+    {
+      "timestampMs": 11400,
+      "detectedObjects": [
+        { "distanceMetres": 260.98, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.21 }, 
+        { "distanceMetres": 51.26, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.69 }, 
+        { "distanceMetres": 256.02, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.63 }, 
+        { "distanceMetres": 49.03, "relativeSpeedKmh": -9.00, "bearingDegrees": 18.87 }
+      ]
+    },
+    {
+      "timestampMs": 11500,
+      "detectedObjects": [
+        { "distanceMetres": 261.10, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.22 }, 
+        { "distanceMetres": 51.11, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.74 }, 
+        { "distanceMetres": 256.17, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.63 }, 
+        { "distanceMetres": 48.79, "relativeSpeedKmh": -9.00, "bearingDegrees": 18.97 }
+      ]
+    },
+    {
+      "timestampMs": 11600,
+      "detectedObjects": [
+        { "distanceMetres": 261.25, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.25 }, 
+        { "distanceMetres": 50.98, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.75 }, 
+        { "distanceMetres": 256.27, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.67 }, 
+        { "distanceMetres": 48.55, "relativeSpeedKmh": -9.00, "bearingDegrees": 19.05 }
+      ]
+    },
+    {
+      "timestampMs": 11700,
+      "detectedObjects": [
+        { "distanceMetres": 261.32, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.25 }, 
+        { "distanceMetres": 50.84, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.76 }, 
+        { "distanceMetres": 256.41, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.68 }, 
+        { "distanceMetres": 48.32, "relativeSpeedKmh": -9.00, "bearingDegrees": 19.15 }
+      ]
+    },
+    {
+      "timestampMs": 11800,
+      "detectedObjects": [
+        { "distanceMetres": 261.45, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.27 }, 
+        { "distanceMetres": 50.71, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.78 }, 
+        { "distanceMetres": 256.52, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.69 }, 
+        { "distanceMetres": 48.08, "relativeSpeedKmh": -9.00, "bearingDegrees": 19.26 }
+      ]
+    },
+    {
+      "timestampMs": 11900,
+      "detectedObjects": [
+        { "distanceMetres": 261.54, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.30 }, 
+        { "distanceMetres": 50.56, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.82 }, 
+        { "distanceMetres": 256.62, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.70 }, 
+        { "distanceMetres": 47.84, "relativeSpeedKmh": -9.00, "bearingDegrees": 19.33 }
+      ]
+    },
+    {
+      "timestampMs": 12000,
+      "detectedObjects": [
+        { "distanceMetres": 261.67, "relativeSpeedKmh": -5.00, "bearingDegrees": -146.30 }, 
+        { "distanceMetres": 50.43, "relativeSpeedKmh": -5.00, "bearingDegrees": 8.83 }, 
+        { "distanceMetres": 256.73, "relativeSpeedKmh": -5.00, "bearingDegrees": -145.71 }, 
+        { "distanceMetres": 47.61, "relativeSpeedKmh": -9.00, "bearingDegrees": 19.44 }
+      ]
+    }
+  ]
+}
