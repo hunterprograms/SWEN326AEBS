@@ -4,8 +4,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 
-import javax.swing.SwingUtilities;
-
 import swen326.group4.Car.DIDInterface;
 import swen326.group4.Sensors.Camera.Camera;
 import swen326.group4.Sensors.Driver.Driver;
@@ -77,10 +75,10 @@ public class AEBS {
         final Driver driver = new Driver(dir);
         
         // 2. Construct dashboard interface
-            SwingUtilities.invokeLater(() -> {
+            
             DIDInterface systemInterface = new DIDInterface();
             systemInterface.initialize();
-        });
+        
 
         // 3. Construct stub escalation channels
         final BrakingController.EscalationChannel channelA = new BrakingController.EscalationChannel() {
@@ -122,7 +120,8 @@ public class AEBS {
             lidar1, lidar2, lidar3,
             ws1, ws2, ws3,
             driver,
-            channelA, channelB
+            channelA, channelB,
+            systemInterface
         );
 
         // 5. Start all sensors

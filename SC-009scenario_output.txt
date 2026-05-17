@@ -1,5 +1,5 @@
 === AEBS Main1: Live Scenario Run ===
-Data directory : C:\Users\devma\Documents\Uni Work\SWEN326AEBS\scenarios\SC-009
+Data directory : /Users/frankquigley/Desktop/AEBS_Project/SWEN326AEBS/scenarios/SC-009
 Output File    : scenario_output.txt
 Run duration   : 10000ms
 ======================================
@@ -13,6 +13,12 @@ CameraSensor [3] weatherFactor=0.9
 CameraSensor [3] timer started.
 Timer started!
 Timer started!
+CameraSensor [1] t=0 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 0 
+ 
+CameraSensor [2] t=0 count=0 objects=[] conf=0.9 status=OK
 Timer started!
 [] 
  1.0 
@@ -22,48 +28,42 @@ Timer started!
  1.0 
  0 
  
-[] 
- 1.0 
- 0 
- 
+CameraSensor [3] t=0 count=0 objects=[] conf=0.9 status=OK
 Driver scenario: Cyclist overtake — lane change hazard
 Driver timer started.
-CameraSensor [1] t=0 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [2] t=0 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [3] t=0 count=0 objects=[] conf=0.9 status=OK
 Driver t=0 action=NONE state=ACTIVE
 CameraSensor [1] t=50 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=50 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=50 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [1] t=100 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=100 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [1] t=100 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 100 
+ 
+[] 
+ 1.0 
+ 100 
+ 
+[] 
+ 1.0 
+ 100 
+ 
 CameraSensor [3] t=100 count=0 objects=[] conf=0.9 status=OK
-[] 
- 1.0 
- 100 
- 
-[] 
- 1.0 
- 100 
- 
-[] 
- 1.0 
- 100 
- 
 CameraSensor [1] t=150 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [2] t=150 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=150 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [1] t=200 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=150 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=200 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [1] t=200 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 200 
+ 
+[] 
+ 1.0 
+ 200 
+ 
 CameraSensor [3] t=200 count=0 objects=[] conf=0.9 status=OK
-[] 
- 1.0 
- 200 
- 
-[] 
- 1.0 
- 200 
- 
 [] 
  1.0 
  200 
@@ -74,13 +74,13 @@ BrakingController started — decision cycle: 50ms
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=250 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [2] t=250 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=250 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=250 count=0 objects=[] conf=0.9 status=OK
 Driver t=250 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
-CameraSensor [1] t=300 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=300 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [1] t=300 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=300 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
@@ -97,17 +97,17 @@ CameraSensor [3] t=300 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=350 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [2] t=350 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=350 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=350 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=400 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=400 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [3] t=400 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  400 
  
+CameraSensor [3] t=400 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  400 
@@ -119,30 +119,30 @@ CameraSensor [3] t=400 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=450 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [2] t=450 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=450 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=450 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 WheelSensor [1] FL FROZEN at t=490ms
-CameraSensor [2] t=500 count=0 objects=[] conf=0.9 status=OK
-WheelSensor [1] FL unfrozen at t=500ms
-CameraSensor [1] t=500 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [3] t=500 count=0 objects=[] conf=0.9 status=OK
 WheelSensor [3] FL FROZEN at t=490ms
 WheelSensor [3] FL unfrozen at t=500ms
+CameraSensor [1] t=500 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=500 count=0 objects=[] conf=0.9 status=OK
+WheelSensor [1] FL unfrozen at t=500ms
+[] 
+ 1.0 
+ 500 
+ 
+CameraSensor [3] t=500 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 500 
+ 
+[] 
+ 1.0 
+ 500 
+ 
 Driver t=500 action=NONE state=ACTIVE
-[] 
- 1.0 
- 500 
- 
-[] 
- 1.0 
- 500 
- 
-[] 
- 1.0 
- 500 
- 
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=550 count=0 objects=[] conf=0.9 status=OK
@@ -167,13 +167,13 @@ CameraSensor [3] t=600 count=0 objects=[] conf=0.9 status=OK
  
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
-CameraSensor [1] t=650 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=650 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [1] t=650 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=650 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
-CameraSensor [1] t=700 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=700 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [1] t=700 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=700 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
@@ -197,13 +197,13 @@ CameraSensor [3] t=750 count=0 objects=[] conf=0.9 status=OK
 Driver t=750 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
-CameraSensor [1] t=800 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=800 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [3] t=800 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [1] t=800 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  800 
  
+CameraSensor [3] t=800 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  800 
@@ -222,8 +222,8 @@ RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 WheelSensor [3] FL unfrozen at t=860ms
 CameraSensor [1] t=900 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [2] t=900 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=900 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=900 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  900 
@@ -262,25 +262,25 @@ Driver t=1000 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=1050 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [2] t=1050 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=1050 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1050 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=1100 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1100 
+ 
 CameraSensor [2] t=1100 count=0 objects=[] conf=0.9 status=OK
-[] 
- 1.0 
- 1100 
- 
-[] 
- 1.0 
- 1100 
- 
-[] 
- 1.0 
- 1100 
- 
 CameraSensor [3] t=1100 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1100 
+ 
+[] 
+ 1.0 
+ 1100 
+ 
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 WheelSensor [3] RL FROZEN at t=1120ms
@@ -292,36 +292,36 @@ RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=1200 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=1200 count=0 objects=[] conf=0.9 status=OK
-[] 
- 1.0 
- 1200 
- 
-[] 
- 1.0 
- 1200 
- 
-[] 
- 1.0 
- 1200 
- 
 CameraSensor [3] t=1200 count=0 objects=[] conf=0.9 status=OK
-
-[t=1005ms] Last decision: CLEAR
+[] 
+ 1.0 
+ 1200 
+ 
+[] 
+ 1.0 
+ 1200 
+ 
+[] 
+ 1.0 
+ 1200 
+ 
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
+
+[t=1010ms] Last decision: CLEAR
 CameraSensor [1] t=1250 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=1250 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=1250 count=0 objects=[] conf=0.9 status=OK
+Driver t=1250 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
-Driver t=1250 action=NONE state=ACTIVE
-CameraSensor [1] t=1300 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=1300 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [3] t=1300 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [1] t=1300 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  1300 
  
+CameraSensor [3] t=1300 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  1300 
@@ -333,17 +333,17 @@ CameraSensor [3] t=1300 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=1350 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [2] t=1350 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=1350 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1350 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=1400 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [2] t=1400 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=1400 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  1400 
  
+CameraSensor [2] t=1400 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  1400 
@@ -360,12 +360,12 @@ CameraSensor [3] t=1450 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=1500 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [2] t=1500 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=1500 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  1500 
  
+CameraSensor [2] t=1500 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  1500 
@@ -377,18 +377,18 @@ CameraSensor [3] t=1500 count=0 objects=[] conf=0.9 status=OK
 Driver t=1500 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
-CameraSensor [1] t=1550 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=1550 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [1] t=1550 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=1550 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=1600 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [2] t=1600 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=1600 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  1600 
  
+CameraSensor [2] t=1600 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  1600 
@@ -400,29 +400,29 @@ CameraSensor [3] t=1600 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=1650 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [2] t=1650 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=1650 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1650 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
+[] 
+ 1.0 
+ 1700 
+ 
+[] 
+ 1.0 
+ 1700 
+ 
+[] 
+ 1.0 
+ 1700 
+ 
 CameraSensor [1] t=1700 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=1700 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=1700 count=0 objects=[] conf=0.9 status=OK
-[] 
- 1.0 
- 1700 
- 
-[] 
- 1.0 
- 1700 
- 
-[] 
- 1.0 
- 1700 
- 
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 
-[t=1505ms] Last decision: CLEAR
+[t=1513ms] Last decision: CLEAR
 CameraSensor [1] t=1750 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=1750 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=1750 count=0 objects=[] conf=0.9 status=OK
@@ -430,8 +430,8 @@ Driver t=1750 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=1800 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [2] t=1800 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=1800 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1800 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  1800 
@@ -447,17 +447,17 @@ CameraSensor [3] t=1800 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=1850 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [3] t=1850 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [2] t=1850 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1850 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
 CameraSensor [1] t=1900 count=0 objects=[] conf=0.9 status=OK
-CameraSensor [2] t=1900 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=1900 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  1900 
  
+CameraSensor [2] t=1900 count=0 objects=[] conf=0.9 status=OK
 [] 
  1.0 
  1900 
@@ -473,9 +473,9 @@ CameraSensor [2] t=1950 count=0 objects=[] conf=0.9 status=OK
 CameraSensor [3] t=1950 count=0 objects=[] conf=0.9 status=OK
 RadarVoter: TRUSTED — No objects in view
 LidarVoter: TRUSTED — No objects in view
-CameraSensor [1] t=2000 count=1 objects=[CYCLIST@-155.24] conf=0.9 status=OK
 CameraSensor [2] t=2000 count=1 objects=[CYCLIST@-155.11] conf=0.9 status=OK
 CameraSensor [3] t=2000 count=1 objects=[CYCLIST@-155.01] conf=0.9 status=OK
+CameraSensor [1] t=2000 count=1 objects=[CYCLIST@-155.24] conf=0.9 status=OK
 Driver t=2000 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=3.58m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=3.58m speed=29.996666km/h conf=1.0
@@ -483,11 +483,11 @@ LidarVoter: TRUSTED — dist=3.58m speed=29.996666km/h conf=1.0
  1.0 
  2000 
  
-[DetectedObject[distanceMetres=3.58, relativeSpeedKmh=30.0, bearingDegrees=-155.22]] 
+[DetectedObject[distanceMetres=3.58, relativeSpeedKmh=30.0, bearingDegrees=-155.24]] 
  1.0 
  2000 
  
-[DetectedObject[distanceMetres=3.58, relativeSpeedKmh=30.0, bearingDegrees=-155.24]] 
+[DetectedObject[distanceMetres=3.58, relativeSpeedKmh=30.0, bearingDegrees=-155.22]] 
  1.0 
  2000 
  
@@ -513,14 +513,14 @@ CameraSensor [3] t=2100 count=1 objects=[CYCLIST@-147.97] conf=0.9 status=OK
  
 RadarVoter: TRUSTED — dist=2.84m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=2.84m speed=30.0km/h conf=1.0
-CameraSensor [1] t=2150 count=1 objects=[CYCLIST@-143.14] conf=0.9 status=OK
 CameraSensor [2] t=2150 count=1 objects=[CYCLIST@-143.03] conf=0.9 status=OK
 CameraSensor [3] t=2150 count=1 objects=[CYCLIST@-142.92] conf=0.9 status=OK
+CameraSensor [1] t=2150 count=1 objects=[CYCLIST@-143.14] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=2.84m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=2.84m speed=30.0km/h conf=1.0
 CameraSensor [1] t=2200 count=1 objects=[CYCLIST@-136.54] conf=0.9 status=OK
-CameraSensor [2] t=2200 count=1 objects=[CYCLIST@-136.47] conf=0.9 status=OK
 CameraSensor [3] t=2200 count=1 objects=[CYCLIST@-136.33] conf=0.9 status=OK
+CameraSensor [2] t=2200 count=1 objects=[CYCLIST@-136.47] conf=0.9 status=OK
 [DetectedObject[distanceMetres=2.18, relativeSpeedKmh=30.0, bearingDegrees=-136.54]] 
  1.0 
  2200 
@@ -536,25 +536,25 @@ CameraSensor [3] t=2200 count=1 objects=[CYCLIST@-136.33] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=2.18m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=2.18m speed=30.006668km/h conf=1.0
 
-[t=2006ms] Last decision: CLEAR
-CameraSensor [1] t=2250 count=1 objects=[CYCLIST@-127.86] conf=0.9 status=OK
-CameraSensor [2] t=2250 count=1 objects=[CYCLIST@-127.76] conf=0.9 status=OK
+[t=2013ms] Last decision: CLEAR
 CameraSensor [3] t=2250 count=1 objects=[CYCLIST@-127.68] conf=0.9 status=OK
+CameraSensor [2] t=2250 count=1 objects=[CYCLIST@-127.76] conf=0.9 status=OK
+CameraSensor [1] t=2250 count=1 objects=[CYCLIST@-127.86] conf=0.9 status=OK
+Driver t=2250 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=2.18m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=2.18m speed=30.006668km/h conf=1.0
-Driver t=2250 action=NONE state=ACTIVE
 CameraSensor [1] t=2300 count=1 objects=[CYCLIST@-116.58] conf=0.9 status=OK
-CameraSensor [2] t=2300 count=1 objects=[CYCLIST@-116.45] conf=0.9 status=OK
 CameraSensor [3] t=2300 count=1 objects=[CYCLIST@-116.36] conf=0.9 status=OK
-[DetectedObject[distanceMetres=1.68, relativeSpeedKmh=30.0, bearingDegrees=-116.57]] 
+[DetectedObject[distanceMetres=1.68, relativeSpeedKmh=30.0, bearingDegrees=-116.58]] 
  1.0 
  2300 
  
+CameraSensor [2] t=2300 count=1 objects=[CYCLIST@-116.45] conf=0.9 status=OK
 [DetectedObject[distanceMetres=1.68, relativeSpeedKmh=30.0, bearingDegrees=-116.55]] 
  1.0 
  2300 
  
-[DetectedObject[distanceMetres=1.68, relativeSpeedKmh=30.0, bearingDegrees=-116.58]] 
+[DetectedObject[distanceMetres=1.68, relativeSpeedKmh=30.0, bearingDegrees=-116.57]] 
  1.0 
  2300 
  
@@ -565,8 +565,8 @@ CameraSensor [2] t=2350 count=1 objects=[CYCLIST@-102.44] conf=0.9 status=OK
 CameraSensor [3] t=2350 count=1 objects=[CYCLIST@-102.32] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=1.68m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=1.68m speed=29.996666km/h conf=1.0
-CameraSensor [1] t=2400 count=1 objects=[CYCLIST@-86.82] conf=0.9 status=OK
 CameraSensor [2] t=2400 count=1 objects=[CYCLIST@-86.73] conf=0.9 status=OK
+CameraSensor [1] t=2400 count=1 objects=[CYCLIST@-86.82] conf=0.9 status=OK
 CameraSensor [3] t=2400 count=1 objects=[CYCLIST@-86.61] conf=0.9 status=OK
 [DetectedObject[distanceMetres=1.5, relativeSpeedKmh=30.0, bearingDegrees=-86.82]] 
  1.0 
@@ -582,22 +582,22 @@ CameraSensor [3] t=2400 count=1 objects=[CYCLIST@-86.61] conf=0.9 status=OK
  
 RadarVoter: TRUSTED — dist=1.5m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=1.5m speed=30.0km/h conf=1.0
-CameraSensor [1] t=2450 count=1 objects=[CYCLIST@-71.56] conf=0.9 status=OK
 CameraSensor [2] t=2450 count=1 objects=[CYCLIST@-71.46] conf=0.9 status=OK
+CameraSensor [1] t=2450 count=1 objects=[CYCLIST@-71.56] conf=0.9 status=OK
 CameraSensor [3] t=2450 count=1 objects=[CYCLIST@-71.38] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=1.5m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=1.5m speed=30.0km/h conf=1.0
-CameraSensor [1] t=2500 count=1 objects=[CYCLIST@-58.56] conf=0.9 status=OK
-CameraSensor [2] t=2500 count=1 objects=[CYCLIST@-58.49] conf=0.9 status=OK
-CameraSensor [3] t=2500 count=1 objects=[CYCLIST@-58.37] conf=0.9 status=OK
 [DetectedObject[distanceMetres=1.76, relativeSpeedKmh=30.0, bearingDegrees=-58.56]] 
  1.0 
  2500 
  
+CameraSensor [1] t=2500 count=1 objects=[CYCLIST@-58.56] conf=0.9 status=OK
 [DetectedObject[distanceMetres=1.76, relativeSpeedKmh=30.0, bearingDegrees=-58.57]] 
  1.0 
  2500 
  
+CameraSensor [2] t=2500 count=1 objects=[CYCLIST@-58.49] conf=0.9 status=OK
+CameraSensor [3] t=2500 count=1 objects=[CYCLIST@-58.37] conf=0.9 status=OK
 [DetectedObject[distanceMetres=1.76, relativeSpeedKmh=30.0, bearingDegrees=-58.57]] 
  1.0 
  2500 
@@ -605,18 +605,18 @@ CameraSensor [3] t=2500 count=1 objects=[CYCLIST@-58.37] conf=0.9 status=OK
 Driver t=2500 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=1.7599999m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=1.7599999m speed=30.0km/h conf=1.0
+CameraSensor [3] t=2550 count=1 objects=[CYCLIST@-48.17] conf=0.9 status=OK
 CameraSensor [1] t=2550 count=1 objects=[CYCLIST@-48.37] conf=0.9 status=OK
 CameraSensor [2] t=2550 count=1 objects=[CYCLIST@-48.27] conf=0.9 status=OK
-CameraSensor [3] t=2550 count=1 objects=[CYCLIST@-48.17] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=1.7599999m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=1.7599999m speed=30.0km/h conf=1.0
 CameraSensor [1] t=2600 count=1 objects=[CYCLIST@-40.61] conf=0.9 status=OK
-CameraSensor [2] t=2600 count=1 objects=[CYCLIST@-40.52] conf=0.9 status=OK
-CameraSensor [3] t=2600 count=1 objects=[CYCLIST@-40.38] conf=0.9 status=OK
 [DetectedObject[distanceMetres=2.3, relativeSpeedKmh=30.0, bearingDegrees=-40.59]] 
  1.0 
  2600 
  
+CameraSensor [2] t=2600 count=1 objects=[CYCLIST@-40.52] conf=0.9 status=OK
+CameraSensor [3] t=2600 count=1 objects=[CYCLIST@-40.38] conf=0.9 status=OK
 [DetectedObject[distanceMetres=2.3, relativeSpeedKmh=30.0, bearingDegrees=-40.6]] 
  1.0 
  2600 
@@ -627,44 +627,44 @@ CameraSensor [3] t=2600 count=1 objects=[CYCLIST@-40.38] conf=0.9 status=OK
  
 RadarVoter: TRUSTED — dist=2.3m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=2.3066666m speed=30.006668km/h conf=1.0
+CameraSensor [3] t=2650 count=1 objects=[CYCLIST@-34.51] conf=0.9 status=OK
 CameraSensor [1] t=2650 count=1 objects=[CYCLIST@-34.68] conf=0.9 status=OK
 CameraSensor [2] t=2650 count=1 objects=[CYCLIST@-34.59] conf=0.9 status=OK
-CameraSensor [3] t=2650 count=1 objects=[CYCLIST@-34.51] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=2.3m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=2.3066666m speed=30.006668km/h conf=1.0
 CameraSensor [1] t=2700 count=1 objects=[CYCLIST@-30.16] conf=0.9 status=OK
-CameraSensor [2] t=2700 count=1 objects=[CYCLIST@-30.04] conf=0.9 status=OK
-CameraSensor [3] t=2700 count=1 objects=[CYCLIST@-29.94] conf=0.9 status=OK
-[DetectedObject[distanceMetres=2.99, relativeSpeedKmh=30.0, bearingDegrees=-30.15]] 
+[DetectedObject[distanceMetres=2.99, relativeSpeedKmh=30.0, bearingDegrees=-30.13]] 
  1.0 
  2700 
  
+CameraSensor [2] t=2700 count=1 objects=[CYCLIST@-30.04] conf=0.9 status=OK
+CameraSensor [3] t=2700 count=1 objects=[CYCLIST@-29.94] conf=0.9 status=OK
 [DetectedObject[distanceMetres=2.99, relativeSpeedKmh=30.0, bearingDegrees=-30.14]] 
  1.0 
  2700 
  
-[DetectedObject[distanceMetres=2.99, relativeSpeedKmh=30.0, bearingDegrees=-30.13]] 
+[DetectedObject[distanceMetres=2.99, relativeSpeedKmh=30.0, bearingDegrees=-30.15]] 
  1.0 
  2700 
  
 RadarVoter: TRUSTED — dist=2.99m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=2.99m speed=30.0km/h conf=1.0
 
-[t=2507ms] Last decision: CLEAR
+[t=2518ms] Last decision: CLEAR
+CameraSensor [3] t=2750 count=1 objects=[CYCLIST@-26.37] conf=0.9 status=OK
 CameraSensor [1] t=2750 count=1 objects=[CYCLIST@-26.55] conf=0.9 status=OK
 CameraSensor [2] t=2750 count=1 objects=[CYCLIST@-26.45] conf=0.9 status=OK
-CameraSensor [3] t=2750 count=1 objects=[CYCLIST@-26.37] conf=0.9 status=OK
 Driver t=2750 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=2.99m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=2.99m speed=30.0km/h conf=1.0
 CameraSensor [1] t=2800 count=1 objects=[CYCLIST@-23.7] conf=0.9 status=OK
 CameraSensor [2] t=2800 count=1 objects=[CYCLIST@-23.61] conf=0.9 status=OK
 CameraSensor [3] t=2800 count=1 objects=[CYCLIST@-23.5] conf=0.9 status=OK
-[DetectedObject[distanceMetres=3.73, relativeSpeedKmh=30.0, bearingDegrees=-23.7]] 
+[DetectedObject[distanceMetres=3.73, relativeSpeedKmh=30.0, bearingDegrees=-23.69]] 
  1.0 
  2800 
  
-[DetectedObject[distanceMetres=3.73, relativeSpeedKmh=30.0, bearingDegrees=-23.69]] 
+[DetectedObject[distanceMetres=3.73, relativeSpeedKmh=30.0, bearingDegrees=-23.7]] 
  1.0 
  2800 
  
@@ -674,12 +674,13 @@ CameraSensor [3] t=2800 count=1 objects=[CYCLIST@-23.5] conf=0.9 status=OK
  
 RadarVoter: TRUSTED — dist=3.7300003m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=3.7300003m speed=30.0km/h conf=1.0
-CameraSensor [1] t=2850 count=1 objects=[CYCLIST@-21.36] conf=0.9 status=OK
 CameraSensor [2] t=2850 count=1 objects=[CYCLIST@-21.27] conf=0.9 status=OK
+CameraSensor [1] t=2850 count=1 objects=[CYCLIST@-21.36] conf=0.9 status=OK
 CameraSensor [3] t=2850 count=1 objects=[CYCLIST@-21.15] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=3.7300003m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=3.7300003m speed=30.0km/h conf=1.0
 CameraSensor [2] t=2900 count=1 objects=[CYCLIST@-19.33] conf=0.9 status=OK
+CameraSensor [1] t=2900 count=1 objects=[CYCLIST@-19.45] conf=0.9 status=OK
 CameraSensor [3] t=2900 count=1 objects=[CYCLIST@-19.24] conf=0.9 status=OK
 [DetectedObject[distanceMetres=4.51, relativeSpeedKmh=30.0, bearingDegrees=-19.45]] 
  1.0 
@@ -693,12 +694,11 @@ CameraSensor [3] t=2900 count=1 objects=[CYCLIST@-19.24] conf=0.9 status=OK
  1.0 
  2900 
  
-CameraSensor [1] t=2900 count=1 objects=[CYCLIST@-19.45] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=4.51m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=4.51m speed=29.996666km/h conf=1.0
-CameraSensor [1] t=2950 count=1 objects=[CYCLIST@-17.81] conf=0.9 status=OK
-CameraSensor [2] t=2950 count=1 objects=[CYCLIST@-17.72] conf=0.9 status=OK
 CameraSensor [3] t=2950 count=1 objects=[CYCLIST@-17.6] conf=0.9 status=OK
+CameraSensor [2] t=2950 count=1 objects=[CYCLIST@-17.72] conf=0.9 status=OK
+CameraSensor [1] t=2950 count=1 objects=[CYCLIST@-17.81] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=4.51m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=4.51m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=3000 count=1 objects=[CYCLIST@-72.87] conf=0.9 status=OK
@@ -720,10 +720,12 @@ Driver t=3000 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=17.23m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=17.23m speed=30.0km/h conf=1.0
 CameraSensor [1] t=3050 count=1 objects=[CYCLIST@-86.46] conf=0.9 status=OK
-CameraSensor [2] t=3050 count=1 objects=[CYCLIST@-86.37] conf=0.9 status=OK
 CameraSensor [3] t=3050 count=1 objects=[CYCLIST@-86.27] conf=0.9 status=OK
+CameraSensor [2] t=3050 count=1 objects=[CYCLIST@-86.37] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=17.23m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=17.23m speed=30.0km/h conf=1.0
+CameraSensor [1] t=3100 count=1 objects=[CYCLIST@-86.29] conf=0.9 status=OK
+CameraSensor [2] t=3100 count=1 objects=[CYCLIST@-86.17] conf=0.9 status=OK
 [DetectedObject[distanceMetres=86.46, relativeSpeedKmh=30.0, bearingDegrees=-86.28]] 
  1.0 
  3100 
@@ -737,8 +739,6 @@ LidarVoter: TRUSTED — dist=17.23m speed=30.0km/h conf=1.0
  3100 
  
 CameraSensor [3] t=3100 count=1 objects=[CYCLIST@-86.09] conf=0.9 status=OK
-CameraSensor [1] t=3100 count=1 objects=[CYCLIST@-86.29] conf=0.9 status=OK
-CameraSensor [2] t=3100 count=1 objects=[CYCLIST@-86.17] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=86.456665m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=86.46667m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=3150 count=1 objects=[CYCLIST@-86.11] conf=0.9 status=OK
@@ -747,13 +747,9 @@ CameraSensor [3] t=3150 count=1 objects=[CYCLIST@-85.9] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=86.456665m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=86.46667m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=3200 count=1 objects=[CYCLIST@-85.9] conf=0.9 status=OK
-CameraSensor [2] t=3200 count=1 objects=[CYCLIST@-85.82] conf=0.9 status=OK
 CameraSensor [3] t=3200 count=1 objects=[CYCLIST@-85.7] conf=0.9 status=OK
+CameraSensor [2] t=3200 count=1 objects=[CYCLIST@-85.82] conf=0.9 status=OK
 [DetectedObject[distanceMetres=86.14, relativeSpeedKmh=30.0, bearingDegrees=-85.91]] 
- 1.0 
- 3200 
- 
-[DetectedObject[distanceMetres=86.14, relativeSpeedKmh=30.0, bearingDegrees=-85.92]] 
  1.0 
  3200 
  
@@ -761,23 +757,23 @@ CameraSensor [3] t=3200 count=1 objects=[CYCLIST@-85.7] conf=0.9 status=OK
  1.0 
  3200 
  
+[DetectedObject[distanceMetres=86.14, relativeSpeedKmh=30.0, bearingDegrees=-85.92]] 
+ 1.0 
+ 3200 
+ 
 RadarVoter: TRUSTED — dist=86.136665m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=86.13m speed=30.0km/h conf=1.0
 
-[t=3008ms] Last decision: CLEAR
+[t=3021ms] Last decision: CLEAR
+CameraSensor [1] t=3250 count=1 objects=[CYCLIST@-85.74] conf=0.9 status=OK
 CameraSensor [2] t=3250 count=1 objects=[CYCLIST@-85.64] conf=0.9 status=OK
 CameraSensor [3] t=3250 count=1 objects=[CYCLIST@-85.5] conf=0.9 status=OK
-CameraSensor [1] t=3250 count=1 objects=[CYCLIST@-85.74] conf=0.9 status=OK
 Driver t=3250 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=86.136665m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=86.13m speed=30.0km/h conf=1.0
 CameraSensor [1] t=3300 count=1 objects=[CYCLIST@-85.53] conf=0.9 status=OK
-CameraSensor [2] t=3300 count=1 objects=[CYCLIST@-85.44] conf=0.9 status=OK
 CameraSensor [3] t=3300 count=1 objects=[CYCLIST@-85.32] conf=0.9 status=OK
-[DetectedObject[distanceMetres=85.8, relativeSpeedKmh=30.0, bearingDegrees=-85.53]] 
- 1.0 
- 3300 
- 
+CameraSensor [2] t=3300 count=1 objects=[CYCLIST@-85.44] conf=0.9 status=OK
 [DetectedObject[distanceMetres=85.8, relativeSpeedKmh=30.0, bearingDegrees=-85.54]] 
  1.0 
  3300 
@@ -786,42 +782,46 @@ CameraSensor [3] t=3300 count=1 objects=[CYCLIST@-85.32] conf=0.9 status=OK
  1.0 
  3300 
  
+[DetectedObject[distanceMetres=85.8, relativeSpeedKmh=30.0, bearingDegrees=-85.53]] 
+ 1.0 
+ 3300 
+ 
 RadarVoter: TRUSTED — dist=85.80334m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=85.79667m speed=30.0km/h conf=1.0
-CameraSensor [1] t=3350 count=1 objects=[CYCLIST@-85.34] conf=0.9 status=OK
 CameraSensor [2] t=3350 count=1 objects=[CYCLIST@-85.25] conf=0.9 status=OK
+CameraSensor [1] t=3350 count=1 objects=[CYCLIST@-85.34] conf=0.9 status=OK
 CameraSensor [3] t=3350 count=1 objects=[CYCLIST@-85.16] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=85.80334m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=85.79667m speed=30.0km/h conf=1.0
 CameraSensor [1] t=3400 count=1 objects=[CYCLIST@-85.16] conf=0.9 status=OK
 CameraSensor [2] t=3400 count=1 objects=[CYCLIST@-85.06] conf=0.9 status=OK
-CameraSensor [3] t=3400 count=1 objects=[CYCLIST@-84.95] conf=0.9 status=OK
-[DetectedObject[distanceMetres=85.47, relativeSpeedKmh=30.0, bearingDegrees=-85.15]] 
- 1.0 
- 3400 
- 
 [DetectedObject[distanceMetres=85.46, relativeSpeedKmh=30.0, bearingDegrees=-85.15]] 
  1.0 
  3400 
  
+[DetectedObject[distanceMetres=85.47, relativeSpeedKmh=30.0, bearingDegrees=-85.15]] 
+ 1.0 
+ 3400 
+ 
+CameraSensor [3] t=3400 count=1 objects=[CYCLIST@-84.95] conf=0.9 status=OK
 [DetectedObject[distanceMetres=85.46, relativeSpeedKmh=30.0, bearingDegrees=-85.17]] 
  1.0 
  3400 
  
-RadarVoter: TRUSTED — dist=85.463326m speed=30.0km/h conf=1.0
-LidarVoter: TRUSTED — dist=85.47m speed=29.996666km/h conf=1.0
 WheelSensor [1] RR FROZEN at t=3410ms
 WheelSensor [3] RR FROZEN at t=3410ms
+RadarVoter: TRUSTED — dist=85.463326m speed=30.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=85.47m speed=29.996666km/h conf=1.0
 WheelSensor [1] RR unfrozen at t=3420ms
 WheelSensor [3] RR unfrozen at t=3420ms
-CameraSensor [1] t=3450 count=1 objects=[CYCLIST@-84.98] conf=0.9 status=OK
 CameraSensor [2] t=3450 count=1 objects=[CYCLIST@-84.89] conf=0.9 status=OK
+CameraSensor [1] t=3450 count=1 objects=[CYCLIST@-84.98] conf=0.9 status=OK
 CameraSensor [3] t=3450 count=1 objects=[CYCLIST@-84.76] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=85.463326m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=85.47m speed=29.996666km/h conf=1.0
-CameraSensor [1] t=3500 count=1 objects=[CYCLIST@-84.77] conf=0.9 status=OK
-CameraSensor [2] t=3500 count=1 objects=[CYCLIST@-84.68] conf=0.9 status=OK
 CameraSensor [3] t=3500 count=1 objects=[CYCLIST@-84.57] conf=0.9 status=OK
+CameraSensor [2] t=3500 count=1 objects=[CYCLIST@-84.68] conf=0.9 status=OK
+CameraSensor [1] t=3500 count=1 objects=[CYCLIST@-84.77] conf=0.9 status=OK
 [DetectedObject[distanceMetres=85.13, relativeSpeedKmh=30.0, bearingDegrees=-84.79]] 
  1.0 
  3500 
@@ -843,8 +843,8 @@ CameraSensor [3] t=3550 count=1 objects=[CYCLIST@-84.38] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=85.13333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=85.136665m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=3600 count=1 objects=[CYCLIST@-84.38] conf=0.9 status=OK
-CameraSensor [2] t=3600 count=1 objects=[CYCLIST@-84.27] conf=0.9 status=OK
 CameraSensor [3] t=3600 count=1 objects=[CYCLIST@-84.21] conf=0.9 status=OK
+CameraSensor [2] t=3600 count=1 objects=[CYCLIST@-84.27] conf=0.9 status=OK
 [DetectedObject[distanceMetres=84.81, relativeSpeedKmh=30.0, bearingDegrees=-84.38]] 
  1.0 
  3600 
@@ -866,11 +866,6 @@ RadarVoter: TRUSTED — dist=84.80666m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=84.81333m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=3700 count=1 objects=[CYCLIST@-84.02] conf=0.9 status=OK
 CameraSensor [2] t=3700 count=1 objects=[CYCLIST@-83.89] conf=0.9 status=OK
-CameraSensor [3] t=3700 count=1 objects=[CYCLIST@-83.78] conf=0.9 status=OK
-[DetectedObject[distanceMetres=84.47, relativeSpeedKmh=30.0, bearingDegrees=-84.0]] 
- 1.0 
- 3700 
- 
 [DetectedObject[distanceMetres=84.48, relativeSpeedKmh=30.0, bearingDegrees=-84.01]] 
  1.0 
  3700 
@@ -879,10 +874,15 @@ CameraSensor [3] t=3700 count=1 objects=[CYCLIST@-83.78] conf=0.9 status=OK
  1.0 
  3700 
  
+[DetectedObject[distanceMetres=84.47, relativeSpeedKmh=30.0, bearingDegrees=-84.0]] 
+ 1.0 
+ 3700 
+ 
+CameraSensor [3] t=3700 count=1 objects=[CYCLIST@-83.78] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=84.473335m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=84.46333m speed=30.01km/h conf=1.0
 
-[t=3509ms] Last decision: CLEAR
+[t=3526ms] Last decision: CLEAR
 CameraSensor [1] t=3750 count=1 objects=[CYCLIST@-83.81] conf=0.9 status=OK
 CameraSensor [2] t=3750 count=1 objects=[CYCLIST@-83.69] conf=0.9 status=OK
 CameraSensor [3] t=3750 count=1 objects=[CYCLIST@-83.61] conf=0.9 status=OK
@@ -890,9 +890,8 @@ Driver t=3750 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=84.473335m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=84.46333m speed=30.01km/h conf=1.0
 CameraSensor [1] t=3800 count=1 objects=[CYCLIST@-83.59] conf=0.9 status=OK
-CameraSensor [2] t=3800 count=1 objects=[CYCLIST@-83.49] conf=0.9 status=OK
 CameraSensor [3] t=3800 count=1 objects=[CYCLIST@-83.42] conf=0.9 status=OK
-[DetectedObject[distanceMetres=84.13, relativeSpeedKmh=30.0, bearingDegrees=-83.59]] 
+[DetectedObject[distanceMetres=84.13, relativeSpeedKmh=30.0, bearingDegrees=-83.61]] 
  1.0 
  3800 
  
@@ -900,21 +899,21 @@ CameraSensor [3] t=3800 count=1 objects=[CYCLIST@-83.42] conf=0.9 status=OK
  1.0 
  3800 
  
-[DetectedObject[distanceMetres=84.13, relativeSpeedKmh=30.0, bearingDegrees=-83.61]] 
+CameraSensor [2] t=3800 count=1 objects=[CYCLIST@-83.49] conf=0.9 status=OK
+[DetectedObject[distanceMetres=84.13, relativeSpeedKmh=30.0, bearingDegrees=-83.59]] 
  1.0 
  3800 
  
 RadarVoter: TRUSTED — dist=84.13333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=84.136665m speed=29.996666km/h conf=1.0
-CameraSensor [1] t=3850 count=1 objects=[CYCLIST@-83.4] conf=0.9 status=OK
 CameraSensor [2] t=3850 count=1 objects=[CYCLIST@-83.29] conf=0.9 status=OK
+CameraSensor [1] t=3850 count=1 objects=[CYCLIST@-83.4] conf=0.9 status=OK
 CameraSensor [3] t=3850 count=1 objects=[CYCLIST@-83.2] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=84.13333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=84.136665m speed=29.996666km/h conf=1.0
+WheelSensor [2] FR FROZEN at t=3890ms
 CameraSensor [1] t=3900 count=1 objects=[CYCLIST@-83.22] conf=0.9 status=OK
 CameraSensor [2] t=3900 count=1 objects=[CYCLIST@-83.1] conf=0.9 status=OK
-CameraSensor [3] t=3900 count=1 objects=[CYCLIST@-82.99] conf=0.9 status=OK
-WheelSensor [2] FR FROZEN at t=3890ms
 [DetectedObject[distanceMetres=83.8, relativeSpeedKmh=30.0, bearingDegrees=-83.21]] 
  1.0 
  3900 
@@ -927,6 +926,7 @@ WheelSensor [2] FR FROZEN at t=3890ms
  1.0 
  3900 
  
+CameraSensor [3] t=3900 count=1 objects=[CYCLIST@-82.99] conf=0.9 status=OK
 WheelSensor [2] FR unfrozen at t=3900ms
 RadarVoter: TRUSTED — dist=83.80334m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=83.793335m speed=29.996666km/h conf=1.0
@@ -936,8 +936,6 @@ CameraSensor [3] t=3950 count=1 objects=[CYCLIST@-82.8] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=83.80334m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=83.793335m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=4000 count=1 objects=[CYCLIST@-82.82] conf=0.9 status=OK
-CameraSensor [2] t=4000 count=1 objects=[CYCLIST@-82.7] conf=0.9 status=OK
-CameraSensor [3] t=4000 count=1 objects=[CYCLIST@-82.62] conf=0.9 status=OK
 [DetectedObject[distanceMetres=83.47, relativeSpeedKmh=30.0, bearingDegrees=-82.8]] 
  1.0 
  4000 
@@ -946,6 +944,8 @@ CameraSensor [3] t=4000 count=1 objects=[CYCLIST@-82.62] conf=0.9 status=OK
  1.0 
  4000 
  
+CameraSensor [2] t=4000 count=1 objects=[CYCLIST@-82.7] conf=0.9 status=OK
+CameraSensor [3] t=4000 count=1 objects=[CYCLIST@-82.62] conf=0.9 status=OK
 [DetectedObject[distanceMetres=83.46, relativeSpeedKmh=30.0, bearingDegrees=-82.79]] 
  1.0 
  4000 
@@ -954,22 +954,22 @@ Driver t=4000 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=83.46667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=83.46333m speed=30.006668km/h conf=1.0
 CameraSensor [1] t=4050 count=1 objects=[CYCLIST@-82.6] conf=0.9 status=OK
-CameraSensor [2] t=4050 count=1 objects=[CYCLIST@-82.51] conf=0.9 status=OK
 CameraSensor [3] t=4050 count=1 objects=[CYCLIST@-82.42] conf=0.9 status=OK
+CameraSensor [2] t=4050 count=1 objects=[CYCLIST@-82.51] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=83.46667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=83.46333m speed=30.006668km/h conf=1.0
-CameraSensor [1] t=4100 count=1 objects=[CYCLIST@-82.4] conf=0.9 status=OK
 CameraSensor [2] t=4100 count=1 objects=[CYCLIST@-82.31] conf=0.9 status=OK
+CameraSensor [1] t=4100 count=1 objects=[CYCLIST@-82.4] conf=0.9 status=OK
+[DetectedObject[distanceMetres=83.13, relativeSpeedKmh=30.0, bearingDegrees=-82.41]] 
+ 1.0 
+ 4100 
+ 
 CameraSensor [3] t=4100 count=1 objects=[CYCLIST@-82.21] conf=0.9 status=OK
 [DetectedObject[distanceMetres=83.13, relativeSpeedKmh=30.0, bearingDegrees=-82.38]] 
  1.0 
  4100 
  
 [DetectedObject[distanceMetres=83.14, relativeSpeedKmh=30.0, bearingDegrees=-82.4]] 
- 1.0 
- 4100 
- 
-[DetectedObject[distanceMetres=83.13, relativeSpeedKmh=30.0, bearingDegrees=-82.41]] 
  1.0 
  4100 
  
@@ -982,10 +982,7 @@ RadarVoter: TRUSTED — dist=83.13333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=83.14333m speed=30.0km/h conf=1.0
 CameraSensor [1] t=4200 count=1 objects=[CYCLIST@-81.99] conf=0.9 status=OK
 CameraSensor [2] t=4200 count=1 objects=[CYCLIST@-81.87] conf=0.9 status=OK
-[DetectedObject[distanceMetres=82.8, relativeSpeedKmh=30.0, bearingDegrees=-81.99]] 
- 1.0 
- 4200 
- 
+CameraSensor [3] t=4200 count=1 objects=[CYCLIST@-81.77] conf=0.9 status=OK
 [DetectedObject[distanceMetres=82.8, relativeSpeedKmh=30.0, bearingDegrees=-81.99]] 
  1.0 
  4200 
@@ -994,64 +991,67 @@ CameraSensor [2] t=4200 count=1 objects=[CYCLIST@-81.87] conf=0.9 status=OK
  1.0 
  4200 
  
-CameraSensor [3] t=4200 count=1 objects=[CYCLIST@-81.77] conf=0.9 status=OK
+[DetectedObject[distanceMetres=82.8, relativeSpeedKmh=30.0, bearingDegrees=-81.99]] 
+ 1.0 
+ 4200 
+ 
 RadarVoter: TRUSTED — dist=82.8m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=82.79667m speed=30.0km/h conf=1.0
 
-[t=4009ms] Last decision: CLEAR
+[t=4028ms] Last decision: CLEAR
 CameraSensor [1] t=4250 count=1 objects=[CYCLIST@-81.76] conf=0.9 status=OK
-CameraSensor [3] t=4250 count=1 objects=[CYCLIST@-81.59] conf=0.9 status=OK
 CameraSensor [2] t=4250 count=1 objects=[CYCLIST@-81.69] conf=0.9 status=OK
+CameraSensor [3] t=4250 count=1 objects=[CYCLIST@-81.59] conf=0.9 status=OK
 Driver t=4250 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=82.8m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=82.79667m speed=30.0km/h conf=1.0
 CameraSensor [1] t=4300 count=1 objects=[CYCLIST@-81.56] conf=0.9 status=OK
 CameraSensor [2] t=4300 count=1 objects=[CYCLIST@-81.47] conf=0.9 status=OK
 CameraSensor [3] t=4300 count=1 objects=[CYCLIST@-81.38] conf=0.9 status=OK
+[DetectedObject[distanceMetres=82.47, relativeSpeedKmh=30.0, bearingDegrees=-81.56]] 
+ 1.0 
+ 4300 
+ 
+[DetectedObject[distanceMetres=82.47, relativeSpeedKmh=30.0, bearingDegrees=-81.56]] 
+ 1.0 
+ 4300 
+ 
 [DetectedObject[distanceMetres=82.46, relativeSpeedKmh=30.0, bearingDegrees=-81.57]] 
- 1.0 
- 4300 
- 
-[DetectedObject[distanceMetres=82.47, relativeSpeedKmh=30.0, bearingDegrees=-81.56]] 
- 1.0 
- 4300 
- 
-[DetectedObject[distanceMetres=82.47, relativeSpeedKmh=30.0, bearingDegrees=-81.56]] 
  1.0 
  4300 
  
 RadarVoter: TRUSTED — dist=82.46667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=82.473335m speed=30.006668km/h conf=1.0
 CameraSensor [1] t=4350 count=1 objects=[CYCLIST@-81.34] conf=0.9 status=OK
-CameraSensor [3] t=4350 count=1 objects=[CYCLIST@-81.16] conf=0.9 status=OK
 CameraSensor [2] t=4350 count=1 objects=[CYCLIST@-81.25] conf=0.9 status=OK
+CameraSensor [3] t=4350 count=1 objects=[CYCLIST@-81.16] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=82.46667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=82.473335m speed=30.006668km/h conf=1.0
 CameraSensor [1] t=4400 count=1 objects=[CYCLIST@-81.14] conf=0.9 status=OK
 CameraSensor [3] t=4400 count=1 objects=[CYCLIST@-80.96] conf=0.9 status=OK
+[DetectedObject[distanceMetres=82.12, relativeSpeedKmh=30.0, bearingDegrees=-81.13]] 
+ 1.0 
+ 4400 
+ 
 CameraSensor [2] t=4400 count=1 objects=[CYCLIST@-81.04] conf=0.9 status=OK
+[DetectedObject[distanceMetres=82.12, relativeSpeedKmh=30.0, bearingDegrees=-81.13]] 
+ 1.0 
+ 4400 
+ 
 [DetectedObject[distanceMetres=82.13, relativeSpeedKmh=30.0, bearingDegrees=-81.14]] 
- 1.0 
- 4400 
- 
-[DetectedObject[distanceMetres=82.12, relativeSpeedKmh=30.0, bearingDegrees=-81.13]] 
- 1.0 
- 4400 
- 
-[DetectedObject[distanceMetres=82.12, relativeSpeedKmh=30.0, bearingDegrees=-81.13]] 
  1.0 
  4400 
  
 RadarVoter: TRUSTED — dist=82.12333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=82.136665m speed=30.0km/h conf=1.0
 CameraSensor [1] t=4450 count=1 objects=[CYCLIST@-80.93] conf=0.9 status=OK
-CameraSensor [2] t=4450 count=1 objects=[CYCLIST@-80.83] conf=0.9 status=OK
 CameraSensor [3] t=4450 count=1 objects=[CYCLIST@-80.72] conf=0.9 status=OK
+CameraSensor [2] t=4450 count=1 objects=[CYCLIST@-80.83] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=82.12333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=82.136665m speed=30.0km/h conf=1.0
 CameraSensor [1] t=4500 count=1 objects=[CYCLIST@-80.73] conf=0.9 status=OK
-CameraSensor [2] t=4500 count=1 objects=[CYCLIST@-80.63] conf=0.9 status=OK
 CameraSensor [3] t=4500 count=1 objects=[CYCLIST@-80.51] conf=0.9 status=OK
+CameraSensor [2] t=4500 count=1 objects=[CYCLIST@-80.63] conf=0.9 status=OK
 [DetectedObject[distanceMetres=81.79, relativeSpeedKmh=30.0, bearingDegrees=-80.71]] 
  1.0 
  4500 
@@ -1073,8 +1073,12 @@ CameraSensor [3] t=4550 count=1 objects=[CYCLIST@-80.3] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=81.79667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=81.799995m speed=30.0km/h conf=1.0
 CameraSensor [1] t=4600 count=1 objects=[CYCLIST@-80.27] conf=0.9 status=OK
-CameraSensor [2] t=4600 count=1 objects=[CYCLIST@-80.2] conf=0.9 status=OK
 CameraSensor [3] t=4600 count=1 objects=[CYCLIST@-80.08] conf=0.9 status=OK
+CameraSensor [2] t=4600 count=1 objects=[CYCLIST@-80.2] conf=0.9 status=OK
+[DetectedObject[distanceMetres=81.46, relativeSpeedKmh=30.0, bearingDegrees=-80.29]] 
+ 1.0 
+ 4600 
+ 
 [DetectedObject[distanceMetres=81.47, relativeSpeedKmh=30.0, bearingDegrees=-80.29]] 
  1.0 
  4600 
@@ -1083,46 +1087,42 @@ CameraSensor [3] t=4600 count=1 objects=[CYCLIST@-80.08] conf=0.9 status=OK
  1.0 
  4600 
  
-[DetectedObject[distanceMetres=81.46, relativeSpeedKmh=30.0, bearingDegrees=-80.29]] 
- 1.0 
- 4600 
- 
 RadarVoter: TRUSTED — dist=81.46667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=81.46667m speed=30.01km/h conf=1.0
-CameraSensor [1] t=4650 count=1 objects=[CYCLIST@-80.08] conf=0.9 status=OK
 CameraSensor [2] t=4650 count=1 objects=[CYCLIST@-79.97] conf=0.9 status=OK
 CameraSensor [3] t=4650 count=1 objects=[CYCLIST@-79.85] conf=0.9 status=OK
+CameraSensor [1] t=4650 count=1 objects=[CYCLIST@-80.08] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=81.46667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=81.46667m speed=30.01km/h conf=1.0
 CameraSensor [1] t=4700 count=1 objects=[CYCLIST@-79.84] conf=0.9 status=OK
-CameraSensor [2] t=4700 count=1 objects=[CYCLIST@-79.76] conf=0.9 status=OK
-CameraSensor [3] t=4700 count=1 objects=[CYCLIST@-79.66] conf=0.9 status=OK
-[DetectedObject[distanceMetres=81.12, relativeSpeedKmh=30.0, bearingDegrees=-79.85]] 
- 1.0 
- 4700 
- 
-[DetectedObject[distanceMetres=81.13, relativeSpeedKmh=30.0, bearingDegrees=-79.84]] 
- 1.0 
- 4700 
- 
 [DetectedObject[distanceMetres=81.13, relativeSpeedKmh=30.0, bearingDegrees=-79.85]] 
  1.0 
  4700 
  
+[DetectedObject[distanceMetres=81.12, relativeSpeedKmh=30.0, bearingDegrees=-79.85]] 
+ 1.0 
+ 4700 
+ 
+CameraSensor [2] t=4700 count=1 objects=[CYCLIST@-79.76] conf=0.9 status=OK
+[DetectedObject[distanceMetres=81.13, relativeSpeedKmh=30.0, bearingDegrees=-79.84]] 
+ 1.0 
+ 4700 
+ 
+CameraSensor [3] t=4700 count=1 objects=[CYCLIST@-79.66] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=81.12667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=81.12m speed=30.003334km/h conf=1.0
 
-[t=4510ms] Last decision: CLEAR
+[t=4530ms] Last decision: CLEAR
 CameraSensor [1] t=4750 count=1 objects=[CYCLIST@-79.61] conf=0.9 status=OK
-CameraSensor [2] t=4750 count=1 objects=[CYCLIST@-79.54] conf=0.9 status=OK
 CameraSensor [3] t=4750 count=1 objects=[CYCLIST@-79.44] conf=0.9 status=OK
+CameraSensor [2] t=4750 count=1 objects=[CYCLIST@-79.54] conf=0.9 status=OK
 Driver t=4750 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=81.12667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=81.12m speed=30.003334km/h conf=1.0
-CameraSensor [1] t=4800 count=1 objects=[CYCLIST@-79.4] conf=0.9 status=OK
 CameraSensor [2] t=4800 count=1 objects=[CYCLIST@-79.28] conf=0.9 status=OK
 CameraSensor [3] t=4800 count=1 objects=[CYCLIST@-79.2] conf=0.9 status=OK
-[DetectedObject[distanceMetres=80.79, relativeSpeedKmh=30.0, bearingDegrees=-79.4]] 
+CameraSensor [1] t=4800 count=1 objects=[CYCLIST@-79.4] conf=0.9 status=OK
+[DetectedObject[distanceMetres=80.79, relativeSpeedKmh=30.0, bearingDegrees=-79.42]] 
  1.0 
  4800 
  
@@ -1130,7 +1130,7 @@ CameraSensor [3] t=4800 count=1 objects=[CYCLIST@-79.2] conf=0.9 status=OK
  1.0 
  4800 
  
-[DetectedObject[distanceMetres=80.79, relativeSpeedKmh=30.0, bearingDegrees=-79.42]] 
+[DetectedObject[distanceMetres=80.79, relativeSpeedKmh=30.0, bearingDegrees=-79.4]] 
  1.0 
  4800 
  
@@ -1140,17 +1140,17 @@ CameraSensor [1] t=4850 count=1 objects=[CYCLIST@-79.19] conf=0.9 status=OK
 CameraSensor [2] t=4850 count=1 objects=[CYCLIST@-79.08] conf=0.9 status=OK
 CameraSensor [3] t=4850 count=1 objects=[CYCLIST@-78.96] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=80.79m speed=30.0km/h conf=1.0
-LidarVoter: TRUSTED — dist=80.79m speed=29.993332km/h conf=1.0
 WheelSensor [2] FR FROZEN at t=4860ms
+LidarVoter: TRUSTED — dist=80.79m speed=29.993332km/h conf=1.0
 WheelSensor [2] FR unfrozen at t=4870ms
 CameraSensor [1] t=4900 count=1 objects=[CYCLIST@-78.94] conf=0.9 status=OK
 CameraSensor [2] t=4900 count=1 objects=[CYCLIST@-78.85] conf=0.9 status=OK
-CameraSensor [3] t=4900 count=1 objects=[CYCLIST@-78.75] conf=0.9 status=OK
-[DetectedObject[distanceMetres=80.45, relativeSpeedKmh=30.0, bearingDegrees=-78.97]] 
+[DetectedObject[distanceMetres=80.45, relativeSpeedKmh=30.0, bearingDegrees=-78.95]] 
  1.0 
  4900 
  
-[DetectedObject[distanceMetres=80.45, relativeSpeedKmh=30.0, bearingDegrees=-78.95]] 
+CameraSensor [3] t=4900 count=1 objects=[CYCLIST@-78.75] conf=0.9 status=OK
+[DetectedObject[distanceMetres=80.45, relativeSpeedKmh=30.0, bearingDegrees=-78.97]] 
  1.0 
  4900 
  
@@ -1168,6 +1168,10 @@ LidarVoter: TRUSTED — dist=80.456665m speed=30.003334km/h conf=1.0
 CameraSensor [1] t=5000 count=1 objects=[CYCLIST@-78.48] conf=0.9 status=OK
 CameraSensor [2] t=5000 count=1 objects=[CYCLIST@-78.38] conf=0.9 status=OK
 CameraSensor [3] t=5000 count=1 objects=[CYCLIST@-78.3] conf=0.9 status=OK
+[DetectedObject[distanceMetres=80.17, relativeSpeedKmh=30.0, bearingDegrees=-78.47]] 
+ 1.0 
+ 5000 
+ 
 [DetectedObject[distanceMetres=80.18, relativeSpeedKmh=30.0, bearingDegrees=-78.5]] 
  1.0 
  5000 
@@ -1176,16 +1180,12 @@ CameraSensor [3] t=5000 count=1 objects=[CYCLIST@-78.3] conf=0.9 status=OK
  1.0 
  5000 
  
-[DetectedObject[distanceMetres=80.17, relativeSpeedKmh=30.0, bearingDegrees=-78.47]] 
- 1.0 
- 5000 
- 
 Driver t=5000 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=80.17333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=80.15667m speed=30.003334km/h conf=1.0
+CameraSensor [3] t=5050 count=1 objects=[CYCLIST@-77.99] conf=0.9 status=OK
 CameraSensor [1] t=5050 count=1 objects=[CYCLIST@-78.2] conf=0.9 status=OK
 CameraSensor [2] t=5050 count=1 objects=[CYCLIST@-78.09] conf=0.9 status=OK
-CameraSensor [3] t=5050 count=1 objects=[CYCLIST@-77.99] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=80.17333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=80.15667m speed=30.003334km/h conf=1.0
 CameraSensor [1] t=5100 count=1 objects=[CYCLIST@-77.92] conf=0.9 status=OK
@@ -1195,11 +1195,11 @@ CameraSensor [3] t=5100 count=1 objects=[CYCLIST@-77.72] conf=0.9 status=OK
  1.0 
  5100 
  
-[DetectedObject[distanceMetres=80.33, relativeSpeedKmh=30.0, bearingDegrees=-77.9]] 
+[DetectedObject[distanceMetres=80.34, relativeSpeedKmh=30.0, bearingDegrees=-77.9]] 
  1.0 
  5100 
  
-[DetectedObject[distanceMetres=80.34, relativeSpeedKmh=30.0, bearingDegrees=-77.9]] 
+[DetectedObject[distanceMetres=80.33, relativeSpeedKmh=30.0, bearingDegrees=-77.9]] 
  1.0 
  5100 
  
@@ -1210,10 +1210,10 @@ CameraSensor [2] t=5150 count=1 objects=[CYCLIST@-77.52] conf=0.9 status=OK
 CameraSensor [3] t=5150 count=1 objects=[CYCLIST@-77.43] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=80.33666m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=80.34333m speed=30.003334km/h conf=1.0
-CameraSensor [1] t=5200 count=1 objects=[CYCLIST@-77.34] conf=0.9 status=OK
 CameraSensor [2] t=5200 count=1 objects=[CYCLIST@-77.21] conf=0.9 status=OK
+CameraSensor [1] t=5200 count=1 objects=[CYCLIST@-77.34] conf=0.9 status=OK
 CameraSensor [3] t=5200 count=1 objects=[CYCLIST@-77.14] conf=0.9 status=OK
-[DetectedObject[distanceMetres=80.51, relativeSpeedKmh=30.0, bearingDegrees=-77.33]] 
+[DetectedObject[distanceMetres=80.53, relativeSpeedKmh=30.0, bearingDegrees=-77.34]] 
  1.0 
  5200 
  
@@ -1221,23 +1221,26 @@ CameraSensor [3] t=5200 count=1 objects=[CYCLIST@-77.14] conf=0.9 status=OK
  1.0 
  5200 
  
-[DetectedObject[distanceMetres=80.53, relativeSpeedKmh=30.0, bearingDegrees=-77.34]] 
+[DetectedObject[distanceMetres=80.51, relativeSpeedKmh=30.0, bearingDegrees=-77.33]] 
  1.0 
  5200 
  
 RadarVoter: TRUSTED — dist=80.52m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=80.51m speed=29.996666km/h conf=1.0
 
-[t=5010ms] Last decision: CLEAR
-CameraSensor [1] t=5250 count=1 objects=[CYCLIST@-77.04] conf=0.9 status=OK
+[t=5032ms] Last decision: CLEAR
 CameraSensor [2] t=5250 count=1 objects=[CYCLIST@-76.92] conf=0.9 status=OK
+CameraSensor [1] t=5250 count=1 objects=[CYCLIST@-77.04] conf=0.9 status=OK
 CameraSensor [3] t=5250 count=1 objects=[CYCLIST@-76.82] conf=0.9 status=OK
 Driver t=5250 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=80.52m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=80.51m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=5300 count=1 objects=[CYCLIST@-76.75] conf=0.9 status=OK
 CameraSensor [2] t=5300 count=1 objects=[CYCLIST@-76.63] conf=0.9 status=OK
-CameraSensor [3] t=5300 count=1 objects=[CYCLIST@-76.53] conf=0.9 status=OK
+[DetectedObject[distanceMetres=80.71, relativeSpeedKmh=30.0, bearingDegrees=-76.75]] 
+ 1.0 
+ 5300 
+ 
 [DetectedObject[distanceMetres=80.7, relativeSpeedKmh=30.0, bearingDegrees=-76.74]] 
  1.0 
  5300 
@@ -1246,29 +1249,26 @@ CameraSensor [3] t=5300 count=1 objects=[CYCLIST@-76.53] conf=0.9 status=OK
  1.0 
  5300 
  
-[DetectedObject[distanceMetres=80.71, relativeSpeedKmh=30.0, bearingDegrees=-76.75]] 
- 1.0 
- 5300 
- 
+CameraSensor [3] t=5300 count=1 objects=[CYCLIST@-76.53] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=80.70333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=80.71m speed=29.993332km/h conf=1.0
-CameraSensor [1] t=5350 count=1 objects=[CYCLIST@-76.46] conf=0.9 status=OK
 CameraSensor [2] t=5350 count=1 objects=[CYCLIST@-76.35] conf=0.9 status=OK
+CameraSensor [1] t=5350 count=1 objects=[CYCLIST@-76.46] conf=0.9 status=OK
 CameraSensor [3] t=5350 count=1 objects=[CYCLIST@-76.28] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=80.70333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=80.71m speed=29.993332km/h conf=1.0
 CameraSensor [1] t=5400 count=1 objects=[CYCLIST@-76.17] conf=0.9 status=OK
 CameraSensor [2] t=5400 count=1 objects=[CYCLIST@-76.09] conf=0.9 status=OK
-CameraSensor [3] t=5400 count=1 objects=[CYCLIST@-75.96] conf=0.9 status=OK
-[DetectedObject[distanceMetres=80.91, relativeSpeedKmh=30.0, bearingDegrees=-76.18]] 
- 1.0 
- 5400 
- 
 [DetectedObject[distanceMetres=80.9, relativeSpeedKmh=30.0, bearingDegrees=-76.17]] 
  1.0 
  5400 
  
+CameraSensor [3] t=5400 count=1 objects=[CYCLIST@-75.96] conf=0.9 status=OK
 [DetectedObject[distanceMetres=80.91, relativeSpeedKmh=30.0, bearingDegrees=-76.17]] 
+ 1.0 
+ 5400 
+ 
+[DetectedObject[distanceMetres=80.91, relativeSpeedKmh=30.0, bearingDegrees=-76.18]] 
  1.0 
  5400 
  
@@ -1301,8 +1301,8 @@ CameraSensor [3] t=5500 count=1 objects=[CYCLIST@-75.4] conf=0.9 status=OK
 Driver t=5500 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=81.10667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=81.10333m speed=29.996666km/h conf=1.0
-CameraSensor [1] t=5550 count=1 objects=[CYCLIST@-75.32] conf=0.9 status=OK
 CameraSensor [2] t=5550 count=1 objects=[CYCLIST@-75.23] conf=0.9 status=OK
+CameraSensor [1] t=5550 count=1 objects=[CYCLIST@-75.32] conf=0.9 status=OK
 CameraSensor [3] t=5550 count=1 objects=[CYCLIST@-75.13] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=81.10667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=81.10333m speed=29.996666km/h conf=1.0
@@ -1330,6 +1330,10 @@ RadarVoter: TRUSTED — dist=81.31333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=81.32m speed=30.003334km/h conf=1.0
 CameraSensor [1] t=5700 count=1 objects=[CYCLIST@-74.47] conf=0.9 status=OK
 CameraSensor [2] t=5700 count=1 objects=[CYCLIST@-74.38] conf=0.9 status=OK
+[DetectedObject[distanceMetres=81.53, relativeSpeedKmh=30.0, bearingDegrees=-74.48]] 
+ 1.0 
+ 5700 
+ 
 CameraSensor [3] t=5700 count=1 objects=[CYCLIST@-74.27] conf=0.9 status=OK
 [DetectedObject[distanceMetres=81.54, relativeSpeedKmh=30.0, bearingDegrees=-74.46]] 
  1.0 
@@ -1339,67 +1343,63 @@ CameraSensor [3] t=5700 count=1 objects=[CYCLIST@-74.27] conf=0.9 status=OK
  1.0 
  5700 
  
-[DetectedObject[distanceMetres=81.53, relativeSpeedKmh=30.0, bearingDegrees=-74.48]] 
- 1.0 
- 5700 
- 
 RadarVoter: TRUSTED — dist=81.53667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=81.53m speed=29.996666km/h conf=1.0
 
-[t=5511ms] Last decision: CLEAR
-CameraSensor [1] t=5750 count=1 objects=[CYCLIST@-74.17] conf=0.9 status=OK
+[t=5536ms] Last decision: CLEAR
 CameraSensor [2] t=5750 count=1 objects=[CYCLIST@-74.07] conf=0.9 status=OK
+CameraSensor [1] t=5750 count=1 objects=[CYCLIST@-74.17] conf=0.9 status=OK
 CameraSensor [3] t=5750 count=1 objects=[CYCLIST@-73.99] conf=0.9 status=OK
 Driver t=5750 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=81.53667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=81.53m speed=29.996666km/h conf=1.0
+[DetectedObject[distanceMetres=81.77, relativeSpeedKmh=30.0, bearingDegrees=-73.9]] 
+ 1.0 
+ 5800 
+ 
 CameraSensor [1] t=5800 count=1 objects=[CYCLIST@-73.9] conf=0.9 status=OK
-CameraSensor [2] t=5800 count=1 objects=[CYCLIST@-73.82] conf=0.9 status=OK
 CameraSensor [3] t=5800 count=1 objects=[CYCLIST@-73.7] conf=0.9 status=OK
 [DetectedObject[distanceMetres=81.77, relativeSpeedKmh=30.0, bearingDegrees=-73.9]] 
  1.0 
  5800 
  
+CameraSensor [2] t=5800 count=1 objects=[CYCLIST@-73.82] conf=0.9 status=OK
 [DetectedObject[distanceMetres=81.76, relativeSpeedKmh=30.0, bearingDegrees=-73.91]] 
- 1.0 
- 5800 
- 
-[DetectedObject[distanceMetres=81.77, relativeSpeedKmh=30.0, bearingDegrees=-73.9]] 
  1.0 
  5800 
  
 RadarVoter: TRUSTED — dist=81.76666m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=81.76m speed=30.0km/h conf=1.0
 CameraSensor [1] t=5850 count=1 objects=[CYCLIST@-73.61] conf=0.9 status=OK
-CameraSensor [2] t=5850 count=1 objects=[CYCLIST@-73.54] conf=0.9 status=OK
 CameraSensor [3] t=5850 count=1 objects=[CYCLIST@-73.44] conf=0.9 status=OK
+CameraSensor [2] t=5850 count=1 objects=[CYCLIST@-73.54] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=81.76666m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=81.76m speed=30.0km/h conf=1.0
 CameraSensor [1] t=5900 count=1 objects=[CYCLIST@-73.35] conf=0.9 status=OK
 CameraSensor [2] t=5900 count=1 objects=[CYCLIST@-73.23] conf=0.9 status=OK
 CameraSensor [3] t=5900 count=1 objects=[CYCLIST@-73.16] conf=0.9 status=OK
-[DetectedObject[distanceMetres=82.0, relativeSpeedKmh=30.0, bearingDegrees=-73.35]] 
- 1.0 
- 5900 
- 
-[DetectedObject[distanceMetres=82.0, relativeSpeedKmh=30.0, bearingDegrees=-73.35]] 
- 1.0 
- 5900 
- 
 [DetectedObject[distanceMetres=82.0, relativeSpeedKmh=30.0, bearingDegrees=-73.36]] 
+ 1.0 
+ 5900 
+ 
+[DetectedObject[distanceMetres=82.0, relativeSpeedKmh=30.0, bearingDegrees=-73.35]] 
+ 1.0 
+ 5900 
+ 
+[DetectedObject[distanceMetres=82.0, relativeSpeedKmh=30.0, bearingDegrees=-73.35]] 
  1.0 
  5900 
  
 RadarVoter: TRUSTED — dist=82.0m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=82.0m speed=30.003334km/h conf=1.0
 CameraSensor [1] t=5950 count=1 objects=[CYCLIST@-73.07] conf=0.9 status=OK
-CameraSensor [2] t=5950 count=1 objects=[CYCLIST@-72.96] conf=0.9 status=OK
 CameraSensor [3] t=5950 count=1 objects=[CYCLIST@-72.85] conf=0.9 status=OK
+CameraSensor [2] t=5950 count=1 objects=[CYCLIST@-72.96] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=82.0m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=82.0m speed=30.003334km/h conf=1.0
 CameraSensor [1] t=6000 count=1 objects=[CYCLIST@-72.79] conf=0.9 status=OK
-CameraSensor [2] t=6000 count=1 objects=[CYCLIST@-72.68] conf=0.9 status=OK
 CameraSensor [3] t=6000 count=1 objects=[CYCLIST@-72.59] conf=0.9 status=OK
+CameraSensor [2] t=6000 count=1 objects=[CYCLIST@-72.68] conf=0.9 status=OK
 [DetectedObject[distanceMetres=82.24, relativeSpeedKmh=30.0, bearingDegrees=-72.78]] 
  1.0 
  6000 
@@ -1412,26 +1412,26 @@ CameraSensor [3] t=6000 count=1 objects=[CYCLIST@-72.59] conf=0.9 status=OK
  1.0 
  6000 
  
-RadarVoter: TRUSTED — dist=82.24m speed=30.0km/h conf=1.0
 Driver t=6000 action=NONE state=ACTIVE
-LidarVoter: TRUSTED — dist=82.24m speed=30.003334km/h conf=1.0
-CameraSensor [1] t=6050 count=1 objects=[CYCLIST@-72.52] conf=0.9 status=OK
-CameraSensor [2] t=6050 count=1 objects=[CYCLIST@-72.4] conf=0.9 status=OK
-CameraSensor [3] t=6050 count=1 objects=[CYCLIST@-72.3] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=82.24m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=82.24m speed=30.003334km/h conf=1.0
-CameraSensor [1] t=6100 count=1 objects=[CYCLIST@-72.21] conf=0.9 status=OK
-CameraSensor [2] t=6100 count=1 objects=[CYCLIST@-72.12] conf=0.9 status=OK
+CameraSensor [3] t=6050 count=1 objects=[CYCLIST@-72.3] conf=0.9 status=OK
+CameraSensor [2] t=6050 count=1 objects=[CYCLIST@-72.4] conf=0.9 status=OK
+CameraSensor [1] t=6050 count=1 objects=[CYCLIST@-72.52] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=82.24m speed=30.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=82.24m speed=30.003334km/h conf=1.0
 CameraSensor [3] t=6100 count=1 objects=[CYCLIST@-72.02] conf=0.9 status=OK
+[DetectedObject[distanceMetres=82.48, relativeSpeedKmh=30.0, bearingDegrees=-72.24]] 
+ 1.0 
+ 6100 
+ 
+CameraSensor [2] t=6100 count=1 objects=[CYCLIST@-72.12] conf=0.9 status=OK
+CameraSensor [1] t=6100 count=1 objects=[CYCLIST@-72.21] conf=0.9 status=OK
 [DetectedObject[distanceMetres=82.49, relativeSpeedKmh=30.0, bearingDegrees=-72.24]] 
  1.0 
  6100 
  
 [DetectedObject[distanceMetres=82.49, relativeSpeedKmh=30.0, bearingDegrees=-72.22]] 
- 1.0 
- 6100 
- 
-[DetectedObject[distanceMetres=82.48, relativeSpeedKmh=30.0, bearingDegrees=-72.24]] 
  1.0 
  6100 
  
@@ -1444,6 +1444,10 @@ RadarVoter: TRUSTED — dist=82.486664m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=82.49m speed=30.0km/h conf=1.0
 CameraSensor [1] t=6200 count=1 objects=[CYCLIST@-71.67] conf=0.9 status=OK
 CameraSensor [2] t=6200 count=1 objects=[CYCLIST@-71.59] conf=0.9 status=OK
+[DetectedObject[distanceMetres=82.75, relativeSpeedKmh=30.0, bearingDegrees=-71.7]] 
+ 1.0 
+ 6200 
+ 
 CameraSensor [3] t=6200 count=1 objects=[CYCLIST@-71.47] conf=0.9 status=OK
 [DetectedObject[distanceMetres=82.75, relativeSpeedKmh=30.0, bearingDegrees=-71.69]] 
  1.0 
@@ -1453,28 +1457,24 @@ CameraSensor [3] t=6200 count=1 objects=[CYCLIST@-71.47] conf=0.9 status=OK
  1.0 
  6200 
  
-[DetectedObject[distanceMetres=82.75, relativeSpeedKmh=30.0, bearingDegrees=-71.7]] 
- 1.0 
- 6200 
- 
 RadarVoter: TRUSTED — dist=82.75m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=82.746666m speed=29.996666km/h conf=1.0
-
-[t=6012ms] Last decision: CLEAR
 CameraSensor [1] t=6250 count=1 objects=[CYCLIST@-71.42] conf=0.9 status=OK
-CameraSensor [2] t=6250 count=1 objects=[CYCLIST@-71.3] conf=0.9 status=OK
+
+[t=6040ms] Last decision: CLEAR
 CameraSensor [3] t=6250 count=1 objects=[CYCLIST@-71.21] conf=0.9 status=OK
+CameraSensor [2] t=6250 count=1 objects=[CYCLIST@-71.3] conf=0.9 status=OK
 Driver t=6250 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=82.75m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=82.746666m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=6300 count=1 objects=[CYCLIST@-71.13] conf=0.9 status=OK
 CameraSensor [2] t=6300 count=1 objects=[CYCLIST@-71.03] conf=0.9 status=OK
 CameraSensor [3] t=6300 count=1 objects=[CYCLIST@-70.94] conf=0.9 status=OK
-[DetectedObject[distanceMetres=83.02, relativeSpeedKmh=30.0, bearingDegrees=-71.15]] 
+[DetectedObject[distanceMetres=83.01, relativeSpeedKmh=30.0, bearingDegrees=-71.13]] 
  1.0 
  6300 
  
-[DetectedObject[distanceMetres=83.01, relativeSpeedKmh=30.0, bearingDegrees=-71.13]] 
+[DetectedObject[distanceMetres=83.02, relativeSpeedKmh=30.0, bearingDegrees=-71.15]] 
  1.0 
  6300 
  
@@ -1485,14 +1485,14 @@ CameraSensor [3] t=6300 count=1 objects=[CYCLIST@-70.94] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=83.013336m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=83.01m speed=30.006668km/h conf=1.0
 CameraSensor [1] t=6350 count=1 objects=[CYCLIST@-70.86] conf=0.9 status=OK
-CameraSensor [2] t=6350 count=1 objects=[CYCLIST@-70.75] conf=0.9 status=OK
 CameraSensor [3] t=6350 count=1 objects=[CYCLIST@-70.66] conf=0.9 status=OK
+CameraSensor [2] t=6350 count=1 objects=[CYCLIST@-70.75] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=83.013336m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=83.01m speed=30.006668km/h conf=1.0
 CameraSensor [1] t=6400 count=1 objects=[CYCLIST@-70.59] conf=0.9 status=OK
-CameraSensor [2] t=6400 count=1 objects=[CYCLIST@-70.49] conf=0.9 status=OK
 CameraSensor [3] t=6400 count=1 objects=[CYCLIST@-70.38] conf=0.9 status=OK
-[DetectedObject[distanceMetres=83.29, relativeSpeedKmh=30.0, bearingDegrees=-70.6]] 
+CameraSensor [2] t=6400 count=1 objects=[CYCLIST@-70.49] conf=0.9 status=OK
+[DetectedObject[distanceMetres=83.28, relativeSpeedKmh=30.0, bearingDegrees=-70.61]] 
  1.0 
  6400 
  
@@ -1500,20 +1500,20 @@ CameraSensor [3] t=6400 count=1 objects=[CYCLIST@-70.38] conf=0.9 status=OK
  1.0 
  6400 
  
-[DetectedObject[distanceMetres=83.28, relativeSpeedKmh=30.0, bearingDegrees=-70.61]] 
+[DetectedObject[distanceMetres=83.29, relativeSpeedKmh=30.0, bearingDegrees=-70.6]] 
  1.0 
  6400 
  
 RadarVoter: TRUSTED — dist=83.28333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=83.28667m speed=29.993332km/h conf=1.0
 CameraSensor [1] t=6450 count=1 objects=[CYCLIST@-70.34] conf=0.9 status=OK
-CameraSensor [2] t=6450 count=1 objects=[CYCLIST@-70.23] conf=0.9 status=OK
 CameraSensor [3] t=6450 count=1 objects=[CYCLIST@-70.12] conf=0.9 status=OK
+CameraSensor [2] t=6450 count=1 objects=[CYCLIST@-70.23] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=83.28333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=83.28667m speed=29.993332km/h conf=1.0
-CameraSensor [1] t=6500 count=1 objects=[CYCLIST@-70.06] conf=0.9 status=OK
 CameraSensor [2] t=6500 count=1 objects=[CYCLIST@-69.96] conf=0.9 status=OK
 CameraSensor [3] t=6500 count=1 objects=[CYCLIST@-69.84] conf=0.9 status=OK
+CameraSensor [1] t=6500 count=1 objects=[CYCLIST@-70.06] conf=0.9 status=OK
 [DetectedObject[distanceMetres=83.56, relativeSpeedKmh=30.0, bearingDegrees=-70.07]] 
  1.0 
  6500 
@@ -1526,46 +1526,41 @@ CameraSensor [3] t=6500 count=1 objects=[CYCLIST@-69.84] conf=0.9 status=OK
  1.0 
  6500 
  
-RadarVoter: TRUSTED — dist=83.56333m speed=30.0km/h conf=1.0
 Driver t=6500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — dist=83.56333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=83.57333m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=6550 count=1 objects=[CYCLIST@-69.79] conf=0.9 status=OK
 CameraSensor [2] t=6550 count=1 objects=[CYCLIST@-69.69] conf=0.9 status=OK
 CameraSensor [3] t=6550 count=1 objects=[CYCLIST@-69.61] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=83.56333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=83.57333m speed=29.996666km/h conf=1.0
-CameraSensor [1] t=6600 count=1 objects=[CYCLIST@-69.5] conf=0.9 status=OK
 CameraSensor [2] t=6600 count=1 objects=[CYCLIST@-69.43] conf=0.9 status=OK
-CameraSensor [3] t=6600 count=1 objects=[CYCLIST@-69.33] conf=0.9 status=OK
+CameraSensor [1] t=6600 count=1 objects=[CYCLIST@-69.5] conf=0.9 status=OK
+[DetectedObject[distanceMetres=83.85, relativeSpeedKmh=30.0, bearingDegrees=-69.52]] 
+ 1.0 
+ 6600 
+ 
 [DetectedObject[distanceMetres=83.86, relativeSpeedKmh=30.0, bearingDegrees=-69.51]] 
  1.0 
  6600 
  
+CameraSensor [3] t=6600 count=1 objects=[CYCLIST@-69.33] conf=0.9 status=OK
 [DetectedObject[distanceMetres=83.85, relativeSpeedKmh=30.0, bearingDegrees=-69.54]] 
- 1.0 
- 6600 
- 
-[DetectedObject[distanceMetres=83.85, relativeSpeedKmh=30.0, bearingDegrees=-69.52]] 
  1.0 
  6600 
  
 RadarVoter: TRUSTED — dist=83.85333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=83.85333m speed=30.003334km/h conf=1.0
-CameraSensor [1] t=6650 count=1 objects=[CYCLIST@-69.25] conf=0.9 status=OK
-CameraSensor [2] t=6650 count=1 objects=[CYCLIST@-69.16] conf=0.9 status=OK
 CameraSensor [3] t=6650 count=1 objects=[CYCLIST@-69.05] conf=0.9 status=OK
+CameraSensor [2] t=6650 count=1 objects=[CYCLIST@-69.16] conf=0.9 status=OK
+CameraSensor [1] t=6650 count=1 objects=[CYCLIST@-69.25] conf=0.9 status=OK
 WheelSensor [2] FR FROZEN at t=6650ms
 RadarVoter: TRUSTED — dist=83.85333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=83.85333m speed=30.003334km/h conf=1.0
 WheelSensor [2] FR unfrozen at t=6670ms
 CameraSensor [1] t=6700 count=1 objects=[CYCLIST@-68.98] conf=0.9 status=OK
 CameraSensor [2] t=6700 count=1 objects=[CYCLIST@-68.88] conf=0.9 status=OK
-CameraSensor [3] t=6700 count=1 objects=[CYCLIST@-68.8] conf=0.9 status=OK
 [DetectedObject[distanceMetres=84.15, relativeSpeedKmh=30.0, bearingDegrees=-69.0]] 
- 1.0 
- 6700 
- 
-[DetectedObject[distanceMetres=84.15, relativeSpeedKmh=30.0, bearingDegrees=-68.98]] 
  1.0 
  6700 
  
@@ -1573,95 +1568,100 @@ CameraSensor [3] t=6700 count=1 objects=[CYCLIST@-68.8] conf=0.9 status=OK
  1.0 
  6700 
  
+CameraSensor [3] t=6700 count=1 objects=[CYCLIST@-68.8] conf=0.9 status=OK
+[DetectedObject[distanceMetres=84.15, relativeSpeedKmh=30.0, bearingDegrees=-68.98]] 
+ 1.0 
+ 6700 
+ 
 RadarVoter: TRUSTED — dist=84.15m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=84.16334m speed=30.003334km/h conf=1.0
-
-[t=6513ms] Last decision: CLEAR
-CameraSensor [1] t=6750 count=1 objects=[CYCLIST@-68.74] conf=0.9 status=OK
 CameraSensor [2] t=6750 count=1 objects=[CYCLIST@-68.61] conf=0.9 status=OK
+CameraSensor [1] t=6750 count=1 objects=[CYCLIST@-68.74] conf=0.9 status=OK
+
+[t=6543ms] Last decision: CLEAR
 CameraSensor [3] t=6750 count=1 objects=[CYCLIST@-68.54] conf=0.9 status=OK
-RadarVoter: TRUSTED — dist=84.15m speed=30.0km/h conf=1.0
 Driver t=6750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — dist=84.15m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=84.16334m speed=30.003334km/h conf=1.0
 CameraSensor [1] t=6800 count=1 objects=[CYCLIST@-68.47] conf=0.9 status=OK
-CameraSensor [2] t=6800 count=1 objects=[CYCLIST@-68.35] conf=0.9 status=OK
-CameraSensor [3] t=6800 count=1 objects=[CYCLIST@-68.27] conf=0.9 status=OK
-[DetectedObject[distanceMetres=84.46, relativeSpeedKmh=30.0, bearingDegrees=-68.46]] 
- 1.0 
- 6800 
- 
-[DetectedObject[distanceMetres=84.45, relativeSpeedKmh=30.0, bearingDegrees=-68.46]] 
- 1.0 
- 6800 
- 
 [DetectedObject[distanceMetres=84.46, relativeSpeedKmh=30.0, bearingDegrees=-68.47]] 
  1.0 
  6800 
  
+CameraSensor [3] t=6800 count=1 objects=[CYCLIST@-68.27] conf=0.9 status=OK
+CameraSensor [2] t=6800 count=1 objects=[CYCLIST@-68.35] conf=0.9 status=OK
+[DetectedObject[distanceMetres=84.45, relativeSpeedKmh=30.0, bearingDegrees=-68.46]] 
+ 1.0 
+ 6800 
+ 
+[DetectedObject[distanceMetres=84.46, relativeSpeedKmh=30.0, bearingDegrees=-68.46]] 
+ 1.0 
+ 6800 
+ 
 RadarVoter: TRUSTED — dist=84.456665m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=84.450005m speed=30.0km/h conf=1.0
-CameraSensor [1] t=6850 count=1 objects=[CYCLIST@-68.21] conf=0.9 status=OK
 CameraSensor [2] t=6850 count=1 objects=[CYCLIST@-68.09] conf=0.9 status=OK
+CameraSensor [1] t=6850 count=1 objects=[CYCLIST@-68.21] conf=0.9 status=OK
 CameraSensor [3] t=6850 count=1 objects=[CYCLIST@-68.0] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=84.456665m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=84.450005m speed=30.0km/h conf=1.0
-CameraSensor [1] t=6900 count=1 objects=[CYCLIST@-67.92] conf=0.9 status=OK
 CameraSensor [2] t=6900 count=1 objects=[CYCLIST@-67.82] conf=0.9 status=OK
+CameraSensor [1] t=6900 count=1 objects=[CYCLIST@-67.92] conf=0.9 status=OK
+[DetectedObject[distanceMetres=84.77, relativeSpeedKmh=30.0, bearingDegrees=-67.94]] 
+ 1.0 
+ 6900 
+ 
 CameraSensor [3] t=6900 count=1 objects=[CYCLIST@-67.73] conf=0.9 status=OK
+[DetectedObject[distanceMetres=84.77, relativeSpeedKmh=30.0, bearingDegrees=-67.94]] 
+ 1.0 
+ 6900 
+ 
 [DetectedObject[distanceMetres=84.76, relativeSpeedKmh=30.0, bearingDegrees=-67.94]] 
  1.0 
  6900 
  
-[DetectedObject[distanceMetres=84.77, relativeSpeedKmh=30.0, bearingDegrees=-67.94]] 
- 1.0 
- 6900 
- 
-[DetectedObject[distanceMetres=84.77, relativeSpeedKmh=30.0, bearingDegrees=-67.94]] 
- 1.0 
- 6900 
- 
 RadarVoter: TRUSTED — dist=84.76666m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=84.77334m speed=30.0km/h conf=1.0
-CameraSensor [1] t=6950 count=1 objects=[CYCLIST@-67.69] conf=0.9 status=OK
 CameraSensor [2] t=6950 count=1 objects=[CYCLIST@-67.59] conf=0.9 status=OK
+CameraSensor [1] t=6950 count=1 objects=[CYCLIST@-67.69] conf=0.9 status=OK
 CameraSensor [3] t=6950 count=1 objects=[CYCLIST@-67.5] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=84.76666m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=84.77334m speed=30.0km/h conf=1.0
 CameraSensor [1] t=7000 count=1 objects=[CYCLIST@-67.44] conf=0.9 status=OK
-CameraSensor [2] t=7000 count=1 objects=[CYCLIST@-67.32] conf=0.9 status=OK
 CameraSensor [3] t=7000 count=1 objects=[CYCLIST@-67.22] conf=0.9 status=OK
+[DetectedObject[distanceMetres=85.08, relativeSpeedKmh=30.0, bearingDegrees=-67.43]] 
+ 1.0 
+ 7000 
+ 
+CameraSensor [2] t=7000 count=1 objects=[CYCLIST@-67.32] conf=0.9 status=OK
+[DetectedObject[distanceMetres=85.08, relativeSpeedKmh=30.0, bearingDegrees=-67.43]] 
+ 1.0 
+ 7000 
+ 
 [DetectedObject[distanceMetres=85.07, relativeSpeedKmh=30.0, bearingDegrees=-67.41]] 
  1.0 
  7000 
  
-[DetectedObject[distanceMetres=85.08, relativeSpeedKmh=30.0, bearingDegrees=-67.43]] 
- 1.0 
- 7000 
- 
-[DetectedObject[distanceMetres=85.08, relativeSpeedKmh=30.0, bearingDegrees=-67.43]] 
- 1.0 
- 7000 
- 
-RadarVoter: TRUSTED — dist=85.07667m speed=30.0km/h conf=1.0
 Driver t=7000 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — dist=85.07667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=85.07667m speed=30.006668km/h conf=1.0
-CameraSensor [1] t=7050 count=1 objects=[CYCLIST@-67.17] conf=0.9 status=OK
 CameraSensor [2] t=7050 count=1 objects=[CYCLIST@-67.07] conf=0.9 status=OK
+CameraSensor [1] t=7050 count=1 objects=[CYCLIST@-67.17] conf=0.9 status=OK
 CameraSensor [3] t=7050 count=1 objects=[CYCLIST@-66.96] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=85.07667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=85.07667m speed=30.006668km/h conf=1.0
 CameraSensor [1] t=7100 count=1 objects=[CYCLIST@-66.9] conf=0.9 status=OK
 CameraSensor [2] t=7100 count=1 objects=[CYCLIST@-66.8] conf=0.9 status=OK
 CameraSensor [3] t=7100 count=1 objects=[CYCLIST@-66.69] conf=0.9 status=OK
+[DetectedObject[distanceMetres=85.41, relativeSpeedKmh=30.0, bearingDegrees=-66.9]] 
+ 1.0 
+ 7100 
+ 
 [DetectedObject[distanceMetres=85.4, relativeSpeedKmh=30.0, bearingDegrees=-66.9]] 
  1.0 
  7100 
  
 [DetectedObject[distanceMetres=85.4, relativeSpeedKmh=30.0, bearingDegrees=-66.92]] 
- 1.0 
- 7100 
- 
-[DetectedObject[distanceMetres=85.41, relativeSpeedKmh=30.0, bearingDegrees=-66.9]] 
  1.0 
  7100 
  
@@ -1674,64 +1674,64 @@ RadarVoter: TRUSTED — dist=85.40334m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=85.4m speed=29.993332km/h conf=1.0
 CameraSensor [1] t=7200 count=1 objects=[CYCLIST@-66.37] conf=0.9 status=OK
 CameraSensor [2] t=7200 count=1 objects=[CYCLIST@-66.31] conf=0.9 status=OK
-CameraSensor [3] t=7200 count=1 objects=[CYCLIST@-66.2] conf=0.9 status=OK
+[DetectedObject[distanceMetres=85.73, relativeSpeedKmh=30.0, bearingDegrees=-66.39]] 
+ 1.0 
+ 7200 
+ 
 [DetectedObject[distanceMetres=85.73, relativeSpeedKmh=30.0, bearingDegrees=-66.4]] 
  1.0 
  7200 
  
-[DetectedObject[distanceMetres=85.73, relativeSpeedKmh=30.0, bearingDegrees=-66.39]] 
- 1.0 
- 7200 
- 
+CameraSensor [3] t=7200 count=1 objects=[CYCLIST@-66.2] conf=0.9 status=OK
 [DetectedObject[distanceMetres=85.73, relativeSpeedKmh=30.0, bearingDegrees=-66.39]] 
  1.0 
  7200 
  
 RadarVoter: TRUSTED — dist=85.73m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=85.73m speed=29.99km/h conf=1.0
-
-[t=7013ms] Last decision: CLEAR
 CameraSensor [1] t=7250 count=1 objects=[CYCLIST@-66.13] conf=0.9 status=OK
 CameraSensor [2] t=7250 count=1 objects=[CYCLIST@-66.02] conf=0.9 status=OK
 CameraSensor [3] t=7250 count=1 objects=[CYCLIST@-65.92] conf=0.9 status=OK
+
+[t=7047ms] Last decision: CLEAR
 Driver t=7250 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=85.73m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=85.73m speed=29.99km/h conf=1.0
 CameraSensor [1] t=7300 count=1 objects=[CYCLIST@-65.9] conf=0.9 status=OK
-CameraSensor [2] t=7300 count=1 objects=[CYCLIST@-65.78] conf=0.9 status=OK
 CameraSensor [3] t=7300 count=1 objects=[CYCLIST@-65.7] conf=0.9 status=OK
-[DetectedObject[distanceMetres=86.07, relativeSpeedKmh=30.0, bearingDegrees=-65.88]] 
- 1.0 
- 7300 
- 
-[DetectedObject[distanceMetres=86.07, relativeSpeedKmh=30.0, bearingDegrees=-65.88]] 
- 1.0 
- 7300 
- 
+CameraSensor [2] t=7300 count=1 objects=[CYCLIST@-65.78] conf=0.9 status=OK
 [DetectedObject[distanceMetres=86.07, relativeSpeedKmh=30.0, bearingDegrees=-65.87]] 
  1.0 
  7300 
  
+[DetectedObject[distanceMetres=86.07, relativeSpeedKmh=30.0, bearingDegrees=-65.88]] 
+ 1.0 
+ 7300 
+ 
+[DetectedObject[distanceMetres=86.07, relativeSpeedKmh=30.0, bearingDegrees=-65.88]] 
+ 1.0 
+ 7300 
+ 
 RadarVoter: TRUSTED — dist=86.07m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=86.07333m speed=29.996666km/h conf=1.0
-CameraSensor [1] t=7350 count=1 objects=[CYCLIST@-65.62] conf=0.9 status=OK
 CameraSensor [2] t=7350 count=1 objects=[CYCLIST@-65.54] conf=0.9 status=OK
 CameraSensor [3] t=7350 count=1 objects=[CYCLIST@-65.44] conf=0.9 status=OK
+CameraSensor [1] t=7350 count=1 objects=[CYCLIST@-65.62] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=86.07m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=86.07333m speed=29.996666km/h conf=1.0
 WheelSensor [2] RL FROZEN at t=7380ms
-CameraSensor [1] t=7400 count=1 objects=[CYCLIST@-65.38] conf=0.9 status=OK
-CameraSensor [3] t=7400 count=1 objects=[CYCLIST@-65.18] conf=0.9 status=OK
-CameraSensor [2] t=7400 count=1 objects=[CYCLIST@-65.29] conf=0.9 status=OK
 WheelSensor [2] RL unfrozen at t=7390ms
-[DetectedObject[distanceMetres=86.41, relativeSpeedKmh=30.0, bearingDegrees=-65.39]] 
- 1.0 
- 7400 
- 
+CameraSensor [2] t=7400 count=1 objects=[CYCLIST@-65.29] conf=0.9 status=OK
+CameraSensor [1] t=7400 count=1 objects=[CYCLIST@-65.38] conf=0.9 status=OK
 [DetectedObject[distanceMetres=86.42, relativeSpeedKmh=30.0, bearingDegrees=-65.39]] 
  1.0 
  7400 
  
+[DetectedObject[distanceMetres=86.41, relativeSpeedKmh=30.0, bearingDegrees=-65.39]] 
+ 1.0 
+ 7400 
+ 
+CameraSensor [3] t=7400 count=1 objects=[CYCLIST@-65.18] conf=0.9 status=OK
 [DetectedObject[distanceMetres=86.42, relativeSpeedKmh=30.0, bearingDegrees=-65.39]] 
  1.0 
  7400 
@@ -1745,14 +1745,14 @@ CameraSensor [2] t=7450 count=1 objects=[CYCLIST@-65.04] conf=0.9 status=OK
 CameraSensor [3] t=7450 count=1 objects=[CYCLIST@-64.93] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=86.416664m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=86.416664m speed=29.996666km/h conf=1.0
-CameraSensor [1] t=7500 count=1 objects=[CYCLIST@-64.88] conf=0.9 status=OK
 CameraSensor [2] t=7500 count=1 objects=[CYCLIST@-64.76] conf=0.9 status=OK
+CameraSensor [1] t=7500 count=1 objects=[CYCLIST@-64.88] conf=0.9 status=OK
 CameraSensor [3] t=7500 count=1 objects=[CYCLIST@-64.66] conf=0.9 status=OK
-[DetectedObject[distanceMetres=86.76, relativeSpeedKmh=30.0, bearingDegrees=-64.88]] 
+[DetectedObject[distanceMetres=86.77, relativeSpeedKmh=30.0, bearingDegrees=-64.89]] 
  1.0 
  7500 
  
-[DetectedObject[distanceMetres=86.77, relativeSpeedKmh=30.0, bearingDegrees=-64.89]] 
+[DetectedObject[distanceMetres=86.76, relativeSpeedKmh=30.0, bearingDegrees=-64.88]] 
  1.0 
  7500 
  
@@ -1760,26 +1760,26 @@ CameraSensor [3] t=7500 count=1 objects=[CYCLIST@-64.66] conf=0.9 status=OK
  1.0 
  7500 
  
+Driver t=7500 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=86.763336m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=86.76333m speed=30.003334km/h conf=1.0
-Driver t=7500 action=NONE state=ACTIVE
 CameraSensor [1] t=7550 count=1 objects=[CYCLIST@-64.63] conf=0.9 status=OK
 CameraSensor [2] t=7550 count=1 objects=[CYCLIST@-64.53] conf=0.9 status=OK
 CameraSensor [3] t=7550 count=1 objects=[CYCLIST@-64.44] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=86.763336m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=86.76333m speed=30.003334km/h conf=1.0
-CameraSensor [1] t=7600 count=1 objects=[CYCLIST@-64.39] conf=0.9 status=OK
 CameraSensor [2] t=7600 count=1 objects=[CYCLIST@-64.27] conf=0.9 status=OK
+CameraSensor [1] t=7600 count=1 objects=[CYCLIST@-64.39] conf=0.9 status=OK
 CameraSensor [3] t=7600 count=1 objects=[CYCLIST@-64.18] conf=0.9 status=OK
-[DetectedObject[distanceMetres=87.12, relativeSpeedKmh=30.0, bearingDegrees=-64.38]] 
- 1.0 
- 7600 
- 
 [DetectedObject[distanceMetres=87.13, relativeSpeedKmh=30.0, bearingDegrees=-64.4]] 
  1.0 
  7600 
  
 [DetectedObject[distanceMetres=87.12, relativeSpeedKmh=30.0, bearingDegrees=-64.39]] 
+ 1.0 
+ 7600 
+ 
+[DetectedObject[distanceMetres=87.12, relativeSpeedKmh=30.0, bearingDegrees=-64.38]] 
  1.0 
  7600 
  
@@ -1793,12 +1793,8 @@ CameraSensor [3] t=7650 count=1 objects=[CYCLIST@-63.93] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=87.12333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=87.11334m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=7700 count=1 objects=[CYCLIST@-63.88] conf=0.9 status=OK
-CameraSensor [2] t=7700 count=1 objects=[CYCLIST@-63.8] conf=0.9 status=OK
 CameraSensor [3] t=7700 count=1 objects=[CYCLIST@-63.7] conf=0.9 status=OK
-[DetectedObject[distanceMetres=87.49, relativeSpeedKmh=30.0, bearingDegrees=-63.89]] 
- 1.0 
- 7700 
- 
+CameraSensor [2] t=7700 count=1 objects=[CYCLIST@-63.8] conf=0.9 status=OK
 [DetectedObject[distanceMetres=87.48, relativeSpeedKmh=30.0, bearingDegrees=-63.88]] 
  1.0 
  7700 
@@ -1807,46 +1803,50 @@ CameraSensor [3] t=7700 count=1 objects=[CYCLIST@-63.7] conf=0.9 status=OK
  1.0 
  7700 
  
+[DetectedObject[distanceMetres=87.49, relativeSpeedKmh=30.0, bearingDegrees=-63.89]] 
+ 1.0 
+ 7700 
+ 
 RadarVoter: TRUSTED — dist=87.486664m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=87.48334m speed=29.996666km/h conf=1.0
-
-[t=7516ms] Last decision: CLEAR
 CameraSensor [1] t=7750 count=1 objects=[CYCLIST@-63.64] conf=0.9 status=OK
-CameraSensor [2] t=7750 count=1 objects=[CYCLIST@-63.54] conf=0.9 status=OK
 CameraSensor [3] t=7750 count=1 objects=[CYCLIST@-63.46] conf=0.9 status=OK
+CameraSensor [2] t=7750 count=1 objects=[CYCLIST@-63.54] conf=0.9 status=OK
 Driver t=7750 action=NONE state=ACTIVE
+
+[t=7552ms] Last decision: CLEAR
 RadarVoter: TRUSTED — dist=87.486664m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=87.48334m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=7800 count=1 objects=[CYCLIST@-63.39] conf=0.9 status=OK
-CameraSensor [2] t=7800 count=1 objects=[CYCLIST@-63.31] conf=0.9 status=OK
 CameraSensor [3] t=7800 count=1 objects=[CYCLIST@-63.22] conf=0.9 status=OK
 [DetectedObject[distanceMetres=87.85, relativeSpeedKmh=30.0, bearingDegrees=-63.4]] 
  1.0 
  7800 
  
-[DetectedObject[distanceMetres=87.85, relativeSpeedKmh=30.0, bearingDegrees=-63.39]] 
- 1.0 
- 7800 
- 
 [DetectedObject[distanceMetres=87.85, relativeSpeedKmh=30.0, bearingDegrees=-63.4]] 
  1.0 
  7800 
  
+CameraSensor [2] t=7800 count=1 objects=[CYCLIST@-63.31] conf=0.9 status=OK
+[DetectedObject[distanceMetres=87.85, relativeSpeedKmh=30.0, bearingDegrees=-63.39]] 
+ 1.0 
+ 7800 
+ 
 RadarVoter: TRUSTED — dist=87.85m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=87.86334m speed=29.996666km/h conf=1.0
-CameraSensor [1] t=7850 count=1 objects=[CYCLIST@-63.15] conf=0.9 status=OK
 CameraSensor [2] t=7850 count=1 objects=[CYCLIST@-63.07] conf=0.9 status=OK
+CameraSensor [1] t=7850 count=1 objects=[CYCLIST@-63.15] conf=0.9 status=OK
 CameraSensor [3] t=7850 count=1 objects=[CYCLIST@-62.98] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=87.85m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=87.86334m speed=29.996666km/h conf=1.0
-CameraSensor [1] t=7900 count=1 objects=[CYCLIST@-62.93] conf=0.9 status=OK
 CameraSensor [2] t=7900 count=1 objects=[CYCLIST@-62.81] conf=0.9 status=OK
-CameraSensor [3] t=7900 count=1 objects=[CYCLIST@-62.7] conf=0.9 status=OK
-[DetectedObject[distanceMetres=88.22, relativeSpeedKmh=30.0, bearingDegrees=-62.92]] 
+CameraSensor [1] t=7900 count=1 objects=[CYCLIST@-62.93] conf=0.9 status=OK
+[DetectedObject[distanceMetres=88.23, relativeSpeedKmh=30.0, bearingDegrees=-62.9]] 
  1.0 
  7900 
  
-[DetectedObject[distanceMetres=88.23, relativeSpeedKmh=30.0, bearingDegrees=-62.9]] 
+CameraSensor [3] t=7900 count=1 objects=[CYCLIST@-62.7] conf=0.9 status=OK
+[DetectedObject[distanceMetres=88.22, relativeSpeedKmh=30.0, bearingDegrees=-62.92]] 
  1.0 
  7900 
  
@@ -1857,17 +1857,13 @@ CameraSensor [3] t=7900 count=1 objects=[CYCLIST@-62.7] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=88.22668m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=88.22m speed=30.003334km/h conf=1.0
 CameraSensor [1] t=7950 count=1 objects=[CYCLIST@-62.66] conf=0.9 status=OK
-CameraSensor [2] t=7950 count=1 objects=[CYCLIST@-62.56] conf=0.9 status=OK
 CameraSensor [3] t=7950 count=1 objects=[CYCLIST@-62.48] conf=0.9 status=OK
+CameraSensor [2] t=7950 count=1 objects=[CYCLIST@-62.56] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=88.22668m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=88.22m speed=30.003334km/h conf=1.0
 CameraSensor [1] t=8000 count=1 objects=[CYCLIST@-62.45] conf=0.9 status=OK
 CameraSensor [2] t=8000 count=1 objects=[CYCLIST@-62.34] conf=0.9 status=OK
 CameraSensor [3] t=8000 count=1 objects=[CYCLIST@-62.24] conf=0.9 status=OK
-[DetectedObject[distanceMetres=88.61, relativeSpeedKmh=30.0, bearingDegrees=-62.44]] 
- 1.0 
- 8000 
- 
 [DetectedObject[distanceMetres=88.61, relativeSpeedKmh=30.0, bearingDegrees=-62.45]] 
  1.0 
  8000 
@@ -1876,38 +1872,46 @@ CameraSensor [3] t=8000 count=1 objects=[CYCLIST@-62.24] conf=0.9 status=OK
  1.0 
  8000 
  
+[DetectedObject[distanceMetres=88.61, relativeSpeedKmh=30.0, bearingDegrees=-62.44]] 
+ 1.0 
+ 8000 
+ 
 Driver t=8000 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=88.613335m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=88.60999m speed=30.003334km/h conf=1.0
-CameraSensor [1] t=8050 count=1 objects=[CYCLIST@-62.21] conf=0.9 status=OK
 CameraSensor [2] t=8050 count=1 objects=[CYCLIST@-62.1] conf=0.9 status=OK
+CameraSensor [1] t=8050 count=1 objects=[CYCLIST@-62.21] conf=0.9 status=OK
 CameraSensor [3] t=8050 count=1 objects=[CYCLIST@-61.99] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=88.613335m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=88.60999m speed=30.003334km/h conf=1.0
-CameraSensor [1] t=8100 count=1 objects=[CYCLIST@-61.96] conf=0.9 status=OK
 CameraSensor [2] t=8100 count=1 objects=[CYCLIST@-61.86] conf=0.9 status=OK
-CameraSensor [3] t=8100 count=1 objects=[CYCLIST@-61.75] conf=0.9 status=OK
-[DetectedObject[distanceMetres=89.0, relativeSpeedKmh=30.0, bearingDegrees=-61.95]] 
- 1.0 
- 8100 
- 
+CameraSensor [1] t=8100 count=1 objects=[CYCLIST@-61.96] conf=0.9 status=OK
 [DetectedObject[distanceMetres=89.0, relativeSpeedKmh=30.0, bearingDegrees=-61.97]] 
  1.0 
  8100 
  
+[DetectedObject[distanceMetres=89.0, relativeSpeedKmh=30.0, bearingDegrees=-61.95]] 
+ 1.0 
+ 8100 
+ 
+CameraSensor [3] t=8100 count=1 objects=[CYCLIST@-61.75] conf=0.9 status=OK
 [DetectedObject[distanceMetres=89.0, relativeSpeedKmh=30.0, bearingDegrees=-61.96]] 
  1.0 
  8100 
  
 RadarVoter: TRUSTED — dist=89.0m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=89.00333m speed=29.996666km/h conf=1.0
-CameraSensor [1] t=8150 count=1 objects=[CYCLIST@-61.73] conf=0.9 status=OK
 CameraSensor [2] t=8150 count=1 objects=[CYCLIST@-61.64] conf=0.9 status=OK
+CameraSensor [1] t=8150 count=1 objects=[CYCLIST@-61.73] conf=0.9 status=OK
 CameraSensor [3] t=8150 count=1 objects=[CYCLIST@-61.53] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=89.0m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=89.00333m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=8200 count=1 objects=[CYCLIST@-61.49] conf=0.9 status=OK
 CameraSensor [2] t=8200 count=1 objects=[CYCLIST@-61.37] conf=0.9 status=OK
+[DetectedObject[distanceMetres=89.4, relativeSpeedKmh=30.0, bearingDegrees=-61.49]] 
+ 1.0 
+ 8200 
+ 
 CameraSensor [3] t=8200 count=1 objects=[CYCLIST@-61.31] conf=0.9 status=OK
 [DetectedObject[distanceMetres=89.4, relativeSpeedKmh=30.0, bearingDegrees=-61.49]] 
  1.0 
@@ -1917,28 +1921,24 @@ CameraSensor [3] t=8200 count=1 objects=[CYCLIST@-61.31] conf=0.9 status=OK
  1.0 
  8200 
  
-[DetectedObject[distanceMetres=89.4, relativeSpeedKmh=30.0, bearingDegrees=-61.49]] 
- 1.0 
- 8200 
- 
 RadarVoter: TRUSTED — dist=89.4m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=89.39667m speed=29.993332km/h conf=1.0
-
-[t=8016ms] Last decision: CLEAR
 CameraSensor [1] t=8250 count=1 objects=[CYCLIST@-61.26] conf=0.9 status=OK
 CameraSensor [2] t=8250 count=1 objects=[CYCLIST@-61.14] conf=0.9 status=OK
 CameraSensor [3] t=8250 count=1 objects=[CYCLIST@-61.05] conf=0.9 status=OK
 Driver t=8250 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=89.4m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=89.39667m speed=29.993332km/h conf=1.0
+
+[t=8057ms] Last decision: CLEAR
 CameraSensor [1] t=8300 count=1 objects=[CYCLIST@-61.04] conf=0.9 status=OK
 CameraSensor [3] t=8300 count=1 objects=[CYCLIST@-60.83] conf=0.9 status=OK
 CameraSensor [2] t=8300 count=1 objects=[CYCLIST@-60.93] conf=0.9 status=OK
-[DetectedObject[distanceMetres=89.81, relativeSpeedKmh=30.0, bearingDegrees=-61.04]] 
+[DetectedObject[distanceMetres=89.8, relativeSpeedKmh=30.0, bearingDegrees=-61.01]] 
  1.0 
  8300 
  
-[DetectedObject[distanceMetres=89.8, relativeSpeedKmh=30.0, bearingDegrees=-61.01]] 
+[DetectedObject[distanceMetres=89.81, relativeSpeedKmh=30.0, bearingDegrees=-61.04]] 
  1.0 
  8300 
  
@@ -1948,23 +1948,23 @@ CameraSensor [2] t=8300 count=1 objects=[CYCLIST@-60.93] conf=0.9 status=OK
  
 RadarVoter: TRUSTED — dist=89.799995m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=89.80334m speed=30.003334km/h conf=1.0
-CameraSensor [2] t=8350 count=1 objects=[CYCLIST@-60.7] conf=0.9 status=OK
-CameraSensor [3] t=8350 count=1 objects=[CYCLIST@-60.58] conf=0.9 status=OK
 CameraSensor [1] t=8350 count=1 objects=[CYCLIST@-60.8] conf=0.9 status=OK
+CameraSensor [3] t=8350 count=1 objects=[CYCLIST@-60.58] conf=0.9 status=OK
+CameraSensor [2] t=8350 count=1 objects=[CYCLIST@-60.7] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=89.799995m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=89.80334m speed=30.003334km/h conf=1.0
+[DetectedObject[distanceMetres=90.2, relativeSpeedKmh=30.0, bearingDegrees=-60.57]] 
+ 1.0 
+ 8400 
+ 
 CameraSensor [1] t=8400 count=1 objects=[CYCLIST@-60.56] conf=0.9 status=OK
-CameraSensor [2] t=8400 count=1 objects=[CYCLIST@-60.44] conf=0.9 status=OK
 CameraSensor [3] t=8400 count=1 objects=[CYCLIST@-60.37] conf=0.9 status=OK
+CameraSensor [2] t=8400 count=1 objects=[CYCLIST@-60.44] conf=0.9 status=OK
 [DetectedObject[distanceMetres=90.21, relativeSpeedKmh=30.0, bearingDegrees=-60.55]] 
  1.0 
  8400 
  
 [DetectedObject[distanceMetres=90.21, relativeSpeedKmh=30.0, bearingDegrees=-60.56]] 
- 1.0 
- 8400 
- 
-[DetectedObject[distanceMetres=90.2, relativeSpeedKmh=30.0, bearingDegrees=-60.57]] 
  1.0 
  8400 
  
@@ -1976,9 +1976,8 @@ CameraSensor [3] t=8450 count=1 objects=[CYCLIST@-60.14] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=90.206665m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=90.206665m speed=30.0km/h conf=1.0
 CameraSensor [1] t=8500 count=1 objects=[CYCLIST@-60.12] conf=0.9 status=OK
-CameraSensor [2] t=8500 count=1 objects=[CYCLIST@-59.98] conf=0.9 status=OK
 CameraSensor [3] t=8500 count=1 objects=[CYCLIST@-59.88] conf=0.9 status=OK
-[DetectedObject[distanceMetres=90.61, relativeSpeedKmh=30.0, bearingDegrees=-60.11]] 
+[DetectedObject[distanceMetres=90.62, relativeSpeedKmh=30.0, bearingDegrees=-60.1]] 
  1.0 
  8500 
  
@@ -1986,44 +1985,45 @@ CameraSensor [3] t=8500 count=1 objects=[CYCLIST@-59.88] conf=0.9 status=OK
  1.0 
  8500 
  
-[DetectedObject[distanceMetres=90.62, relativeSpeedKmh=30.0, bearingDegrees=-60.1]] 
+CameraSensor [2] t=8500 count=1 objects=[CYCLIST@-59.98] conf=0.9 status=OK
+[DetectedObject[distanceMetres=90.61, relativeSpeedKmh=30.0, bearingDegrees=-60.11]] 
  1.0 
  8500 
  
-RadarVoter: TRUSTED — dist=90.61667m speed=30.0km/h conf=1.0
 Driver t=8500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — dist=90.61667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=90.60667m speed=30.0km/h conf=1.0
+CameraSensor [3] t=8550 count=1 objects=[CYCLIST@-59.67] conf=0.9 status=OK
 CameraSensor [1] t=8550 count=1 objects=[CYCLIST@-59.88] conf=0.9 status=OK
 CameraSensor [2] t=8550 count=1 objects=[CYCLIST@-59.78] conf=0.9 status=OK
-CameraSensor [3] t=8550 count=1 objects=[CYCLIST@-59.67] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=90.61667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=90.60667m speed=30.0km/h conf=1.0
 CameraSensor [1] t=8600 count=1 objects=[CYCLIST@-59.63] conf=0.9 status=OK
-CameraSensor [2] t=8600 count=1 objects=[CYCLIST@-59.56] conf=0.9 status=OK
 CameraSensor [3] t=8600 count=1 objects=[CYCLIST@-59.45] conf=0.9 status=OK
-[DetectedObject[distanceMetres=91.04, relativeSpeedKmh=30.0, bearingDegrees=-59.64]] 
- 1.0 
- 8600 
- 
-[DetectedObject[distanceMetres=91.04, relativeSpeedKmh=30.0, bearingDegrees=-59.63]] 
- 1.0 
- 8600 
- 
 [DetectedObject[distanceMetres=91.04, relativeSpeedKmh=30.0, bearingDegrees=-59.65]] 
  1.0 
  8600 
  
+[DetectedObject[distanceMetres=91.04, relativeSpeedKmh=30.0, bearingDegrees=-59.64]] 
+ 1.0 
+ 8600 
+ 
+CameraSensor [2] t=8600 count=1 objects=[CYCLIST@-59.56] conf=0.9 status=OK
+[DetectedObject[distanceMetres=91.04, relativeSpeedKmh=30.0, bearingDegrees=-59.63]] 
+ 1.0 
+ 8600 
+ 
 RadarVoter: TRUSTED — dist=91.04m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=91.043335m speed=29.993332km/h conf=1.0
-CameraSensor [1] t=8650 count=1 objects=[CYCLIST@-59.4] conf=0.9 status=OK
 CameraSensor [2] t=8650 count=1 objects=[CYCLIST@-59.31] conf=0.9 status=OK
+CameraSensor [1] t=8650 count=1 objects=[CYCLIST@-59.4] conf=0.9 status=OK
 CameraSensor [3] t=8650 count=1 objects=[CYCLIST@-59.22] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=91.04m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=91.043335m speed=29.993332km/h conf=1.0
-CameraSensor [1] t=8700 count=1 objects=[CYCLIST@-59.2] conf=0.9 status=OK
 CameraSensor [2] t=8700 count=1 objects=[CYCLIST@-59.09] conf=0.9 status=OK
+CameraSensor [1] t=8700 count=1 objects=[CYCLIST@-59.2] conf=0.9 status=OK
 CameraSensor [3] t=8700 count=1 objects=[CYCLIST@-58.98] conf=0.9 status=OK
-[DetectedObject[distanceMetres=91.47, relativeSpeedKmh=30.0, bearingDegrees=-59.19]] 
+[DetectedObject[distanceMetres=91.46, relativeSpeedKmh=30.0, bearingDegrees=-59.2]] 
  1.0 
  8700 
  
@@ -2031,32 +2031,32 @@ CameraSensor [3] t=8700 count=1 objects=[CYCLIST@-58.98] conf=0.9 status=OK
  1.0 
  8700 
  
-[DetectedObject[distanceMetres=91.46, relativeSpeedKmh=30.0, bearingDegrees=-59.2]] 
+[DetectedObject[distanceMetres=91.47, relativeSpeedKmh=30.0, bearingDegrees=-59.19]] 
  1.0 
  8700 
  
 RadarVoter: TRUSTED — dist=91.463326m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=91.44666m speed=30.0km/h conf=1.0
-
-[t=8517ms] Last decision: CLEAR
+CameraSensor [3] t=8750 count=1 objects=[CYCLIST@-58.78] conf=0.9 status=OK
 CameraSensor [1] t=8750 count=1 objects=[CYCLIST@-58.96] conf=0.9 status=OK
 CameraSensor [2] t=8750 count=1 objects=[CYCLIST@-58.88] conf=0.9 status=OK
-CameraSensor [3] t=8750 count=1 objects=[CYCLIST@-58.78] conf=0.9 status=OK
 Driver t=8750 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=91.463326m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=91.44666m speed=30.0km/h conf=1.0
+
+[t=8562ms] Last decision: CLEAR
 CameraSensor [1] t=8800 count=1 objects=[CYCLIST@-58.76] conf=0.9 status=OK
-CameraSensor [2] t=8800 count=1 objects=[CYCLIST@-58.65] conf=0.9 status=OK
-CameraSensor [3] t=8800 count=1 objects=[CYCLIST@-58.54] conf=0.9 status=OK
 [DetectedObject[distanceMetres=91.89, relativeSpeedKmh=30.0, bearingDegrees=-58.74]] 
  1.0 
  8800 
  
-[DetectedObject[distanceMetres=91.89, relativeSpeedKmh=30.0, bearingDegrees=-58.76]] 
+CameraSensor [2] t=8800 count=1 objects=[CYCLIST@-58.65] conf=0.9 status=OK
+CameraSensor [3] t=8800 count=1 objects=[CYCLIST@-58.54] conf=0.9 status=OK
+[DetectedObject[distanceMetres=91.88, relativeSpeedKmh=30.0, bearingDegrees=-58.75]] 
  1.0 
  8800 
  
-[DetectedObject[distanceMetres=91.88, relativeSpeedKmh=30.0, bearingDegrees=-58.75]] 
+[DetectedObject[distanceMetres=91.89, relativeSpeedKmh=30.0, bearingDegrees=-58.76]] 
  1.0 
  8800 
  
@@ -2070,7 +2070,7 @@ LidarVoter: TRUSTED — dist=91.90333m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=8900 count=1 objects=[CYCLIST@-58.31] conf=0.9 status=OK
 CameraSensor [2] t=8900 count=1 objects=[CYCLIST@-58.23] conf=0.9 status=OK
 CameraSensor [3] t=8900 count=1 objects=[CYCLIST@-58.12] conf=0.9 status=OK
-[DetectedObject[distanceMetres=92.33, relativeSpeedKmh=30.0, bearingDegrees=-58.32]] 
+[DetectedObject[distanceMetres=92.32, relativeSpeedKmh=30.0, bearingDegrees=-58.32]] 
  1.0 
  8900 
  
@@ -2078,7 +2078,7 @@ CameraSensor [3] t=8900 count=1 objects=[CYCLIST@-58.12] conf=0.9 status=OK
  1.0 
  8900 
  
-[DetectedObject[distanceMetres=92.32, relativeSpeedKmh=30.0, bearingDegrees=-58.32]] 
+[DetectedObject[distanceMetres=92.33, relativeSpeedKmh=30.0, bearingDegrees=-58.32]] 
  1.0 
  8900 
  
@@ -2091,12 +2091,12 @@ RadarVoter: TRUSTED — dist=92.32333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=92.32666m speed=30.0km/h conf=1.0
 CameraSensor [1] t=9000 count=1 objects=[CYCLIST@-57.85] conf=0.9 status=OK
 CameraSensor [2] t=9000 count=1 objects=[CYCLIST@-57.78] conf=0.9 status=OK
-CameraSensor [3] t=9000 count=1 objects=[CYCLIST@-57.65] conf=0.9 status=OK
-[DetectedObject[distanceMetres=92.76, relativeSpeedKmh=30.0, bearingDegrees=-57.88]] 
+[DetectedObject[distanceMetres=92.76, relativeSpeedKmh=30.0, bearingDegrees=-57.87]] 
  1.0 
  9000 
  
-[DetectedObject[distanceMetres=92.76, relativeSpeedKmh=30.0, bearingDegrees=-57.87]] 
+CameraSensor [3] t=9000 count=1 objects=[CYCLIST@-57.65] conf=0.9 status=OK
+[DetectedObject[distanceMetres=92.76, relativeSpeedKmh=30.0, bearingDegrees=-57.88]] 
  1.0 
  9000 
  
@@ -2108,22 +2108,22 @@ Driver t=9000 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=92.76m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=92.763336m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=9050 count=1 objects=[CYCLIST@-57.63] conf=0.9 status=OK
-CameraSensor [2] t=9050 count=1 objects=[CYCLIST@-57.54] conf=0.9 status=OK
 CameraSensor [3] t=9050 count=1 objects=[CYCLIST@-57.44] conf=0.9 status=OK
+CameraSensor [2] t=9050 count=1 objects=[CYCLIST@-57.54] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=92.76m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=92.763336m speed=29.996666km/h conf=1.0
-CameraSensor [1] t=9100 count=1 objects=[CYCLIST@-57.45] conf=0.9 status=OK
 CameraSensor [2] t=9100 count=1 objects=[CYCLIST@-57.33] conf=0.9 status=OK
-CameraSensor [3] t=9100 count=1 objects=[CYCLIST@-57.25] conf=0.9 status=OK
-[DetectedObject[distanceMetres=93.21, relativeSpeedKmh=30.0, bearingDegrees=-57.43]] 
+CameraSensor [1] t=9100 count=1 objects=[CYCLIST@-57.45] conf=0.9 status=OK
+[DetectedObject[distanceMetres=93.22, relativeSpeedKmh=30.0, bearingDegrees=-57.44]] 
  1.0 
  9100 
  
+CameraSensor [3] t=9100 count=1 objects=[CYCLIST@-57.25] conf=0.9 status=OK
 [DetectedObject[distanceMetres=93.21, relativeSpeedKmh=30.0, bearingDegrees=-57.44]] 
  1.0 
  9100 
  
-[DetectedObject[distanceMetres=93.22, relativeSpeedKmh=30.0, bearingDegrees=-57.44]] 
+[DetectedObject[distanceMetres=93.21, relativeSpeedKmh=30.0, bearingDegrees=-57.43]] 
  1.0 
  9100 
  
@@ -2141,26 +2141,25 @@ CameraSensor [3] t=9200 count=1 objects=[CYCLIST@-56.79] conf=0.9 status=OK
  1.0 
  9200 
  
-[DetectedObject[distanceMetres=93.66, relativeSpeedKmh=30.0, bearingDegrees=-57.01]] 
+[DetectedObject[distanceMetres=93.67, relativeSpeedKmh=30.0, bearingDegrees=-57.02]] 
  1.0 
  9200 
  
-[DetectedObject[distanceMetres=93.67, relativeSpeedKmh=30.0, bearingDegrees=-57.02]] 
+[DetectedObject[distanceMetres=93.66, relativeSpeedKmh=30.0, bearingDegrees=-57.01]] 
  1.0 
  9200 
  
 RadarVoter: TRUSTED — dist=93.66333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=93.659996m speed=29.993332km/h conf=1.0
-
-[t=9018ms] Last decision: CLEAR
 CameraSensor [1] t=9250 count=1 objects=[CYCLIST@-56.81] conf=0.9 status=OK
 CameraSensor [2] t=9250 count=1 objects=[CYCLIST@-56.7] conf=0.9 status=OK
 CameraSensor [3] t=9250 count=1 objects=[CYCLIST@-56.59] conf=0.9 status=OK
 Driver t=9250 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=93.66333m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=93.659996m speed=29.993332km/h conf=1.0
+
+[t=9064ms] Last decision: CLEAR
 CameraSensor [1] t=9300 count=1 objects=[CYCLIST@-56.58] conf=0.9 status=OK
-CameraSensor [2] t=9300 count=1 objects=[CYCLIST@-56.49] conf=0.9 status=OK
 CameraSensor [3] t=9300 count=1 objects=[CYCLIST@-56.39] conf=0.9 status=OK
 [DetectedObject[distanceMetres=94.12, relativeSpeedKmh=30.0, bearingDegrees=-56.59]] 
  1.0 
@@ -2170,6 +2169,7 @@ CameraSensor [3] t=9300 count=1 objects=[CYCLIST@-56.39] conf=0.9 status=OK
  1.0 
  9300 
  
+CameraSensor [2] t=9300 count=1 objects=[CYCLIST@-56.49] conf=0.9 status=OK
 [DetectedObject[distanceMetres=94.12, relativeSpeedKmh=30.0, bearingDegrees=-56.59]] 
  1.0 
  9300 
@@ -2182,7 +2182,6 @@ CameraSensor [3] t=9350 count=1 objects=[CYCLIST@-56.18] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=94.12m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=94.11667m speed=30.0km/h conf=1.0
 CameraSensor [1] t=9400 count=1 objects=[CYCLIST@-56.15] conf=0.9 status=OK
-CameraSensor [2] t=9400 count=1 objects=[CYCLIST@-56.04] conf=0.9 status=OK
 CameraSensor [3] t=9400 count=1 objects=[CYCLIST@-55.96] conf=0.9 status=OK
 [DetectedObject[distanceMetres=94.59, relativeSpeedKmh=30.0, bearingDegrees=-56.16]] 
  1.0 
@@ -2192,6 +2191,7 @@ CameraSensor [3] t=9400 count=1 objects=[CYCLIST@-55.96] conf=0.9 status=OK
  1.0 
  9400 
  
+CameraSensor [2] t=9400 count=1 objects=[CYCLIST@-56.04] conf=0.9 status=OK
 [DetectedObject[distanceMetres=94.59, relativeSpeedKmh=30.0, bearingDegrees=-56.16]] 
  1.0 
  9400 
@@ -2204,17 +2204,17 @@ CameraSensor [3] t=9450 count=1 objects=[CYCLIST@-55.77] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=94.58667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=94.57333m speed=30.0km/h conf=1.0
 CameraSensor [1] t=9500 count=1 objects=[CYCLIST@-55.73] conf=0.9 status=OK
-CameraSensor [2] t=9500 count=1 objects=[CYCLIST@-55.64] conf=0.9 status=OK
-CameraSensor [3] t=9500 count=1 objects=[CYCLIST@-55.53] conf=0.9 status=OK
 [DetectedObject[distanceMetres=95.05, relativeSpeedKmh=30.0, bearingDegrees=-55.75]] 
  1.0 
  9500 
  
-[DetectedObject[distanceMetres=95.05, relativeSpeedKmh=30.0, bearingDegrees=-55.73]] 
+CameraSensor [2] t=9500 count=1 objects=[CYCLIST@-55.64] conf=0.9 status=OK
+[DetectedObject[distanceMetres=95.04, relativeSpeedKmh=30.0, bearingDegrees=-55.75]] 
  1.0 
  9500 
  
-[DetectedObject[distanceMetres=95.04, relativeSpeedKmh=30.0, bearingDegrees=-55.75]] 
+CameraSensor [3] t=9500 count=1 objects=[CYCLIST@-55.53] conf=0.9 status=OK
+[DetectedObject[distanceMetres=95.05, relativeSpeedKmh=30.0, bearingDegrees=-55.73]] 
  1.0 
  9500 
  
@@ -2227,17 +2227,17 @@ CameraSensor [3] t=9550 count=1 objects=[CYCLIST@-55.34] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=95.04667m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=95.04m speed=29.993332km/h conf=1.0
 CameraSensor [1] t=9600 count=1 objects=[CYCLIST@-55.32] conf=0.9 status=OK
-CameraSensor [2] t=9600 count=1 objects=[CYCLIST@-55.25] conf=0.9 status=OK
+[DetectedObject[distanceMetres=95.52, relativeSpeedKmh=30.0, bearingDegrees=-55.34]] 
+ 1.0 
+ 9600 
+ 
 CameraSensor [3] t=9600 count=1 objects=[CYCLIST@-55.13] conf=0.9 status=OK
-[DetectedObject[distanceMetres=95.52, relativeSpeedKmh=30.0, bearingDegrees=-55.34]] 
- 1.0 
- 9600 
- 
-[DetectedObject[distanceMetres=95.52, relativeSpeedKmh=30.0, bearingDegrees=-55.34]] 
- 1.0 
- 9600 
- 
+CameraSensor [2] t=9600 count=1 objects=[CYCLIST@-55.25] conf=0.9 status=OK
 [DetectedObject[distanceMetres=95.52, relativeSpeedKmh=30.0, bearingDegrees=-55.32]] 
+ 1.0 
+ 9600 
+ 
+[DetectedObject[distanceMetres=95.52, relativeSpeedKmh=30.0, bearingDegrees=-55.34]] 
  1.0 
  9600 
  
@@ -2265,21 +2265,16 @@ CameraSensor [3] t=9700 count=1 objects=[CYCLIST@-54.7] conf=0.9 status=OK
  
 RadarVoter: TRUSTED — dist=95.993324m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=95.98334m speed=29.99km/h conf=1.0
-
-[t=9519ms] Last decision: CLEAR
 CameraSensor [1] t=9750 count=1 objects=[CYCLIST@-54.71] conf=0.9 status=OK
 CameraSensor [2] t=9750 count=1 objects=[CYCLIST@-54.62] conf=0.9 status=OK
 CameraSensor [3] t=9750 count=1 objects=[CYCLIST@-54.5] conf=0.9 status=OK
 Driver t=9750 action=NONE state=ACTIVE
 RadarVoter: TRUSTED — dist=95.993324m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=95.98334m speed=29.99km/h conf=1.0
-CameraSensor [1] t=9800 count=1 objects=[CYCLIST@-54.52] conf=0.9 status=OK
-CameraSensor [2] t=9800 count=1 objects=[CYCLIST@-54.43] conf=0.9 status=OK
+
+[t=9569ms] Last decision: CLEAR
 CameraSensor [3] t=9800 count=1 objects=[CYCLIST@-54.3] conf=0.9 status=OK
-[DetectedObject[distanceMetres=96.48, relativeSpeedKmh=30.0, bearingDegrees=-54.51]] 
- 1.0 
- 9800 
- 
+CameraSensor [1] t=9800 count=1 objects=[CYCLIST@-54.52] conf=0.9 status=OK
 [DetectedObject[distanceMetres=96.48, relativeSpeedKmh=30.0, bearingDegrees=-54.53]] 
  1.0 
  9800 
@@ -2288,17 +2283,21 @@ CameraSensor [3] t=9800 count=1 objects=[CYCLIST@-54.3] conf=0.9 status=OK
  1.0 
  9800 
  
+CameraSensor [2] t=9800 count=1 objects=[CYCLIST@-54.43] conf=0.9 status=OK
+[DetectedObject[distanceMetres=96.48, relativeSpeedKmh=30.0, bearingDegrees=-54.51]] 
+ 1.0 
+ 9800 
+ 
 RadarVoter: TRUSTED — dist=96.48m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=96.473335m speed=29.993332km/h conf=1.0
-CameraSensor [1] t=9850 count=1 objects=[CYCLIST@-54.3] conf=0.9 status=OK
 CameraSensor [2] t=9850 count=1 objects=[CYCLIST@-54.21] conf=0.9 status=OK
+CameraSensor [1] t=9850 count=1 objects=[CYCLIST@-54.3] conf=0.9 status=OK
 CameraSensor [3] t=9850 count=1 objects=[CYCLIST@-54.1] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=96.48m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=96.473335m speed=29.993332km/h conf=1.0
-CameraSensor [1] t=9900 count=1 objects=[CYCLIST@-54.1] conf=0.9 status=OK
 CameraSensor [2] t=9900 count=1 objects=[CYCLIST@-54.01] conf=0.9 status=OK
-CameraSensor [3] t=9900 count=1 objects=[CYCLIST@-53.91] conf=0.9 status=OK
-[DetectedObject[distanceMetres=96.97, relativeSpeedKmh=30.0, bearingDegrees=-54.11]] 
+CameraSensor [1] t=9900 count=1 objects=[CYCLIST@-54.1] conf=0.9 status=OK
+[DetectedObject[distanceMetres=96.96, relativeSpeedKmh=30.0, bearingDegrees=-54.12]] 
  1.0 
  9900 
  
@@ -2306,21 +2305,22 @@ CameraSensor [3] t=9900 count=1 objects=[CYCLIST@-53.91] conf=0.9 status=OK
  1.0 
  9900 
  
-[DetectedObject[distanceMetres=96.96, relativeSpeedKmh=30.0, bearingDegrees=-54.12]] 
+[DetectedObject[distanceMetres=96.97, relativeSpeedKmh=30.0, bearingDegrees=-54.11]] 
  1.0 
  9900 
  
+CameraSensor [3] t=9900 count=1 objects=[CYCLIST@-53.91] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=96.963326m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=96.96334m speed=29.996666km/h conf=1.0
+CameraSensor [1] t=9950 count=1 objects=[CYCLIST@-53.93] conf=0.9 status=OK
 CameraSensor [2] t=9950 count=1 objects=[CYCLIST@-53.8] conf=0.9 status=OK
 CameraSensor [3] t=9950 count=1 objects=[CYCLIST@-53.72] conf=0.9 status=OK
-CameraSensor [1] t=9950 count=1 objects=[CYCLIST@-53.93] conf=0.9 status=OK
 RadarVoter: TRUSTED — dist=96.963326m speed=30.0km/h conf=1.0
 LidarVoter: TRUSTED — dist=96.96334m speed=29.996666km/h conf=1.0
 CameraSensor [1] t=10000 count=1 objects=[CYCLIST@-53.7] conf=0.9 status=OK
 CameraSensor [2] t=10000 count=1 objects=[CYCLIST@-53.63] conf=0.9 status=OK
 CameraSensor [3] t=10000 count=1 objects=[CYCLIST@-53.54] conf=0.9 status=OK
-[DetectedObject[distanceMetres=97.46, relativeSpeedKmh=30.0, bearingDegrees=-53.72]] 
+[DetectedObject[distanceMetres=97.45, relativeSpeedKmh=30.0, bearingDegrees=-53.71]] 
  1.0 
  10000 
  
@@ -2328,7 +2328,7 @@ CameraSensor [3] t=10000 count=1 objects=[CYCLIST@-53.54] conf=0.9 status=OK
  1.0 
  10000 
  
-[DetectedObject[distanceMetres=97.45, relativeSpeedKmh=30.0, bearingDegrees=-53.71]] 
+[DetectedObject[distanceMetres=97.46, relativeSpeedKmh=30.0, bearingDegrees=-53.72]] 
  1.0 
  10000 
  
@@ -2352,8 +2352,12 @@ RadarVoter: insufficient eligible sensors (0/3)
 LidarVoter: insufficient eligible sensors (0/3)
 [BrakingController] SENSOR_FAULT — no trusted ranging sensor.
 [BrakingController] SENSOR FAULT warning issued to driver.
+RadarVoter: insufficient eligible sensors (0/3)
+LidarVoter: insufficient eligible sensors (0/3)
+[BrakingController] SENSOR_FAULT — no trusted ranging sensor.
+[BrakingController] SENSOR FAULT warning issued to driver.
 
-[t=10020ms] Last decision: SENSOR_FAULT
+[t=10072ms] Last decision: SENSOR_FAULT
 
 --- Stopping controller ---
 BrakingController stopped.

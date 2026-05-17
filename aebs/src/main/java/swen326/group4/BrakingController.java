@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import swen326.group4.Car.DIDInterface;
+import swen326.group4.Display.DIDModel.SystemState;
 import swen326.group4.Sensors.Camera.Camera;
 import swen326.group4.Sensors.Camera.CameraVoter;
 import swen326.group4.Sensors.Camera.CameraVoter.VoteResult;
@@ -763,6 +765,8 @@ public class BrakingController {
     /** Driver simulator — read to detect manual braking (FR3104). */
     private final Driver driver;
 
+    private final DIDInterface systemInterface;
+
     /**
      * Two independent escalation channels for FR-3105 / FR-3106.
      * Exactly two must be provided at construction time.
@@ -844,7 +848,9 @@ public class BrakingController {
                              final WheelSensor ws3,
                              final Driver driver,
                              final EscalationChannel channelA,
-                             final EscalationChannel channelB) {
+                             final EscalationChannel channelB,
+                             final DIDInterface systemInterface
+                            ) {
 
         assert cam1   != null : "cam1 must not be null";
         assert cam2   != null : "cam2 must not be null";
@@ -878,6 +884,9 @@ public class BrakingController {
         this.escalationChannels    = new EscalationChannel[2];
         this.escalationChannels[0] = channelA;
         this.escalationChannels[1] = channelB;
+
+        /* Interface */
+        this.systemInterface = systemInterface;
 
         /* Initialise controller state to safe defaults. */
         this.lastDecision      = ControllerDecision.CLEAR;
@@ -1728,6 +1737,9 @@ public class BrakingController {
      */
     private void notifySensorFaultToDriver() {
         /* TODO: call Interface.showSensorFaultWarning() */
+        systemInterface.getModel().setSystemState(SystemState.MAINTENANCE);
+       
+        
         System.out.println("[BrakingController] SENSOR FAULT warning issued to driver.");
     }
 
