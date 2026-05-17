@@ -7,6 +7,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import swen326.group4.Car.DIDInterface;
+import swen326.group4.Display.DIDController;
 import swen326.group4.Display.DIDModel.SystemState;
 import swen326.group4.Sensors.Camera.Camera;
 import swen326.group4.Sensors.Camera.CameraVoter;
@@ -802,6 +803,9 @@ public class BrakingController {
      */
     private float preBrakeDistanceM;
 
+    /** Latched true while an active braking event is displayed — persists across cycles. */
+    private boolean displayBrakingActive = false;
+
     /** True once the 50ms decision timer has been started. */
     private boolean running;
 
@@ -972,76 +976,91 @@ public class BrakingController {
      * All steps complete within one 50ms window. No blocking I/O is performed.
      */
     private void runDecisionCycle() {
+        float ttcSeconds = Float.MAX_VALUE; // safe default if an early return fires.
 
-        /* ------------------------------------------------------------------ */
-        /* Step 1: Driver override check (FR3104 — highest priority)          */
-        /* ------------------------------------------------------------------ */
-        if (isDriverBraking()) {
-            /*
-             * Driver has applied brakes manually. Per FR3104, we must immediately
-             * yield all braking authority and suppress any active AEBS intervention.
-             * Reset hazard state so a new hazard event starts cleanly if needed.
-             */
-            lastDecision      = ControllerDecision.DRIVER_OVERRIDE;
-            hazardEventActive = false;
-            brakeAttemptCount = 0;
-            System.out.println("[BrakingController] DRIVER_OVERRIDE — yielding to driver.");
-            return;
-        }
-
+        
         /* ------------------------------------------------------------------ */
         /* Step 2: Collect all sensor votes                                    */
         /* ------------------------------------------------------------------ */
         /*
-         * CameraVoter already manages its internal 2oo3 state — just call vote().
-         * RadarLidarVoters and WheelVoter are called here directly.
-         */
+        * CameraVoter already manages its internal 2oo3 state — just call vote().
+        * RadarLidarVoters and WheelVoter are called here directly.
+        */
         final VoteResult cameraVote = cameraVoter.vote();
         radarVoter.vote();
         lidarVoter.vote();
         wheelVoter.vote();
 
         /* ------------------------------------------------------------------ */
+        /* Step 1: Driver override check (FR3104 — highest priority)          */
+        /* ------------------------------------------------------------------ */
+        if (isDriverBraking()) {
+            /*
+            * Driver has applied brakes manually. Per FR3104, we must immediately
+            * yield all braking authority and suppress any active AEBS intervention.
+            * Reset hazard state so a new hazard event starts cleanly if needed.
+            */
+            lastDecision      = ControllerDecision.DRIVER_OVERRIDE;
+            hazardEventActive = false;
+            brakeAttemptCount = 0;
+            emitTelemetry(Float.MAX_VALUE);
+            System.out.println("[BrakingController] DRIVER_OVERRIDE — yielding to driver.");
+            return;
+        }
+
+
+        /* ------------------------------------------------------------------ */
         /* Step 3: Sensor health check                                         */
         /* ------------------------------------------------------------------ */
         /*
-         * Per FR2106 and FR2107, braking must not be authorised on a single
-         * sensor type alone. We need at least one trusted distance source
-         * (Radar or Lidar) to proceed with any collision decision.
-         *
-         * Camera alone is insufficient for distance estimation — it provides
-         * object classification only.
-         */
+        * Per FR2106 and FR2107, braking must not be authorised on a single
+        * sensor type alone. We need at least one trusted distance source
+        * (Radar or Lidar) to proceed with any collision decision.
+        *
+        * Camera alone is insufficient for distance estimation — it provides
+        * object classification only.
+        */
         final boolean radarTrusted = radarVoter.isTrusted();
         final boolean lidarTrusted = lidarVoter.isTrusted();
         final boolean cameraOk     = (cameraVote == VoteResult.CONSENSUS
-                                   || cameraVote == VoteResult.DISAGREEMENT);
+                                || cameraVote == VoteResult.DISAGREEMENT);
 
         /* At least one ranging sensor must be trusted to proceed. */
         if (!radarTrusted && !lidarTrusted) {
             lastDecision = ControllerDecision.SENSOR_FAULT;
             System.out.println("[BrakingController] SENSOR_FAULT — no trusted ranging sensor.");
             /*
-             * Alert the driver that AEBS capability is compromised (FR2102).
-             * This is a soft alert, not the escalation pathway.
-             */
+            * Alert the driver that AEBS capability is compromised (FR2102).
+            * This is a soft alert, not the escalation pathway.
+            */
             notifySensorFaultToDriver();
+            emitTelemetry(Float.MAX_VALUE);
             return;
         }
 
         /* ------------------------------------------------------------------ */
         /* Step 4: Compute Time-to-Collision                                   */
         /* ------------------------------------------------------------------ */
-        final float ttcSeconds = computeTTC(radarTrusted, lidarTrusted, wheelVoter.getTrustedSpeed());
+        // was a final
+        ttcSeconds = computeTTC(radarTrusted, lidarTrusted, wheelVoter.getTrustedSpeed());
 
         /* ------------------------------------------------------------------ */
         /* Step 5: Make the control decision                                   */
         /* ------------------------------------------------------------------ */
         final ControllerDecision decision = evaluateDecision(ttcSeconds,
-                                                              cameraVote,
-                                                              radarTrusted,
-                                                              lidarTrusted);
+                                                            cameraVote,
+                                                            radarTrusted,
+                                                            lidarTrusted);
         lastDecision = decision;
+
+        // Latch braking display state — only clears when threat is genuinely resolved
+        if (decision == ControllerDecision.AUTONOMOUS_BRAKE) {
+            displayBrakingActive = true;
+        } else if (decision == ControllerDecision.CLEAR) {
+            displayBrakingActive = false;
+        }
+
+        emitTelemetry(ttcSeconds);
 
         /* ------------------------------------------------------------------ */
         /* Step 6: Execute braking if decided                                  */
@@ -1063,6 +1082,9 @@ public class BrakingController {
         }
 
         assert lastDecision != null : "lastDecision must not be null after cycle";
+    
+
+    
     }
 
     // =========================================================================
@@ -1158,7 +1180,7 @@ public class BrakingController {
                         + brakeAttemptCount + " attempt(s).");
                 hazardEventActive = false;
                 brakeAttemptCount = 0;
-                lastDecision = ControllerDecision.CLEAR;
+                //lastDecision = ControllerDecision.CLEAR; dfdkfkdjfkj
             }
         } else {
             System.out.println("[BrakingController] Brake attempt "
@@ -1718,7 +1740,7 @@ public class BrakingController {
      * @param ttcSeconds current TTC passed to the interface for display
      */
     private void notifyDriverAlert(final float ttcSeconds) {
-        /* TODO: call Interface.showDriverAlert(ttcSeconds) */
+        systemInterface.getController().updateTTC(ttcSeconds);
         System.out.println("[BrakingController] DRIVER ALERT — TTC=" + ttcSeconds + "s");
     }
 
@@ -1728,6 +1750,7 @@ public class BrakingController {
      */
     private void notifyResidualCollisionAlert() {
         /* TODO: call Interface.showResidualCollisionAlert() */
+        // TODO: Hunter make another warning ? 
         System.out.println("[BrakingController] RESIDUAL COLLISION ALERT issued.");
     }
 
@@ -1737,7 +1760,8 @@ public class BrakingController {
      */
     private void notifySensorFaultToDriver() {
         /* TODO: call Interface.showSensorFaultWarning() */
-        systemInterface.getModel().setSystemState(SystemState.MAINTENANCE);
+        // TODO: where ? 
+        systemInterface.getController().changeSystemState(SystemState.MAINTENANCE);
        
         
         System.out.println("[BrakingController] SENSOR FAULT warning issued to driver.");
@@ -1748,6 +1772,7 @@ public class BrakingController {
      */
     private void notifyLockupAlert() {
         /* TODO: call Interface.showLockupAlert() */
+        // TODO: Hunter make this
         System.out.println("[BrakingController] LOCKUP ALERT issued to driver.");
     }
 
@@ -1757,6 +1782,49 @@ public class BrakingController {
      */
     private void notifyDirectionalInstabilityAlert() {
         /* TODO: call Interface.showDirectionalInstabilityAlert() */
+        // TODO: Hunter make this
         System.out.println("[BrakingController] DIRECTIONAL INSTABILITY ALERT issued.");
     }
+
+    /**
+     * Emits all telemetry fields to the Driver Information Display on every
+     * decision cycle, regardless of which code path was taken.
+     *
+     * Float.MAX_VALUE sentinels are converted to -1.0 so the display layer
+     * can distinguish "no data" from a real reading.
+     *
+     * @param ttcSeconds the TTC computed this cycle, or Float.MAX_VALUE if clear
+     */
+    private void emitTelemetry(final float ttcSeconds) {
+        final DIDController display = systemInterface.getController();
+
+        // --- Vehicle metrics ---
+        final float speed    = wheelVoter.getTrustedSpeed();
+        final float distRaw  = getBestTrustedDistance();
+        final double dist    = Float.isInfinite(distRaw) || distRaw == Float.MAX_VALUE
+                                ? 200.0 : distRaw;
+        final double ttc     = Float.isInfinite(ttcSeconds) || ttcSeconds == Float.MAX_VALUE
+                                ? 99.9 : ttcSeconds;
+
+        display.updateVehicleMetrics(speed, dist, ttc);
+
+        // --- Intervention metrics ---
+        final boolean brakingActive = displayBrakingActive;
+
+        final boolean alarmActive   = (lastDecision == ControllerDecision.DRIVER_ALERT
+                            || lastDecision == ControllerDecision.AUTONOMOUS_BRAKE
+                            || lastDecision == ControllerDecision.ESCALATION
+                            || lastDecision == ControllerDecision.SENSOR_FAULT);
+
+        // Error margin: inverted confidence of best available ranging sensor (0–100%).
+        // 0% = full confidence, 100% = no usable data.
+        final float bestConf = Math.max(
+            radarVoter.isTrusted() ? radarVoter.getFusedConfidence() : 0.0f,
+            lidarVoter.isTrusted() ? lidarVoter.getFusedConfidence() : 0.0f
+        );
+        final double errorMargin = (1.0 - bestConf) * 100.0;
+
+        display.updateInterventionMetrics(brakingActive, alarmActive, errorMargin);
+    }
+
 }

@@ -1,0 +1,2251 @@
+=== AEBS Main1: Live Scenario Run ===
+Data directory : /home/hunter/projects/SWEN326AEBS/scenarios/SC-001
+Output File    : scenario_output.txt
+Run duration   : 10000ms
+======================================
+
+--- Starting sensors ---
+CameraSensor [1] weatherFactor=1.0
+CameraSensor [1] timer started.
+CameraSensor [2] weatherFactor=1.0
+CameraSensor [2] timer started.
+CameraSensor [3] weatherFactor=1.0
+CameraSensor [3] timer started.
+Timer started!
+Timer started!
+Timer started!
+[] 
+ 1.0 
+ 0 
+ 
+[] 
+ 1.0 
+ 0 
+ 
+Driver scenario: Highway cruise — no hazard
+[] 
+ 1.0 
+ 0 
+ 
+Driver timer started.
+CameraSensor [1] t=0 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=0 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=0 count=0 objects=[] conf=1.0 status=OK
+Driver t=0 action=NONE state=ACTIVE
+CameraSensor [1] t=50 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=50 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=50 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [1] t=100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=100 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 100 
+ 
+[] 
+ 1.0 
+ 100 
+ 
+[] 
+ 1.0 
+ 100 
+ 
+CameraSensor [1] t=150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [1] t=200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=200 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 200 
+ 
+[] 
+ 1.0 
+ 200 
+ 
+[] 
+ 1.0 
+ 200 
+ 
+
+--- Starting controller ---
+BrakingController started — decision cycle: 50ms
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=250 count=0 objects=[] conf=1.0 status=OK
+Driver t=250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=300 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 300 
+ 
+[] 
+ 1.0 
+ 300 
+ 
+[] 
+ 1.0 
+ 300 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=350 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=400 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 400 
+ 
+[] 
+ 1.0 
+ 400 
+ 
+[] 
+ 1.0 
+ 400 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=450 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=500 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 500 
+ 
+[] 
+ 1.0 
+ 500 
+ 
+[] 
+ 1.0 
+ 500 
+ 
+Driver t=500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=550 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=600 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 600 
+ 
+[] 
+ 1.0 
+ 600 
+ 
+[] 
+ 1.0 
+ 600 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=650 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=700 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 700 
+ 
+[] 
+ 1.0 
+ 700 
+ 
+[] 
+ 1.0 
+ 700 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=500ms] Last decision: CLEAR
+CameraSensor [1] t=750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=750 count=0 objects=[] conf=1.0 status=OK
+Driver t=750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=800 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 800 
+ 
+[] 
+ 1.0 
+ 800 
+ 
+[] 
+ 1.0 
+ 800 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=850 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=900 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 900 
+ 
+[] 
+ 1.0 
+ 900 
+ 
+[] 
+ 1.0 
+ 900 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=950 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1000 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 1000 
+ 
+[] 
+ 1.0 
+ 1000 
+ 
+[] 
+ 1.0 
+ 1000 
+ 
+Driver t=1000 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1050 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1100 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 1100 
+ 
+[] 
+ 1.0 
+ 1100 
+ 
+[] 
+ 1.0 
+ 1100 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1150 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1200 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 1200 
+ 
+[] 
+ 1.0 
+ 1200 
+ 
+[] 
+ 1.0 
+ 1200 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=1002ms] Last decision: CLEAR
+CameraSensor [1] t=1250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1250 count=0 objects=[] conf=1.0 status=OK
+Driver t=1250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1300 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 1300 
+ 
+[] 
+ 1.0 
+ 1300 
+ 
+[] 
+ 1.0 
+ 1300 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1350 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1400 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 1400 
+ 
+[] 
+ 1.0 
+ 1400 
+ 
+[] 
+ 1.0 
+ 1400 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1450 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1500 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 1500 
+ 
+[] 
+ 1.0 
+ 1500 
+ 
+[] 
+ 1.0 
+ 1500 
+ 
+Driver t=1500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1550 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1600 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 1600 
+ 
+[] 
+ 1.0 
+ 1600 
+ 
+[] 
+ 1.0 
+ 1600 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1650 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1700 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 1700 
+ 
+[] 
+ 1.0 
+ 1700 
+ 
+[] 
+ 1.0 
+ 1700 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=1502ms] Last decision: CLEAR
+CameraSensor [1] t=1750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1750 count=0 objects=[] conf=1.0 status=OK
+Driver t=1750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1800 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 1800 
+ 
+[] 
+ 1.0 
+ 1800 
+ 
+[] 
+ 1.0 
+ 1800 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1850 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1900 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 1900 
+ 
+[] 
+ 1.0 
+ 1900 
+ 
+[] 
+ 1.0 
+ 1900 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=1950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=1950 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2000 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 2000 
+ 
+[] 
+ 1.0 
+ 2000 
+ 
+[] 
+ 1.0 
+ 2000 
+ 
+Driver t=2000 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2050 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2100 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 2100 
+ 
+[] 
+ 1.0 
+ 2100 
+ 
+[] 
+ 1.0 
+ 2100 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2150 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2200 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 2200 
+ 
+[] 
+ 1.0 
+ 2200 
+ 
+[] 
+ 1.0 
+ 2200 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=2002ms] Last decision: CLEAR
+CameraSensor [1] t=2250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2250 count=0 objects=[] conf=1.0 status=OK
+Driver t=2250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2300 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 2300 
+ 
+[] 
+ 1.0 
+ 2300 
+ 
+[] 
+ 1.0 
+ 2300 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2350 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2400 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 2400 
+ 
+[] 
+ 1.0 
+ 2400 
+ 
+[] 
+ 1.0 
+ 2400 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2450 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2500 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 2500 
+ 
+[] 
+ 1.0 
+ 2500 
+ 
+[] 
+ 1.0 
+ 2500 
+ 
+Driver t=2500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2550 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2600 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 2600 
+ 
+[] 
+ 1.0 
+ 2600 
+ 
+[] 
+ 1.0 
+ 2600 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2650 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2700 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 2700 
+ 
+[] 
+ 1.0 
+ 2700 
+ 
+[] 
+ 1.0 
+ 2700 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=2502ms] Last decision: CLEAR
+CameraSensor [1] t=2750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2750 count=0 objects=[] conf=1.0 status=OK
+Driver t=2750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2800 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 2800 
+ 
+[] 
+ 1.0 
+ 2800 
+ 
+[] 
+ 1.0 
+ 2800 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2850 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2900 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 2900 
+ 
+[] 
+ 1.0 
+ 2900 
+ 
+[] 
+ 1.0 
+ 2900 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=2950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=2950 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3000 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 3000 
+ 
+[] 
+ 1.0 
+ 3000 
+ 
+[] 
+ 1.0 
+ 3000 
+ 
+Driver t=3000 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3050 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3100 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 3100 
+ 
+[] 
+ 1.0 
+ 3100 
+ 
+[] 
+ 1.0 
+ 3100 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3150 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3200 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 3200 
+ 
+[] 
+ 1.0 
+ 3200 
+ 
+[] 
+ 1.0 
+ 3200 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=3002ms] Last decision: CLEAR
+CameraSensor [1] t=3250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3250 count=0 objects=[] conf=1.0 status=OK
+Driver t=3250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3300 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 3300 
+ 
+[] 
+ 1.0 
+ 3300 
+ 
+[] 
+ 1.0 
+ 3300 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3350 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3400 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 3400 
+ 
+[] 
+ 1.0 
+ 3400 
+ 
+[] 
+ 1.0 
+ 3400 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3450 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3500 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 3500 
+ 
+[] 
+ 1.0 
+ 3500 
+ 
+[] 
+ 1.0 
+ 3500 
+ 
+Driver t=3500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3550 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3600 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 3600 
+ 
+[] 
+ 1.0 
+ 3600 
+ 
+[] 
+ 1.0 
+ 3600 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3650 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3700 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 3700 
+ 
+[] 
+ 1.0 
+ 3700 
+ 
+[] 
+ 1.0 
+ 3700 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=3503ms] Last decision: CLEAR
+CameraSensor [1] t=3750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3750 count=0 objects=[] conf=1.0 status=OK
+Driver t=3750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3800 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 3800 
+ 
+[] 
+ 1.0 
+ 3800 
+ 
+[] 
+ 1.0 
+ 3800 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3850 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3900 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 3900 
+ 
+[] 
+ 1.0 
+ 3900 
+ 
+[] 
+ 1.0 
+ 3900 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=3950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=3950 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4000 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 4000 
+ 
+[] 
+ 1.0 
+ 4000 
+ 
+[] 
+ 1.0 
+ 4000 
+ 
+Driver t=4000 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4050 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4100 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 4100 
+ 
+[] 
+ 1.0 
+ 4100 
+ 
+[] 
+ 1.0 
+ 4100 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4150 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4200 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 4200 
+ 
+[] 
+ 1.0 
+ 4200 
+ 
+[] 
+ 1.0 
+ 4200 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=4003ms] Last decision: CLEAR
+CameraSensor [1] t=4250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4250 count=0 objects=[] conf=1.0 status=OK
+Driver t=4250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4300 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 4300 
+ 
+[] 
+ 1.0 
+ 4300 
+ 
+[] 
+ 1.0 
+ 4300 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4350 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4400 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 4400 
+ 
+[] 
+ 1.0 
+ 4400 
+ 
+[] 
+ 1.0 
+ 4400 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4450 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4500 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 4500 
+ 
+[] 
+ 1.0 
+ 4500 
+ 
+[] 
+ 1.0 
+ 4500 
+ 
+Driver t=4500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4550 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4600 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 4600 
+ 
+[] 
+ 1.0 
+ 4600 
+ 
+[] 
+ 1.0 
+ 4600 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4650 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4700 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 4700 
+ 
+[] 
+ 1.0 
+ 4700 
+ 
+[] 
+ 1.0 
+ 4700 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=4503ms] Last decision: CLEAR
+CameraSensor [1] t=4750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4750 count=0 objects=[] conf=1.0 status=OK
+Driver t=4750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4800 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 4800 
+ 
+[] 
+ 1.0 
+ 4800 
+ 
+[] 
+ 1.0 
+ 4800 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4850 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4900 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 4900 
+ 
+[] 
+ 1.0 
+ 4900 
+ 
+[] 
+ 1.0 
+ 4900 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=4950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=4950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=4950 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5000 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 5000 
+ 
+[] 
+ 1.0 
+ 5000 
+ 
+[] 
+ 1.0 
+ 5000 
+ 
+Driver t=5000 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5050 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5100 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 5100 
+ 
+[] 
+ 1.0 
+ 5100 
+ 
+[] 
+ 1.0 
+ 5100 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5150 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5200 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 5200 
+ 
+[] 
+ 1.0 
+ 5200 
+ 
+[] 
+ 1.0 
+ 5200 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=5003ms] Last decision: CLEAR
+CameraSensor [1] t=5250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5250 count=0 objects=[] conf=1.0 status=OK
+Driver t=5250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5300 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 5300 
+ 
+[] 
+ 1.0 
+ 5300 
+ 
+[] 
+ 1.0 
+ 5300 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5350 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5400 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 5400 
+ 
+[] 
+ 1.0 
+ 5400 
+ 
+[] 
+ 1.0 
+ 5400 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5450 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5500 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 5500 
+ 
+[] 
+ 1.0 
+ 5500 
+ 
+[] 
+ 1.0 
+ 5500 
+ 
+Driver t=5500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5550 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5600 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 5600 
+ 
+[] 
+ 1.0 
+ 5600 
+ 
+[] 
+ 1.0 
+ 5600 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5650 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5700 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 5700 
+ 
+[] 
+ 1.0 
+ 5700 
+ 
+[] 
+ 1.0 
+ 5700 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=5504ms] Last decision: CLEAR
+CameraSensor [1] t=5750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5750 count=0 objects=[] conf=1.0 status=OK
+Driver t=5750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5800 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 5800 
+ 
+[] 
+ 1.0 
+ 5800 
+ 
+[] 
+ 1.0 
+ 5800 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5850 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5900 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 5900 
+ 
+[] 
+ 1.0 
+ 5900 
+ 
+[] 
+ 1.0 
+ 5900 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=5950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=5950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=5950 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6000 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 6000 
+ 
+[] 
+ 1.0 
+ 6000 
+ 
+[] 
+ 1.0 
+ 6000 
+ 
+Driver t=6000 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6050 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6100 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 6100 
+ 
+[] 
+ 1.0 
+ 6100 
+ 
+[] 
+ 1.0 
+ 6100 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6150 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6200 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 6200 
+ 
+[] 
+ 1.0 
+ 6200 
+ 
+[] 
+ 1.0 
+ 6200 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=6004ms] Last decision: CLEAR
+CameraSensor [1] t=6250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6250 count=0 objects=[] conf=1.0 status=OK
+Driver t=6250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6300 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 6300 
+ 
+[] 
+ 1.0 
+ 6300 
+ 
+[] 
+ 1.0 
+ 6300 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6350 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6400 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 6400 
+ 
+[] 
+ 1.0 
+ 6400 
+ 
+[] 
+ 1.0 
+ 6400 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6450 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6500 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 6500 
+ 
+[] 
+ 1.0 
+ 6500 
+ 
+[] 
+ 1.0 
+ 6500 
+ 
+Driver t=6500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6550 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6600 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 6600 
+ 
+[] 
+ 1.0 
+ 6600 
+ 
+[] 
+ 1.0 
+ 6600 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6650 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6700 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 6700 
+ 
+[] 
+ 1.0 
+ 6700 
+ 
+[] 
+ 1.0 
+ 6700 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=6504ms] Last decision: CLEAR
+CameraSensor [1] t=6750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6750 count=0 objects=[] conf=1.0 status=OK
+Driver t=6750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6800 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 6800 
+ 
+[] 
+ 1.0 
+ 6800 
+ 
+[] 
+ 1.0 
+ 6800 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6850 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6900 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 6900 
+ 
+[] 
+ 1.0 
+ 6900 
+ 
+[] 
+ 1.0 
+ 6900 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=6950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=6950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=6950 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7000 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 7000 
+ 
+[] 
+ 1.0 
+ 7000 
+ 
+[] 
+ 1.0 
+ 7000 
+ 
+Driver t=7000 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7050 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7100 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 7100 
+ 
+[] 
+ 1.0 
+ 7100 
+ 
+[] 
+ 1.0 
+ 7100 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7150 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7200 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 7200 
+ 
+[] 
+ 1.0 
+ 7200 
+ 
+[] 
+ 1.0 
+ 7200 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=7004ms] Last decision: CLEAR
+CameraSensor [1] t=7250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7250 count=0 objects=[] conf=1.0 status=OK
+Driver t=7250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7300 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 7300 
+ 
+[] 
+ 1.0 
+ 7300 
+ 
+[] 
+ 1.0 
+ 7300 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7350 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7400 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 7400 
+ 
+[] 
+ 1.0 
+ 7400 
+ 
+[] 
+ 1.0 
+ 7400 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7450 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7500 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 7500 
+ 
+[] 
+ 1.0 
+ 7500 
+ 
+[] 
+ 1.0 
+ 7500 
+ 
+Driver t=7500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7550 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7600 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 7600 
+ 
+[] 
+ 1.0 
+ 7600 
+ 
+[] 
+ 1.0 
+ 7600 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+WheelSensor [2] FL FROZEN at t=7620ms
+WheelSensor [2] FL unfrozen at t=7630ms
+CameraSensor [1] t=7650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7650 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7700 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 7700 
+ 
+[] 
+ 1.0 
+ 7700 
+ 
+[] 
+ 1.0 
+ 7700 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=7504ms] Last decision: CLEAR
+CameraSensor [1] t=7750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7750 count=0 objects=[] conf=1.0 status=OK
+Driver t=7750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7800 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 7800 
+ 
+[] 
+ 1.0 
+ 7800 
+ 
+[] 
+ 1.0 
+ 7800 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7850 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7900 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 7900 
+ 
+[] 
+ 1.0 
+ 7900 
+ 
+[] 
+ 1.0 
+ 7900 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=7950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=7950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=7950 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8000 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 8000 
+ 
+[] 
+ 1.0 
+ 8000 
+ 
+[] 
+ 1.0 
+ 8000 
+ 
+Driver t=8000 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8050 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8100 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 8100 
+ 
+[] 
+ 1.0 
+ 8100 
+ 
+[] 
+ 1.0 
+ 8100 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8150 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8200 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 8200 
+ 
+[] 
+ 1.0 
+ 8200 
+ 
+[] 
+ 1.0 
+ 8200 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=8004ms] Last decision: CLEAR
+CameraSensor [1] t=8250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8250 count=0 objects=[] conf=1.0 status=OK
+Driver t=8250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8300 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 8300 
+ 
+[] 
+ 1.0 
+ 8300 
+ 
+[] 
+ 1.0 
+ 8300 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8350 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8400 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 8400 
+ 
+[] 
+ 1.0 
+ 8400 
+ 
+[] 
+ 1.0 
+ 8400 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8450 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8500 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 8500 
+ 
+[] 
+ 1.0 
+ 8500 
+ 
+[] 
+ 1.0 
+ 8500 
+ 
+Driver t=8500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8550 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8600 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 8600 
+ 
+[] 
+ 1.0 
+ 8600 
+ 
+[] 
+ 1.0 
+ 8600 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8650 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8700 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 8700 
+ 
+[] 
+ 1.0 
+ 8700 
+ 
+[] 
+ 1.0 
+ 8700 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=8505ms] Last decision: CLEAR
+CameraSensor [1] t=8750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8750 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8750 count=0 objects=[] conf=1.0 status=OK
+Driver t=8750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8800 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8800 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 8800 
+ 
+[] 
+ 1.0 
+ 8800 
+ 
+[] 
+ 1.0 
+ 8800 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8850 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8850 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8900 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8900 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 8900 
+ 
+[] 
+ 1.0 
+ 8900 
+ 
+[] 
+ 1.0 
+ 8900 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=8950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=8950 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=8950 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=9000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9000 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9000 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 9000 
+ 
+[] 
+ 1.0 
+ 9000 
+ 
+[] 
+ 1.0 
+ 9000 
+ 
+Driver t=9000 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=9050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9050 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9050 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=9100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9100 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9100 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 9100 
+ 
+[] 
+ 1.0 
+ 9100 
+ 
+[] 
+ 1.0 
+ 9100 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=9150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9150 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9150 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=9200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9200 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9200 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 9200 
+ 
+[] 
+ 1.0 
+ 9200 
+ 
+[] 
+ 1.0 
+ 9200 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=9005ms] Last decision: CLEAR
+CameraSensor [1] t=9250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9250 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9250 count=0 objects=[] conf=1.0 status=OK
+Driver t=9250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=9300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9300 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9300 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 9300 
+ 
+[] 
+ 1.0 
+ 9300 
+ 
+[] 
+ 1.0 
+ 9300 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=9350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9350 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9350 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=9400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9400 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9400 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 9400 
+ 
+[] 
+ 1.0 
+ 9400 
+ 
+[] 
+ 1.0 
+ 9400 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=9450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9450 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9450 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=9500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9500 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9500 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 9500 
+ 
+[] 
+ 1.0 
+ 9500 
+ 
+[] 
+ 1.0 
+ 9500 
+ 
+Driver t=9500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=9550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9550 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9550 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=9600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9600 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9600 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 9600 
+ 
+[] 
+ 1.0 
+ 9600 
+ 
+[] 
+ 1.0 
+ 9600 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=9650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9650 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9650 count=0 objects=[] conf=1.0 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=9700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [2] t=9700 count=0 objects=[] conf=1.0 status=OK
+CameraSensor [3] t=9700 count=0 objects=[] conf=1.0 status=OK
+[] 
+ 1.0 
+ 9700 
+ 
+[] 
+ 1.0 
+ 9700 
+ 
+[] 
+ 1.0 
+ 9700 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=9505ms] Last decision: CLEAR
+
+--- Stopping Driver Interface Display
+
+--- Stopping controller ---
+BrakingController stopped.
+--- Stopping sensors ---
+
+=== Main1 complete ===

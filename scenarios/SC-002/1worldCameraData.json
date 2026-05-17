@@ -8,61 +8,61 @@
     {
       "timestampMs": 0,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 50,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
       ]
     },
     {
       "timestampMs": 100,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
       ]
     },
     {
       "timestampMs": 150,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
       ]
     },
     {
       "timestampMs": 200,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 250,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
       ]
     },
     {
       "timestampMs": 300,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 350,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
       ]
     },
     {
       "timestampMs": 400,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 450,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
       ]
     },
     {
@@ -80,25 +80,25 @@
     {
       "timestampMs": 600,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 650,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 700,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 750,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
       ]
     },
     {
@@ -116,13 +116,13 @@
     {
       "timestampMs": 900,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 950,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
@@ -134,31 +134,31 @@
     {
       "timestampMs": 1050,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 1100,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 1150,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 1200,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 1250,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
       ]
     },
     {
@@ -170,13 +170,13 @@
     {
       "timestampMs": 1350,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 1400,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
       ]
     },
     {
@@ -188,85 +188,85 @@
     {
       "timestampMs": 1500,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
       ]
     },
     {
       "timestampMs": 1550,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 1600,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
       ]
     },
     {
       "timestampMs": 1650,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 1700,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 1750,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 1800,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 1850,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
       ]
     },
     {
       "timestampMs": 1900,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 1950,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 2000,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
       ]
     },
     {
       "timestampMs": 2050,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 2100,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 2150,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
       ]
     },
     {
@@ -278,49 +278,49 @@
     {
       "timestampMs": 2250,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 2300,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 2350,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 2400,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 2450,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 2500,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
       ]
     },
     {
       "timestampMs": 2550,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 2600,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
       ]
     },
     {
@@ -344,13 +344,13 @@
     {
       "timestampMs": 2800,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
       ]
     },
     {
       "timestampMs": 2850,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
       ]
     },
     {
@@ -362,7 +362,7 @@
     {
       "timestampMs": 2950,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
@@ -374,181 +374,181 @@
     {
       "timestampMs": 3050,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
       ]
     },
     {
       "timestampMs": 3100,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 3150,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 3200,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 3250,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
       ]
     },
     {
       "timestampMs": 3300,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 3350,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
       ]
     },
     {
       "timestampMs": 3400,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 3450,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 3500,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
       ]
     },
     {
       "timestampMs": 3550,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 3600,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 3650,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 3700,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 3750,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
       ]
     },
     {
       "timestampMs": 3800,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.00 }
       ]
     },
     {
       "timestampMs": 3850,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
       ]
     },
     {
       "timestampMs": 3900,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
       ]
     },
     {
       "timestampMs": 3950,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.00 }
       ]
     },
     {
       "timestampMs": 4000,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 4050,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.02 }
       ]
     },
     {
       "timestampMs": 4100,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.01 }
       ]
     },
     {
       "timestampMs": 4150,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
       ]
     },
     {
       "timestampMs": 4200,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 4250,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 0.01 }
       ]
     },
     {
       "timestampMs": 4300,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": -0.02 }
       ]
     },
     {
       "timestampMs": 4350,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
       ]
     },
     {
       "timestampMs": 4400,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
       ]
     },
     {
       "timestampMs": 4450,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
       ]
     },
     {
       "timestampMs": 4500,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
       ]
     },
     {
@@ -566,19 +566,19 @@
     {
       "timestampMs": 4650,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
       ]
     },
     {
       "timestampMs": 4700,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
       ]
     },
     {
       "timestampMs": 4750,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
       ]
     },
     {
@@ -590,7 +590,7 @@
     {
       "timestampMs": 4850,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
       ]
     },
     {
@@ -614,13 +614,13 @@
     {
       "timestampMs": 5050,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
       ]
     },
     {
       "timestampMs": 5100,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
       ]
     },
     {
@@ -638,7 +638,7 @@
     {
       "timestampMs": 5250,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
       ]
     },
     {
@@ -650,13 +650,13 @@
     {
       "timestampMs": 5350,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
       ]
     },
     {
       "timestampMs": 5400,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
       ]
     },
     {
@@ -668,25 +668,25 @@
     {
       "timestampMs": 5500,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
       ]
     },
     {
       "timestampMs": 5550,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
       ]
     },
     {
       "timestampMs": 5600,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
       ]
     },
     {
       "timestampMs": 5650,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
       ]
     },
     {
@@ -698,37 +698,5317 @@
     {
       "timestampMs": 5750,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
       ]
     },
     {
       "timestampMs": 5800,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
       ]
     },
     {
       "timestampMs": 5850,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
       ]
     },
     {
       "timestampMs": 5900,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
       ]
     },
     {
       "timestampMs": 5950,
       "detectedObjects": [
-        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
       ]
     },
     {
       "timestampMs": 6000,
       "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 6050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 6100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 6150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 6200,
+      "detectedObjects": [
         { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 6250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 6300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 6350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 6400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 6450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 6500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 6550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 6600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 6650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 6700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 6750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 6800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 6850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 6900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 6950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 7000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 7050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 7100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 7150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 7200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 7250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 7300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 7350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 7400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 7450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 7500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 7550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 7600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 7650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 7700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 7750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 7800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 7850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 7900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 7950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 8000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 8050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 8100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 8150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 8200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 8250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 8300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 8350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 8400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 8450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 8500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 8550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 8600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 8650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 8700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 8750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 8800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 8850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 8900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 8950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 9000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 9050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 9100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 9150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 9200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 9250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 9300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 9350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 9400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 9450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 9500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 9550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 9600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 9650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 9700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 9750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 9800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 9850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 9900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 9950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 10000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 10050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 10100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 10150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 10200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 10250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 10300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 10350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 10400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 10450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 10500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 10550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 10600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 10650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 10700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 10750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 10800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 10850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 10900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 10950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 11000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 11050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 11100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 11150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 11200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 11250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 11300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 11350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 11400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 11450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 11500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 11550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 11600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 11650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 11700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 11750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 11800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 11850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 11900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 11950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 12000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 12050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 12100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 12150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 12200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 12250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 12300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 12350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 12400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 12450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 12500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 12550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 12600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 12650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 12700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 12750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 12800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 12850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 12900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 12950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 13000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 13050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 13100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 13150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 13200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 13250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 13300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 13350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 13400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 13450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 13500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 13550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 13600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 13650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 13700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 13750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 13800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 13850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 13900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 13950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 14000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 14050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 14100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 14150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 14200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 14250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 14300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 14350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 14400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 14450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 14500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 14550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 14600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 14650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 14700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 14750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 14800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 14850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 14900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 14950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 15000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 15050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 15100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 15150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 15200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 15250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 15300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 15350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 15400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 15450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 15500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 15550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 15600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 15650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 15700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 15750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 15800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 15850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 15900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 15950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 16000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 16050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 16100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 16150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 16200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 16250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 16300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 16350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 16400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 16450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 16500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 16550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 16600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 16650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 16700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 16750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 16800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 16850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 16900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 16950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 17000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 17050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 17100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 17150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 17200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 17250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 17300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 17350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 17400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 17450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 17500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 17550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 17600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 17650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 17700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 17750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 17800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 17850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 17900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 17950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 18000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 18050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 18100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 18150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 18200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 18250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 18300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 18350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 18400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 18450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 18500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 18550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 18600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 18650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 18700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 18750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 18800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 18850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 18900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 18950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 19000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 19050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 19100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 19150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 19200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 19250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 19300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 19350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 19400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 19450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 19500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 19550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 19600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 19650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 19700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 19750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 19800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 19850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 19900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 19950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 20000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 20050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 20100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 20150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 20200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 20250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 20300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 20350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 20400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 20450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 20500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 20550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 20600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 20650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 20700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 20750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 20800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 20850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 20900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 20950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 21000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 21050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 21100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 21150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 21200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 21250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 21300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 21350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 21400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 21450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 21500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 21550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 21600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 21650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 21700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 21750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 21800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 21850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 21900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 21950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 22000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 22050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 22100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 22150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 22200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 22250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 22300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 22350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 22400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 22450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 22500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 22550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 22600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 22650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 22700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 22750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 22800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 22850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 22900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 22950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 23000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 23050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 23100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 23150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 23200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 23250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 23300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 23350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 23400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 23450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 23500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 23550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 23600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 23650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 23700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 23750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 23800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 23850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 23900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 23950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 24000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 24050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 24100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 24150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 24200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 24250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 24300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 24350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 24400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 24450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 24500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 24550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 24600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 24650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 24700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 24750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 24800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 24850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 24900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 24950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 25000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 25050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 25100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 25150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 25200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 25250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 25300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 25350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 25400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 25450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 25500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 25550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 25600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 25650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 25700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 25750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 25800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 25850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 25900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 25950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 26000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 26050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 26100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 26150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 26200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 26250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 26300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 26350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 26400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 26450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 26500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 26550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 26600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 26650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 26700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 26750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 26800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 26850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 26900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 26950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 27000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 27050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 27100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 27150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 27200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 27250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 27300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 27350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 27400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 27450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 27500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 27550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 27600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 27650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 27700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 27750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 27800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 27850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 27900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 27950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 28000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 28050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 28100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 28150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 28200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 28250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 28300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 28350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 28400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 28450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 28500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 28550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 28600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 28650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 28700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 28750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 28800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 28850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 28900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 28950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 29000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 29050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 29100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 29150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 29200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 29250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 29300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 29350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 29400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 29450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 29500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 29550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 29600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 29650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 29700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 29750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 29800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 29850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 29900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 29950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 30000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 30050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 30100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 30150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 30200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 30250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 30300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 30350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 30400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 30450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 30500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 30550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 30600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 30650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 30700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 30750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 30800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 30850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 30900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 30950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 31000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 31050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 31100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 31150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 31200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 31250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 31300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 31350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 31400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 31450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 31500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 31550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 31600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 31650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 31700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 31750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 31800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 31850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 31900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 31950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 32000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 32050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 32100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 32150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 32200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 32250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 32300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 32350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 32400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 32450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 32500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 32550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 32600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 32650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 32700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 32750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 32800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 32850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 32900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 32950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 33000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 33050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 33100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 33150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 33200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 33250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 33300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 33350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 33400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 33450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 33500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 33550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 33600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 33650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 33700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 33750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 33800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 33850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 33900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 33950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 34000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 34050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 34100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 34150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 34200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 34250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 34300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 34350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 34400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 34450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 34500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 34550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 34600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 34650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 34700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 34750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 34800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 34850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 34900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 34950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 35000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 35050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 35100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 35150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 35200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 35250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 35300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 35350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 35400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 35450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 35500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 35550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 35600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 35650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 35700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 35750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 35800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 35850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 35900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 35950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 36000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 36050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 36100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 36150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 36200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 36250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 36300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 36350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 36400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 36450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 36500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 36550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 36600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 36650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 36700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 36750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 36800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 36850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 36900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 36950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 37000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 37050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 37100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 37150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 37200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 37250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 37300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 37350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 37400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 37450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 37500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 37550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 37600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 37650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 37700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 37750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 37800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 37850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 37900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 37950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 38000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 38050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 38100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 38150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 38200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 38250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 38300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 38350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 38400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 38450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 38500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 38550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 38600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 38650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 38700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 38750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 38800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 38850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 38900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 38950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 39000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 39050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 39100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 39150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 39200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 39250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 39300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 39350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 39400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 39450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 39500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 39550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 39600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 39650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 39700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 39750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 39800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 39850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 39900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 39950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 40000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 40050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 40100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 40150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 40200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 40250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 40300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 40350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 40400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 40450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 40500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 40550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 40600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 40650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 40700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 40750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 40800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 40850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 40900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 40950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 41000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 41050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 41100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 41150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 41200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 41250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 41300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 41350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 41400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 41450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 41500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 41550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 41600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 41650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 41700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 41750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 41800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 41850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 41900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 41950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 42000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 42050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 42100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 42150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 42200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 42250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 42300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 42350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 42400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 42450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 42500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 42550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 42600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 42650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 42700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 42750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 42800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 42850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 42900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 42950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 43000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 43050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 43100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 43150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 43200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 43250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 43300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 43350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 43400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 43450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 43500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 43550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 43600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 43650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 43700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 43750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 43800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 43850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 43900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 43950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 44000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 44050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 44100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 44150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 44200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 44250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 44300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 44350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 44400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 44450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 44500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 44550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 44600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 44650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 44700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 44750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 44800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 44850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 44900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 44950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 45000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 45050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 45100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 45150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 45200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 45250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 45300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 45350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 45400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 45450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 45500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 45550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 45600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 45650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 45700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 45750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 45800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 45850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 45900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 45950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 46000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 46050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 46100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 46150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 46200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 46250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 46300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 46350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 46400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 46450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 46500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 46550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 46600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 46650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 46700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 46750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 46800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 46850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 46900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 46950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 47000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 47050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 47100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 47150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 47200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 47250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 47300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 47350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 47400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 47450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 47500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 47550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 47600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 47650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 47700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 47750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 47800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 47850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 47900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 47950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 48000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 48050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 48100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 48150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 48200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 48250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 48300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 48350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 48400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 48450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 48500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 48550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 48600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 48650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 48700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 48750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 48800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 48850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.02 }
+      ]
+    },
+    {
+      "timestampMs": 48900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 48950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 49000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 49050,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 49100,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 49150,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 49200,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 49250,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 49300,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 49350,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 49400,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.00 }
+      ]
+    },
+    {
+      "timestampMs": 49450,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.98 }
+      ]
+    },
+    {
+      "timestampMs": 49500,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 49550,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 49600,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 49650,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 49700,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 49750,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
+      ]
+    },
+    {
+      "timestampMs": 49800,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 49850,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 49900,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 49950,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 180.01 }
+      ]
+    },
+    {
+      "timestampMs": 50000,
+      "detectedObjects": [
+        { "objectType": "VEHICLE", "bearingDegrees": 179.99 }
       ]
     }
   ]

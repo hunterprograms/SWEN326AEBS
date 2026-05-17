@@ -142,22 +142,30 @@ public class AEBS {
         final long startTime = System.currentTimeMillis();
         final long endTime = startTime + RUN_DURATION_MS;
 
-        while (System.currentTimeMillis() < endTime) {
+        while (System.currentTimeMillis() < endTime - 500) {
             Thread.sleep(500);
             final long elapsed = System.currentTimeMillis() - startTime;
             System.out.println("\n[t=" + elapsed + "ms] Last decision: " + controller.getLastDecision());
         }
 
+        // 7.5 Stop Interface
+        System.out.println("\n--- Stopping Driver Interface Display");
+        systemInterface.end();
+
         // 8. Stop all components
         System.out.println("\n--- Stopping controller ---");
         controller.stop();
+        
 
         System.out.println("--- Stopping sensors ---");
+
         driver.stop();
         ws3.stop(); ws2.stop(); ws1.stop();
         lidar3.stop(); lidar2.stop(); lidar1.stop();
         radar3.stop(); radar2.stop(); radar1.stop();
         cam3.stop(); cam2.stop(); cam1.stop();
+
+
 
         System.out.println("\n=== Main1 complete ===");
         

@@ -1,0 +1,1910 @@
+=== AEBS Main1: Live Scenario Run ===
+Data directory : /home/hunter/projects/SWEN326AEBS/scenarios/SC-003
+Output File    : scenario_output.txt
+Run duration   : 8000ms
+======================================
+
+--- Starting sensors ---
+CameraSensor [1] weatherFactor=0.9
+CameraSensor [1] timer started.
+CameraSensor [2] weatherFactor=0.9
+CameraSensor [2] timer started.
+CameraSensor [3] weatherFactor=0.9
+CameraSensor [3] timer started.
+Timer started!
+Timer started!
+Timer started!
+[] 
+ 1.0 
+ 0 
+ 
+[] 
+ 1.0 
+ 0 
+ 
+[] 
+ 1.0 
+ 0 
+ 
+CameraSensor [3] t=0 count=0 objects=[] conf=0.9 status=OK
+Driver scenario: Pedestrian steps out — urban 50 km/h
+CameraSensor [2] t=0 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [1] t=0 count=0 objects=[] conf=0.9 status=OK
+Driver timer started.
+Driver t=0 action=NONE state=ACTIVE
+CameraSensor [1] t=50 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=50 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=50 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [1] t=100 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=100 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 100 
+ 
+CameraSensor [3] t=100 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 100 
+ 
+[] 
+ 1.0 
+ 100 
+ 
+CameraSensor [1] t=150 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=150 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=150 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [1] t=200 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=200 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=200 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 200 
+ 
+[] 
+ 1.0 
+ 200 
+ 
+[] 
+ 1.0 
+ 200 
+ 
+
+--- Starting controller ---
+BrakingController started — decision cycle: 50ms
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=250 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=250 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=250 count=0 objects=[] conf=0.9 status=OK
+Driver t=250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=300 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=300 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 300 
+ 
+CameraSensor [3] t=300 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 300 
+ 
+[] 
+ 1.0 
+ 300 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=350 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=350 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=350 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=400 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=400 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=400 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 400 
+ 
+[] 
+ 1.0 
+ 400 
+ 
+[] 
+ 1.0 
+ 400 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=450 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=450 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=450 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=500 count=0 objects=[] conf=0.9 status=OK
+WheelSensor [1] FL FROZEN at t=490ms
+WheelSensor [3] FL FROZEN at t=490ms
+CameraSensor [2] t=500 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=500 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 500 
+ 
+[] 
+ 1.0 
+ 500 
+ 
+[] 
+ 1.0 
+ 500 
+ 
+WheelSensor [1] FL unfrozen at t=500ms
+WheelSensor [3] FL unfrozen at t=500ms
+Driver t=500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=550 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=550 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=550 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=600 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=600 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 600 
+ 
+CameraSensor [3] t=600 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 600 
+ 
+[] 
+ 1.0 
+ 600 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=650 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=650 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=650 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=700 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=700 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 700 
+ 
+CameraSensor [3] t=700 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 700 
+ 
+[] 
+ 1.0 
+ 700 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=500ms] Last decision: CLEAR
+CameraSensor [1] t=750 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=750 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=750 count=0 objects=[] conf=0.9 status=OK
+Driver t=750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=800 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=800 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 800 
+ 
+CameraSensor [3] t=800 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 800 
+ 
+[] 
+ 1.0 
+ 800 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=850 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=850 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=850 count=0 objects=[] conf=0.9 status=OK
+WheelSensor [3] FL FROZEN at t=850ms
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+WheelSensor [3] FL unfrozen at t=860ms
+CameraSensor [1] t=900 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=900 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=900 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 900 
+ 
+[] 
+ 1.0 
+ 900 
+ 
+[] 
+ 1.0 
+ 900 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=950 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=950 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=950 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1000 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1000 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1000 
+ 
+CameraSensor [3] t=1000 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1000 
+ 
+[] 
+ 1.0 
+ 1000 
+ 
+Driver t=1000 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1050 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1050 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1050 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1100 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1100 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1100 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1100 
+ 
+[] 
+ 1.0 
+ 1100 
+ 
+[] 
+ 1.0 
+ 1100 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+WheelSensor [3] RL FROZEN at t=1120ms
+WheelSensor [3] RL unfrozen at t=1130ms
+CameraSensor [1] t=1150 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1150 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1150 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1200 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1200 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1200 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1200 
+ 
+[] 
+ 1.0 
+ 1200 
+ 
+[] 
+ 1.0 
+ 1200 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=1002ms] Last decision: CLEAR
+CameraSensor [1] t=1250 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1250 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1250 count=0 objects=[] conf=0.9 status=OK
+Driver t=1250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1300 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1300 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1300 
+ 
+CameraSensor [3] t=1300 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1300 
+ 
+[] 
+ 1.0 
+ 1300 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1350 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1350 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1350 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1400 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1400 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1400 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1400 
+ 
+[] 
+ 1.0 
+ 1400 
+ 
+[] 
+ 1.0 
+ 1400 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1450 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1450 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1450 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1500 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1500 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1500 
+ 
+CameraSensor [3] t=1500 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1500 
+ 
+[] 
+ 1.0 
+ 1500 
+ 
+Driver t=1500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1550 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1550 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1550 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1600 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1600 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1600 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1600 
+ 
+[] 
+ 1.0 
+ 1600 
+ 
+[] 
+ 1.0 
+ 1600 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1650 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1650 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1650 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1700 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1700 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1700 
+ 
+CameraSensor [3] t=1700 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1700 
+ 
+[] 
+ 1.0 
+ 1700 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=1503ms] Last decision: CLEAR
+CameraSensor [1] t=1750 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1750 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1750 count=0 objects=[] conf=0.9 status=OK
+Driver t=1750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1800 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1800 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1800 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1800 
+ 
+[] 
+ 1.0 
+ 1800 
+ 
+[] 
+ 1.0 
+ 1800 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1850 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1850 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1850 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1900 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1900 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1900 
+ 
+CameraSensor [3] t=1900 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 1900 
+ 
+[] 
+ 1.0 
+ 1900 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=1950 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=1950 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=1950 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2000 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2000 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2000 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2000 
+ 
+[] 
+ 1.0 
+ 2000 
+ 
+[] 
+ 1.0 
+ 2000 
+ 
+Driver t=2000 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2050 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2050 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2050 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2100 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2100 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2100 
+ 
+CameraSensor [3] t=2100 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2100 
+ 
+[] 
+ 1.0 
+ 2100 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2150 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2150 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2150 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2200 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2200 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2200 
+ 
+CameraSensor [3] t=2200 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2200 
+ 
+[] 
+ 1.0 
+ 2200 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=2003ms] Last decision: CLEAR
+CameraSensor [1] t=2250 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2250 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2250 count=0 objects=[] conf=0.9 status=OK
+Driver t=2250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2300 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2300 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2300 
+ 
+CameraSensor [3] t=2300 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2300 
+ 
+[] 
+ 1.0 
+ 2300 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2350 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2350 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2350 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2400 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2400 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2400 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2400 
+ 
+[] 
+ 1.0 
+ 2400 
+ 
+[] 
+ 1.0 
+ 2400 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2450 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2450 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2450 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2500 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2500 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2500 
+ 
+CameraSensor [3] t=2500 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2500 
+ 
+[] 
+ 1.0 
+ 2500 
+ 
+Driver t=2500 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2550 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2550 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2550 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2600 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2600 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2600 
+ 
+CameraSensor [3] t=2600 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2600 
+ 
+[] 
+ 1.0 
+ 2600 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2650 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2650 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2650 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2700 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2700 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2700 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2700 
+ 
+[] 
+ 1.0 
+ 2700 
+ 
+[] 
+ 1.0 
+ 2700 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+
+[t=2503ms] Last decision: CLEAR
+CameraSensor [1] t=2750 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2750 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2750 count=0 objects=[] conf=0.9 status=OK
+Driver t=2750 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2800 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2800 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2800 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2800 
+ 
+[] 
+ 1.0 
+ 2800 
+ 
+[] 
+ 1.0 
+ 2800 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2850 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2850 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2850 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2900 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2900 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2900 count=0 objects=[] conf=0.9 status=OK
+[] 
+ 1.0 
+ 2900 
+ 
+[] 
+ 1.0 
+ 2900 
+ 
+[] 
+ 1.0 
+ 2900 
+ 
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=2950 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [2] t=2950 count=0 objects=[] conf=0.9 status=OK
+CameraSensor [3] t=2950 count=0 objects=[] conf=0.9 status=OK
+RadarVoter: TRUSTED — No objects in view
+LidarVoter: TRUSTED — No objects in view
+CameraSensor [1] t=3000 count=1 objects=[PEDESTRIAN@178.55] conf=0.9 status=OK
+CameraSensor [2] t=3000 count=1 objects=[PEDESTRIAN@178.64] conf=0.9 status=OK
+CameraSensor [3] t=3000 count=1 objects=[PEDESTRIAN@178.76] conf=0.9 status=OK
+Driver t=3000 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — dist=26.81m speed=-50.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=26.813332m speed=-50.0km/h conf=1.0
+[DetectedObject[distanceMetres=26.81, relativeSpeedKmh=-50.0, bearingDegrees=178.55]] 
+ 1.0 
+ 3000 
+ 
+[BrakingController] DRIVER_ALERT — TTC=1.9304398s
+[DetectedObject[distanceMetres=26.81, relativeSpeedKmh=-50.0, bearingDegrees=178.54]] 
+ 1.0 
+ 3000 
+ 
+[DetectedObject[distanceMetres=26.81, relativeSpeedKmh=-50.0, bearingDegrees=178.56]] 
+ 1.0 
+ 3000 
+ 
+[BrakingController] DRIVER ALERT — TTC=1.9304398s
+CameraSensor [1] t=3050 count=1 objects=[PEDESTRIAN@178.46] conf=0.9 status=OK
+CameraSensor [2] t=3050 count=1 objects=[PEDESTRIAN@178.55] conf=0.9 status=OK
+CameraSensor [3] t=3050 count=1 objects=[PEDESTRIAN@178.63] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=26.81m speed=-50.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=26.813332m speed=-50.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=1.9304398s
+[BrakingController] DRIVER ALERT — TTC=1.9304398s
+CameraSensor [1] t=3100 count=1 objects=[PEDESTRIAN@178.33] conf=0.9 status=OK
+CameraSensor [2] t=3100 count=1 objects=[PEDESTRIAN@178.43] conf=0.9 status=OK
+[DetectedObject[distanceMetres=28.21, relativeSpeedKmh=-50.0, bearingDegrees=178.32]] 
+ 1.0 
+ 3100 
+ 
+CameraSensor [3] t=3100 count=1 objects=[PEDESTRIAN@178.55] conf=0.9 status=OK
+[DetectedObject[distanceMetres=28.21, relativeSpeedKmh=-50.0, bearingDegrees=178.33]] 
+ 1.0 
+ 3100 
+ 
+[DetectedObject[distanceMetres=28.2, relativeSpeedKmh=-50.0, bearingDegrees=178.35]] 
+ 1.0 
+ 3100 
+ 
+RadarVoter: TRUSTED — dist=28.206665m speed=-50.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=28.206665m speed=-49.99667km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.0309474s
+[BrakingController] DRIVER ALERT — TTC=2.0309474s
+CameraSensor [1] t=3150 count=1 objects=[PEDESTRIAN@178.25] conf=0.9 status=OK
+CameraSensor [2] t=3150 count=1 objects=[PEDESTRIAN@178.34] conf=0.9 status=OK
+CameraSensor [3] t=3150 count=1 objects=[PEDESTRIAN@178.42] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=28.206665m speed=-50.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=28.206665m speed=-49.99667km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.0309474s
+[BrakingController] DRIVER ALERT — TTC=2.0309474s
+CameraSensor [1] t=3200 count=1 objects=[PEDESTRIAN@178.13] conf=0.9 status=OK
+CameraSensor [2] t=3200 count=1 objects=[PEDESTRIAN@178.25] conf=0.9 status=OK
+CameraSensor [3] t=3200 count=1 objects=[PEDESTRIAN@178.34] conf=0.9 status=OK
+[DetectedObject[distanceMetres=29.6, relativeSpeedKmh=-50.0, bearingDegrees=178.15]] 
+ 1.0 
+ 3200 
+ 
+[DetectedObject[distanceMetres=29.6, relativeSpeedKmh=-50.0, bearingDegrees=178.14]] 
+ 1.0 
+ 3200 
+ 
+[DetectedObject[distanceMetres=29.6, relativeSpeedKmh=-50.0, bearingDegrees=178.15]] 
+ 1.0 
+ 3200 
+ 
+RadarVoter: TRUSTED — dist=29.6m speed=-50.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=29.6m speed=-50.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.1312s
+[BrakingController] DRIVER ALERT — TTC=2.1312s
+
+[t=3003ms] Last decision: DRIVER_ALERT
+CameraSensor [1] t=3250 count=1 objects=[PEDESTRIAN@178.07] conf=0.9 status=OK
+CameraSensor [2] t=3250 count=1 objects=[PEDESTRIAN@178.16] conf=0.9 status=OK
+CameraSensor [3] t=3250 count=1 objects=[PEDESTRIAN@178.24] conf=0.9 status=OK
+Driver t=3250 action=NONE state=ACTIVE
+RadarVoter: TRUSTED — dist=29.6m speed=-50.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=29.6m speed=-50.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.1312s
+[BrakingController] DRIVER ALERT — TTC=2.1312s
+CameraSensor [1] t=3300 count=1 objects=[PEDESTRIAN@177.98] conf=0.9 status=OK
+CameraSensor [2] t=3300 count=1 objects=[PEDESTRIAN@178.06] conf=0.9 status=OK
+CameraSensor [3] t=3300 count=1 objects=[PEDESTRIAN@178.19] conf=0.9 status=OK
+[DetectedObject[distanceMetres=30.99, relativeSpeedKmh=-50.0, bearingDegrees=177.98]] 
+ 1.0 
+ 3300 
+ 
+[DetectedObject[distanceMetres=30.99, relativeSpeedKmh=-50.0, bearingDegrees=177.97]] 
+ 1.0 
+ 3300 
+ 
+[DetectedObject[distanceMetres=30.99, relativeSpeedKmh=-50.0, bearingDegrees=177.96]] 
+ 1.0 
+ 3300 
+ 
+RadarVoter: TRUSTED — dist=30.99m speed=-50.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=30.99m speed=-50.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.2312799s
+[BrakingController] DRIVER ALERT — TTC=2.2312799s
+CameraSensor [1] t=3350 count=1 objects=[PEDESTRIAN@177.9] conf=0.9 status=OK
+CameraSensor [2] t=3350 count=1 objects=[PEDESTRIAN@177.98] conf=0.9 status=OK
+CameraSensor [3] t=3350 count=1 objects=[PEDESTRIAN@178.1] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=30.99m speed=-50.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=30.99m speed=-50.0km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.2312799s
+[BrakingController] DRIVER ALERT — TTC=2.2312799s
+CameraSensor [1] t=3400 count=1 objects=[PEDESTRIAN@177.82] conf=0.9 status=OK
+CameraSensor [2] t=3400 count=1 objects=[PEDESTRIAN@177.93] conf=0.9 status=OK
+CameraSensor [3] t=3400 count=1 objects=[PEDESTRIAN@178.01] conf=0.9 status=OK
+[DetectedObject[distanceMetres=32.38, relativeSpeedKmh=-50.0, bearingDegrees=177.81]] 
+ 1.0 
+ 3400 
+ 
+[DetectedObject[distanceMetres=32.39, relativeSpeedKmh=-50.0, bearingDegrees=177.81]] 
+ 1.0 
+ 3400 
+ 
+[DetectedObject[distanceMetres=32.38, relativeSpeedKmh=-50.0, bearingDegrees=177.81]] 
+ 1.0 
+ 3400 
+ 
+RadarVoter: TRUSTED — dist=32.383335m speed=-50.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=32.39m speed=-49.993336km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.3319952s
+[BrakingController] DRIVER ALERT — TTC=2.3319952s
+WheelSensor [1] RR FROZEN at t=3410ms
+WheelSensor [3] RR FROZEN at t=3410ms
+WheelSensor [1] RR unfrozen at t=3420ms
+WheelSensor [3] RR unfrozen at t=3420ms
+CameraSensor [1] t=3450 count=1 objects=[PEDESTRIAN@177.75] conf=0.9 status=OK
+CameraSensor [2] t=3450 count=1 objects=[PEDESTRIAN@177.86] conf=0.9 status=OK
+CameraSensor [3] t=3450 count=1 objects=[PEDESTRIAN@177.95] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=32.383335m speed=-50.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=32.39m speed=-49.993336km/h conf=1.0
+[BrakingController] DRIVER_ALERT — TTC=2.3319952s
+[BrakingController] DRIVER ALERT — TTC=2.3319952s
+CameraSensor [1] t=3500 count=1 objects=[PEDESTRIAN@177.66] conf=0.9 status=OK
+CameraSensor [2] t=3500 count=1 objects=[PEDESTRIAN@177.78] conf=0.9 status=OK
+CameraSensor [3] t=3500 count=1 objects=[PEDESTRIAN@177.85] conf=0.9 status=OK
+[DetectedObject[distanceMetres=33.78, relativeSpeedKmh=-49.68, bearingDegrees=177.67]] 
+ 1.0 
+ 3500 
+ 
+[DetectedObject[distanceMetres=33.78, relativeSpeedKmh=-49.67, bearingDegrees=177.65]] 
+ 1.0 
+ 3500 
+ 
+[DetectedObject[distanceMetres=33.77, relativeSpeedKmh=-49.67, bearingDegrees=177.66]] 
+ 1.0 
+ 3500 
+ 
+Driver t=3500 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=33.77667m speed=-49.67333km/h conf=1.0
+LidarVoter: TRUSTED — dist=33.78m speed=-49.67333km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3550 count=1 objects=[PEDESTRIAN@177.61] conf=0.9 status=OK
+CameraSensor [2] t=3550 count=1 objects=[PEDESTRIAN@177.68] conf=0.9 status=OK
+CameraSensor [3] t=3550 count=1 objects=[PEDESTRIAN@177.81] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=33.77667m speed=-49.67333km/h conf=1.0
+LidarVoter: TRUSTED — dist=33.78m speed=-49.67333km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3600 count=1 objects=[PEDESTRIAN@177.53] conf=0.9 status=OK
+CameraSensor [2] t=3600 count=1 objects=[PEDESTRIAN@177.64] conf=0.9 status=OK
+[DetectedObject[distanceMetres=35.11, relativeSpeedKmh=-46.44, bearingDegrees=177.52]] 
+ 1.0 
+ 3600 
+ 
+CameraSensor [3] t=3600 count=1 objects=[PEDESTRIAN@177.71] conf=0.9 status=OK
+[DetectedObject[distanceMetres=35.11, relativeSpeedKmh=-46.44, bearingDegrees=177.53]] 
+ 1.0 
+ 3600 
+ 
+[DetectedObject[distanceMetres=35.12, relativeSpeedKmh=-46.43, bearingDegrees=177.53]] 
+ 1.0 
+ 3600 
+ 
+RadarVoter: TRUSTED — dist=35.11333m speed=-46.436665km/h conf=1.0
+LidarVoter: TRUSTED — dist=35.11333m speed=-46.43333km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3650 count=1 objects=[PEDESTRIAN@177.45] conf=0.9 status=OK
+CameraSensor [2] t=3650 count=1 objects=[PEDESTRIAN@177.55] conf=0.9 status=OK
+CameraSensor [3] t=3650 count=1 objects=[PEDESTRIAN@177.68] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=35.11333m speed=-46.436665km/h conf=1.0
+LidarVoter: TRUSTED — dist=35.11333m speed=-46.43333km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3700 count=1 objects=[PEDESTRIAN@177.38] conf=0.9 status=OK
+CameraSensor [2] t=3700 count=1 objects=[PEDESTRIAN@177.5] conf=0.9 status=OK
+[DetectedObject[distanceMetres=36.36, relativeSpeedKmh=-43.2, bearingDegrees=177.41]] 
+ 1.0 
+ 3700 
+ 
+CameraSensor [3] t=3700 count=1 objects=[PEDESTRIAN@177.59] conf=0.9 status=OK
+[DetectedObject[distanceMetres=36.36, relativeSpeedKmh=-43.2, bearingDegrees=177.39]] 
+ 1.0 
+ 3700 
+ 
+[DetectedObject[distanceMetres=36.36, relativeSpeedKmh=-43.19, bearingDegrees=177.38]] 
+ 1.0 
+ 3700 
+ 
+RadarVoter: TRUSTED — dist=36.36m speed=-43.196667km/h conf=1.0
+LidarVoter: TRUSTED — dist=36.356667m speed=-43.196667km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=3504ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=3750 count=1 objects=[PEDESTRIAN@177.33] conf=0.9 status=OK
+CameraSensor [2] t=3750 count=1 objects=[PEDESTRIAN@177.44] conf=0.9 status=OK
+CameraSensor [3] t=3750 count=1 objects=[PEDESTRIAN@177.51] conf=0.9 status=OK
+Driver t=3750 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=36.36m speed=-43.196667km/h conf=1.0
+LidarVoter: TRUSTED — dist=36.356667m speed=-43.196667km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3800 count=1 objects=[PEDESTRIAN@177.25] conf=0.9 status=OK
+CameraSensor [2] t=3800 count=1 objects=[PEDESTRIAN@177.35] conf=0.9 status=OK
+CameraSensor [3] t=3800 count=1 objects=[PEDESTRIAN@177.46] conf=0.9 status=OK
+[DetectedObject[distanceMetres=37.52, relativeSpeedKmh=-39.96, bearingDegrees=177.26]] 
+ 1.0 
+ 3800 
+ 
+[DetectedObject[distanceMetres=37.51, relativeSpeedKmh=-39.95, bearingDegrees=177.27]] 
+ 1.0 
+ 3800 
+ 
+[DetectedObject[distanceMetres=37.51, relativeSpeedKmh=-39.95, bearingDegrees=177.26]] 
+ 1.0 
+ 3800 
+ 
+RadarVoter: TRUSTED — dist=37.513332m speed=-39.953335km/h conf=1.0
+LidarVoter: TRUSTED — dist=37.516666m speed=-39.956665km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3850 count=1 objects=[PEDESTRIAN@177.2] conf=0.9 status=OK
+CameraSensor [2] t=3850 count=1 objects=[PEDESTRIAN@177.3] conf=0.9 status=OK
+CameraSensor [3] t=3850 count=1 objects=[PEDESTRIAN@177.41] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=37.513332m speed=-39.953335km/h conf=1.0
+LidarVoter: TRUSTED — dist=37.516666m speed=-39.956665km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3900 count=1 objects=[PEDESTRIAN@177.13] conf=0.9 status=OK
+CameraSensor [2] t=3900 count=1 objects=[PEDESTRIAN@177.21] conf=0.9 status=OK
+[DetectedObject[distanceMetres=38.58, relativeSpeedKmh=-36.72, bearingDegrees=177.13]] 
+ 1.0 
+ 3900 
+ 
+CameraSensor [3] t=3900 count=1 objects=[PEDESTRIAN@177.35] conf=0.9 status=OK
+[DetectedObject[distanceMetres=38.58, relativeSpeedKmh=-36.72, bearingDegrees=177.13]] 
+ 1.0 
+ 3900 
+ 
+[DetectedObject[distanceMetres=38.58, relativeSpeedKmh=-36.72, bearingDegrees=177.13]] 
+ 1.0 
+ 3900 
+ 
+RadarVoter: TRUSTED — dist=38.58m speed=-36.72km/h conf=1.0
+LidarVoter: TRUSTED — dist=38.583332m speed=-36.71km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=3950 count=1 objects=[PEDESTRIAN@177.05] conf=0.9 status=OK
+CameraSensor [2] t=3950 count=1 objects=[PEDESTRIAN@177.17] conf=0.9 status=OK
+CameraSensor [3] t=3950 count=1 objects=[PEDESTRIAN@177.25] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=38.58m speed=-36.72km/h conf=1.0
+LidarVoter: TRUSTED — dist=38.583332m speed=-36.71km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4000 count=1 objects=[PEDESTRIAN@177.0] conf=0.9 status=OK
+CameraSensor [2] t=4000 count=1 objects=[PEDESTRIAN@177.11] conf=0.9 status=OK
+CameraSensor [3] t=4000 count=1 objects=[PEDESTRIAN@177.21] conf=0.9 status=OK
+[DetectedObject[distanceMetres=39.56, relativeSpeedKmh=-33.47, bearingDegrees=177.0]] 
+ 1.0 
+ 4000 
+ 
+[DetectedObject[distanceMetres=39.55, relativeSpeedKmh=-33.48, bearingDegrees=177.0]] 
+ 1.0 
+ 4000 
+ 
+[DetectedObject[distanceMetres=39.56, relativeSpeedKmh=-33.47, bearingDegrees=176.99]] 
+ 1.0 
+ 4000 
+ 
+Driver t=4000 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=39.556667m speed=-33.47333km/h conf=1.0
+LidarVoter: TRUSTED — dist=39.56m speed=-33.476665km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4050 count=1 objects=[PEDESTRIAN@176.94] conf=0.9 status=OK
+CameraSensor [2] t=4050 count=1 objects=[PEDESTRIAN@177.03] conf=0.9 status=OK
+CameraSensor [3] t=4050 count=1 objects=[PEDESTRIAN@177.14] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=39.556667m speed=-33.47333km/h conf=1.0
+LidarVoter: TRUSTED — dist=39.56m speed=-33.476665km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4100 count=1 objects=[PEDESTRIAN@176.85] conf=0.9 status=OK
+CameraSensor [2] t=4100 count=1 objects=[PEDESTRIAN@176.98] conf=0.9 status=OK
+CameraSensor [3] t=4100 count=1 objects=[PEDESTRIAN@177.06] conf=0.9 status=OK
+[DetectedObject[distanceMetres=40.44, relativeSpeedKmh=-30.24, bearingDegrees=176.88]] 
+ 1.0 
+ 4100 
+ 
+[DetectedObject[distanceMetres=40.44, relativeSpeedKmh=-30.23, bearingDegrees=176.87]] 
+ 1.0 
+ 4100 
+ 
+[DetectedObject[distanceMetres=40.44, relativeSpeedKmh=-30.23, bearingDegrees=176.88]] 
+ 1.0 
+ 4100 
+ 
+RadarVoter: TRUSTED — dist=40.44m speed=-30.233332km/h conf=1.0
+LidarVoter: TRUSTED — dist=40.443333m speed=-30.236666km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4150 count=1 objects=[PEDESTRIAN@176.81] conf=0.9 status=OK
+CameraSensor [2] t=4150 count=1 objects=[PEDESTRIAN@176.91] conf=0.9 status=OK
+CameraSensor [3] t=4150 count=1 objects=[PEDESTRIAN@177.01] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=40.44m speed=-30.233332km/h conf=1.0
+LidarVoter: TRUSTED — dist=40.443333m speed=-30.236666km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4200 count=1 objects=[PEDESTRIAN@176.75] conf=0.9 status=OK
+CameraSensor [2] t=4200 count=1 objects=[PEDESTRIAN@176.86] conf=0.9 status=OK
+CameraSensor [3] t=4200 count=1 objects=[PEDESTRIAN@176.92] conf=0.9 status=OK
+[DetectedObject[distanceMetres=41.24, relativeSpeedKmh=-27.0, bearingDegrees=176.74]] 
+ 1.0 
+ 4200 
+ 
+[DetectedObject[distanceMetres=41.24, relativeSpeedKmh=-26.99, bearingDegrees=176.75]] 
+ 1.0 
+ 4200 
+ 
+[DetectedObject[distanceMetres=41.24, relativeSpeedKmh=-27.0, bearingDegrees=176.73]] 
+ 1.0 
+ 4200 
+ 
+RadarVoter: TRUSTED — dist=41.24m speed=-26.996666km/h conf=1.0
+LidarVoter: TRUSTED — dist=41.236668m speed=-27.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=4004ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=4250 count=1 objects=[PEDESTRIAN@176.67] conf=0.9 status=OK
+CameraSensor [2] t=4250 count=1 objects=[PEDESTRIAN@176.79] conf=0.9 status=OK
+CameraSensor [3] t=4250 count=1 objects=[PEDESTRIAN@176.88] conf=0.9 status=OK
+Driver t=4250 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=41.24m speed=-26.996666km/h conf=1.0
+LidarVoter: TRUSTED — dist=41.236668m speed=-27.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4300 count=1 objects=[PEDESTRIAN@176.61] conf=0.9 status=OK
+CameraSensor [2] t=4300 count=1 objects=[PEDESTRIAN@176.7] conf=0.9 status=OK
+CameraSensor [3] t=4300 count=1 objects=[PEDESTRIAN@176.79] conf=0.9 status=OK
+[DetectedObject[distanceMetres=41.94, relativeSpeedKmh=-23.76, bearingDegrees=176.6]] 
+ 1.0 
+ 4300 
+ 
+[DetectedObject[distanceMetres=41.95, relativeSpeedKmh=-23.76, bearingDegrees=176.61]] 
+ 1.0 
+ 4300 
+ 
+[DetectedObject[distanceMetres=41.94, relativeSpeedKmh=-23.75, bearingDegrees=176.6]] 
+ 1.0 
+ 4300 
+ 
+RadarVoter: TRUSTED — dist=41.943333m speed=-23.756668km/h conf=1.0
+LidarVoter: TRUSTED — dist=41.95m speed=-23.76km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4350 count=1 objects=[PEDESTRIAN@176.55] conf=0.9 status=OK
+CameraSensor [2] t=4350 count=1 objects=[PEDESTRIAN@176.65] conf=0.9 status=OK
+CameraSensor [3] t=4350 count=1 objects=[PEDESTRIAN@176.73] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=41.943333m speed=-23.756668km/h conf=1.0
+LidarVoter: TRUSTED — dist=41.95m speed=-23.76km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4400 count=1 objects=[PEDESTRIAN@176.45] conf=0.9 status=OK
+CameraSensor [2] t=4400 count=1 objects=[PEDESTRIAN@176.57] conf=0.9 status=OK
+CameraSensor [3] t=4400 count=1 objects=[PEDESTRIAN@176.67] conf=0.9 status=OK
+[DetectedObject[distanceMetres=42.57, relativeSpeedKmh=-20.52, bearingDegrees=176.47]] 
+ 1.0 
+ 4400 
+ 
+[DetectedObject[distanceMetres=42.57, relativeSpeedKmh=-20.52, bearingDegrees=176.48]] 
+ 1.0 
+ 4400 
+ 
+[DetectedObject[distanceMetres=42.56, relativeSpeedKmh=-20.52, bearingDegrees=176.47]] 
+ 1.0 
+ 4400 
+ 
+RadarVoter: TRUSTED — dist=42.566666m speed=-20.52km/h conf=1.0
+LidarVoter: TRUSTED — dist=42.563335m speed=-20.516666km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4450 count=1 objects=[PEDESTRIAN@176.4] conf=0.9 status=OK
+CameraSensor [2] t=4450 count=1 objects=[PEDESTRIAN@176.5] conf=0.9 status=OK
+CameraSensor [3] t=4450 count=1 objects=[PEDESTRIAN@176.6] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=42.566666m speed=-20.52km/h conf=1.0
+LidarVoter: TRUSTED — dist=42.563335m speed=-20.516666km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4500 count=1 objects=[PEDESTRIAN@176.31] conf=0.9 status=OK
+CameraSensor [2] t=4500 count=1 objects=[PEDESTRIAN@176.42] conf=0.9 status=OK
+[DetectedObject[distanceMetres=43.09, relativeSpeedKmh=-17.28, bearingDegrees=176.32]] 
+ 1.0 
+ 4500 
+ 
+CameraSensor [3] t=4500 count=1 objects=[PEDESTRIAN@176.51] conf=0.9 status=OK
+[DetectedObject[distanceMetres=43.09, relativeSpeedKmh=-17.28, bearingDegrees=176.33]] 
+ 1.0 
+ 4500 
+ 
+[DetectedObject[distanceMetres=43.09, relativeSpeedKmh=-17.28, bearingDegrees=176.31]] 
+ 1.0 
+ 4500 
+ 
+Driver t=4500 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=43.09m speed=-17.28km/h conf=1.0
+LidarVoter: TRUSTED — dist=43.093334m speed=-17.273335km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4550 count=1 objects=[PEDESTRIAN@176.23] conf=0.9 status=OK
+CameraSensor [2] t=4550 count=1 objects=[PEDESTRIAN@176.34] conf=0.9 status=OK
+CameraSensor [3] t=4550 count=1 objects=[PEDESTRIAN@176.44] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=43.09m speed=-17.28km/h conf=1.0
+LidarVoter: TRUSTED — dist=43.093334m speed=-17.273335km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4600 count=1 objects=[PEDESTRIAN@176.19] conf=0.9 status=OK
+CameraSensor [2] t=4600 count=1 objects=[PEDESTRIAN@176.29] conf=0.9 status=OK
+[DetectedObject[distanceMetres=43.53, relativeSpeedKmh=-14.04, bearingDegrees=176.17]] 
+ 1.0 
+ 4600 
+ 
+CameraSensor [3] t=4600 count=1 objects=[PEDESTRIAN@176.38] conf=0.9 status=OK
+[DetectedObject[distanceMetres=43.53, relativeSpeedKmh=-14.04, bearingDegrees=176.18]] 
+ 1.0 
+ 4600 
+ 
+[DetectedObject[distanceMetres=43.53, relativeSpeedKmh=-14.03, bearingDegrees=176.17]] 
+ 1.0 
+ 4600 
+ 
+RadarVoter: TRUSTED — dist=43.53m speed=-14.036667km/h conf=1.0
+LidarVoter: TRUSTED — dist=43.53m speed=-14.036667km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4650 count=1 objects=[PEDESTRIAN@176.11] conf=0.9 status=OK
+CameraSensor [2] t=4650 count=1 objects=[PEDESTRIAN@176.2] conf=0.9 status=OK
+CameraSensor [3] t=4650 count=1 objects=[PEDESTRIAN@176.31] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=43.53m speed=-14.036667km/h conf=1.0
+LidarVoter: TRUSTED — dist=43.53m speed=-14.036667km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4700 count=1 objects=[PEDESTRIAN@176.03] conf=0.9 status=OK
+CameraSensor [2] t=4700 count=1 objects=[PEDESTRIAN@176.14] conf=0.9 status=OK
+CameraSensor [3] t=4700 count=1 objects=[PEDESTRIAN@176.22] conf=0.9 status=OK
+[DetectedObject[distanceMetres=43.88, relativeSpeedKmh=-10.79, bearingDegrees=176.01]] 
+ 1.0 
+ 4700 
+ 
+[DetectedObject[distanceMetres=43.88, relativeSpeedKmh=-10.8, bearingDegrees=176.04]] 
+ 1.0 
+ 4700 
+ 
+[DetectedObject[distanceMetres=43.88, relativeSpeedKmh=-10.8, bearingDegrees=176.04]] 
+ 1.0 
+ 4700 
+ 
+RadarVoter: TRUSTED — dist=43.88m speed=-10.796666km/h conf=1.0
+LidarVoter: TRUSTED — dist=43.88m speed=-10.796666km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=4504ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=4750 count=1 objects=[PEDESTRIAN@175.96] conf=0.9 status=OK
+CameraSensor [2] t=4750 count=1 objects=[PEDESTRIAN@176.06] conf=0.9 status=OK
+CameraSensor [3] t=4750 count=1 objects=[PEDESTRIAN@176.15] conf=0.9 status=OK
+Driver t=4750 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=43.88m speed=-10.796666km/h conf=1.0
+LidarVoter: TRUSTED — dist=43.88m speed=-10.796666km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4800 count=1 objects=[PEDESTRIAN@175.88] conf=0.9 status=OK
+CameraSensor [2] t=4800 count=1 objects=[PEDESTRIAN@175.96] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.14, relativeSpeedKmh=-7.56, bearingDegrees=175.87]] 
+ 1.0 
+ 4800 
+ 
+CameraSensor [3] t=4800 count=1 objects=[PEDESTRIAN@176.05] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.14, relativeSpeedKmh=-7.56, bearingDegrees=175.87]] 
+ 1.0 
+ 4800 
+ 
+[DetectedObject[distanceMetres=44.14, relativeSpeedKmh=-7.55, bearingDegrees=175.87]] 
+ 1.0 
+ 4800 
+ 
+RadarVoter: TRUSTED — dist=44.14m speed=-7.556667km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.13333m speed=-7.5533333km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4850 count=1 objects=[PEDESTRIAN@175.78] conf=0.9 status=OK
+CameraSensor [2] t=4850 count=1 objects=[PEDESTRIAN@175.89] conf=0.9 status=OK
+CameraSensor [3] t=4850 count=1 objects=[PEDESTRIAN@175.98] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.14m speed=-7.556667km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.13333m speed=-7.5533333km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4900 count=1 objects=[PEDESTRIAN@175.7] conf=0.9 status=OK
+CameraSensor [2] t=4900 count=1 objects=[PEDESTRIAN@175.81] conf=0.9 status=OK
+CameraSensor [3] t=4900 count=1 objects=[PEDESTRIAN@175.9] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.31, relativeSpeedKmh=-4.31, bearingDegrees=175.69]] 
+ 1.0 
+ 4900 
+ 
+[DetectedObject[distanceMetres=44.31, relativeSpeedKmh=-4.32, bearingDegrees=175.69]] 
+ 1.0 
+ 4900 
+ 
+[DetectedObject[distanceMetres=44.31, relativeSpeedKmh=-4.32, bearingDegrees=175.72]] 
+ 1.0 
+ 4900 
+ 
+RadarVoter: TRUSTED — dist=44.31m speed=-4.316667km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.309998m speed=-4.31km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=4950 count=1 objects=[PEDESTRIAN@175.64] conf=0.9 status=OK
+CameraSensor [2] t=4950 count=1 objects=[PEDESTRIAN@175.7] conf=0.9 status=OK
+CameraSensor [3] t=4950 count=1 objects=[PEDESTRIAN@175.81] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.31m speed=-4.316667km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.309998m speed=-4.31km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5000 count=1 objects=[PEDESTRIAN@175.52] conf=0.9 status=OK
+CameraSensor [2] t=5000 count=1 objects=[PEDESTRIAN@175.61] conf=0.9 status=OK
+CameraSensor [3] t=5000 count=1 objects=[PEDESTRIAN@175.74] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.39, relativeSpeedKmh=-1.07, bearingDegrees=175.52]] 
+ 1.0 
+ 5000 
+ 
+[DetectedObject[distanceMetres=44.39, relativeSpeedKmh=-1.08, bearingDegrees=175.54]] 
+ 1.0 
+ 5000 
+ 
+[DetectedObject[distanceMetres=44.39, relativeSpeedKmh=-1.07, bearingDegrees=175.54]] 
+ 1.0 
+ 5000 
+ 
+Driver t=5000 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=44.39m speed=-1.0733334km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.39m speed=-1.0833334km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5050 count=1 objects=[PEDESTRIAN@175.42] conf=0.9 status=OK
+CameraSensor [2] t=5050 count=1 objects=[PEDESTRIAN@175.53] conf=0.9 status=OK
+CameraSensor [3] t=5050 count=1 objects=[PEDESTRIAN@175.65] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.39m speed=-1.0733334km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.39m speed=-1.0833334km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5100 count=1 objects=[PEDESTRIAN@175.36] conf=0.9 status=OK
+CameraSensor [2] t=5100 count=1 objects=[PEDESTRIAN@175.44] conf=0.9 status=OK
+CameraSensor [3] t=5100 count=1 objects=[PEDESTRIAN@175.55] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.4, relativeSpeedKmh=0.0, bearingDegrees=175.35]] 
+ 1.0 
+ 5100 
+ 
+[DetectedObject[distanceMetres=44.4, relativeSpeedKmh=-0.0, bearingDegrees=175.36]] 
+ 1.0 
+ 5100 
+ 
+[DetectedObject[distanceMetres=44.4, relativeSpeedKmh=-0.0, bearingDegrees=175.35]] 
+ 1.0 
+ 5100 
+ 
+RadarVoter: TRUSTED — dist=44.400005m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.406666m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5150 count=1 objects=[PEDESTRIAN@175.26] conf=0.9 status=OK
+CameraSensor [2] t=5150 count=1 objects=[PEDESTRIAN@175.37] conf=0.9 status=OK
+CameraSensor [3] t=5150 count=1 objects=[PEDESTRIAN@175.47] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.400005m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.406666m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5200 count=1 objects=[PEDESTRIAN@175.18] conf=0.9 status=OK
+CameraSensor [2] t=5200 count=1 objects=[PEDESTRIAN@175.29] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.42, relativeSpeedKmh=0.0, bearingDegrees=175.16]] 
+ 1.0 
+ 5200 
+ 
+CameraSensor [3] t=5200 count=1 objects=[PEDESTRIAN@175.37] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.42, relativeSpeedKmh=0.0, bearingDegrees=175.16]] 
+ 1.0 
+ 5200 
+ 
+[DetectedObject[distanceMetres=44.42, relativeSpeedKmh=0.0, bearingDegrees=175.16]] 
+ 1.0 
+ 5200 
+ 
+RadarVoter: TRUSTED — dist=44.42m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.416668m speed=-0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=5005ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=5250 count=1 objects=[PEDESTRIAN@175.09] conf=0.9 status=OK
+CameraSensor [2] t=5250 count=1 objects=[PEDESTRIAN@175.18] conf=0.9 status=OK
+CameraSensor [3] t=5250 count=1 objects=[PEDESTRIAN@175.27] conf=0.9 status=OK
+Driver t=5250 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=44.42m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.416668m speed=-0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5300 count=1 objects=[PEDESTRIAN@174.99] conf=0.9 status=OK
+CameraSensor [2] t=5300 count=1 objects=[PEDESTRIAN@175.1] conf=0.9 status=OK
+CameraSensor [3] t=5300 count=1 objects=[PEDESTRIAN@175.18] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.43, relativeSpeedKmh=0.0, bearingDegrees=175.0]] 
+ 1.0 
+ 5300 
+ 
+[DetectedObject[distanceMetres=44.43, relativeSpeedKmh=0.0, bearingDegrees=175.0]] 
+ 1.0 
+ 5300 
+ 
+[DetectedObject[distanceMetres=44.43, relativeSpeedKmh=-0.0, bearingDegrees=174.99]] 
+ 1.0 
+ 5300 
+ 
+RadarVoter: TRUSTED — dist=44.430004m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.43333m speed=0.0066666664km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5350 count=1 objects=[PEDESTRIAN@174.9] conf=0.9 status=OK
+CameraSensor [2] t=5350 count=1 objects=[PEDESTRIAN@175.01] conf=0.9 status=OK
+CameraSensor [3] t=5350 count=1 objects=[PEDESTRIAN@175.09] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.430004m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.43333m speed=0.0066666664km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5400 count=1 objects=[PEDESTRIAN@174.81] conf=0.9 status=OK
+CameraSensor [2] t=5400 count=1 objects=[PEDESTRIAN@174.92] conf=0.9 status=OK
+CameraSensor [3] t=5400 count=1 objects=[PEDESTRIAN@175.03] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.44, relativeSpeedKmh=0.0, bearingDegrees=174.81]] 
+ 1.0 
+ 5400 
+ 
+[DetectedObject[distanceMetres=44.44, relativeSpeedKmh=0.0, bearingDegrees=174.81]] 
+ 1.0 
+ 5400 
+ 
+[DetectedObject[distanceMetres=44.44, relativeSpeedKmh=0.0, bearingDegrees=174.83]] 
+ 1.0 
+ 5400 
+ 
+RadarVoter: TRUSTED — dist=44.44m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.436665m speed=0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5450 count=1 objects=[PEDESTRIAN@174.72] conf=0.9 status=OK
+CameraSensor [2] t=5450 count=1 objects=[PEDESTRIAN@174.84] conf=0.9 status=OK
+CameraSensor [3] t=5450 count=1 objects=[PEDESTRIAN@174.94] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.44m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.436665m speed=0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5500 count=1 objects=[PEDESTRIAN@174.63] conf=0.9 status=OK
+CameraSensor [2] t=5500 count=1 objects=[PEDESTRIAN@174.75] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.45, relativeSpeedKmh=0.0, bearingDegrees=174.63]] 
+ 1.0 
+ 5500 
+ 
+CameraSensor [3] t=5500 count=1 objects=[PEDESTRIAN@174.82] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.45, relativeSpeedKmh=-0.0, bearingDegrees=174.63]] 
+ 1.0 
+ 5500 
+ 
+[DetectedObject[distanceMetres=44.45, relativeSpeedKmh=0.0, bearingDegrees=174.64]] 
+ 1.0 
+ 5500 
+ 
+Driver t=5500 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=44.45m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.45m speed=-0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5550 count=1 objects=[PEDESTRIAN@174.55] conf=0.9 status=OK
+CameraSensor [2] t=5550 count=1 objects=[PEDESTRIAN@174.66] conf=0.9 status=OK
+CameraSensor [3] t=5550 count=1 objects=[PEDESTRIAN@174.73] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.45m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.45m speed=-0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5600 count=1 objects=[PEDESTRIAN@174.44] conf=0.9 status=OK
+CameraSensor [2] t=5600 count=1 objects=[PEDESTRIAN@174.57] conf=0.9 status=OK
+CameraSensor [3] t=5600 count=1 objects=[PEDESTRIAN@174.67] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.46, relativeSpeedKmh=-0.0, bearingDegrees=174.46]] 
+ 1.0 
+ 5600 
+ 
+[DetectedObject[distanceMetres=44.47, relativeSpeedKmh=0.0, bearingDegrees=174.47]] 
+ 1.0 
+ 5600 
+ 
+[DetectedObject[distanceMetres=44.47, relativeSpeedKmh=0.0, bearingDegrees=174.45]] 
+ 1.0 
+ 5600 
+ 
+RadarVoter: TRUSTED — dist=44.466663m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.463333m speed=0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5650 count=1 objects=[PEDESTRIAN@174.36] conf=0.9 status=OK
+CameraSensor [2] t=5650 count=1 objects=[PEDESTRIAN@174.48] conf=0.9 status=OK
+CameraSensor [3] t=5650 count=1 objects=[PEDESTRIAN@174.59] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.466663m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.463333m speed=0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5700 count=1 objects=[PEDESTRIAN@174.28] conf=0.9 status=OK
+CameraSensor [2] t=5700 count=1 objects=[PEDESTRIAN@174.36] conf=0.9 status=OK
+CameraSensor [3] t=5700 count=1 objects=[PEDESTRIAN@174.49] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.48, relativeSpeedKmh=0.0, bearingDegrees=174.28]] 
+ 1.0 
+ 5700 
+ 
+[DetectedObject[distanceMetres=44.48, relativeSpeedKmh=0.0, bearingDegrees=174.3]] 
+ 1.0 
+ 5700 
+ 
+[DetectedObject[distanceMetres=44.48, relativeSpeedKmh=0.0, bearingDegrees=174.29]] 
+ 1.0 
+ 5700 
+ 
+RadarVoter: TRUSTED — dist=44.48m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.483334m speed=0.01km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=5505ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=5750 count=1 objects=[PEDESTRIAN@174.2] conf=0.9 status=OK
+CameraSensor [2] t=5750 count=1 objects=[PEDESTRIAN@174.28] conf=0.9 status=OK
+CameraSensor [3] t=5750 count=1 objects=[PEDESTRIAN@174.41] conf=0.9 status=OK
+Driver t=5750 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=44.48m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.483334m speed=0.01km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5800 count=1 objects=[PEDESTRIAN@174.11] conf=0.9 status=OK
+CameraSensor [2] t=5800 count=1 objects=[PEDESTRIAN@174.21] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.49, relativeSpeedKmh=0.0, bearingDegrees=174.11]] 
+ 1.0 
+ 5800 
+ 
+CameraSensor [3] t=5800 count=1 objects=[PEDESTRIAN@174.3] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.49, relativeSpeedKmh=-0.0, bearingDegrees=174.11]] 
+ 1.0 
+ 5800 
+ 
+[DetectedObject[distanceMetres=44.5, relativeSpeedKmh=0.0, bearingDegrees=174.1]] 
+ 1.0 
+ 5800 
+ 
+RadarVoter: TRUSTED — dist=44.493336m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.5m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5850 count=1 objects=[PEDESTRIAN@174.03] conf=0.9 status=OK
+CameraSensor [2] t=5850 count=1 objects=[PEDESTRIAN@174.13] conf=0.9 status=OK
+CameraSensor [3] t=5850 count=1 objects=[PEDESTRIAN@174.2] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.493336m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.5m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5900 count=1 objects=[PEDESTRIAN@173.94] conf=0.9 status=OK
+CameraSensor [2] t=5900 count=1 objects=[PEDESTRIAN@174.04] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.51, relativeSpeedKmh=0.0, bearingDegrees=173.92]] 
+ 1.0 
+ 5900 
+ 
+CameraSensor [3] t=5900 count=1 objects=[PEDESTRIAN@174.12] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.5, relativeSpeedKmh=-0.0, bearingDegrees=173.94]] 
+ 1.0 
+ 5900 
+ 
+[DetectedObject[distanceMetres=44.51, relativeSpeedKmh=-0.0, bearingDegrees=173.92]] 
+ 1.0 
+ 5900 
+ 
+RadarVoter: TRUSTED — dist=44.506664m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.51m speed=-0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=5950 count=1 objects=[PEDESTRIAN@173.84] conf=0.9 status=OK
+CameraSensor [2] t=5950 count=1 objects=[PEDESTRIAN@173.94] conf=0.9 status=OK
+CameraSensor [3] t=5950 count=1 objects=[PEDESTRIAN@174.03] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.506664m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.51m speed=-0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6000 count=1 objects=[PEDESTRIAN@173.74] conf=0.9 status=OK
+CameraSensor [2] t=6000 count=1 objects=[PEDESTRIAN@173.86] conf=0.9 status=OK
+CameraSensor [3] t=6000 count=1 objects=[PEDESTRIAN@173.96] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.53, relativeSpeedKmh=0.0, bearingDegrees=173.74]] 
+ 1.0 
+ 6000 
+ 
+[DetectedObject[distanceMetres=44.52, relativeSpeedKmh=0.0, bearingDegrees=173.75]] 
+ 1.0 
+ 6000 
+ 
+[DetectedObject[distanceMetres=44.53, relativeSpeedKmh=-0.0, bearingDegrees=173.74]] 
+ 1.0 
+ 6000 
+ 
+Driver t=6000 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=44.52667m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.52667m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6050 count=1 objects=[PEDESTRIAN@173.67] conf=0.9 status=OK
+CameraSensor [2] t=6050 count=1 objects=[PEDESTRIAN@173.78] conf=0.9 status=OK
+CameraSensor [3] t=6050 count=1 objects=[PEDESTRIAN@173.84] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.52667m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.52667m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6100 count=1 objects=[PEDESTRIAN@173.56] conf=0.9 status=OK
+CameraSensor [2] t=6100 count=1 objects=[PEDESTRIAN@173.68] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.54, relativeSpeedKmh=-0.0, bearingDegrees=173.58]] 
+ 1.0 
+ 6100 
+ 
+CameraSensor [3] t=6100 count=1 objects=[PEDESTRIAN@173.79] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.54, relativeSpeedKmh=-0.0, bearingDegrees=173.56]] 
+ 1.0 
+ 6100 
+ 
+[DetectedObject[distanceMetres=44.54, relativeSpeedKmh=-0.0, bearingDegrees=173.58]] 
+ 1.0 
+ 6100 
+ 
+RadarVoter: TRUSTED — dist=44.539997m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.546665m speed=0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6150 count=1 objects=[PEDESTRIAN@173.49] conf=0.9 status=OK
+CameraSensor [2] t=6150 count=1 objects=[PEDESTRIAN@173.58] conf=0.9 status=OK
+CameraSensor [3] t=6150 count=1 objects=[PEDESTRIAN@173.67] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.539997m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.546665m speed=0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6200 count=1 objects=[PEDESTRIAN@173.39] conf=0.9 status=OK
+CameraSensor [2] t=6200 count=1 objects=[PEDESTRIAN@173.48] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.56, relativeSpeedKmh=0.0, bearingDegrees=173.39]] 
+ 1.0 
+ 6200 
+ 
+CameraSensor [3] t=6200 count=1 objects=[PEDESTRIAN@173.59] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.55, relativeSpeedKmh=0.0, bearingDegrees=173.39]] 
+ 1.0 
+ 6200 
+ 
+[DetectedObject[distanceMetres=44.55, relativeSpeedKmh=-0.0, bearingDegrees=173.41]] 
+ 1.0 
+ 6200 
+ 
+RadarVoter: TRUSTED — dist=44.553333m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.553333m speed=0.0066666664km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=6006ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=6250 count=1 objects=[PEDESTRIAN@173.32] conf=0.9 status=OK
+CameraSensor [2] t=6250 count=1 objects=[PEDESTRIAN@173.4] conf=0.9 status=OK
+CameraSensor [3] t=6250 count=1 objects=[PEDESTRIAN@173.51] conf=0.9 status=OK
+Driver t=6250 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=44.553333m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.553333m speed=0.0066666664km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6300 count=1 objects=[PEDESTRIAN@173.2] conf=0.9 status=OK
+CameraSensor [2] t=6300 count=1 objects=[PEDESTRIAN@173.32] conf=0.9 status=OK
+CameraSensor [3] t=6300 count=1 objects=[PEDESTRIAN@173.42] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.57, relativeSpeedKmh=0.0, bearingDegrees=173.2]] 
+ 1.0 
+ 6300 
+ 
+[DetectedObject[distanceMetres=44.57, relativeSpeedKmh=-0.0, bearingDegrees=173.2]] 
+ 1.0 
+ 6300 
+ 
+[DetectedObject[distanceMetres=44.57, relativeSpeedKmh=-0.0, bearingDegrees=173.21]] 
+ 1.0 
+ 6300 
+ 
+RadarVoter: TRUSTED — dist=44.569996m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.573334m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6350 count=1 objects=[PEDESTRIAN@173.12] conf=0.9 status=OK
+CameraSensor [2] t=6350 count=1 objects=[PEDESTRIAN@173.22] conf=0.9 status=OK
+CameraSensor [3] t=6350 count=1 objects=[PEDESTRIAN@173.32] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.569996m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.573334m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6400 count=1 objects=[PEDESTRIAN@173.04] conf=0.9 status=OK
+CameraSensor [2] t=6400 count=1 objects=[PEDESTRIAN@173.15] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.58, relativeSpeedKmh=-0.0, bearingDegrees=173.03]] 
+ 1.0 
+ 6400 
+ 
+CameraSensor [3] t=6400 count=1 objects=[PEDESTRIAN@173.24] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.59, relativeSpeedKmh=0.0, bearingDegrees=173.04]] 
+ 1.0 
+ 6400 
+ 
+[DetectedObject[distanceMetres=44.58, relativeSpeedKmh=0.0, bearingDegrees=173.05]] 
+ 1.0 
+ 6400 
+ 
+RadarVoter: TRUSTED — dist=44.583332m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.58m speed=-0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6450 count=1 objects=[PEDESTRIAN@172.94] conf=0.9 status=OK
+CameraSensor [2] t=6450 count=1 objects=[PEDESTRIAN@173.05] conf=0.9 status=OK
+CameraSensor [3] t=6450 count=1 objects=[PEDESTRIAN@173.17] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.583332m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.58m speed=-0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6500 count=1 objects=[PEDESTRIAN@172.86] conf=0.9 status=OK
+CameraSensor [2] t=6500 count=1 objects=[PEDESTRIAN@172.95] conf=0.9 status=OK
+CameraSensor [3] t=6500 count=1 objects=[PEDESTRIAN@173.07] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.6, relativeSpeedKmh=0.0, bearingDegrees=172.86]] 
+ 1.0 
+ 6500 
+ 
+[DetectedObject[distanceMetres=44.6, relativeSpeedKmh=0.0, bearingDegrees=172.86]] 
+ 1.0 
+ 6500 
+ 
+[DetectedObject[distanceMetres=44.6, relativeSpeedKmh=0.0, bearingDegrees=172.87]] 
+ 1.0 
+ 6500 
+ 
+Driver t=6500 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=44.599995m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.599995m speed=0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6550 count=1 objects=[PEDESTRIAN@172.78] conf=0.9 status=OK
+CameraSensor [2] t=6550 count=1 objects=[PEDESTRIAN@172.88] conf=0.9 status=OK
+CameraSensor [3] t=6550 count=1 objects=[PEDESTRIAN@172.96] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.599995m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.599995m speed=0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6600 count=1 objects=[PEDESTRIAN@172.69] conf=0.9 status=OK
+CameraSensor [2] t=6600 count=1 objects=[PEDESTRIAN@172.78] conf=0.9 status=OK
+CameraSensor [3] t=6600 count=1 objects=[PEDESTRIAN@172.9] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.62, relativeSpeedKmh=0.0, bearingDegrees=172.68]] 
+ 1.0 
+ 6600 
+ 
+[DetectedObject[distanceMetres=44.62, relativeSpeedKmh=0.0, bearingDegrees=172.68]] 
+ 1.0 
+ 6600 
+ 
+[DetectedObject[distanceMetres=44.62, relativeSpeedKmh=0.0, bearingDegrees=172.68]] 
+ 1.0 
+ 6600 
+ 
+RadarVoter: TRUSTED — dist=44.62m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.62m speed=-0.01km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6650 count=1 objects=[PEDESTRIAN@172.6] conf=0.9 status=OK
+CameraSensor [2] t=6650 count=1 objects=[PEDESTRIAN@172.69] conf=0.9 status=OK
+CameraSensor [3] t=6650 count=1 objects=[PEDESTRIAN@172.79] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.62m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.62m speed=-0.01km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6700 count=1 objects=[PEDESTRIAN@172.52] conf=0.9 status=OK
+CameraSensor [2] t=6700 count=1 objects=[PEDESTRIAN@172.61] conf=0.9 status=OK
+CameraSensor [3] t=6700 count=1 objects=[PEDESTRIAN@172.73] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.64, relativeSpeedKmh=0.0, bearingDegrees=172.5]] 
+ 1.0 
+ 6700 
+ 
+[DetectedObject[distanceMetres=44.64, relativeSpeedKmh=0.0, bearingDegrees=172.51]] 
+ 1.0 
+ 6700 
+ 
+[DetectedObject[distanceMetres=44.64, relativeSpeedKmh=0.0, bearingDegrees=172.52]] 
+ 1.0 
+ 6700 
+ 
+RadarVoter: TRUSTED — dist=44.64m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.64333m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=6506ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=6750 count=1 objects=[PEDESTRIAN@172.42] conf=0.9 status=OK
+CameraSensor [2] t=6750 count=1 objects=[PEDESTRIAN@172.54] conf=0.9 status=OK
+CameraSensor [3] t=6750 count=1 objects=[PEDESTRIAN@172.63] conf=0.9 status=OK
+Driver t=6750 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=44.64m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.64333m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6800 count=1 objects=[PEDESTRIAN@172.34] conf=0.9 status=OK
+CameraSensor [2] t=6800 count=1 objects=[PEDESTRIAN@172.42] conf=0.9 status=OK
+CameraSensor [3] t=6800 count=1 objects=[PEDESTRIAN@172.54] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.66, relativeSpeedKmh=-0.0, bearingDegrees=172.34]] 
+ 1.0 
+ 6800 
+ 
+[DetectedObject[distanceMetres=44.65, relativeSpeedKmh=-0.0, bearingDegrees=172.34]] 
+ 1.0 
+ 6800 
+ 
+[DetectedObject[distanceMetres=44.65, relativeSpeedKmh=-0.0, bearingDegrees=172.33]] 
+ 1.0 
+ 6800 
+ 
+RadarVoter: TRUSTED — dist=44.65333m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.66m speed=0.0066666664km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6850 count=1 objects=[PEDESTRIAN@172.24] conf=0.9 status=OK
+CameraSensor [2] t=6850 count=1 objects=[PEDESTRIAN@172.35] conf=0.9 status=OK
+CameraSensor [3] t=6850 count=1 objects=[PEDESTRIAN@172.44] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.65333m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.66m speed=0.0066666664km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6900 count=1 objects=[PEDESTRIAN@172.17] conf=0.9 status=OK
+CameraSensor [2] t=6900 count=1 objects=[PEDESTRIAN@172.24] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.68, relativeSpeedKmh=-0.0, bearingDegrees=172.16]] 
+ 1.0 
+ 6900 
+ 
+CameraSensor [3] t=6900 count=1 objects=[PEDESTRIAN@172.35] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.67, relativeSpeedKmh=0.0, bearingDegrees=172.14]] 
+ 1.0 
+ 6900 
+ 
+[DetectedObject[distanceMetres=44.67, relativeSpeedKmh=-0.0, bearingDegrees=172.15]] 
+ 1.0 
+ 6900 
+ 
+RadarVoter: TRUSTED — dist=44.67333m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.676666m speed=0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=6950 count=1 objects=[PEDESTRIAN@172.08] conf=0.9 status=OK
+CameraSensor [2] t=6950 count=1 objects=[PEDESTRIAN@172.17] conf=0.9 status=OK
+CameraSensor [3] t=6950 count=1 objects=[PEDESTRIAN@172.29] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.67333m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.676666m speed=0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7000 count=1 objects=[PEDESTRIAN@171.98] conf=0.9 status=OK
+CameraSensor [2] t=7000 count=1 objects=[PEDESTRIAN@172.1] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.7, relativeSpeedKmh=0.0, bearingDegrees=171.99]] 
+ 1.0 
+ 7000 
+ 
+CameraSensor [3] t=7000 count=1 objects=[PEDESTRIAN@172.17] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.7, relativeSpeedKmh=0.0, bearingDegrees=171.97]] 
+ 1.0 
+ 7000 
+ 
+[DetectedObject[distanceMetres=44.69, relativeSpeedKmh=-0.0, bearingDegrees=171.99]] 
+ 1.0 
+ 7000 
+ 
+Driver t=7000 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=44.696667m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.7m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7050 count=1 objects=[PEDESTRIAN@171.88] conf=0.9 status=OK
+CameraSensor [2] t=7050 count=1 objects=[PEDESTRIAN@172.0] conf=0.9 status=OK
+CameraSensor [3] t=7050 count=1 objects=[PEDESTRIAN@172.1] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.696667m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.7m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7100 count=1 objects=[PEDESTRIAN@171.78] conf=0.9 status=OK
+CameraSensor [2] t=7100 count=1 objects=[PEDESTRIAN@171.92] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.71, relativeSpeedKmh=0.0, bearingDegrees=171.81]] 
+ 1.0 
+ 7100 
+ 
+CameraSensor [3] t=7100 count=1 objects=[PEDESTRIAN@172.0] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.72, relativeSpeedKmh=-0.0, bearingDegrees=171.81]] 
+ 1.0 
+ 7100 
+ 
+[DetectedObject[distanceMetres=44.71, relativeSpeedKmh=0.0, bearingDegrees=171.81]] 
+ 1.0 
+ 7100 
+ 
+RadarVoter: TRUSTED — dist=44.713333m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.710003m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7150 count=1 objects=[PEDESTRIAN@171.73] conf=0.9 status=OK
+CameraSensor [2] t=7150 count=1 objects=[PEDESTRIAN@171.82] conf=0.9 status=OK
+CameraSensor [3] t=7150 count=1 objects=[PEDESTRIAN@171.91] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.713333m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.710003m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7200 count=1 objects=[PEDESTRIAN@171.64] conf=0.9 status=OK
+CameraSensor [2] t=7200 count=1 objects=[PEDESTRIAN@171.74] conf=0.9 status=OK
+CameraSensor [3] t=7200 count=1 objects=[PEDESTRIAN@171.84] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.74, relativeSpeedKmh=-0.0, bearingDegrees=171.62]] 
+ 1.0 
+ 7200 
+ 
+[DetectedObject[distanceMetres=44.73, relativeSpeedKmh=-0.0, bearingDegrees=171.61]] 
+ 1.0 
+ 7200 
+ 
+[DetectedObject[distanceMetres=44.74, relativeSpeedKmh=0.0, bearingDegrees=171.63]] 
+ 1.0 
+ 7200 
+ 
+RadarVoter: TRUSTED — dist=44.736668m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.733334m speed=-0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=7006ms] Last decision: DRIVER_OVERRIDE
+CameraSensor [1] t=7250 count=1 objects=[PEDESTRIAN@171.55] conf=0.9 status=OK
+CameraSensor [2] t=7250 count=1 objects=[PEDESTRIAN@171.62] conf=0.9 status=OK
+CameraSensor [3] t=7250 count=1 objects=[PEDESTRIAN@171.76] conf=0.9 status=OK
+Driver t=7250 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=44.736668m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.733334m speed=-0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7300 count=1 objects=[PEDESTRIAN@171.44] conf=0.9 status=OK
+CameraSensor [2] t=7300 count=1 objects=[PEDESTRIAN@171.56] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.76, relativeSpeedKmh=0.0, bearingDegrees=171.47]] 
+ 1.0 
+ 7300 
+ 
+CameraSensor [3] t=7300 count=1 objects=[PEDESTRIAN@171.66] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.76, relativeSpeedKmh=0.0, bearingDegrees=171.45]] 
+ 1.0 
+ 7300 
+ 
+[DetectedObject[distanceMetres=44.75, relativeSpeedKmh=-0.0, bearingDegrees=171.45]] 
+ 1.0 
+ 7300 
+ 
+RadarVoter: TRUSTED — dist=44.756664m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.75333m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7350 count=1 objects=[PEDESTRIAN@171.37] conf=0.9 status=OK
+CameraSensor [2] t=7350 count=1 objects=[PEDESTRIAN@171.45] conf=0.9 status=OK
+CameraSensor [3] t=7350 count=1 objects=[PEDESTRIAN@171.58] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.756664m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.75333m speed=0.0km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7400 count=1 objects=[PEDESTRIAN@171.28] conf=0.9 status=OK
+CameraSensor [2] t=7400 count=1 objects=[PEDESTRIAN@171.37] conf=0.9 status=OK
+CameraSensor [3] t=7400 count=1 objects=[PEDESTRIAN@171.47] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.78, relativeSpeedKmh=-0.0, bearingDegrees=171.27]] 
+ 1.0 
+ 7400 
+ 
+[DetectedObject[distanceMetres=44.77, relativeSpeedKmh=-0.0, bearingDegrees=171.29]] 
+ 1.0 
+ 7400 
+ 
+[DetectedObject[distanceMetres=44.78, relativeSpeedKmh=0.0, bearingDegrees=171.29]] 
+ 1.0 
+ 7400 
+ 
+RadarVoter: TRUSTED — dist=44.77667m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.78m speed=0.0066666664km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7450 count=1 objects=[PEDESTRIAN@171.2] conf=0.9 status=OK
+CameraSensor [2] t=7450 count=1 objects=[PEDESTRIAN@171.28] conf=0.9 status=OK
+CameraSensor [3] t=7450 count=1 objects=[PEDESTRIAN@171.37] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.77667m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.78m speed=0.0066666664km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7500 count=1 objects=[PEDESTRIAN@171.1] conf=0.9 status=OK
+CameraSensor [2] t=7500 count=1 objects=[PEDESTRIAN@171.18] conf=0.9 status=OK
+CameraSensor [3] t=7500 count=1 objects=[PEDESTRIAN@171.31] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.8, relativeSpeedKmh=-0.0, bearingDegrees=171.11]] 
+ 1.0 
+ 7500 
+ 
+[DetectedObject[distanceMetres=44.8, relativeSpeedKmh=0.0, bearingDegrees=171.1]] 
+ 1.0 
+ 7500 
+ 
+[DetectedObject[distanceMetres=44.8, relativeSpeedKmh=0.0, bearingDegrees=171.11]] 
+ 1.0 
+ 7500 
+ 
+Driver t=7500 action=BRAKE state=ACTIVE
+RadarVoter: TRUSTED — dist=44.8m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.793335m speed=-0.0066666664km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7550 count=1 objects=[PEDESTRIAN@170.99] conf=0.9 status=OK
+CameraSensor [2] t=7550 count=1 objects=[PEDESTRIAN@171.13] conf=0.9 status=OK
+CameraSensor [3] t=7550 count=1 objects=[PEDESTRIAN@171.23] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.8m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.793335m speed=-0.0066666664km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7600 count=1 objects=[PEDESTRIAN@170.93] conf=0.9 status=OK
+CameraSensor [2] t=7600 count=1 objects=[PEDESTRIAN@171.04] conf=0.9 status=OK
+CameraSensor [3] t=7600 count=1 objects=[PEDESTRIAN@171.14] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.82, relativeSpeedKmh=0.0, bearingDegrees=170.92]] 
+ 1.0 
+ 7600 
+ 
+[DetectedObject[distanceMetres=44.82, relativeSpeedKmh=0.0, bearingDegrees=170.92]] 
+ 1.0 
+ 7600 
+ 
+[DetectedObject[distanceMetres=44.82, relativeSpeedKmh=-0.0, bearingDegrees=170.93]] 
+ 1.0 
+ 7600 
+ 
+RadarVoter: TRUSTED — dist=44.819996m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.819996m speed=-0.01km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7650 count=1 objects=[PEDESTRIAN@170.83] conf=0.9 status=OK
+CameraSensor [2] t=7650 count=1 objects=[PEDESTRIAN@170.95] conf=0.9 status=OK
+CameraSensor [3] t=7650 count=1 objects=[PEDESTRIAN@171.02] conf=0.9 status=OK
+RadarVoter: TRUSTED — dist=44.819996m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.819996m speed=-0.01km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+CameraSensor [1] t=7700 count=1 objects=[PEDESTRIAN@170.74] conf=0.9 status=OK
+CameraSensor [2] t=7700 count=1 objects=[PEDESTRIAN@170.86] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.85, relativeSpeedKmh=0.0, bearingDegrees=170.76]] 
+ 1.0 
+ 7700 
+ 
+CameraSensor [3] t=7700 count=1 objects=[PEDESTRIAN@170.93] conf=0.9 status=OK
+[DetectedObject[distanceMetres=44.84, relativeSpeedKmh=0.0, bearingDegrees=170.76]] 
+ 1.0 
+ 7700 
+ 
+[DetectedObject[distanceMetres=44.84, relativeSpeedKmh=0.0, bearingDegrees=170.76]] 
+ 1.0 
+ 7700 
+ 
+RadarVoter: TRUSTED — dist=44.843334m speed=0.0km/h conf=1.0
+LidarVoter: TRUSTED — dist=44.843334m speed=0.0033333332km/h conf=1.0
+[BrakingController] DRIVER_OVERRIDE — yielding to driver.
+
+[t=7506ms] Last decision: DRIVER_OVERRIDE
+
+--- Stopping Driver Interface Display
+
+--- Stopping controller ---
+BrakingController stopped.
+--- Stopping sensors ---
+
+=== Main1 complete ===
