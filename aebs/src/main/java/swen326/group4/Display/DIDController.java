@@ -56,4 +56,29 @@ public class DIDController {
         assert state != null : "State Exception - Target system initialization mode cannot be null.";
         model.setSystemState(state);
     }
+
+    public void updateSpeed(double speed) {
+        model.updateSpeed(speed);
+    }
+
+    public void updateDistance(double distance) {
+        model.updateDistance(distance);
+    }
+
+    public void updateTTC(double ttc) { // flaot to double
+        model.updateTTC(ttc);
+    }
+
+    public void updateBrakingActive(boolean brakingActive) {
+        model.updateBrakingActive(brakingActive);
+    }
+
+    public void updateAlarmActive(boolean alarmActive) {
+        model.updateAlarmActive(alarmActive);
+    }
+
+    public void updateErrorMargin(double errorMargin) {
+        model.updateErrorMargin(errorMargin);
+    }
+
 }

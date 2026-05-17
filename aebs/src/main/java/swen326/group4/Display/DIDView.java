@@ -16,6 +16,9 @@ public class DIDView extends JPanel implements AEBSListener {
     private JLabel maintenanceLight; 
     private JPanel indicator;
     private JSlider sensitivitySlider;
+    private JLabel elapsedTimeLabel;
+    private javax.swing.Timer elapsedTimer;
+    private long startTimeMs;
 
     public DIDView(DIDModel model) {
         this.model = model;
@@ -31,8 +34,12 @@ public class DIDView extends JPanel implements AEBSListener {
     private void setupComponents() {
         // TOP: Data Panel + Maintenance Light
         JPanel topWrapper = new JPanel(new BorderLayout());
-        JPanel stats = new JPanel(new GridLayout(4, 2, 10, 8)); // 4 rows for new data
-        
+        JPanel stats = new JPanel(new GridLayout(5, 2, 10, 8)); // 4 rows for new data
+
+        stats.add(new JLabel("Elapsed Time:"));
+        elapsedTimeLabel = new JLabel("00:00:00");
+        stats.add(elapsedTimeLabel);
+
         stats.add(new JLabel("Vehicle Speed (km/h):"));
         speedLabel = new JLabel("0.0");
         stats.add(speedLabel);
@@ -115,37 +122,39 @@ public class DIDView extends JPanel implements AEBSListener {
 
     @Override
     public void stateChanged(DIDModel model) {
-        speedLabel.setText(String.format("%.1f", model.getCurrentSpeed()));
-        distLabel.setText(String.format("%.1f", model.getDistanceToHazard()));
-        ttcLabel.setText(String.format("%.2f", model.getTimeToCollision()));
+        SwingUtilities.invokeLater(() -> {
+            speedLabel.setText(String.format("%.1f", model.getCurrentSpeed()));
+            distLabel.setText(String.format("%.1f", model.getDistanceToHazard()));
+            ttcLabel.setText(String.format("%.2f", model.getTimeToCollision()));
 
-        // Update Braking Error (Spec 4.3)
-        double errorPct = model.getBrakingErrorMargin() * 100;
-        brakingStatusLabel.setText(String.format("%.1f%%", errorPct));
-        if (Math.abs(errorPct) > 5.0) {
-            brakingStatusLabel.setForeground(Color.RED); // Highlight failure to meet spec
-        } else {
-            brakingStatusLabel.setForeground(new Color(0, 100, 0)); // Dark green for success
-        }
-
-        // State Machine for Display Colors
-        if (model.getSystemState() == DIDModel.SystemState.MAINTENANCE) {
-            maintenanceLight.setBackground(Color.ORANGE);
-            maintenanceLight.setForeground(Color.BLACK);
-            indicator.setBackground(Color.ORANGE);
-            statusText.setText("MAINTENANCE REQ");
-        } else {
-            maintenanceLight.setBackground(Color.LIGHT_GRAY);
-            maintenanceLight.setForeground(Color.WHITE);
-            
-            if (model.getSystemState() == DIDModel.SystemState.DISABLED) {
-                indicator.setBackground(Color.DARK_GRAY);
-                statusText.setText("AEBS DEACTIVATED");
+            // Update Braking Error (Spec 4.3)
+            double errorPct = model.getBrakingErrorMargin() * 100;
+            brakingStatusLabel.setText(String.format("%.1f%%", errorPct));
+            if (Math.abs(errorPct) > 5.0) {
+                brakingStatusLabel.setForeground(Color.RED); // Highlight failure to meet spec
             } else {
-                updateActiveDisplay(model);
+                brakingStatusLabel.setForeground(new Color(0, 100, 0)); // Dark green for success
             }
-        }
-        repaint();
+
+            // State Machine for Display Colors
+            if (model.getSystemState() == DIDModel.SystemState.MAINTENANCE) {
+                maintenanceLight.setBackground(Color.ORANGE);
+                maintenanceLight.setForeground(Color.BLACK);
+                indicator.setBackground(Color.ORANGE);
+                statusText.setText("MAINTENANCE REQ");
+            } else {
+                maintenanceLight.setBackground(Color.LIGHT_GRAY);
+                maintenanceLight.setForeground(Color.WHITE);
+                
+                if (model.getSystemState() == DIDModel.SystemState.DISABLED) {
+                    indicator.setBackground(Color.DARK_GRAY);
+                    statusText.setText("AEBS DEACTIVATED");
+                } else {
+                    updateActiveDisplay(model);
+                }
+            }
+            repaint();
+        });
     }
 
     private void updateActiveDisplay(DIDModel model) {
@@ -161,6 +170,24 @@ public class DIDView extends JPanel implements AEBSListener {
         } else {
             indicator.setBackground(Color.GREEN);
             statusText.setText("SYSTEM ACTIVE");
+        }
+    }
+
+    public void startTimer() {
+        startTimeMs = System.currentTimeMillis();
+        elapsedTimer = new javax.swing.Timer(1000, e -> {
+            long elapsed = System.currentTimeMillis() - startTimeMs;
+            long hours   = elapsed / 3600000;
+            long minutes = (elapsed % 3600000) / 60000;
+            long seconds = (elapsed % 60000) / 1000;
+            elapsedTimeLabel.setText(String.format("%02d:%02d:%02d", hours, minutes, seconds));
+        });
+        elapsedTimer.start();
+    }
+
+    public void stopTimer() {
+        if (elapsedTimer != null && elapsedTimer.isRunning()) {
+            elapsedTimer.stop();
         }
     }
 }

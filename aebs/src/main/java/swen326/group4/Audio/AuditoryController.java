@@ -85,4 +85,8 @@ public class AuditoryController implements AEBSListener {
             java.awt.Toolkit.getDefaultToolkit().beep();
         }
     }
+
+    public void stop(){
+        stopAlarm();
+    }
 }

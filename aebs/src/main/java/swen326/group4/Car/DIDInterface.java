@@ -37,6 +37,7 @@ public class DIDInterface extends JFrame {
         this.pack();
         this.setLocationRelativeTo(null);
         this.setVisible(true);
+        this.view.startTimer();
     }
 
     public DIDModel getModel() {
@@ -53,5 +54,12 @@ public class DIDInterface extends JFrame {
 
     public AuditoryController getAudio() {
         return audio;
+    }
+
+    public void end() {
+        this.view.stopTimer();
+        this.audio.stop();
+        this.setVisible(false);
+        this.dispose();
     }
 }

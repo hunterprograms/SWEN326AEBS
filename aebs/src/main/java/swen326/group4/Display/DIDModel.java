@@ -21,7 +21,7 @@ public class DIDModel {
     public enum SystemState { ACTIVE, MAINTENANCE, DISABLED }
 
     // --- Specification 4.1: Sensitivity Threshold Constants & Fields ---
-    private double sensitivityThreshold = 1.5; // Default intervention threshold in seconds
+    private double sensitivityThreshold = 3.0; // Default intervention threshold in seconds
     private static final double MIN_THRESHOLD = 0.5;
     private static final double MAX_THRESHOLD = 5.0;
 
@@ -40,6 +40,24 @@ public class DIDModel {
     // Sized to 5 to accommodate multiple view layers, loggers, or audio units safely
     private final AEBSListener[] listeners = new AEBSListener[5];
     private int listenerCount = 0;
+
+    public void updateSpeed(double speed) {
+        assert speed >= 0.0 && speed <= 250.0 : "Specification Violation - Speed Out of Range: " + speed;
+        this.currentSpeed = speed;
+        notifyListeners();
+    }
+
+    public void updateDistance(double distance) {
+        assert distance >= 0.0 && distance <= 200.0 : "Specification Violation - Distance Out of Range: " + distance;
+        this.distanceToHazard = distance;
+        notifyListeners();
+    }
+
+    public void updateTTC(double ttc) {
+        assert ttc >= 0.0 : "Logic Error - Negative Time to Collision value encountered: " + ttc;
+        this.timeToCollision = ttc;
+        notifyListeners();
+    }
 
     /**
      * Updates primary vehicle telemetry metrics atomically as a single transaction.
@@ -69,6 +87,27 @@ public class DIDModel {
         this.timeToCollision = ttc;
 
         // Propagate changes to observers as a single atomic event
+        notifyListeners();
+    }
+
+    public void updateBrakingActive(boolean brakingActive) {
+        if (brakingActive) {
+            // Safety critical invariant (Section 4.1 & 4.3)
+            assert systemState != SystemState.MAINTENANCE : "Hardware Exception - Braking requested during system fault";
+        }
+        this.brakingActive = brakingActive;
+        notifyListeners();
+    }
+
+    public void updateAlarmActive(boolean alarmActive) {
+        // assertion ?
+        this.alarmActive = alarmActive;
+        notifyListeners();
+    }
+
+    public void updateErrorMargin(double errorMargin) {
+        // assertion ?
+        this.brakingErrorMargin = errorMargin;
         notifyListeners();
     }
 
