@@ -18,13 +18,17 @@ public class DIDView extends JPanel implements AEBSListener {
     private JSlider sensitivitySlider;
     private JLabel elapsedTimeLabel;
     private javax.swing.Timer elapsedTimer;
+    private JLabel residualCollisionLabel;
+    private JLabel sensorFaultLabel;
+    private JLabel lockupLabel;
+    private JLabel directionalInstabilityLabel;
     private long startTimeMs;
 
     public DIDView(DIDModel model) {
         this.model = model;
         model.addListener(this);
 
-        setPreferredSize(new Dimension(650, 520));
+        setPreferredSize(new Dimension(800, 520));
         setLayout(new BorderLayout(15, 15));
         setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
 
@@ -84,6 +88,22 @@ public class DIDView extends JPanel implements AEBSListener {
         southPanel.add(sensitivityLabel, BorderLayout.NORTH);
         southPanel.add(sensitivitySlider, BorderLayout.CENTER);
         add(southPanel, BorderLayout.SOUTH);
+
+        // EAST: Active Controller Alerts Panel (FR-3110, FR-2102, FR-3112, FR-3113)
+        JPanel alertsPanel = new JPanel(new GridLayout(4, 1, 5, 8));
+        alertsPanel.setBorder(BorderFactory.createTitledBorder("Controller Alerts"));
+
+        residualCollisionLabel      = makeAlertLabel("RESIDUAL COLLISION");
+        sensorFaultLabel            = makeAlertLabel("SENSOR FAULT");
+        lockupLabel                 = makeAlertLabel("WHEEL LOCKUP");
+        directionalInstabilityLabel = makeAlertLabel("DIR. INSTABILITY");
+
+        alertsPanel.add(residualCollisionLabel);
+        alertsPanel.add(sensorFaultLabel);
+        alertsPanel.add(lockupLabel);
+        alertsPanel.add(directionalInstabilityLabel);
+
+        add(alertsPanel, BorderLayout.EAST);
 
         // WEST: Control Buttons
         JButton toggleBtn = new JButton("AEBS ON/OFF");
@@ -153,8 +173,34 @@ public class DIDView extends JPanel implements AEBSListener {
                     updateActiveDisplay(model);
                 }
             }
+            updateAlertDisplay(model);
             repaint();
         });
+    }
+
+    /**
+     * Reflects active controller alert flags on the dedicated alert panel.
+     */
+    private void updateAlertDisplay(DIDModel model) {
+        setAlertLabelActive(residualCollisionLabel,      model.isResidualCollisionAlert());
+        setAlertLabelActive(sensorFaultLabel,            model.isSensorFaultAlert());
+        setAlertLabelActive(lockupLabel,                 model.isLockupAlert());
+        setAlertLabelActive(directionalInstabilityLabel, model.isDirectionalInstabilityAlert());
+    }
+
+    private void setAlertLabelActive(JLabel label, boolean active) {
+        label.setBackground(active ? Color.RED       : Color.LIGHT_GRAY);
+        label.setForeground(active ? Color.WHITE     : Color.DARK_GRAY);
+    }
+
+    private JLabel makeAlertLabel(String text) {
+        JLabel label = new JLabel(text, SwingConstants.CENTER);
+        label.setOpaque(true);
+        label.setBackground(Color.LIGHT_GRAY);
+        label.setForeground(Color.DARK_GRAY);
+        label.setFont(new Font("Arial", Font.BOLD, 11));
+        label.setBorder(BorderFactory.createLineBorder(Color.GRAY));
+        return label;
     }
 
     private void updateActiveDisplay(DIDModel model) {

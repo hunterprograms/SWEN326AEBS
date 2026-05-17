@@ -81,4 +81,24 @@ public class DIDController {
         model.updateErrorMargin(errorMargin);
     }
 
+    /** Surfaces a residual collision risk alert on the DID (FR-3110). */
+    public void setResidualCollisionAlert(boolean residualCollisionAlert) {
+        model.setResidualCollisionAlert(residualCollisionAlert);
+    }
+
+    /** Surfaces a sensor fault warning on the DID and forces MAINTENANCE state (FR-2102). */
+    public void showSensorFaultWarning() {
+        model.setSensorFaultAlert(true); // state change handled inside model
+    }
+
+    /** Surfaces a wheel lockup alert on the DID (FR-3112). */
+    public void showLockupAlert() {
+        model.setLockupAlert(true);
+    }
+
+    /** Surfaces a directional instability alert on the DID (FR-3113). */
+    public void showDirectionalInstabilityAlert() {
+        model.setDirectionalInstabilityAlert(true);
+    }
+
 }

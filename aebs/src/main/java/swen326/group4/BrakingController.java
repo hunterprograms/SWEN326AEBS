@@ -8,7 +8,6 @@ import java.util.TimerTask;
 
 import swen326.group4.Car.DIDInterface;
 import swen326.group4.Display.DIDController;
-import swen326.group4.Display.DIDModel.SystemState;
 import swen326.group4.Sensors.Camera.Camera;
 import swen326.group4.Sensors.Camera.CameraVoter;
 import swen326.group4.Sensors.Camera.CameraVoter.VoteResult;
@@ -1169,7 +1168,8 @@ public class BrakingController {
                  */
                 System.out.println("[BrakingController] Post-execution: "
                         + "RESIDUAL THREAT — issuing residual collision alert.");
-                notifyResidualCollisionAlert();
+                notifyResidualCollisionAlert(threatPersists);
+    
                 /*
                  * Do NOT clear hazardEventActive — the next decision cycle will
                  * re-evaluate and may issue another brake command.
@@ -1178,13 +1178,15 @@ public class BrakingController {
                 /* Threat resolved — clear hazard event state. */
                 System.out.println("[BrakingController] Threat resolved after "
                         + brakeAttemptCount + " attempt(s).");
+                notifyResidualCollisionAlert(threatPersists);
                 hazardEventActive = false;
                 brakeAttemptCount = 0;
-                //lastDecision = ControllerDecision.CLEAR; dfdkfkdjfkj
+                lastDecision = ControllerDecision.CLEAR;
             }
         } else {
             System.out.println("[BrakingController] Brake attempt "
                     + brakeAttemptCount + " NOT confirmed — will retry.");
+            
             /*
              * Braking was not confirmed. hazardEventActive remains true.
              * The next decision cycle will check TTC again and if still below
@@ -1748,22 +1750,17 @@ public class BrakingController {
      * Alerts the driver that a residual collision risk remains despite
      * confirmed braking (FR-3110).
      */
-    private void notifyResidualCollisionAlert() {
-        /* TODO: call Interface.showResidualCollisionAlert() */
-        // TODO: Hunter make another warning ? 
+    private void notifyResidualCollisionAlert(boolean residualCollisionAlert) {
+        systemInterface.getController().setResidualCollisionAlert(residualCollisionAlert);
         System.out.println("[BrakingController] RESIDUAL COLLISION ALERT issued.");
-    }
+    } 
 
     /**
      * Alerts the driver that the AEBS sensor coverage is insufficient
      * for reliable collision detection (FR2102).
      */
     private void notifySensorFaultToDriver() {
-        /* TODO: call Interface.showSensorFaultWarning() */
-        // TODO: where ? 
-        systemInterface.getController().changeSystemState(SystemState.MAINTENANCE);
-       
-        
+        systemInterface.getController().showSensorFaultWarning();
         System.out.println("[BrakingController] SENSOR FAULT warning issued to driver.");
     }
 
@@ -1771,8 +1768,7 @@ public class BrakingController {
      * Alerts the driver that wheel lockup was detected during braking (FR-3112).
      */
     private void notifyLockupAlert() {
-        /* TODO: call Interface.showLockupAlert() */
-        // TODO: Hunter make this
+        systemInterface.getController().showLockupAlert();
         System.out.println("[BrakingController] LOCKUP ALERT issued to driver.");
     }
 
@@ -1781,8 +1777,7 @@ public class BrakingController {
      * braking (FR-3113).
      */
     private void notifyDirectionalInstabilityAlert() {
-        /* TODO: call Interface.showDirectionalInstabilityAlert() */
-        // TODO: Hunter make this
+        systemInterface.getController().showDirectionalInstabilityAlert();
         System.out.println("[BrakingController] DIRECTIONAL INSTABILITY ALERT issued.");
     }
 

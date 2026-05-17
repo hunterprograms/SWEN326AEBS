@@ -1,5 +1,6 @@
 package swen326.group4.Display;
 
+
 /**
  * Represent the internal state of the Driver Information Display (DID) for the AEBS.
  * <p>
@@ -35,6 +36,12 @@ public class DIDModel {
     private boolean brakingActive = false;
     private boolean alarmActive = false;      // Primary high-priority auditory alert status
     private double brakingErrorMargin = 0.0;  // Tracks deceleration curve accuracy (±5% target)
+
+    // --- FR-3110, FR-2102, FR-3112, FR-3113: Controller Alert Flags ---
+    private boolean residualCollisionAlert = false;
+    private boolean sensorFaultAlert       = false;
+    private boolean lockupAlert            = false;
+    private boolean directionalInstabilityAlert = false;
 
     // --- Observer Pattern Structures ---
     // Sized to 5 to accommodate multiple view layers, loggers, or audio units safely
@@ -176,6 +183,41 @@ public class DIDModel {
         notifyListeners();
     }
 
+    /**
+     * Flags a residual collision risk to the display layer (FR-3110).
+     */
+    public void setResidualCollisionAlert(boolean active) {
+    this.residualCollisionAlert = active;
+    notifyListeners();
+}
+
+    /**
+     * Flags a sensor coverage fault and forces MAINTENANCE state (FR-2102).
+     */
+    public void setSensorFaultAlert(boolean active) {
+        this.sensorFaultAlert = active;
+        if (active) this.systemState = SystemState.MAINTENANCE; // inline to avoid double notify
+        notifyListeners();
+    }
+
+    /**
+     * Flags a wheel lockup detection event (FR-3112).
+     */
+    public void setLockupAlert(boolean active) {
+        this.lockupAlert = active;
+        notifyListeners();
+    }
+
+    /**
+     * Flags a directional instability event during braking (FR-3113).
+     */
+    public void setDirectionalInstabilityAlert(boolean active) {
+        this.directionalInstabilityAlert = active;
+        notifyListeners();
+    }
+
+    
+
     // --- Safe Inward Getters ---
     public SystemState getSystemState() { return systemState; }
     public double getCurrentSpeed() { return currentSpeed; }
@@ -185,6 +227,10 @@ public class DIDModel {
     public boolean isBrakingActive() { return brakingActive; }
     public boolean isAlarmActive() { return alarmActive; }
     public double getBrakingErrorMargin() { return brakingErrorMargin; }
+    public boolean isResidualCollisionAlert()       { return residualCollisionAlert; }
+    public boolean isSensorFaultAlert()             { return sensorFaultAlert; }
+    public boolean isLockupAlert()                  { return lockupAlert; }
+    public boolean isDirectionalInstabilityAlert()  { return directionalInstabilityAlert; }
 
     /**
      * Attaches an event tracking observer to the display data matrix notification array.
